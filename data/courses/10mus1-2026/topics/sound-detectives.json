@@ -1,0 +1,1410 @@
+{
+  "id": "sound-detectives",
+  "name": "Sound Detectives",
+  "subtitle": "Aural skills and the elements of music",
+  "term": "Term 3, 2026",
+  "blurb": "Ten weeks of listening. You build a toolkit for describing what you hear, use it on jazz, film music and Australian music, and learn to write about music with evidence.",
+  "outcomes": [
+    [
+      "MU5-LIS-01",
+      "uses listening skills to analyse music in relation to style and context"
+    ],
+    [
+      "MU5-LIS-02",
+      "analyses how the musical concepts are manipulated and combined in a range of repertoire"
+    ]
+  ],
+  "assessment": {
+    "name": "AT3 Listening Examination",
+    "when": "Tuesday 18 August 2026, Week 5, Period 3",
+    "detail": "Four short-answer excerpts and one extended response. 20 marks, worth 25%.",
+    "link": null,
+    "examDate": "2026-08-18",
+    "examLesson": 13
+  },
+  "position": {
+    "lesson": 6,
+    "asAt": "2026-08-05",
+    "note": "Lesson 6 runs Wednesday 5 August, Period 5."
+  },
+  "weeks": [
+    {
+      "number": 1,
+      "title": "The Elements Toolkit",
+      "intro": "Welcome to our listening unit. This week we meet the six elements of music and learn to describe what we hear in clear, musical language.",
+      "lessons": [
+        {
+          "number": 1,
+          "week": 1,
+          "title": "Active listening and the elements of music",
+          "intention": "I can name the elements of music and use them to describe what I hear.",
+          "criteria": [
+            "I can identify at least three elements in a short excerpt.",
+            "I can use the right word for each element."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "An engaging contemporary track to listen to first (teacher choice). Students just listen and jot what they notice.",
+              "embed": "7-x3uD5z1bQ"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Listen to the track and jot down anything you hear.",
+                "Meet the six elements of music: duration, pitch, texture, performing media & timbre, dynamics & expression, structure.",
+                "Add each term to your listening glossary.",
+                "Listen again and tag what you hear to an element."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Make a list of every element you can hear in the track, with one word describing how it is used."
+            },
+            {
+              "type": "exit",
+              "text": "Name three elements you heard today."
+            }
+          ],
+          "teacher": [
+            "Use the ‘Elements of Music’ deck to introduce the six elements."
+          ]
+        },
+        {
+          "number": 2,
+          "week": 1,
+          "title": "Duration and pitch (listen and play)",
+          "intention": "I can identify duration and pitch features by ear.",
+          "criteria": [
+            "I can describe the tempo, metre and rhythm of an excerpt.",
+            "I can describe a melody’s shape (contour) and range."
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Duration",
+              "text": "How music moves through time: is it fast or slow, are the notes short or long, does it have a steady beat or does it feel off-kilter?"
+            },
+            {
+              "type": "definition",
+              "term": "Pitch",
+              "text": "How high or low the notes are, and what the melody does: does it climb, fall, stay put?"
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "A short rhythmic example (clear beat and metre) and a short melodic example (clear melody) , one of each.",
+              "embed": "0J2QdDbelmY"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Recap: duration = beat, tempo, metre, rhythm. Pitch = melody, contour, range.",
+                "Write the definitions of duration and pitch in your books.",
+                "Clap or play the rhythm patterns as a class.",
+                "Play or sing the short melodies and describe their shape.",
+                "Listen and identify these features by ear."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Notate or describe a 4-bar rhythm you hear, then describe the contour of a short melody (rising, falling, wave)."
+            },
+            {
+              "type": "exit",
+              "text": "Was the melody’s range wide or narrow? How do you know?"
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 3,
+          "week": 1,
+          "title": "Writing about music 1",
+          "intention": "I can write a clear sentence about how an element is used.",
+          "criteria": [
+            "My sentence names the element.",
+            "It says how the element is used and its effect, with evidence."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Learn the response sentence: element + how it is used + effect + evidence.",
+                "Build a class response to a short excerpt together.",
+                "Write one paragraph on your own.",
+                "Swap with a partner and check against the sentence frame."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write one paragraph about a short excerpt using the sentence frame for at least two elements."
+            },
+            {
+              "type": "exit",
+              "text": "Underline the ‘effect’ part of your best sentence."
+            }
+          ],
+          "teacher": [
+            "Model the sentence on the board: element + how it is used + effect + musical evidence. Build one together before students write."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Texture, Timbre and Comparing",
+      "intro": "This week we listen across styles to explore texture and timbre, and learn how to compare two works using the elements of music.",
+      "lessons": [
+        {
+          "number": 4,
+          "week": 2,
+          "title": "Texture across styles (listen and build)",
+          "intention": "I can identify and describe texture in different styles.",
+          "criteria": [
+            "I can name the texture type (monophonic, homophonic, polyphonic).",
+            "I can explain how the layers combine."
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Texture",
+              "text": "The way layers of sound are combined in a piece of music."
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Suggestions: Gregorian chant (search ‘Gregorian chant Kyrie’), or unaccompanied solo voice/instrument.",
+              "embed": "40SUt-OeF2w"
+            },
+            {
+              "type": "definition",
+              "term": "Monophonic",
+              "text": "A single melodic line with no accompaniment."
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Suggestions: a simple pop or hymn arrangement (e.g. a band playing melody over strummed/block chords), or a piano/vocal ballad.",
+              "embed": "LDCFUFBImFc"
+            },
+            {
+              "type": "definition",
+              "term": "Homophonic",
+              "text": "A melody with chordal accompaniment."
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "Suggestions: a Bach fugue (e.g. ‘Little Fugue in G minor’), a round/canon (e.g. ‘Frère Jacques’ sung in canon), or a jazz combo with independent improvised lines.",
+              "embed": "ddbxFi3-UO4"
+            },
+            {
+              "type": "definition",
+              "term": "Polyphonic",
+              "text": "Two or more independent melodic lines combined."
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Read the texture definition and each texture type.",
+                "Listen to the excerpt after each definition and check it matches.",
+                "In groups, build a texture by adding one layer at a time.",
+                "Describe how the texture changed as layers were added."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "For each excerpt, name the texture type and explain how the layers combine to create it."
+            },
+            {
+              "type": "exit",
+              "text": "Which excerpt had the thickest texture, and why?"
+            }
+          ],
+          "teacher": [
+            "Use the ‘Elements of Music’ deck (texture section) for the diagrams."
+          ]
+        },
+        {
+          "number": 5,
+          "week": 2,
+          "title": "Performing media and timbre",
+          "intention": "I can identify performing media and describe timbre.",
+          "criteria": [
+            "I can name the instruments or voices I hear.",
+            "I can describe their tone colour using musical words."
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Tone colour",
+              "text": "What's making the sound, and what it actually sounds like — an instrument's ‘personality’."
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "World: a raga on solo sitar — a distinctive, sustained plucked-string timbre.",
+              "embed": "tw13VQXXPkQ"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Jazz: Louis Armstrong's trumpet and gravelly vocal timbre, instantly recognisable.",
+              "embed": "rBrd_3VMC3c"
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "Film: the Star Wars Main Title, full orchestral timbre.",
+              "embed": "e9lapdvLSGw"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Recap: performing media = the sound sources; timbre = their tone colour.",
+                "Listen and build a class ‘timbre word bank’ (bright, warm, harsh, mellow, etc.).",
+                "Play an instrument ID quiz with short clips.",
+                "Match a timbre word to each instrument you hear."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "For each clip, name the instruments or voices and give one word for their tone colour."
+            },
+            {
+              "type": "exit",
+              "text": "Pick one instrument and describe its timbre in a full sentence."
+            }
+          ],
+          "teacher": [
+            "Use the ‘Elements of Music’ deck (timbre section)."
+          ]
+        },
+        {
+          "number": 6,
+          "week": 2,
+          "title": "Comparing 'Valerie'",
+          "intention": "I can compare two versions of the same song using performing media and timbre.",
+          "criteria": [
+            "I can name the voices and instruments I hear in each version.",
+            "I can describe the tone colour of each one using musical words.",
+            "I can write one similarity and one difference, and back each up with musical evidence."
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Performing media",
+              "text": "The voices and instruments used to perform a piece of music — in other words, what is making the sound."
+            },
+            {
+              "type": "definition",
+              "term": "Timbre (tone colour)",
+              "text": "The quality of a sound that makes one voice or instrument sound different from another, even when they play exactly the same note. A trumpet and a flute playing the same pitch do not sound the same, and timbre is the word for that difference."
+            },
+            {
+              "type": "wordbank",
+              "title": "Timbre word bank",
+              "words": [
+                "bright",
+                "dark",
+                "warm",
+                "cold",
+                "mellow",
+                "harsh",
+                "rich",
+                "thin",
+                "full",
+                "hollow",
+                "husky",
+                "nasal",
+                "smooth",
+                "rough",
+                "brassy",
+                "breathy",
+                "raw",
+                "polished",
+                "piercing",
+                "muffled"
+              ]
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Version A: The Zutons, 2006 — the original.",
+              "embed": "L3xpmfJp0Xc"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Version B: Mark Ronson featuring Amy Winehouse, 2007 — same melody, words and chords, completely different performing media and timbre.",
+              "embed": "bixuI_GV5I0"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Copy both definitions into your book, and the timbre word bank.",
+                "Listen once through to each version without writing anything: who is singing, what carries the hook, what holds the rhythm, what sits on top.",
+                "Listen again and rule up a table in your book: the voice, the instrument that leads, the rhythm section, anything else you can hear, and three tone-colour words for each version.",
+                "Every comparison point needs three parts: name it, give the evidence you heard, and explain the effect."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write one similarity and one difference between the two versions, each backed with musical evidence and its effect. Performing media and timbre are marked together as one 2-mark question in the listening exam — naming the instruments alone only gets you one mark, you need the tone-colour description too."
+            },
+            {
+              "type": "exit",
+              "text": "Which version's tone colour suits the song better, and why? Name at least one voice or instrument in your answer."
+            }
+          ],
+          "teacher": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Dynamics, Structure and Exam Writing",
+      "intro": "This week we finish the toolkit with dynamics, expression and structure, and start writing full responses to the exam question.",
+      "lessons": [
+        {
+          "number": 7,
+          "week": 3,
+          "title": "Dynamics and expression",
+          "intention": "I can identify dynamics and expression and explain their effect.",
+          "criteria": [
+            "I can describe how the volume changes.",
+            "I can explain how a change in dynamics changes the mood."
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Dynamics & expressive techniques",
+              "text": "How loud or soft the music is, and the little performance tricks (sliding, plucking, shaking a note) that add feeling."
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "A film music cue with clear dynamic changes (quiet build to a loud climax).",
+              "embed": "fVCnfQBupts"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Recap: dynamics = volume; expression = the detail that gives a style its feel (articulation, accents).",
+                "Listen to the film cue and follow a listening map of the dynamics.",
+                "Mark where the music gets louder or softer and what happens to the mood.",
+                "Add expression words (legato, staccato, accent) to your glossary."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "On a listening map, track the dynamics of the cue and write one sentence on how a change in dynamics changed the mood."
+            },
+            {
+              "type": "exit",
+              "text": "Name one moment where dynamics created tension."
+            }
+          ],
+          "teacher": [
+            "Use the ‘Elements of Music’ deck (dynamics & expression section)."
+          ]
+        },
+        {
+          "number": 8,
+          "week": 3,
+          "title": "Structure",
+          "intention": "I can identify the structure of a work by ear.",
+          "criteria": [
+            "I can label the sections of a work.",
+            "I can describe how the sections differ."
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Structure",
+              "text": "How the piece is put together — the order of its sections, like the shape of a story."
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "A pop song with a clear verse-chorus structure.",
+              "embed": "jgsKqZ_dZKI"
+            },
+            {
+              "type": "definition",
+              "term": "Verse-chorus",
+              "text": "The pop-song structure: verses tell the story, the chorus is the hook that repeats."
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "A 12-bar blues.",
+              "embed": "I3MTGhRC82s"
+            },
+            {
+              "type": "definition",
+              "term": "12-bar blues (AAB)",
+              "text": "A repeating 12-bar chord pattern, often with an AAB lyric pattern — the backbone of blues and early rock 'n' roll."
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "A classical work in ternary form or theme and variation.",
+              "embed": "59GaugDQwPY"
+            },
+            {
+              "type": "definition",
+              "term": "Ternary / theme and variation",
+              "text": "Ternary (ABA): a section, a contrasting middle, then a return to the start. Theme and variation: one melody, dressed up differently each time it repeats."
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Recap forms: verse-chorus, 12-bar blues, ternary (ABA), theme and variation.",
+                "Listen and map the sections of each excerpt.",
+                "Discuss what tells you a new section has started (a change in an element).",
+                "Compare how the three structures are organised."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Map the structure of one excerpt by labelling its sections and noting what changes between them."
+            },
+            {
+              "type": "exit",
+              "text": "What element signalled a new section most clearly?"
+            }
+          ],
+          "teacher": [
+            "Use the ‘Elements of Music’ deck (structure section)."
+          ]
+        },
+        {
+          "number": 9,
+          "week": 3,
+          "title": "Writing about music 3: the exam question",
+          "intention": "I can write an extended response on how elements create interest.",
+          "criteria": [
+            "My response covers several elements.",
+            "Each point has evidence and an effect."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Meet the exam-style question.",
+                "Watch the teacher model a full response across several elements.",
+                "Plan your response using a paragraph planner.",
+                "Write a full timed response and self-assess against the criteria."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write a full response to a short excerpt answering: how are the elements of music used to create interest?"
+            },
+            {
+              "type": "exit",
+              "text": "Which element gave you the strongest point to write about?"
+            }
+          ],
+          "teacher": [
+            "Introduce the AT3 exam question: ‘How are the elements of music used to create interest?’ Model a full response, thinking aloud."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Wide Listening and Exam Preparation",
+      "intro": "This week we listen widely across genres and rehearse the exam: full responses, feedback and strategies, ready for AT3 next week.",
+      "lessons": [
+        {
+          "number": 10,
+          "week": 4,
+          "title": "Wide listening carousel",
+          "intention": "I can quickly identify style and elements across genres.",
+          "criteria": [
+            "I can identify the style of each excerpt.",
+            "I can name two key elements for each."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "World: Gamelan gong kebyar, 'Kapi Raja' — a distinctive percussive, metallic ensemble.",
+              "embed": "68b2u8EXXOo"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Classical: Vivaldi, Spring (The Four Seasons) — energetic Baroque strings.",
+              "embed": "3LiztfE1X7E"
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "Film: Hedwig's Theme — John Williams, instantly recognisable orchestral timbre.",
+              "embed": "hJ8QksvUs98"
+            },
+            {
+              "type": "media",
+              "n": 4,
+              "brief": "Jazz: Take Five — the Dave Brubeck Quartet, an odd 5/4 metre.",
+              "embed": "-DHuW1h1wHw"
+            },
+            {
+              "type": "media",
+              "n": 5,
+              "brief": "Contemporary: As It Was — Harry Styles.",
+              "embed": "V1Z586zoeeE"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Rotate through the five listening stations.",
+                "At each station, identify the style and two key elements.",
+                "Log your answers as you go.",
+                "Compare answers as a class at the end."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Complete your listening log: style + two elements + one effect for each of the five excerpts."
+            },
+            {
+              "type": "exit",
+              "text": "Which style was easiest to identify, and what gave it away?"
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 11,
+          "week": 4,
+          "title": "Extended response practice and feedback",
+          "intention": "I can write to the standard of the AT3 task.",
+          "criteria": [
+            "I can apply feedback to improve a response.",
+            "My response uses evidence and correct terminology."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Studied-style: What a Wonderful World — Louis Armstrong, already analysed for timbre.",
+              "embed": "rBrd_3VMC3c"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Unseen: Bohemian Rhapsody — Queen, for timed extended-response practice.",
+              "embed": "fJ9rUzIMcZQ"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Write a full timed response to the studied excerpt.",
+                "Swap with a partner and give feedback against the criteria.",
+                "Read the teacher feedback and the common misconceptions.",
+                "Write a second response to the unseen excerpt."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Improve your first response using the feedback, then attempt the unseen excerpt under time."
+            },
+            {
+              "type": "exit",
+              "text": "Name one thing you will do differently in the exam."
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 12,
+          "week": 4,
+          "title": "Exam strategies and review",
+          "intention": "I can use effective strategies in a listening exam.",
+          "criteria": [
+            "I can annotate an excerpt as I listen.",
+            "I can plan a response under time pressure."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Learn the strategies: annotate while listening, use the replays, manage your time, use your terminology bank.",
+                "Quick-fire revision of the six elements.",
+                "Practise annotating a short excerpt in real time.",
+                "Ask any final questions before the exam."
+              ]
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Grieg, 'In the Hall of the Mountain King' (Sydney Symphony Orchestra / Ashkenazy) — unseen, and short enough to annotate start to finish. Tempo, dynamics and texture all build together, so it gives real-time practice catching several elements changing at once.",
+              "embed": "BLZl-hhbXDI"
+            },
+            {
+              "type": "activity",
+              "text": "Annotate a short excerpt as it plays, then plan (not write) a full response in two minutes."
+            },
+            {
+              "type": "exit",
+              "text": "Write down your personal exam plan in one sentence."
+            }
+          ],
+          "teacher": [
+            "Hand out the strategy checklist and terminology bank. Do a final quick-fire revision of all six elements."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "AT3 Exam and Feedback",
+      "intro": "This week you sit the AT3 Listening Examination, then return to practical playing and review your responses to set goals.",
+      "lessons": [
+        {
+          "number": 13,
+          "week": 5,
+          "title": "AT3 Listening Examination",
+          "intention": "I can analyse how the elements of music are manipulated and combined.",
+          "criteria": [
+            "I complete the exam with accurate, evidenced responses.",
+            "I use correct musical terminology."
+          ],
+          "blocks": [
+            {
+              "type": "exit",
+              "text": "(No exit ticket , exam lesson.)"
+            }
+          ],
+          "teacher": [
+            "Set up exam conditions and audio playback. Apply access provisions (reader, scribe, extra time, separate supervision) as per plans."
+          ]
+        },
+        {
+          "number": 14,
+          "week": 5,
+          "title": "Practical recovery lesson",
+          "intention": "I can contribute to a group performance with awareness.",
+          "criteria": [
+            "I can keep my part in time.",
+            "I can listen and adjust to the ensemble."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Return to instruments for some low-stakes ensemble playing.",
+                "Choose a song to play together as a class.",
+                "Re-engage your performing and creating skills after the exam."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Play a class ensemble piece, focusing on timing and listening to others."
+            },
+            {
+              "type": "exit",
+              "text": "One thing your group did well today."
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 15,
+          "week": 5,
+          "title": "Exam feedback and reflection",
+          "intention": "I can evaluate my own listening response and set a goal.",
+          "criteria": [
+            "I can name one strength and one improvement.",
+            "I understand what a strong response looks like."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Read your marked response and the feedback.",
+                "Compare your answer to the exemplar answers.",
+                "Identify one strength and one next step.",
+                "Set a personal listening goal for the rest of the term."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Re-draft one weak paragraph from your exam to a higher standard using the exemplar."
+            },
+            {
+              "type": "exit",
+              "text": "Write your listening goal for the rest of Term 3."
+            }
+          ],
+          "teacher": [
+            "Return marked responses. Model exemplar answers band by band so students see the standard."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Jazz",
+      "intro": "This week we listen to jazz, play a 12-bar blues and improvise, then analyse how jazz uses the elements of music to create interest.",
+      "lessons": [
+        {
+          "number": 16,
+          "week": 6,
+          "title": "Jazz listening",
+          "intention": "I can identify the features and context of jazz.",
+          "criteria": [
+            "I can name three features of jazz.",
+            "I can hear where improvisation happens."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Vocal/standard: Ella Fitzgerald & Louis Armstrong, 'Summertime' — the classic jazz-standard vocal duo sound.",
+              "embed": "2HJCN3upMHE"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Big band: Glenn Miller, 'In the Mood' — the archetypal swing-era big band riff and ensemble sound.",
+              "embed": "dVh3ZzVDZik"
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "Small-combo bebop: Charlie Parker, 'Ornithology' (1946) — fast bebop with an audible improvised alto solo.",
+              "embed": "BUHwR-khV20"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Learn the context: where and when jazz developed.",
+                "Meet the key features: swing, improvisation, blue notes, instrumentation.",
+                "Listen to the three excerpts and spot these features.",
+                "Identify the instruments and where the improvised solos are."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "For each excerpt, tick the jazz features you hear and mark where a solo is improvised."
+            },
+            {
+              "type": "exit",
+              "text": "How can you tell a section is improvised rather than written?"
+            }
+          ],
+          "teacher": [
+            "Use the ‘Jazz’ deck for context and key features."
+          ]
+        },
+        {
+          "number": 17,
+          "week": 6,
+          "title": "Jazz practical: 12-bar blues",
+          "intention": "I can perform and improvise within a 12-bar blues.",
+          "criteria": [
+            "I can keep my place in the 12-bar form.",
+            "I can play a short improvised idea."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "12-bar blues backing track in A major, 100 bpm — a comfortable tempo for the class to play along with and improvise over.",
+              "embed": "93IVcKPCzq0"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Learn the 12-bar blues chord pattern.",
+                "Take a role: chords, bass, rhythm or melody.",
+                "Play through the form as a class with the backing track.",
+                "Try a short improvised solo using the blues scale."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Perform the 12-bar blues as an ensemble; everyone attempts at least a two-note improvised idea."
+            },
+            {
+              "type": "exit",
+              "text": "Did you keep your place in the form? What helped?"
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 18,
+          "week": 6,
+          "title": "Analysing a jazz recording",
+          "intention": "I can analyse a jazz work using the elements of music.",
+          "criteria": [
+            "I can explain how improvisation and structure create interest.",
+            "I use evidence and terminology."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Miles Davis, 'So What' — modal jazz with clear structure (intro/head/solos/head) and distinct instrumental timbres, ideal for written analysis.",
+              "embed": "ylXk1LBvIqU"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Listen to the recording twice.",
+                "Plan your response using element prompts.",
+                "Write about how improvisation, structure and timbre create interest.",
+                "Swap for peer feedback against the criteria."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write a response: how does this jazz recording use the elements of music to create interest?"
+            },
+            {
+              "type": "exit",
+              "text": "Which element was most important in this recording?"
+            }
+          ],
+          "teacher": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Film Music",
+      "intro": "This week we explore how film music creates mood and tells stories, create a short cue, and analyse a film composer’s choices.",
+      "lessons": [
+        {
+          "number": 19,
+          "week": 7,
+          "title": "Film music listening",
+          "intention": "I can identify how film music supports narrative.",
+          "criteria": [
+            "I can link a musical feature to an emotion or scene.",
+            "I can use the term leitmotif correctly."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "John Williams, 'Star Wars' Main Title — heroic, adventurous mood.",
+              "embed": "54hoKbTWon4"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "John Williams, 'Jaws' Theme — suspense and dread from a simple two-note idea.",
+              "embed": "GfQu5po6USo"
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "Michael Giacchino, 'Married Life' (from 'Up') — poignant, emotional storytelling without dialogue.",
+              "embed": "2rn-vMbFglI"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Meet the techniques: leitmotif, underscore, mickey-mousing.",
+                "Listen to the cues and match musical features to on-screen meaning.",
+                "Connect back to Term 1 program music and your Term 2 soundtrack task.",
+                "Discuss how the elements signal emotion."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "For each cue, link one musical feature to the emotion or action it supports."
+            },
+            {
+              "type": "exit",
+              "text": "What does a leitmotif do in a film?"
+            }
+          ],
+          "teacher": [
+            "Use the ‘Film Music’ deck for techniques and examples."
+          ]
+        },
+        {
+          "number": 20,
+          "week": 7,
+          "title": "Film music practical / compose",
+          "intention": "I can use an element of music to create a mood for a scene.",
+          "criteria": [
+            "I can create a short cue.",
+            "I can explain the element I used and its effect."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "'Sintel' (Blender Foundation, Creative Commons) — mute the sound and cue a 20-30 second scene for students to score.",
+              "embed": "eRsGyueVLvQ"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Choose a clip or mood to score.",
+                "Pick one element to focus on (e.g. tempo, timbre or dynamics).",
+                "Create a short cue using flat.io, a DAW or instruments.",
+                "Share and explain the effect you aimed for."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Create a 20-30 second cue that uses one element to set a clear mood for the scene."
+            },
+            {
+              "type": "exit",
+              "text": "Which element did you use, and what mood did it create?"
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 21,
+          "week": 7,
+          "title": "Analysing a film cue",
+          "intention": "I can analyse film music using the elements of music.",
+          "criteria": [
+            "I can explain how two elements support the narrative.",
+            "I use evidence and terminology."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Hans Zimmer, 'Cornfield Chase' (Interstellar) — building dynamics and layered texture, rich material for a two-element analysis.",
+              "embed": "JuSsvM8B4Jc"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Listen to the cue twice.",
+                "Plan using element prompts.",
+                "Write about how the composer manipulates two elements to support the scene.",
+                "Check your evidence and terminology."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write a response on how this film cue uses the elements of music to support the story."
+            },
+            {
+              "type": "exit",
+              "text": "Name the two elements you wrote about."
+            }
+          ],
+          "teacher": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Music of Australia and First Nations Music",
+      "intro": "This week we listen to and analyse music of Australia, including music of Aboriginal and Torres Strait Islander Peoples, with respect for context and protocols.",
+      "lessons": [
+        {
+          "number": 22,
+          "week": 8,
+          "title": "Music of Australia and First Nations music",
+          "intention": "I can describe Australian music and its context respectfully.",
+          "criteria": [
+            "I can link features of the music to its cultural context.",
+            "I use respectful, accurate language."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Gurrumul, 'Wiyathul' — Yolŋu language, official video, gentle traditional-influenced example.",
+              "embed": "7lmZXAdSMQI"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Baker Boy ft. Yirrmal, 'Marryuna' — contemporary First Nations hip-hop, official video, blends language and beats.",
+              "embed": "afQcYH2nwoM"
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "King Stingray, 'Get Me Out' — contemporary Yolŋu-language surf-rock, official video, broadens the styles on offer.",
+              "embed": "YUcEes26hyM"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Discuss what we mean by music of Australia, including First Nations music.",
+                "Listen with respect and attention to context (cultural, historical, social).",
+                "Note the instruments, language and stories where shared by the artists.",
+                "Connect features of the music to its context."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "For one work, describe two musical features and explain how they connect to the music’s context."
+            },
+            {
+              "type": "exit",
+              "text": "One thing you learned about the context of an Australian work."
+            }
+          ],
+          "teacher": [
+            "Use the ‘Music of Australia & First Nations Music’ deck (includes protocols).",
+            "Follow respectful protocols and ICIP awareness. Where possible, seek local community consultation and use artist-approved recordings. Avoid sacred or restricted material. Centre First Nations voices and artists."
+          ]
+        },
+        {
+          "number": 23,
+          "week": 8,
+          "title": "Australian music analysis",
+          "intention": "I can analyse an Australian work using elements and context.",
+          "criteria": [
+            "I can explain how the music reflects its context.",
+            "I use evidence and terminology."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Yothu Yindi, 'Treaty' (Radio Mix, official video) — blends traditional Yolŋu music with rock; rich land-rights context for a context-linked analysis.",
+              "embed": "RPmDLR_M50M"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Listen to the work twice.",
+                "Plan using both element prompts and context prompts.",
+                "Write about how the elements are used and how the music reflects its context.",
+                "Share and discuss using musical terminology."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write a response linking the elements of music to the context of an Australian work."
+            },
+            {
+              "type": "exit",
+              "text": "How did context shape the way you heard this work?"
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 24,
+          "week": 8,
+          "title": "Practical and response: Australian styles",
+          "intention": "I can perform a feature of an Australian style and describe it.",
+          "criteria": [
+            "I can play the feature accurately.",
+            "I can name the element it demonstrates."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Men at Work, 'Down Under' (official video) — an instantly recognisable riff/groove the class can play, tying the element directly to an iconic Australian sound.",
+              "embed": "XfR9iY5y94s"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Learn a short riff or groove from an Australian popular style.",
+                "Take a role and perform it as a group.",
+                "Discuss which elements make the style recognisable.",
+                "Write a brief reflection linking the playing to the elements."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Perform the riff or groove, then name the element it best demonstrates and why."
+            },
+            {
+              "type": "exit",
+              "text": "Which element makes this style instantly recognisable?"
+            }
+          ],
+          "teacher": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Comparative and Critical Listening",
+      "intro": "This week we compare how styles use the elements differently, evaluate interpretive choices, and start thinking about the Term 4 Depth Study.",
+      "lessons": [
+        {
+          "number": 25,
+          "week": 9,
+          "title": "Comparative listening across styles",
+          "intention": "I can compare how an element is used across styles.",
+          "criteria": [
+            "I can explain similarities and differences.",
+            "I support each point with evidence."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Orchestra: Holst, 'Jupiter' (The Planets) — full, densely layered orchestral texture.",
+              "embed": "wvfz23jZz6c"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "EDM: Avicii, 'Levels' — texture built and dropped through electronic layering.",
+              "embed": "BqrAsI1eDxk"
+            },
+            {
+              "type": "media",
+              "n": 3,
+              "brief": "A cappella: Pentatonix, 'Hallelujah' — texture created entirely from layered voices.",
+              "embed": "LRP8d7hhpoQ"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Choose one element to focus on (e.g. texture).",
+                "Listen to the three excerpts.",
+                "Build a class comparison, then write your own.",
+                "Use comparison language and evidence."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Compare how your chosen element is used across the three excerpts, with one similarity and two differences."
+            },
+            {
+              "type": "exit",
+              "text": "Which style used the element most surprisingly?"
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 26,
+          "week": 9,
+          "title": "Critical listening: evaluating choices",
+          "intention": "I can evaluate interpretive choices in performance.",
+          "criteria": [
+            "I can compare two versions of a work.",
+            "I can justify a preference with musical evidence."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Vivaldi, 'Spring' (traditional recording, already analysed in Lesson 10).",
+              "embed": "3LiztfE1X7E"
+            },
+            {
+              "type": "media",
+              "n": 2,
+              "brief": "Max Richter, 'Recomposed: Vivaldi's Four Seasons — Spring 1' — a radically different interpretive take on the same material.",
+              "embed": "41IOkVjy3MM"
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Listen to both versions of the work.",
+                "Note the differences in tempo, dynamics, expression and timbre.",
+                "Decide which you find more effective and why.",
+                "Justify your judgement with musical evidence."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write a short evaluation: which version is more effective, and what musical evidence supports your view?"
+            },
+            {
+              "type": "exit",
+              "text": "Name one interpretive choice that changed the feel of the work."
+            }
+          ],
+          "teacher": []
+        },
+        {
+          "number": 27,
+          "week": 9,
+          "title": "Student-choice listening and Depth Study spark",
+          "intention": "I can analyse music I choose and identify a personal area of interest.",
+          "criteria": [
+            "I can present a short analysis of my chosen track.",
+            "I can name an area I might pursue in the Depth Study."
+          ],
+          "blocks": [
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "Students may bring their own track (cleared as school-appropriate) to analyse.",
+              "embed": null,
+              "studentSupplied": true
+            },
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Choose a track you care about.",
+                "Analyse it using the six elements.",
+                "Share a short analysis with a partner or the class.",
+                "Note a style, artist or skill you might explore in the Depth Study."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Present a 1-minute analysis of your chosen track, then write the area you might pursue in Term 4."
+            },
+            {
+              "type": "exit",
+              "text": "What is your possible Depth Study interest?"
+            }
+          ],
+          "teacher": [
+            "Introduce the Term 4 Depth Study and show the idea-bank menu. Students start thinking about a focus area."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Synthesis and Depth Study Launch",
+      "intro": "This week we present our analyses, launch the Term 4 Depth Study, and finish with an approved proposal ready to develop.",
+      "lessons": [
+        {
+          "number": 28,
+          "week": 10,
+          "title": "Synthesis presentation",
+          "intention": "I can present a clear analysis of a work.",
+          "criteria": [
+            "I can explain how several elements create interest.",
+            "My presentation is clear and well organised."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "In a small group, choose a work to analyse.",
+                "Plan a short multimodal presentation (audio + key points).",
+                "Present to the class.",
+                "Give one strength and one question to each group."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Present your group analysis of how several elements create interest in your chosen work."
+            },
+            {
+              "type": "exit",
+              "text": "One thing another group did well in their analysis."
+            }
+          ],
+          "teacher": [
+            "Frame this as a model for how a listening Depth Study can be presented (including viva voce)."
+          ]
+        },
+        {
+          "number": 29,
+          "week": 10,
+          "title": "Depth Study launch and idea generation",
+          "intention": "I can generate realistic Depth Study ideas that match my interests and skills.",
+          "criteria": [
+            "I have shortlisted two possible projects.",
+            "I know the focus area of each."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Learn what a Depth Study is and how it works.",
+                "Explore the idea bank: performing, composing, listening and combinations.",
+                "Brainstorm ideas that match your interests and skills.",
+                "Shortlist two possible projects."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write down two possible Depth Study projects and the focus area of each."
+            },
+            {
+              "type": "exit",
+              "text": "Which of your two ideas excites you most, and why?"
+            }
+          ],
+          "teacher": [
+            "Optional: show the Depth Study idea bank from the Term 4 unit on the board.",
+            "Walk through the Depth Study: purpose, the 8-10 hours, and that students choose their focus. Explore a modelled work sample."
+          ]
+        },
+        {
+          "number": 30,
+          "week": 10,
+          "title": "Depth Study proposal (milestone) and term celebration",
+          "intention": "I can write a clear, realistic plan for my Depth Study.",
+          "criteria": [
+            "My proposal states what I will make.",
+            "It states the outcomes I will show and how I will judge success."
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Complete the Depth Study proposal: focus, goal, product, outcomes, steps, resources, success criteria.",
+                "Get teacher feedback on your plan.",
+                "Adjust your proposal so it is realistic for the time.",
+                "Celebrate the term with a wide-listening quiz."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Finish and submit your Depth Study proposal for approval."
+            },
+            {
+              "type": "exit",
+              "text": "What is the first step you will take in Term 4?"
+            }
+          ],
+          "teacher": [
+            "Review each proposal and give feedback so students start Term 4 ready to develop. Run a wide-listening quiz to celebrate the term."
+          ]
+        }
+      ]
+    }
+  ]
+}

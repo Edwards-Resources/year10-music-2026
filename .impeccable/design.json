@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-05T18:05:00+10:00",
+  "title": "Design System: Year 10 Music class site",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Cream Paper", "canonical": "#FFF8EC", "tonalRamp": ["#2b2620", "#4a4237", "#6b6050", "#8f826d", "#b3a58c", "#d4c7ab", "#efe4cb", "#FFF8EC"] },
+      "ink": { "role": "primary", "displayName": "Marker Ink", "canonical": "#111111", "tonalRamp": ["#111111", "#2a2a2a", "#444444", "#5e5e5e", "#7a7a7a", "#989898", "#b8b8b8", "#dadada"] },
+      "soft-ink": { "role": "neutral", "displayName": "Soft Ink", "canonical": "#5A544A", "tonalRamp": ["#1f1c17", "#332e26", "#474036", "#5A544A", "#7a7365", "#9a9283", "#bcb4a4", "#ded7c8"] },
+      "highlight-yellow": { "role": "secondary", "displayName": "Position Yellow", "canonical": "#FFE34D", "tonalRamp": ["#4d4207", "#736310", "#99841c", "#bfa62b", "#e0c53a", "#FFE34D", "#ffeb80", "#fff5bf"] },
+      "highlight-pink": { "role": "secondary", "displayName": "Exam Pink", "canonical": "#FF6BAE", "tonalRamp": ["#4d1230", "#731d49", "#992a63", "#bf3a7e", "#e0509a", "#FF6BAE", "#ff9cc8", "#ffcde3"] },
+      "highlight-teal": { "role": "secondary", "displayName": "Naming Teal", "canonical": "#00C7B7", "tonalRamp": ["#003d38", "#005c54", "#007a70", "#00998c", "#00b0a1", "#00C7B7", "#66ddd3", "#b9ece7"] },
+      "teal-wash": { "role": "neutral", "displayName": "Teal Wash", "canonical": "#B9ECE7", "tonalRamp": ["#173733", "#2b5951", "#3f7d75", "#5aa198", "#7fc2b9", "#9dd9d1", "#B9ECE7", "#dcf6f3"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Marker Display", "purpose": "The lesson number, one per page." },
+      "body": { "displayName": "Hyperlegible Body", "purpose": "Everything students read with a pen in hand." },
+      "note": { "displayName": "Margin Notes", "purpose": "Caveat handwriting for asides, hints, breadcrumbs and the footer." }
+    },
+    "shadows": [
+      { "name": "hover-offset", "value": "3px 4px 0 rgba(17,17,17,0.16)", "purpose": "Hard ink-tinted offset on hovered link targets only; nothing rests with a shadow." },
+      { "name": "today-wash", "value": "0 0 0 6px #B9ECE7", "purpose": "The TODAY panel's teal ring; colour, not depth." }
+    ],
+    "motion": [
+      { "name": "draw-on", "value": "stroke-dashoffset 0.9s ease-out", "purpose": "Doodle arrows draw themselves at 40% visibility; pre-drawn under reduced motion." },
+      { "name": "button-straighten", "value": "transform 0.15s ease-out", "purpose": "The rotated button straightens and scales 1.04 on hover." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "44rem" },
+      { "name": "desktop", "value": "62rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Rough yellow marker block with the ink outline drawn in its torn SVG edge; straightens on hover.",
+      "html": "<a href=\"#\" class=\"ds-btn\">Go to the lesson</a>",
+      "css": ".ds-btn { display:inline-block; font-family:'Permanent Marker',cursive; font-size:1.35rem; color:#111; text-decoration:none; padding:0.42em 1.3em 0.48em; transform:rotate(-1deg); transition:transform .15s ease-out, filter .15s ease-out; background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 48\" preserveAspectRatio=\"none\"><path d=\"M8 10 C4 5 8 1 15 2 L80 1 130 2 188 1 C196 1 200 6 197 12 L198 24 197 36 C199 43 194 47 186 46 L120 47 60 46 12 47 C4 47 1 42 4 36 L3 22 Z\" fill=\"%23FFE34D\" stroke=\"%23111111\" stroke-width=\"3\" vector-effect=\"non-scaling-stroke\"/></svg>') no-repeat center / 100% 100%; } .ds-btn:hover { transform:rotate(0) scale(1.04); filter:drop-shadow(3px 4px 0 rgba(17,17,17,.16)); } .ds-btn:focus-visible { outline:3px solid #00C7B7; outline-offset:2px; }"
+    },
+    {
+      "name": "Panel with tab",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Paper panel with a wobbly ink border and a torn-edge marker tab overlapping its top-left corner.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-tab\">Coming up</h2><p>Lesson 7: Dynamics and expression</p></section>",
+      "css": ".ds-panel { position:relative; background:#FFF8EC; border:2.5px solid #111; border-radius:255px 15px 225px 15px / 15px 225px 15px 255px; padding:1.7rem 1.5rem 1.3rem; font-family:'Atkinson Hyperlegible',sans-serif; color:#111; } .ds-tab { position:absolute; top:-1rem; left:1.1rem; margin:0; display:inline-block; font-family:'Permanent Marker',cursive; font-size:1rem; font-weight:400; letter-spacing:.02em; padding:.18em .8em .22em; transform:rotate(-2deg); background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 28\" preserveAspectRatio=\"none\"><path d=\"M5 6 C2 3 5 0 10 1 L58 0 93 1 C99 1 101 5 98 9 L99 19 C101 24 97 27 92 27 L40 28 9 27 C2 26 0 23 3 19 Z\" fill=\"%2300C7B7\" stroke=\"%23111111\" stroke-width=\"2.6\" vector-effect=\"non-scaling-stroke\"/></svg>') no-repeat center / 100% 100%; }"
+    },
+    {
+      "name": "Highlighter swipe",
+      "kind": "custom",
+      "description": "Inline rough-edged marker swipe for emphasis; clones torn ends across wrapped lines.",
+      "html": "<p style=\"font-family:'Atkinson Hyperlegible',sans-serif\">We are <span class=\"ds-hl\">up to Lesson 6</span> of 30.</p>",
+      "css": ".ds-hl { padding:.06em .42em .1em; box-decoration-break:clone; -webkit-box-decoration-break:clone; background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 28\" preserveAspectRatio=\"none\"><path d=\"M4 7 C1 4 4 1 9 2 L60 1 94 0 C99 0 101 4 98 8 L99 20 C101 25 97 28 91 27 L38 28 8 27 C2 27 0 24 2 20 Z\" fill=\"%23FFE34D\"/></svg>') no-repeat center / 100% 100%; }"
+    },
+    {
+      "name": "Filmstrip frame trio",
+      "kind": "custom",
+      "description": "Done, current and exam lesson frames from the term filmstrip; state carried by mark, never colour alone.",
+      "html": "<ol class=\"ds-strip\"><li class=\"ds-frame ds-done\"><a href=\"#\" aria-label=\"Lesson 5 (done)\">5<svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><path d=\"M7 6 C14 14 24 26 34 35\"/><path d=\"M33 7 C25 15 15 26 6 34\"/></svg></a></li><li class=\"ds-frame ds-now\"><a href=\"#\" aria-label=\"Lesson 6 (we are up to here)\">6</a></li><li class=\"ds-frame ds-exam\"><a href=\"#\" aria-label=\"Lesson 13 (the exam)\">13<span class=\"ds-flag\">EXAM</span></a></li></ol>",
+      "css": ".ds-strip { list-style:none; display:flex; gap:.45rem; padding:1.4rem 0 0; margin:0; font-family:'Atkinson Hyperlegible',sans-serif; } .ds-frame { position:relative; } .ds-frame a { display:grid; place-items:center; width:2.6rem; height:2.6rem; border:2.5px solid #111; border-radius:8px 12px 9px 13px / 13px 9px 12px 8px; font-weight:700; font-size:.95rem; text-decoration:none; color:#111; background:#FFF8EC; } .ds-frame svg { position:absolute; inset:-4px; pointer-events:none; fill:none; stroke:#111; stroke-width:3.6; stroke-linecap:round; } .ds-done a { color:#5A544A; } .ds-now a { background:#FFE34D; } .ds-exam a { background:#FF6BAE; } .ds-flag { position:absolute; top:-1.35rem; left:50%; transform:translateX(-18%) rotate(4deg); font-family:'Permanent Marker',cursive; font-size:.72rem; background:#FF6BAE; border:2px solid #111; border-radius:5px 9px 6px 8px / 8px 6px 9px 5px; padding:0 .4em; white-space:nowrap; }"
+    },
+    {
+      "name": "Success criterion checkbox",
+      "kind": "input",
+      "description": "Hand-inked wobble checkbox whose tick overshoots the box; ticked items grey to soft ink.",
+      "html": "<label class=\"ds-crit\"><input type=\"checkbox\"><span>I can explain one similarity and one difference.</span></label>",
+      "css": ".ds-crit { display:flex; gap:.6rem; align-items:baseline; font-family:'Atkinson Hyperlegible',sans-serif; color:#111; } .ds-crit input { appearance:none; -webkit-appearance:none; flex:none; width:1.35rem; height:1.35rem; border:2.5px solid #111; border-radius:5px 8px 6px 9px / 9px 6px 8px 5px; background:#FFF8EC; cursor:pointer; transform:translateY(.22rem); display:inline-grid; place-items:center; } .ds-crit input:checked::after { content:\"\"; width:1.5rem; height:1.4rem; margin:-.55rem 0 0 .45rem; background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M3 14 C6 17 8 19 9 20 C12 13 17 6 22 2\" fill=\"none\" stroke=\"%23111111\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>') no-repeat center / contain; } .ds-crit input:checked + span { color:#5A544A; } .ds-crit input:focus-visible { outline:3px solid #00C7B7; outline-offset:2px; }"
+    },
+    {
+      "name": "Starburst label",
+      "kind": "chip",
+      "description": "Jagged ink-edged yellow starburst carrying the learning-intention label.",
+      "html": "<span class=\"ds-burst\">Learning intention</span>",
+      "css": ".ds-burst { display:inline-block; font-family:'Permanent Marker',cursive; font-size:1rem; color:#111; padding:.62em 1.6em .66em; transform:rotate(-2deg); background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 140 48\" preserveAspectRatio=\"none\"><polygon points=\"138,24 120,31 119,40 91,37 70,46 48,38 21,41 20,30 2,25 19,18 23,8 49,11 71,2 90,9 117,7 121,17\" fill=\"%23FFE34D\" stroke=\"%23111111\" stroke-width=\"2.4\" stroke-linejoin=\"round\" vector-effect=\"non-scaling-stroke\"/></svg>') no-repeat center / 100% 100%; }"
+    },
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "description": "Crow head, marker wordmark, marker-caps links, 3px ink rule.",
+      "html": "<header class=\"ds-mast\"><span class=\"ds-mast-brand\">Year 10 Music</span><nav><a href=\"#\">Home</a><a href=\"#\">Sound Detectives</a></nav></header>",
+      "css": ".ds-mast { display:flex; align-items:center; gap:.9rem; padding:.6rem 1rem; border-bottom:3px solid #111; background:#FFF8EC; } .ds-mast-brand { font-family:'Permanent Marker',cursive; font-size:1.65rem; color:#111; } .ds-mast nav { margin-left:auto; display:flex; gap:1.2rem; } .ds-mast a { font-family:'Permanent Marker',cursive; font-size:1.05rem; color:#111; text-decoration:none; } .ds-mast a:hover { text-decoration:underline; text-decoration-thickness:4px; text-decoration-color:#FFE34D; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A mate's brilliant annotated notes",
+    "overview": "The whole site is one hand-drawn technical zine: cream paper, black marker ink, and exactly three highlighters. Every surface reads as if a sharp Year 10 student drew the page: wobbly inked panel borders, torn-edged highlighter swipes, doodle arrows hopping between panels, a scratchy crow mascot, and marker-lettered labels stuck on at a slight angle. The energy is playful but the reading experience is disciplined; the marker face carries labels and numbers, and everything students actually read is set in a hyperlegible sans.",
+    "keyCharacteristics": [
+      "Cream paper ground with black ink and three flat highlighter colours, nothing else",
+      "Hand-inked wobbly borders and rough-edged marker swipes, never straight-edged fills",
+      "Marker display type for labels and numbers, hyperlegible sans for content, Caveat for margin notes",
+      "The class's live position is the loudest thing on every surface",
+      "Doodle SVG vocabulary that draws itself on scroll"
+    ],
+    "rules": [
+      { "name": "The Three Highlighters Rule", "body": "Yellow means where we are, pink means what is coming for you, teal names things. No fourth accent exists, and a highlighter never swaps jobs.", "section": "colors" },
+      { "name": "The Torn Edge Rule", "body": "A highlighter fill is a rough-edged SVG swipe with its ink outline drawn in the same SVG. A straight-edged flat rectangle of colour is a defect.", "section": "colors" },
+      { "name": "The Marker Shouts, The Sans Explains Rule", "body": "Permanent Marker never sets a sentence students must read carefully; anything longer than a label drops to Atkinson Hyperlegible.", "section": "typography" },
+      { "name": "The Drawn Depth Rule", "body": "If something needs to stand out, it gets more ink or a highlighter swipe, never a soft shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do give every new container a wobbly ink border in one of the three radius sets, and vary the set between neighbours.",
+      "Do carry position with words and marks, never colour alone.",
+      "Do keep prose in Atkinson Hyperlegible at a 68 to 70ch measure, and margin commentary in Caveat.",
+      "Do draw new icons in the doodle grammar: single ink stroke, round caps, slightly wrong on purpose.",
+      "Do keep every asset self-hosted; the site must survive unattended for years."
+    ],
+    "donts": [
+      "Don't ship a straight-edged rectangle of highlighter colour; every fill is a torn-edge SVG swipe.",
+      "Don't add a fourth accent colour or reassign a highlighter's meaning.",
+      "Don't use resting shadows, gradients, or glass; depth is drawn in ink.",
+      "Don't put school branding, logos, letterhead or even the school's name anywhere; the site is anonymous by decision, and the crow and the marker voice are the identity.",
+      "Don't let Permanent Marker set body copy, and don't uppercase-track labels outside the torn-edge tab blocks.",
+      "Don't animate anything except the authored draw-on doodles and the button's hover straighten, and always honour reduced motion."
+    ]
+  }
+}

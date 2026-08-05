@@ -1,0 +1,65 @@
+{
+  "title": "Choose the visual world",
+  "question": "The roll assigned The Mixtape. Keep it, take an alternate, re-roll, or take the standard.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Mixtape",
+      "kicker": "THE ROLL",
+      "lineage": "hand-lettered cassette J-cards, timed to fill a side",
+      "thesis": "The year is a box of mixtapes: every topic a tape, every lesson a track, and the tape is wound to exactly where the class is up to.",
+      "palette": ["#f7f6f2", "#2745b5", "#d92b2b", "#e0a51e"],
+      "materials": ["ballpoint ink", "lined inlay stock", "brand-stripe foil"],
+      "viewport": "A shelf of term tapes spine-out; the current tape pulled forward with its J-card unfolded, the tracklist ruled in ballpoint, and the position marker inked beside the lesson the class is up to.",
+      "risk": "Reads as the teacher's nostalgia rather than the students' world if the object stays precious instead of playful.",
+      "sketch": ".impeccable/sketches/assigned.webp",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-cassette-j-card-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/vernacular-ephemera-cassette-j-card.webp"
+    },
+    {
+      "id": "challenger-zine",
+      "label": "Marker Zine",
+      "lineage": "hand-drawn technical zines and annotated napkin diagrams",
+      "thesis": "Every lesson reads like a mate's brilliant annotated notes: marker headings, doodle arrows, highlighter on the one line that matters.",
+      "palette": ["#f6f1e3", "#171512", "#f2d43d", "#e86fa4"],
+      "materials": ["marker ink", "highlighter", "cream paper"],
+      "viewport": "A marker-lettered lesson title over a doodled listening diagram, arrows looping from call-out to task, a highlighter swipe marking where the class is up to.",
+      "case": "Fuses well: lessons genuinely read better as sketched explanations, and the energy suits the brief. The honest risk is skewing younger than Year 10.",
+      "sketch": ".impeccable/sketches/challenger-zine.webp",
+      "hero": "https://impeccable.style/worlds/cards/hand-drawn-zine-explainer-hero.webp"
+    },
+    {
+      "id": "challenger-grid",
+      "label": "Grid Specimen",
+      "lineage": "Wim Crouwel gridded type specimens",
+      "thesis": "The term is a visible construction grid: monumental letterforms built cell by cell, one cell lit for where the class is.",
+      "palette": ["#ffffff", "#b8c8e8", "#0f1116", "#ff4d00"],
+      "materials": ["construction hairlines", "flat accent planes"],
+      "viewport": "Enormous grid-built numerals for the lesson number over faint graph-paper hairlines, the week strip running beneath with one cell filled.",
+      "case": "Striking and disciplined, and the sequence grammar carries position cleanly, but it is cold: audience identification is its weak axis for 15-year-olds.",
+      "sketch": ".impeccable/sketches/challenger-grid.webp",
+      "hero": "https://impeccable.style/worlds/cards/crouwel-grid-specimen-hero.webp"
+    },
+    {
+      "id": "challenger-orizuru",
+      "label": "Fold Sequence",
+      "lineage": "an orizuru crane folded in thirty-two numbered steps",
+      "thesis": "The term as one continuous sheet folded step by step: thirty lessons as numbered folds, a gold dot on the active one.",
+      "palette": ["#c8321e", "#f4ede0", "#caa353", "#1c1a17"],
+      "materials": ["vermilion washi", "crease-white lines", "sumi ink"],
+      "viewport": "A square vermilion sheet mid-fold, the numbered step column in a strict margin, the gold dot sitting on the current lesson's fold.",
+      "case": "Its step-sequence grammar maps perfectly to 30 lessons, but the washi world fuses poorly with a music classroom: there is no cultural bridge for this audience.",
+      "sketch": ".impeccable/sketches/challenger-orizuru.webp",
+      "hero": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-orizuru-crane-sequence-hero.webp"
+    }
+  ],
+  "reroll": true,
+  "canon": true,
+  "canonCard": {
+    "label": "The school course site",
+    "thesis": "The familiar Bitesize/Khan arrangement, executed at full craft: card grids, breadcrumbs, colour-coded courses.",
+    "viewport": "A clean hero, a three-up grid of lesson cards, an amber position panel. What is built today, polished further.",
+    "sketch": ".impeccable/sketches/canon.webp"
+  },
+  "steer": true
+}
