@@ -119,7 +119,7 @@ def layout(site, title, body, crumbs=None, description="", body_attrs="", nav_li
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {robots}
-<title>{e(title)} | {e(site['title'])}</title>
+<title>{e(title) if title == site['title'] else e(title) + ' | ' + e(site['title'])}</title>
 <meta name="description" content="{e(description)}">
 <link rel="stylesheet" href="{base}/assets/site.css">
 </head>
@@ -543,7 +543,15 @@ def build_home(site, courses):
 
     first_crits = "".join(f"<li>{DOT}<span>{e(c)}</span></li>" for c in cur["criteria"])
 
-    body = f"""<div class="dash">
+    # The home page is a dashboard for whichever topic is running. Without this
+    # head it read as though the site were the Term 3 unit, because the unit name
+    # was the only name on the page. Sound Detectives is one term of the year.
+    head = f"""<div class="home-head"><div class="wrap">
+<h1>{e(course['name'])}</h1>
+<p class="lede">Right now: <a href="{base}/{course['id']}/{topic['id']}/">{e(topic['name'])}</a>, {e(topic['term'])}. The other terms go up here as we get to them.</p>
+</div></div>"""
+
+    body = head + f"""<div class="dash">
 <div class="wrap">
   <div class="dash-grid">
     {ARROW_HOP}
@@ -591,7 +599,7 @@ def build_home(site, courses):
 </div>
 </div>"""
 
-    return layout(site, f"{topic['name']} dashboard", body, [],
+    return layout(site, course["name"], body, [],
                   f"Where {course['name']} is up to in {topic['name']}, lesson by lesson.")
 
 
