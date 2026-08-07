@@ -2,7 +2,18 @@
 
 **Where things stand (7 August 2026):** Site live at **https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on `/docs`, `noindex` confirmed). Every listening slot in the Elements Toolkit unit (Lessons 1-27) is filled; Lesson 27 is deliberately `studentSupplied` and Lessons 28-30 have no media blocks.
 
-**Done 7 August:** Lesson 7 gained two fill-in tables (dynamics, expression) via a new reusable `gapfill` block type. Typed answers save to `localStorage` per lesson **per table**, each table has its own Clear button, and each gets an id from its title (`#dynamics-words`, `#expression-words`) so it can be linked to directly. No answers are stored in the page: these are filled in together, not self-marked. Pushed and live.
+**Done 7 August:** a new reusable `gapfill` block type, and nine fill-in tables across the elements lessons. Typed answers save to `localStorage` per lesson **per table**, each table has its own Clear button, and each gets an id from its title (`#dynamics-words`, `#tempo-words-italian`) so a single table can be linked to directly. No answers are stored in the page: these are filled in together, not self-marked. Pushed and live.
+
+| Lesson | Tables |
+| --- | --- |
+| 1 | The six elements |
+| 2 | Duration words; Tempo words (Italian); Pitch words |
+| 4 | More texture words |
+| 5 | Performing media words; Instrument families |
+| 7 | Dynamics words; Expression words |
+| 8 | Structure words |
+
+Three judgement calls, all easy to reverse if Matthew disagrees: Lessons 4 and 8 already define their key terms on the page (the three textures; the four forms), so their tables cover the vocabulary *around* those instead of putting the answers directly above the blanks. Lesson 2 has three tables and is now the longest page in the unit. Lesson 5's second table changes the job (Family / "Name one instrument you heard"), so it is a listening record rather than a definition drill. Lesson 6 was left alone (it already has the timbre word bank and a book-table task); Lessons 3 and 9 are writing lessons.
 
 **Still open:**
 
@@ -22,4 +33,4 @@
 - No school name and no school brand assets anywhere, including repo, org and README. Recorded product rule, not a preference.
 - First Nations content (Lessons 22/23) follows the ICIP protocol note in the data: artist-approved recordings only, no sacred or restricted material.
 
-**Last commit:** `dd62452 Add fill-in tables for dynamics and expression words in Lesson 7` (pushed to `Edwards-Resources/year10-music-2026`).
+**Last commit:** `dff6f88 Add fill-in tables to the rest of the elements lessons` (pushed to `Edwards-Resources/year10-music-2026`).
