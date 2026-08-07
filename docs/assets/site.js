@@ -36,6 +36,36 @@
     });
   }
 
+  /* Fill-in tables keep what was typed, per lesson, on this device only, so a
+     phone locking mid-lesson does not wipe the class's work. */
+  if (lessonKey) {
+    document.querySelectorAll(".blk-gap").forEach(function (blk) {
+      var gapStore = "gap-" + lessonKey + "-" + blk.getAttribute("data-gap-key");
+      var answers = {};
+      try { answers = JSON.parse(localStorage.getItem(gapStore) || "{}"); } catch (e) {}
+      var inputs = blk.querySelectorAll(".gap-in");
+      inputs.forEach(function (input) {
+        var n = input.getAttribute("data-gap");
+        if (answers[n]) input.value = answers[n];
+        input.addEventListener("input", function () {
+          var out = {};
+          inputs.forEach(function (b) {
+            if (b.value.trim()) out[b.getAttribute("data-gap")] = b.value;
+          });
+          try { localStorage.setItem(gapStore, JSON.stringify(out)); } catch (e) {}
+        });
+      });
+      var clear = blk.querySelector(".gap-clear");
+      if (clear) {
+        clear.addEventListener("click", function () {
+          inputs.forEach(function (b) { b.value = ""; });
+          try { localStorage.removeItem(gapStore); } catch (e) {}
+          inputs[0].focus();
+        });
+      }
+    });
+  }
+
   /* Doodle arrows draw themselves in as they enter the viewport. */
   var arrows = document.querySelectorAll(".draw-on");
   if (arrows.length && !reduced && "IntersectionObserver" in window) {

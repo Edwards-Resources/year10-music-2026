@@ -30,6 +30,10 @@ def e(s):
     return html.escape(str(s), quote=True)
 
 
+def slug(s):
+    return "".join(c if c.isalnum() else "-" for c in str(s).lower()).strip("-")
+
+
 def write(path_parts, markup):
     path = os.path.join(OUT, *path_parts)
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -255,6 +259,31 @@ def block_html(block):
             '<section class="blk blk-panel blk-def inked-b">'
             f'<h2 class="tab">{e(block.get("title", "Word bank"))}</h2>'
             f'<ul class="wordbank">{words}</ul></section>'
+        )
+
+    if t == "gapfill":
+        # A term-and-meaning table students fill in on screen. Answers are not in
+        # the page: this is filled in together, not self-marked.
+        key = slug(block["title"])
+        cols = block.get("columns", ["Word", "What it means"])
+        rows = "".join(
+            f'<tr><th scope="row"><span class="hl-teal">{e(term)}</span></th>'
+            f'<td><input type="text" class="gap-in" data-gap="{i}" '
+            f'aria-label="{e(cols[1])} for {e(term)}" '
+            f'autocomplete="off" autocapitalize="none" spellcheck="false"></td></tr>'
+            for i, term in enumerate(block["rows"])
+        )
+        prompt = f'<p class="gap-prompt">{e(block["prompt"])}</p>' if block.get("prompt") else ""
+        return (
+            f'<section class="blk blk-panel blk-gap inked-c" id="{e(key)}" data-gap-key="{e(key)}">'
+            f'<h2 class="tab tab-yellow">{e(block["title"])}</h2>'
+            f"{prompt}"
+            '<div class="gap-scroll"><table class="gaptable">'
+            f"<thead><tr><th>{e(cols[0])}</th><th>{e(cols[1])}</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table></div>"
+            '<p class="gap-tools"><button type="button" class="gap-clear">Clear this table</button>'
+            '<span class="gap-saved">Your answers stay on this device.</span></p>'
+            "</section>"
         )
 
     if t == "activity":

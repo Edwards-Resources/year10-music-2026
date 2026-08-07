@@ -525,6 +525,60 @@ a:hover { text-decoration-thickness: 3px; }
 .wordbank { display: flex; flex-wrap: wrap; gap: 0.5rem 0.7rem; list-style: none; margin: 0; padding: 0; }
 .wordbank .hl-teal { padding: 0.05em 0.35em; font-family: var(--marker); font-size: 0.95rem; }
 
+/* Fill-in tables: a term on the left, a ruled line to write on at the right.
+   The line is the input's own bottom border, so it looks like paper but takes
+   typing on a phone or off the projector. */
+.blk-gap { padding-bottom: 1.1rem; }
+.gap-prompt { font-family: var(--hand); font-size: 1.35rem; color: var(--soft); margin-bottom: 0.9rem; }
+.gap-scroll { overflow-x: auto; }
+.gaptable { width: 100%; border-collapse: collapse; min-width: 16rem; }
+.gaptable thead th {
+  font-family: var(--marker);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--soft);
+  padding: 0 0.4rem 0.35rem;
+  border-bottom: var(--line);
+}
+.gaptable tbody th {
+  text-align: left;
+  font-weight: 400;
+  padding: 0.5rem 0.9rem 0.5rem 0;
+  width: 42%;
+  vertical-align: baseline;
+}
+.gaptable tbody th .hl-teal { font-family: var(--marker); font-size: 1.05rem; padding: 0.05em 0.35em; }
+.gaptable td { padding: 0.5rem 0.4rem 0.5rem 0; vertical-align: baseline; }
+.gap-in {
+  width: 100%;
+  font-family: var(--hand);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  border-bottom: 2.5px dashed var(--ink);
+  border-radius: 0;
+  padding: 0.15rem 0.4rem;
+}
+.gap-in:focus { outline: 0; border-bottom-style: solid; background: var(--teal-dim); }
+.gap-in:focus-visible { outline: 0; }
+.gap-tools { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-top: 1rem; }
+.gap-clear {
+  font: inherit;
+  font-family: var(--marker);
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: transparent;
+  border: 2.5px solid var(--ink);
+  border-radius: var(--wob-a);
+  padding: 0.2em 0.9em 0.28em;
+  cursor: pointer;
+}
+.gap-clear:hover { background: var(--yellow); }
+.gap-saved { font-family: var(--hand); font-size: 1.25rem; color: var(--soft); }
+
 .video {
   position: relative;
   aspect-ratio: 16 / 9;
