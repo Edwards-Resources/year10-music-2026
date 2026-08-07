@@ -31,7 +31,10 @@ def e(s):
 
 
 def slug(s):
-    return "".join(c if c.isalnum() else "-" for c in str(s).lower()).strip("-")
+    out = "".join(c if c.isalnum() else "-" for c in str(s).lower())
+    while "--" in out:
+        out = out.replace("--", "-")
+    return out.strip("-")
 
 
 def write(path_parts, markup):

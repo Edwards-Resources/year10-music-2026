@@ -55,8 +55,26 @@
               "items": [
                 "Listen to the track and jot down anything you hear.",
                 "Meet the six elements of music: duration, pitch, texture, performing media & timbre, dynamics & expression, structure.",
+                "Fill in the elements table on this page as we meet each one.",
                 "Add each term to your listening glossary.",
                 "Listen again and tag what you hear to an element."
+              ]
+            },
+            {
+              "type": "gapfill",
+              "title": "The six elements",
+              "prompt": "We fill this in together as we meet each one. Write what you listen for.",
+              "columns": [
+                "Element",
+                "What you listen for"
+              ],
+              "rows": [
+                "Duration",
+                "Pitch",
+                "Texture",
+                "Performing media and timbre",
+                "Dynamics and expression",
+                "Structure"
               ]
             },
             {
@@ -93,6 +111,61 @@
               "text": "How high or low the notes are, and what the melody does: does it climb, fall, stay put?"
             },
             {
+              "type": "gapfill",
+              "title": "Duration words",
+              "prompt": "We fill these in together. Write what each one means.",
+              "columns": [
+                "Word",
+                "What it means"
+              ],
+              "rows": [
+                "Beat",
+                "Tempo",
+                "Metre",
+                "Rhythm",
+                "Ostinato",
+                "Syncopation"
+              ]
+            },
+            {
+              "type": "gapfill",
+              "title": "Tempo words (Italian)",
+              "prompt": "Same again. These are the words on the score that tell you the speed.",
+              "columns": [
+                "Italian term",
+                "What it means in English"
+              ],
+              "rows": [
+                "Largo",
+                "Adagio",
+                "Andante",
+                "Moderato",
+                "Allegro",
+                "Presto",
+                "Accelerando (accel.)",
+                "Rallentando (rall.)"
+              ]
+            },
+            {
+              "type": "gapfill",
+              "title": "Pitch words",
+              "prompt": "And the pitch half of the lesson.",
+              "columns": [
+                "Word",
+                "What it means"
+              ],
+              "rows": [
+                "Melody",
+                "Contour",
+                "Range",
+                "Interval",
+                "Step",
+                "Leap",
+                "Scale",
+                "Octave"
+              ]
+            },
+            {
               "type": "media",
               "n": 1,
               "brief": "A short rhythmic example (clear beat and metre) and a short melodic example (clear melody) , one of each.",
@@ -104,6 +177,7 @@
               "items": [
                 "Recap: duration = beat, tempo, metre, rhythm. Pitch = melody, contour, range.",
                 "Write the definitions of duration and pitch in your books.",
+                "Fill in the duration, tempo and pitch tables on this page as we work through them.",
                 "Clap or play the rhythm patterns as a class.",
                 "Play or sing the short melodies and describe their shape.",
                 "Listen and identify these features by ear."
@@ -209,11 +283,33 @@
               "text": "Two or more independent melodic lines combined."
             },
             {
+              "type": "gapfill",
+              "title": "More texture words",
+              "prompt": "The three texture types are defined above. These are the other words we use about layers.",
+              "columns": [
+                "Word",
+                "What it means"
+              ],
+              "rows": [
+                "Unison",
+                "A cappella",
+                "Canon (round)",
+                "Drone",
+                "Countermelody",
+                "Accompaniment",
+                "Imitation",
+                "Thick texture",
+                "Thin texture",
+                "Layer"
+              ]
+            },
+            {
               "type": "steps",
               "title": "What we are doing",
               "items": [
                 "Read the texture definition and each texture type.",
                 "Listen to the excerpt after each definition and check it matches.",
+                "Fill in the texture words table on this page as we listen.",
                 "In groups, build a texture by adding one layer at a time.",
                 "Describe how the texture changed as layers were added."
               ]
@@ -247,6 +343,44 @@
               "text": "What's making the sound, and what it actually sounds like — an instrument's ‘personality’."
             },
             {
+              "type": "gapfill",
+              "title": "Performing media words",
+              "prompt": "We fill these in together. Write what each one means.",
+              "columns": [
+                "Word",
+                "What it means"
+              ],
+              "rows": [
+                "Solo",
+                "Duet",
+                "Trio",
+                "Quartet",
+                "Ensemble",
+                "Orchestra",
+                "Choir",
+                "A cappella",
+                "Rhythm section"
+              ]
+            },
+            {
+              "type": "gapfill",
+              "title": "Instrument families",
+              "prompt": "Different job: name one instrument you heard from each family.",
+              "columns": [
+                "Family",
+                "Name one instrument you heard"
+              ],
+              "rows": [
+                "Strings",
+                "Woodwind",
+                "Brass",
+                "Percussion",
+                "Keyboard",
+                "Electronic",
+                "Voice"
+              ]
+            },
+            {
               "type": "media",
               "n": 1,
               "brief": "World: a raga on solo sitar — a distinctive, sustained plucked-string timbre.",
@@ -270,6 +404,7 @@
               "items": [
                 "Recap: performing media = the sound sources; timbre = their tone colour.",
                 "Listen and build a class ‘timbre word bank’ (bright, warm, harsh, mellow, etc.).",
+                "Fill in the performing media and instrument family tables on this page as we go.",
                 "Play an instrument ID quiz with short clips.",
                 "Match a timbre word to each instrument you hear."
               ]
@@ -510,11 +645,34 @@
               "text": "Ternary (ABA): a section, a contrasting middle, then a return to the start. Theme and variation: one melody, dressed up differently each time it repeats."
             },
             {
+              "type": "gapfill",
+              "title": "Structure words",
+              "prompt": "The forms are defined above. These are the section names we use inside them.",
+              "columns": [
+                "Word",
+                "What it means"
+              ],
+              "rows": [
+                "Intro",
+                "Verse",
+                "Pre-chorus",
+                "Chorus",
+                "Bridge",
+                "Instrumental (solo)",
+                "Outro (coda)",
+                "Riff",
+                "Hook",
+                "Repetition",
+                "Contrast"
+              ]
+            },
+            {
               "type": "steps",
               "title": "What we are doing",
               "items": [
                 "Recap forms: verse-chorus, 12-bar blues, ternary (ABA), theme and variation.",
                 "Listen and map the sections of each excerpt.",
+                "Fill in the structure words table on this page as we map each excerpt.",
                 "Discuss what tells you a new section has started (a change in an element).",
                 "Compare how the three structures are organised."
               ]
