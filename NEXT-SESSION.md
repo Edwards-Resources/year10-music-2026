@@ -1,20 +1,14 @@
 # Next session
 
-**Where things stand (9 August 2026):** Site live at **https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on `/docs`, `noindex` confirmed). Two units now: Sound Detectives (Term 3, 28 lessons, complete) and Depth Study (Term 4, **2 of 5 steps built**).
+**Where things stand (9 August 2026):** Site live at **https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on `/docs`, `noindex` confirmed). Two units, both complete: Sound Detectives (Term 3, 28 lessons) and Depth Study (Term 4, all 5 steps plus the three marking rubrics).
 
-## The next task: finish the Depth Study
+## Depth Study: done
 
-Steps 3, 4 and 5, plus the three marking rubrics. Everything they need exists.
+All five steps are built and live: Choose your project, Write your proposal, Develop it, Refine and finalise, Present it. Step 4 carries all three marking rubrics (Performing, Composing, Listening and Investigation), pulled verbatim from `Year 10 (2026)/Program and Assessment/AT4 Depth Study/AT4 Task Notification Depth Study.docx`, tables 1 to 3.
 
-| Step | Covers | Program reference |
-| --- | --- | --- |
-| 3. Develop it | Progress checks, peer feedback, the process journal | Wk2-3, L4-8 |
-| 4. Refine and finalise | Self-assessment against success criteria, submission checklist | Wk3-4, L9-10 |
-| 5. Present it | The spoken introduction, the showcase, audience feedback | Wk4, L11-12 |
+Building the rubrics added a new **`rubric` block type** to `build.py` (see `block_html`, and the `.rubric-*` / `.band-*` rules in `assets/site.css`): one panel per criterion, bands listed rather than a five-column table (unreadable on a phone), with the mark-to-grade legend (A 17-20 / B 13-16 / C 9-12 / D 5-8 / E 0-4) drawn once above the criteria rather than repeated on every panel. Reuse this block type for any future rubric on this site or the Year 8 one.
 
-The one component still to build is a **`rubric` block**. The three rubrics (Performing, Composing, Listening) share a structure: four criteria at 5 marks each, five bands A to E, mark-to-grade A 17-20 / B 13-16 / C 9-12 / D 5-8 / E 0-4. **Do not render them as five-column tables**; that is unreadable on a phone. One panel per criterion with the bands as a list. All three rubrics are in `Year 10 (2026)/Program and Assessment/AT4 Depth Study/AT4 Task Notification Depth Study.docx`, tables 1 to 3.
-
-**Model and effort: Sonnet, medium.** Page shape and block types are settled; this is content assembly plus one component.
+Verified in-browser: content renders correctly on all three new pages, no console errors, no horizontal overflow at 390px width (`document.documentElement.scrollWidth === clientWidth`), and the `.gap-in-multi` textarea trap (below) still holds.
 
 ### The depth study's design decisions, already made
 
@@ -22,6 +16,7 @@ The one component still to build is a **`rubric` block**. The three rubrics (Per
 - **No position marker, ever, on this unit.** Every student is on a different project, so a single "we are up to" claim is wrong for the whole class rather than merely stale. `up_to()` returns None for a topic with no `position` key, and such a topic never becomes the home dashboard's subject. **When Term 4 starts and the dashboard should move to the depth study, do not solve it by adding a position** - that is a build.py change, not a data change.
 - **Milestones are the honest substitute.** Baked at build time and recomputed by site.js from `[data-mile-date]`, because the page sits for weeks between rebuilds.
 - **The unit has no crow pose.** The cover is data-driven (`topic.cover`) and renders text-only rather than borrowing Sound Detectives' deerstalker, which belongs to a listening unit. Generating one is ~10 minutes: the exact recipe (fal-ai/nano-banana-pro, 1:1, 2K, scratchy black ink marker sketch on flat warm cream) is in `assets/img/crow-detective.webp.json`. Match the paper ground exactly or it will not sit borderless.
+- **Rubric bands are per-criterion text, mark ranges are rubric-level.** The task notification's table repeats "A (17-20)" as a column header across all four criteria; that is a total-rubric mark range, not a per-row one, so the JSON stores `bandRanges` once on the rubric block and each criterion only carries `[letter, text]` pairs.
 
 ### Two traps this increment found
 
@@ -48,7 +43,7 @@ Three judgement calls, all easy to reverse if Matthew disagrees: Lessons 4 and 8
 1. **NSW DoE publishing policy** - checked 5 August, no definitive ruling found. The Social Media Policy (PD-2011-0418) plausibly covers a role-connected public site, and the DoE Code of Conduct asserts the Department generally owns copyright in material staff create in connection with their employment. Matthew to raise with his Head Teacher or DoE legal (`legal@det.nsw.edu.au`) before the URL goes to students. Site already has no-index and no school branding as a precaution.
 2. **Optional, only if Matthew asks:** a revision variant of `gapfill` that reveals answers (currently by design it does not), and/or porting the Year 8 site's general `table` block (any blank cell becomes a typeable field, `Sites/year8-music/build.py` line ~303) to Year 10 for multi-column worksheets. The two sites are separate codebases, so nothing is shared automatically.
 
-**Model/effort:** Sonnet, low-medium - remaining work here is routine content and small build tweaks, no design decisions pending.
+**Model/effort:** Sonnet, low-medium - both units are now content-complete; remaining work is optional polish or new units, no design decisions pending.
 
 **Watch out for:**
 - `docs/` is generated; edit `data/` and `build.py`, then rebuild with `python3 build.py`. Commit and push, or the live Pages site does not update.
@@ -61,8 +56,8 @@ Three judgement calls, all easy to reverse if Matthew disagrees: Lessons 4 and 8
 - No school name and no school brand assets anywhere, including repo, org and README. Recorded product rule, not a preference.
 - First Nations content (Lessons 22/23) follows the ICIP protocol note in the data: artist-approved recordings only, no sacred or restricted material.
 
-**Last commit:** `6b194af Add the Term 4 Depth Study unit, and correct two outcome statements` (pushed and deployment verified, 9 August 2026). Verify the deployment rather than the push:
+**Last commit:** `3c2c31e Finish the Depth Study: steps 3-5 and the three marking rubrics` (pushed and deployment verified, 9 August 2026). Verify a fresh deployment rather than trusting the push:
 
 ```bash
-curl -s "https://edwards-resources.github.io/year10-music-2026/10mus1-2026/depth-study/" | grep -c "Your milestones"
+curl -s "https://edwards-resources.github.io/year10-music-2026/10mus1-2026/depth-study/step-4/" | grep -c "Performing rubric"
 ```
