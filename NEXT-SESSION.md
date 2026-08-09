@@ -1,6 +1,34 @@
 # Next session
 
-**Where things stand (7 August 2026):** Site live at **https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on `/docs`, `noindex` confirmed). Every listening slot in the Elements Toolkit unit (Lessons 1-27) is filled; Lesson 27 is deliberately `studentSupplied` and Lessons 28-30 have no media blocks.
+**Where things stand (9 August 2026):** Site live at **https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on `/docs`, `noindex` confirmed). Two units now: Sound Detectives (Term 3, 28 lessons, complete) and Depth Study (Term 4, **2 of 5 steps built**).
+
+## The next task: finish the Depth Study
+
+Steps 3, 4 and 5, plus the three marking rubrics. Everything they need exists.
+
+| Step | Covers | Program reference |
+| --- | --- | --- |
+| 3. Develop it | Progress checks, peer feedback, the process journal | Wk2-3, L4-8 |
+| 4. Refine and finalise | Self-assessment against success criteria, submission checklist | Wk3-4, L9-10 |
+| 5. Present it | The spoken introduction, the showcase, audience feedback | Wk4, L11-12 |
+
+The one component still to build is a **`rubric` block**. The three rubrics (Performing, Composing, Listening) share a structure: four criteria at 5 marks each, five bands A to E, mark-to-grade A 17-20 / B 13-16 / C 9-12 / D 5-8 / E 0-4. **Do not render them as five-column tables**; that is unreadable on a phone. One panel per criterion with the bands as a list. All three rubrics are in `Year 10 (2026)/Program and Assessment/AT4 Depth Study/AT4 Task Notification Depth Study.docx`, tables 1 to 3.
+
+**Model and effort: Sonnet, medium.** Page shape and block types are settled; this is content assembly plus one component.
+
+### The depth study's design decisions, already made
+
+- **Steps, not lessons.** The registered program has a 12-lesson spine, but six of those lessons are "Development 3", "Development 4". A student page saying "keep working" is useless, so the site carries five steps and the 12-lesson spine stays in the registered program where it belongs. `pageWord` / `pageSlug` on the topic control this.
+- **No position marker, ever, on this unit.** Every student is on a different project, so a single "we are up to" claim is wrong for the whole class rather than merely stale. `up_to()` returns None for a topic with no `position` key, and such a topic never becomes the home dashboard's subject. **When Term 4 starts and the dashboard should move to the depth study, do not solve it by adding a position** - that is a build.py change, not a data change.
+- **Milestones are the honest substitute.** Baked at build time and recomputed by site.js from `[data-mile-date]`, because the page sits for weeks between rebuilds.
+- **The unit has no crow pose.** The cover is data-driven (`topic.cover`) and renders text-only rather than borrowing Sound Detectives' deerstalker, which belongs to a listening unit. Generating one is ~10 minutes: the exact recipe (fal-ai/nano-banana-pro, 1:1, 2K, scratchy black ink marker sketch on flat warm cream) is in `assets/img/crow-detective.webp.json`. Match the paper ground exactly or it will not sit borderless.
+
+### Two traps this increment found
+
+- **`.gap-in-multi` must stay after `.gap-in` in site.css.** Both are single-class weight, `.gap-in` sets `border: 0`, so source order is the only thing making the textarea a box instead of a bare dashed rule. It shipped wrong once and the screenshot caught it.
+- **Outcome statements on this site were paraphrased.** MU5-LIS-01 and MU5-LIS-02 were corrected on 9 August against the NESA PDF (`Syllabus Reference/Music 7-10 (2024)/NESA - music_7_10_2024 (S4, S5, LS).pdf`, table of outcomes, p13-14). MU5-LIS-02 had been carrying "musical concepts", which is 2009 syllabus language on a 2024 syllabus course. **Assume nothing about outcome wording already in `data/`; check it against the PDF.**
+
+**Earlier state (7 August 2026):** Every listening slot in the Elements Toolkit unit (Lessons 1-27) is filled; Lesson 27 is deliberately `studentSupplied` and Lessons 28-30 have no media blocks.
 
 **Done 7 August:** a new reusable `gapfill` block type, and nine fill-in tables across the elements lessons. Typed answers save to `localStorage` per lesson **per table**, each table has its own Clear button, and each gets an id from its title (`#dynamics-words`, `#tempo-words-italian`) so a single table can be linked to directly. No answers are stored in the page: these are filled in together, not self-marked. Pushed and live.
 
@@ -33,4 +61,8 @@ Three judgement calls, all easy to reverse if Matthew disagrees: Lessons 4 and 8
 - No school name and no school brand assets anywhere, including repo, org and README. Recorded product rule, not a preference.
 - First Nations content (Lessons 22/23) follows the ICIP protocol note in the data: artist-approved recordings only, no sacred or restricted material.
 
-**Last commit:** `dff6f88 Add fill-in tables to the rest of the elements lessons` (pushed to `Edwards-Resources/year10-music-2026`).
+**Last commit:** `6b194af Add the Term 4 Depth Study unit, and correct two outcome statements` (pushed and deployment verified, 9 August 2026). Verify the deployment rather than the push:
+
+```bash
+curl -s "https://edwards-resources.github.io/year10-music-2026/10mus1-2026/depth-study/" | grep -c "Your milestones"
+```
