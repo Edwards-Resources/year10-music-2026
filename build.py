@@ -391,6 +391,36 @@ def block_html(block):
             f'<p>{e(block["text"])}</p></section>'
         )
 
+    if t == "rubric":
+        # One panel per criterion with the bands listed, not a five-column
+        # table: a table that wide does not survive a phone screen. The mark
+        # ranges are shared across the whole rubric (they describe the total,
+        # not each 5-mark row), so they are drawn once as a legend rather than
+        # repeated on every criterion.
+        legend = "".join(
+            f'<li><span class="band-chip">{e(letter)}</span>'
+            f'<span class="band-range">{e(rng)}</span></li>'
+            for letter, rng in block["bandRanges"]
+        )
+        lead = f'<p class="rubric-lead">{e(block["lead"])}</p>' if block.get("lead") else ""
+        cards = []
+        for i, c in enumerate(block["criteria"]):
+            wob = ["inked", "inked-b", "inked-c"][i % 3]
+            bands = "".join(
+                f'<li class="rubric-band"><span class="band-tag">{e(letter)}</span>'
+                f'<span>{e(text)}</span></li>'
+                for letter, text in c["bands"]
+            )
+            cards.append(
+                f'<li class="rubric-crit {wob}"><h3 class="tab">{e(c["name"])}</h3>'
+                f'<ul class="rubric-bands">{bands}</ul></li>'
+            )
+        return (
+            f'<section class="blk"><h2>{e(block["title"])}</h2>{lead}'
+            f'<ul class="rubric-legend">{legend}</ul>'
+            f'<ul class="rubriclist">{"".join(cards)}</ul></section>'
+        )
+
     if t == "media":
         if block["embed"]:
             brief = f'<p class="media-brief">{e(block["brief"])}</p>' if block.get("brief") else ""

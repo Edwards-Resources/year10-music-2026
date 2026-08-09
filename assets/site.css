@@ -644,6 +644,35 @@ a:hover { text-decoration-thickness: 3px; }
 .gap-clear:hover { background: var(--yellow); }
 .gap-saved { font-family: var(--hand); font-size: 1.25rem; color: var(--soft); }
 
+/* Rubric: one panel per criterion, bands listed rather than a five-column
+   table, because a table that wide does not survive a phone screen. The mark
+   ranges are shared across the whole rubric, so they sit once as a legend
+   above the criteria rather than repeating on every panel. */
+.rubric-lead { color: var(--soft); max-width: 68ch; margin-top: -0.2rem; }
+.rubric-legend {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.1rem;
+  margin: 0.9rem 0 0.3rem;
+}
+.rubric-legend li { display: flex; align-items: baseline; gap: 0.4rem; }
+.band-chip {
+  font-family: var(--marker);
+  font-size: 0.85rem;
+  background: var(--yellow);
+  border: 2px solid var(--ink);
+  border-radius: 6px 10px 7px 11px / 11px 7px 10px 6px;
+  padding: 0.02em 0.5em;
+}
+.band-range { font-family: var(--hand); font-size: 1.2rem; color: var(--soft); }
+.rubriclist { list-style: none; display: grid; gap: 1.6rem; margin-top: 1.2rem; }
+.rubric-crit { position: relative; padding: 1.7rem 1.4rem 1.3rem; }
+.rubric-crit > .tab { position: absolute; top: -1.05rem; left: 1rem; }
+.rubric-bands { list-style: none; display: grid; gap: 0.6rem; margin-top: 0.3rem; }
+.rubric-band { display: grid; grid-template-columns: 2.3rem minmax(0, 1fr); gap: 0.7rem; align-items: baseline; }
+.band-tag { font-family: var(--marker); font-size: 1rem; }
+
 .video {
   position: relative;
   aspect-ratio: 16 / 9;
@@ -729,6 +758,7 @@ a:hover { text-decoration-thickness: 3px; }
   .mile-state { grid-column: 2; grid-row: 1; justify-self: end; }
   .mile-body { grid-column: 1 / -1; grid-row: 2; }
   .idea-tiers li { grid-template-columns: 1fr; gap: 0.1rem; }
+  .rubric-band { grid-template-columns: 1fr; gap: 0.1rem; }
   .today-body { grid-template-columns: 1fr; }
   .today-crow-spot { justify-self: end; margin-top: -1.6rem; }
   .today-crow { width: 140px; }

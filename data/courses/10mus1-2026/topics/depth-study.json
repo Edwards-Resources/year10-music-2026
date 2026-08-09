@@ -233,6 +233,418 @@
           ]
         }
       ]
+    },
+    {
+      "number": 2,
+      "label": "Term 4, Weeks 1 to 3",
+      "title": "Developing it",
+      "intro": "The longest stretch of the unit. You build your product, get feedback twice, and keep a running record of your thinking so the write-up for your presentation is easy at the end.",
+      "lessons": [
+        {
+          "number": 3,
+          "week": 2,
+          "where": "worked on across Term 4, Weeks 1 to 3",
+          "title": "Develop it",
+          "intention": "I can work steadily on my project, use feedback to improve it, and keep a process journal that shows my thinking.",
+          "criteria": [
+            "I can show what I have done against my plan at each progress check",
+            "I can give a classmate one strength and one next step, and use feedback I am given",
+            "I can keep a process journal that records what I did, what I changed, and why"
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Process journal",
+              "text": "A short, regular record of your project as you make it: what you worked on, what you changed and why, and what you will do next. It is not a diary of feelings, it is evidence of your thinking, and it is what makes your spoken introduction easy to write later."
+            },
+            {
+              "type": "steps",
+              "title": "What a good journal entry has",
+              "items": [
+                "What you actually did this session, in one line.",
+                "One decision you made and the reason for it. \"I changed the key because...\" is worth more than \"I worked on the chorus.\"",
+                "One thing you will do next session, so you do not lose ten minutes remembering where you were."
+              ]
+            },
+            {
+              "type": "formfill",
+              "title": "Journal entry",
+              "prompt": "Fill this in at the end of a work session. It only holds one entry at a time, so copy it somewhere safe (a notes app, a photo, your workbook) before you clear it and write the next one.",
+              "rows": [
+                {
+                  "label": "Date and session",
+                  "prompt": "Which lesson or session is this?",
+                  "lines": 1
+                },
+                {
+                  "label": "What I worked on",
+                  "prompt": "What did you actually do this session?",
+                  "lines": 2
+                },
+                {
+                  "label": "What I changed and why",
+                  "prompt": "Any decision you made and the reason for it.",
+                  "lines": 3
+                },
+                {
+                  "label": "What's next",
+                  "prompt": "What will you do in your next session?",
+                  "lines": 2
+                }
+              ]
+            },
+            {
+              "type": "formfill",
+              "title": "Peer feedback",
+              "prompt": "Use this with your feedback partner at each progress check (Term 4, Week 2 and Week 3). Swap roles: fill it in for their project, then have them fill it in for yours.",
+              "rows": [
+                {
+                  "label": "Whose project",
+                  "prompt": "Who are you giving feedback to?",
+                  "lines": 1
+                },
+                {
+                  "label": "What I saw or heard",
+                  "prompt": "Describe what they showed you, without judging it yet.",
+                  "lines": 2
+                },
+                {
+                  "label": "One strength",
+                  "prompt": "What is working well?",
+                  "lines": 2
+                },
+                {
+                  "label": "One next step",
+                  "prompt": "What is the single most useful thing they could do next?",
+                  "lines": 2
+                }
+              ]
+            },
+            {
+              "type": "exit",
+              "text": "One sentence: what did this progress check tell you to change?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "Term 4, Weeks 3 to 4",
+      "title": "Refining and finalising",
+      "intro": "You compare your work honestly against the rubric for your focus area, fix the highest-impact gaps first, and check your submission is actually ready before the due date.",
+      "lessons": [
+        {
+          "number": 4,
+          "week": 3,
+          "where": "worked on in Term 4, Weeks 3 and 4",
+          "title": "Refine and finalise",
+          "intention": "I can check my project against the rubric for my focus area, fix the gaps that matter most, and get it ready to submit.",
+          "criteria": [
+            "I can compare my work honestly against the rubric for my focus area",
+            "I can pick the highest-impact fix for the time I have left",
+            "I can check my submission is complete before the due date"
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "How to self-assess without kidding yourself",
+              "items": [
+                "Read all five bands for a criterion before you decide where you sit, not just the top one. The middle bands describe most real projects.",
+                "Be specific. \"I'm okay at technique\" is not a self-assessment; \"my technique is secure in the first half but breaks down in the fast section\" is.",
+                "Fix the biggest gap first. A perfect ending on a project that is not finished scores worse than a finished project with a rough ending."
+              ]
+            },
+            {
+              "type": "rubric",
+              "title": "Performing rubric",
+              "lead": "Four criteria, 5 marks each, 20 marks total. Use this if your focus area is Performing.",
+              "bandRanges": [
+                ["A", "17-20"],
+                ["B", "13-16"],
+                ["C", "9-12"],
+                ["D", "5-8"],
+                ["E", "0-4"]
+              ],
+              "criteria": [
+                {
+                  "name": "Technical control and accuracy",
+                  "bands": [
+                    ["A", "Highly developed, fluent and secure technique throughout; negligible errors."],
+                    ["B", "Strong control; mostly fluent with minor inconsistencies."],
+                    ["C", "Sound control; generally accurate with some errors."],
+                    ["D", "Limited control; frequent errors affect the performance."],
+                    ["E", "Minimal control; performance is insecure."]
+                  ]
+                },
+                {
+                  "name": "Expression and stylistic interpretation",
+                  "bands": [
+                    ["A", "Sophisticated, consistent expression and stylistic understanding."],
+                    ["B", "Effective expression and mostly appropriate style."],
+                    ["C", "Some expression and stylistic awareness; inconsistent."],
+                    ["D", "Limited expression or stylistic awareness."],
+                    ["E", "Little or no expression or stylistic awareness."]
+                  ]
+                },
+                {
+                  "name": "Realisation of intention and repertoire choice",
+                  "bands": [
+                    ["A", "Ambitious, well-chosen program fully realised as intended."],
+                    ["B", "Suitable program realised well."],
+                    ["C", "Reasonable program partly realised."],
+                    ["D", "Simple program with limited realisation."],
+                    ["E", "Program not realised."]
+                  ]
+                },
+                {
+                  "name": "Presentation and communication",
+                  "bands": [
+                    ["A", "Confident, engaging presentation with a clear spoken introduction."],
+                    ["B", "Clear presentation and introduction."],
+                    ["C", "Adequate presentation; introduction lacks detail."],
+                    ["D", "Basic presentation; little communication."],
+                    ["E", "Minimal presentation."]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rubric",
+              "title": "Composing rubric",
+              "lead": "Four criteria, 5 marks each, 20 marks total. Use this if your focus area is Composing.",
+              "bandRanges": [
+                ["A", "17-20"],
+                ["B", "13-16"],
+                ["C", "9-12"],
+                ["D", "5-8"],
+                ["E", "0-4"]
+              ],
+              "criteria": [
+                {
+                  "name": "Manipulation and combination of the elements of music",
+                  "bands": [
+                    ["A", "Manipulates and combines elements with control and imagination throughout."],
+                    ["B", "Manipulates and combines several elements effectively."],
+                    ["C", "Uses some elements with limited combination."],
+                    ["D", "Uses few elements with little control."],
+                    ["E", "Minimal control of the elements."]
+                  ]
+                },
+                {
+                  "name": "Stylistic understanding and musical expression",
+                  "bands": [
+                    ["A", "Strong, consistent style and expressive intent."],
+                    ["B", "Clear style and expression with minor lapses."],
+                    ["C", "Some stylistic understanding and expression."],
+                    ["D", "Limited stylistic understanding."],
+                    ["E", "Little or no stylistic understanding."]
+                  ]
+                },
+                {
+                  "name": "Structure, development and realisation of intention",
+                  "bands": [
+                    ["A", "Well-structured, developed work that fully realises the concept."],
+                    ["B", "Clear structure and development; concept realised."],
+                    ["C", "Basic structure; concept partly realised."],
+                    ["D", "Weak structure; limited realisation."],
+                    ["E", "Little structure or realisation."]
+                  ]
+                },
+                {
+                  "name": "Presentation and communication (demo and spoken introduction)",
+                  "bands": [
+                    ["A", "Polished recording or demo with a clear spoken introduction."],
+                    ["B", "Good-quality demo and clear introduction."],
+                    ["C", "Adequate demo; introduction lacks detail."],
+                    ["D", "Basic demo; little communication."],
+                    ["E", "Minimal demo or communication."]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rubric",
+              "title": "Listening and Investigation rubric",
+              "lead": "Four criteria, 5 marks each, 20 marks total. Use this if your focus area is Listening and Investigation.",
+              "bandRanges": [
+                ["A", "17-20"],
+                ["B", "13-16"],
+                ["C", "9-12"],
+                ["D", "5-8"],
+                ["E", "0-4"]
+              ],
+              "criteria": [
+                {
+                  "name": "Analysis of how the elements of music are used",
+                  "bands": [
+                    ["A", "Precise, insightful analysis of how elements are manipulated and combined."],
+                    ["B", "Clear analysis of several elements and how they combine."],
+                    ["C", "Some analysis; mostly description."],
+                    ["D", "Limited analysis; mainly lists elements."],
+                    ["E", "Minimal analysis."]
+                  ]
+                },
+                {
+                  "name": "Understanding of style and context",
+                  "bands": [
+                    ["A", "Thorough understanding of stylistic, cultural, historical or social context."],
+                    ["B", "Good understanding of context with relevant links."],
+                    ["C", "Some understanding of context."],
+                    ["D", "Limited understanding of context."],
+                    ["E", "Little or no context."]
+                  ]
+                },
+                {
+                  "name": "Musical evidence and terminology",
+                  "bands": [
+                    ["A", "Uses precise terminology and well-chosen musical examples throughout."],
+                    ["B", "Uses correct terminology and relevant examples."],
+                    ["C", "Some terminology and examples; not always accurate."],
+                    ["D", "Limited terminology or examples."],
+                    ["E", "Little accurate terminology."]
+                  ]
+                },
+                {
+                  "name": "Presentation and communication (multimodal or viva voce)",
+                  "bands": [
+                    ["A", "Clear, well-structured, engaging presentation with confident delivery."],
+                    ["B", "Clear, structured presentation."],
+                    ["C", "Adequate presentation; structure uneven."],
+                    ["D", "Basic presentation; unclear in places."],
+                    ["E", "Minimal or unclear presentation."]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "formfill",
+              "title": "Self-assessment against the rubric",
+              "prompt": "Find the rubric for your focus area above. For each of the four criteria, decide honestly which band you are closest to right now.",
+              "rows": [
+                {
+                  "label": "My focus area",
+                  "prompt": "Performing, Composing, or Listening and Investigation?",
+                  "lines": 1
+                },
+                {
+                  "label": "Where I am strong",
+                  "prompt": "Which criterion and band are you closest to at the top end?",
+                  "lines": 2
+                },
+                {
+                  "label": "Where I need to improve most",
+                  "prompt": "Which criterion and band are you weakest in, and what would move it up a band?",
+                  "lines": 3
+                },
+                {
+                  "label": "My plan for the time I have left",
+                  "prompt": "What will you actually do in your remaining sessions?",
+                  "lines": 3
+                }
+              ]
+            },
+            {
+              "type": "steps",
+              "title": "Before you submit",
+              "items": [
+                "Your product is uploaded to the correct Canvas assignment, or handed to Mr Edwards, by the due date.",
+                "Any score, lead sheet, or slides that are part of your product are included, not left on your device.",
+                "Instruments, equipment, backing tracks or files you need for your presentation are ready to bring.",
+                "If you used generative AI for planning or research, you have noted what you used it for. It has no place in composing, arranging, producing, performing, or writing your spoken introduction."
+              ]
+            },
+            {
+              "type": "exit",
+              "text": "What is the one thing that would improve your project the most before you submit?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "Term 4, Weeks 4 to 5",
+      "title": "Presenting it",
+      "intro": "You submit your product, present it to the class with a short spoken introduction, and then take your turn as an audience member for everyone else's presentations.",
+      "lessons": [
+        {
+          "number": 5,
+          "week": 4,
+          "where": "worked on in Term 4, Weeks 4 and 5",
+          "title": "Present it",
+          "intention": "I can introduce my project to the class, present it clearly, and give useful feedback as an audience member.",
+          "criteria": [
+            "I can write a short spoken introduction that sets up what I made and why",
+            "I can present my product clearly in the time I have",
+            "I can give a classmate useful feedback on their presentation"
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Spoken introduction",
+              "text": "A short, unscripted-sounding explanation you give before your performance, recording, or investigation starts. It tells the class what you set out to do, so they know what to listen or watch for. It is part of your mark, not a formality before the real thing starts."
+            },
+            {
+              "type": "steps",
+              "title": "What a good spoken introduction covers",
+              "items": [
+                "What you made. One sentence naming your product: the piece, the song, the investigation topic.",
+                "Why you chose it. The genuine reason, even if it is simple. \"I wanted to get better at improvising\" is a real reason.",
+                "What to listen or watch for. Point the class at the one thing you are proudest of, so they notice it."
+              ]
+            },
+            {
+              "type": "formfill",
+              "title": "Plan your spoken introduction",
+              "prompt": "Draft it here, then practise saying it out loud until it sounds like you talking, not you reading.",
+              "rows": [
+                {
+                  "label": "What I made",
+                  "prompt": "One sentence.",
+                  "lines": 2
+                },
+                {
+                  "label": "Why I chose it",
+                  "prompt": "The real reason.",
+                  "lines": 2
+                },
+                {
+                  "label": "What to listen or watch for",
+                  "prompt": "The one thing you want the class to notice.",
+                  "lines": 2
+                }
+              ]
+            },
+            {
+              "type": "formfill",
+              "title": "Audience feedback",
+              "prompt": "Fill this in while you watch a classmate present, then hand or tell them your two lines afterwards. Clear it and reuse it for the next presentation.",
+              "rows": [
+                {
+                  "label": "Who presented",
+                  "prompt": "Whose project did you watch?",
+                  "lines": 1
+                },
+                {
+                  "label": "What I noticed",
+                  "prompt": "What stood out about what they made or how they presented it?",
+                  "lines": 2
+                },
+                {
+                  "label": "One thing I'd ask them",
+                  "prompt": "A genuine question you'd want to know the answer to.",
+                  "lines": 2
+                }
+              ]
+            },
+            {
+              "type": "exit",
+              "text": "After watching the showcase, what is one thing you would try in your own next project?"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
