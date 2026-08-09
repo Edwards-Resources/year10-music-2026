@@ -181,13 +181,42 @@ def flat_lessons(topic):
 
 
 def up_to(topic):
-    """The lesson a class is currently on, or None."""
-    lessons = flat_lessons(topic)
-    return next((l for l in lessons if l["number"] == topic["position"]["lesson"]), None)
+    """The lesson a class is currently on, or None.
+
+    A topic may carry no position at all. The depth study is the case that
+    forced this: every student is on a different project, so a single "we are
+    up to" claim would be wrong for the whole class rather than merely stale.
+    Such a topic publishes with no position grammar anywhere and never becomes
+    the home dashboard's subject.
+    """
+    lesson_no = (topic.get("position") or {}).get("lesson")
+    if not lesson_no:
+        return None
+    return next((l for l in flat_lessons(topic) if l["number"] == lesson_no), None)
+
+
+def page_word(topic):
+    """What this topic calls one of its pages. Lessons run in sequence; the
+    depth study's pages are steps a student works through at their own pace."""
+    return topic.get("pageWord", "Lesson")
+
+
+def page_slug(topic):
+    return topic.get("pageSlug", "lesson")
+
+
+def group_label(topic, week):
+    """The heading for a group of pages. Weeks by default; the depth study's
+    phases each span a different stretch of the calendar, so they carry their
+    own label instead of a number."""
+    return week.get("label") or f"Week {week['number']}"
 
 
 def lesson_href(site, course, topic, lesson):
-    return f"{site['base']}/{course['id']}/{topic['id']}/lesson-{lesson['number']}/"
+    return (
+        f"{site['base']}/{course['id']}/{topic['id']}/"
+        f"{page_slug(topic)}-{lesson['number']}/"
+    )
 
 
 def exam_days_text(a):
@@ -212,7 +241,7 @@ def filmstrip(site, course, topic):
     frames = []
     for l in flat_lessons(topic):
         n = l["number"]
-        cls, extra, label = "", "", f"Lesson {n}: {l['title']}"
+        cls, extra, label = "", "", f"{page_word(topic)} {n}: {l['title']}"
         if n < current:
             cls, extra = " frame-done", X_MARK
             label += " (done)"
@@ -289,6 +318,65 @@ def block_html(block):
             "</section>"
         )
 
+    if t == "ideabank":
+        # The menu of what a depth study can be. One panel per focus area, each
+        # tiered so a student can see an honest entry point as well as a
+        # stretch, and each naming the product it ends in.
+        cards = []
+        for i, f in enumerate(block["focuses"]):
+            wob = ["inked", "inked-b", "inked-c"][i % 3]
+            tiers = "".join(
+                f'<li><span class="tier">{e(name)}</span><span>{e(text)}</span></li>'
+                for name, text in f["tiers"]
+            )
+            cards.append(
+                f'<li class="idea {wob}"><h3 class="tab">{e(f["name"])}</h3>'
+                f'<ul class="idea-tiers">{tiers}</ul>'
+                f'<p class="idea-product"><span class="idea-lab">You hand in</span> '
+                f'{e(f["product"])}</p></li>'
+            )
+        lead = f'<p class="idea-lead">{e(block["lead"])}</p>' if block.get("lead") else ""
+        return (
+            f'<section class="blk"><h2>{e(block["title"])}</h2>{lead}'
+            f'<ul class="ideabank">{"".join(cards)}</ul></section>'
+        )
+
+    if t == "formfill":
+        # A proposal students fill in on screen. Same storage and Clear
+        # behaviour as gapfill (it reuses those class names on purpose), but
+        # the prompts are full questions, so they are set in the reading face
+        # and only the short part label wears the marker.
+        key = slug(block["title"])
+        parts = []
+        for i, row in enumerate(block["rows"]):
+            if row.get("lines", 1) > 1:
+                field = (
+                    f'<textarea class="gap-in gap-in-multi" data-gap="{i}" '
+                    f'rows="{int(row["lines"])}" aria-label="{e(row["label"])}" '
+                    f'autocomplete="off" spellcheck="true"></textarea>'
+                )
+            else:
+                field = (
+                    f'<input type="text" class="gap-in" data-gap="{i}" '
+                    f'aria-label="{e(row["label"])}" autocomplete="off" '
+                    f'spellcheck="true">'
+                )
+            parts.append(
+                f'<li><p class="form-lab"><span class="hl-teal">{e(row["label"])}</span></p>'
+                f'<p class="form-q">{e(row["prompt"])}</p>{field}</li>'
+            )
+        prompt = f'<p class="gap-prompt">{e(block["prompt"])}</p>' if block.get("prompt") else ""
+        return (
+            f'<section class="blk blk-panel blk-gap blk-form inked-b" id="{e(key)}" '
+            f'data-gap-key="{e(key)}">'
+            f'<h2 class="tab tab-yellow">{e(block["title"])}</h2>'
+            f"{prompt}"
+            f'<ol class="formlist">{"".join(parts)}</ol>'
+            '<p class="gap-tools"><button type="button" class="gap-clear">Clear this form</button>'
+            '<span class="gap-saved">Your answers stay on this device.</span></p>'
+            "</section>"
+        )
+
     if t == "activity":
         return (
             '<section class="blk blk-panel blk-do inked">'
@@ -323,11 +411,74 @@ allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></if
     return ""
 
 
+# -------------------------------------------------------------- milestones
+
+
+def milestones_html(topic):
+    """The depth study's shared spine.
+
+    A unit where every student builds something different has no single lesson
+    position, but it does have dates everyone shares. These are that: the
+    checkpoints, in order, with the one coming up next carrying the position
+    grammar. States are baked from the build date and recomputed by site.js at
+    view time, because this page sits for weeks between rebuilds and a stale
+    "next up" is worse than none.
+    """
+    miles = topic.get("milestones")
+    if not miles:
+        return ""
+
+    today = date.today()
+    nexted = False
+    rows = []
+    for m in miles:
+        due = datetime.strptime(m["date"], "%Y-%m-%d").date()
+        done = due < today
+        is_next = not done and not nexted
+        if is_next:
+            nexted = True
+
+        if done:
+            cls, mark = " mile-done", f'{X_MARK}<span class="mile-mark">done ✓</span>'
+        elif is_next:
+            cls, mark = " mile-next", '<span class="mile-mark">← next up</span>'
+        else:
+            cls, mark = "", ""
+
+        # Pink is the warning colour and belongs to the thing being marked.
+        if m.get("assessed"):
+            cls += " mile-due"
+
+        what = e(m["what"])
+        if is_next:
+            what = f'<span class="hl">{what}</span>'
+        elif m.get("assessed"):
+            what = f'<span class="hl-pink">{what}</span>'
+
+        rows.append(
+            f'<li class="mile{cls}" data-mile-date="{e(m["date"])}">'
+            f'<span class="mile-when">{e(m["when"])}</span>'
+            f'<span class="mile-body"><span class="mile-what">{what}</span>'
+            f'<span class="mile-detail">{e(m["detail"])}</span></span>'
+            f'<span class="mile-state">{mark}</span></li>'
+        )
+
+    return f"""<section class="miles inked" aria-label="Milestones for {e(topic['name'])}">
+  <div class="miles-head">
+    <h2 class="tab">Your milestones</h2>
+    <p class="note">everyone's project is different, these dates are not</p>
+  </div>
+  <ol class="mile-list">{''.join(rows)}</ol>
+</section>"""
+
+
 # ------------------------------------------------------------------- pages
 
 
 def build_lesson(site, course, topic, lesson, prev_l, next_l):
-    current = topic["position"]["lesson"]
+    cur_l = up_to(topic)
+    current = cur_l["number"] if cur_l else 0
+    word = page_word(topic)
 
     crit = "".join(
         f'<li class="crit"><input type="checkbox" id="crit-{i}">'
@@ -337,7 +488,7 @@ def build_lesson(site, course, topic, lesson, prev_l, next_l):
     blocks = "".join(block_html(b) for b in lesson["blocks"])
 
     teacher = ""
-    if lesson["teacher"]:
+    if lesson.get("teacher"):
         items = "".join(f"<li>{e(t)}</li>" for t in lesson["teacher"])
         teacher = (
             '<aside class="teach inked-b"><h2 class="tab">Slides and notes</h2>'
@@ -361,13 +512,16 @@ def build_lesson(site, course, topic, lesson, prev_l, next_l):
         here = '<p class="here-flag">This is the lesson we are up to</p>'
 
     total = len(flat_lessons(topic))
+    # Lessons sit in a numbered week; a depth study step spans its own stretch
+    # of the calendar and says so in its own words.
+    where = lesson.get("where") or f"in Week {lesson['week']} of {topic['name']}"
 
     body = f"""<article class="lesson">
 <div class="wrap">
   <header class="lesson-head">
-    <p class="lesson-no" aria-hidden="true">Lesson {lesson['number']}</p>
-    <h1><span class="visually-hidden">Lesson {lesson['number']}: </span>{e(lesson['title'])}</h1>
-    <p class="lesson-sub note">Lesson {lesson['number']} of {total}, in Week {lesson['week']} of {e(topic['name'])}.</p>
+    <p class="lesson-no" aria-hidden="true">{e(word)} {lesson['number']}</p>
+    <h1><span class="visually-hidden">{e(word)} {lesson['number']}: </span>{e(lesson['title'])}</h1>
+    <p class="lesson-sub note">{e(word)} {lesson['number']} of {total}, {e(where)}.</p>
     {here}
   </header>
 
@@ -393,12 +547,12 @@ def build_lesson(site, course, topic, lesson, prev_l, next_l):
     crumbs = [
         ("Home", "/"),
         (topic["name"], f"/{course['id']}/{topic['id']}/"),
-        (f"Lesson {lesson['number']}", None),
+        (f"{word} {lesson['number']}", None),
     ]
     key = f"{course['id']}-{topic['id']}-{lesson['number']}"
     return layout(
         site,
-        f"Lesson {lesson['number']}: {lesson['title']}",
+        f"{word} {lesson['number']}: {lesson['title']}",
         body,
         crumbs,
         lesson["intention"],
@@ -407,8 +561,8 @@ def build_lesson(site, course, topic, lesson, prev_l, next_l):
 
 
 def build_topic(site, course, topic):
-    current = topic["position"]["lesson"]
     cur = up_to(topic)
+    current = cur["number"] if cur else 0
 
     weeks = []
     for w in topic["weeks"]:
@@ -430,7 +584,7 @@ def build_topic(site, course, topic):
         wob = ["inked", "inked-b", "inked-c"][w["number"] % 3]
         weeks.append(f"""<section class="week {wob}">
   <div class="week-head">
-    <h2 class="tab">Week {w['number']}</h2>
+    <h2 class="tab">{e(group_label(topic, w))}</h2>
     <p class="week-title">{e(w['title'])}</p>
   </div>
   <p class="week-intro">{e(w['intro'])}</p>
@@ -442,37 +596,48 @@ def build_topic(site, course, topic):
     )
 
     a = topic["assessment"]
+    assess_note = a.get("note") or "The task notification and the exam itself are in Canvas."
     assess = f"""<aside class="assess inked-c">
   <h2 class="tab tab-pink">{e(a['name'])}</h2>
   <p class="assess-when"><span class="hl-pink">{e(a['when'])}</span></p>
   <p>{e(a['detail'])}</p>
-  <p class="note">The task notification and the exam itself are in Canvas.</p>
+  <p class="note">{e(assess_note)}</p>
 </aside>"""
 
     taught = sum(1 for l in flat_lessons(topic) if l["number"] < current)
     jump = ""
     if cur:
         jump = f"""<a class="jump" href="{lesson_href(site, course, topic, cur)}">
-  <span class="jump-line">We are up to Lesson {cur['number']} of {len(flat_lessons(topic))}</span>
+  <span class="jump-line">We are up to {page_word(topic)} {cur['number']} of {len(flat_lessons(topic))}</span>
   <span class="jump-title">{e(cur['title'])}</span>
   <span class="jump-note note">{e(topic['position']['note'])} {taught} lessons done so far.</span>
 </a>"""
 
+    # Each topic brings its own crow pose. A topic with no pose yet renders a
+    # text-only cover rather than borrowing another unit's mascot, which would
+    # put a detective hat on a unit that has nothing to do with detectives.
+    cover_img = ""
+    cov = topic.get("cover")
+    if cov:
+        cover_img = (
+            f'<img class="cover-crow" src="{site["base"]}/assets/img/{e(cov["image"])}" '
+            f'alt="{e(cov["alt"])}" width="300" height="300">'
+        )
+
     body = f"""<div class="cover">
-  <div class="wrap cover-grid">
+  <div class="wrap cover-grid{'' if cov else ' cover-grid-solo'}">
     <div>
       <h1><span class="hl-pink">{e(topic['name'])}</span></h1>
       <p class="cover-sub">{e(topic['subtitle'])} · {e(topic['term'])}</p>
       <p class="cover-blurb">{e(topic['blurb'])}</p>
       {jump}
     </div>
-    <img class="cover-crow" src="{site['base']}/assets/img/crow-detective.webp"
-         alt="A scruffy sketched crow in a detective hat, inspecting a music note through a magnifying glass" width="300" height="300">
+    {cover_img}
   </div>
 </div>
 <div class="wrap">
   <div class="topic-cols">
-    <div class="topic-main">{''.join(weeks)}</div>
+    <div class="topic-main">{milestones_html(topic)}{''.join(weeks)}</div>
     <div class="topic-side">
       {assess}
       <aside class="outcomes inked-b">
@@ -504,9 +669,10 @@ def build_course(site, course, topics):
     for i, t in enumerate(topics):
         n = len(flat_lessons(t))
         wob = ["inked", "inked-b", "inked-c"][i % 3]
+        unit = page_word(t).lower()
         items.append(f"""<li class="tcard {wob}">
   <a class="tcard-name" href="{base}/{course['id']}/{t['id']}/">{e(t['name'])}</a>
-  <p class="tcard-term">{e(t['term'])}, {n} lessons</p>
+  <p class="tcard-term">{e(t['term'])}, {n} {unit}{'' if n == 1 else 's'}</p>
   <p>{e(t['blurb'])}</p>
   {position_line(site, course, t)}
 </li>""")
@@ -667,7 +833,7 @@ def main():
             lessons = flat_lessons(topic)
             for i, lesson in enumerate(lessons):
                 write(
-                    [cid, topic["id"], f"lesson-{lesson['number']}", "index.html"],
+                    [cid, topic["id"], f"{page_slug(topic)}-{lesson['number']}", "index.html"],
                     build_lesson(
                         site, course, topic, lesson,
                         lessons[i - 1] if i else None,

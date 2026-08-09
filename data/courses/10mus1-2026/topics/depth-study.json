@@ -1,0 +1,238 @@
+{
+  "id": "depth-study",
+  "name": "Depth Study",
+  "subtitle": "Your music, your project",
+  "term": "Term 4, 2026",
+  "pageWord": "Step",
+  "pageSlug": "step",
+  "blurb": "The last unit of Year 10, and the one you choose. You pick an area of music you care about, plan a project in performing, composing or listening, build it across Term 4, and present it to the class.",
+  "outcomes": [
+    ["MU5-PER-01", "performs repertoire with stylistic awareness and musical expression"],
+    ["MU5-PER-02", "manipulates and combines the elements of music in performance to communicate musical ideas"],
+    ["MU5-COM-01", "improvises, arranges or composes with stylistic understanding and musical expression"],
+    ["MU5-COM-02", "manipulates and combines the elements of music to create musical ideas"],
+    ["MU5-LIS-01", "uses listening skills to analyse music in relation to stylistic, cultural, historical and social contexts"],
+    ["MU5-LIS-02", "uses listening skills to evaluate how the elements of music are manipulated and combined"]
+  ],
+  "assessment": {
+    "name": "AT4 Depth Study",
+    "when": "Term 4, Week 4 (2 to 6 November 2026)",
+    "detail": "Your final product, presented in class. 20 marks, worth 25%. You are marked on what you make and how you present it, using the rubric for the focus area you chose. There is no written report.",
+    "note": "The task notification is in Canvas. Your outcomes depend on the focus area you choose.",
+    "link": null,
+    "examDate": null
+  },
+  "milestones": [
+    {
+      "when": "Term 3, Week 9",
+      "date": "2026-09-18",
+      "what": "Choose your focus area",
+      "detail": "Look through the idea bank and decide whether you are performing, composing, investigating, or combining two of them."
+    },
+    {
+      "when": "Term 3, Week 10",
+      "date": "2026-09-25",
+      "what": "Proposal approved",
+      "detail": "Your proposal is signed off, so you can start work in the first week back."
+    },
+    {
+      "when": "Term 4, Week 1",
+      "date": "2026-10-16",
+      "what": "Plan set and success criteria agreed",
+      "detail": "Your week-by-week plan to the due date is written, and the class has worked out together what a good project looks like."
+    },
+    {
+      "when": "Term 4, Week 2",
+      "date": "2026-10-23",
+      "what": "Progress check 1: peer feedback",
+      "detail": "You share where you are up to and get one strength and one next step from your feedback partner."
+    },
+    {
+      "when": "Term 4, Week 3",
+      "date": "2026-10-30",
+      "what": "Progress check 2: self-assessment",
+      "detail": "You mark your own work against the success criteria, find the gaps, and agree your final priorities."
+    },
+    {
+      "when": "Term 4, Week 4",
+      "date": "2026-11-06",
+      "what": "AT4 due: submit and present",
+      "detail": "Hand in your product and present it to the class, with a short spoken introduction.",
+      "assessed": true
+    },
+    {
+      "when": "Term 4, Week 5",
+      "date": "2026-11-13",
+      "what": "Showcase and reflection",
+      "detail": "The rest of the presentations, and a look back at what you made."
+    }
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "label": "Before Term 4",
+      "title": "Choosing and proposing",
+      "intro": "The work that decides how the whole unit goes. You choose a project that you actually care about and can actually finish, then write the plan that gets it approved.",
+      "lessons": [
+        {
+          "number": 1,
+          "week": 1,
+          "where": "worked on in Term 3, Weeks 9 and 10",
+          "title": "Choose your project",
+          "intention": "I can choose a depth study project I care about and can finish in the time I have.",
+          "criteria": [
+            "I can name my focus area: performing, composing, listening, or a combination",
+            "I can say what I will make or present",
+            "I can explain why this project is the right size for eight to ten hours of class time"
+          ],
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Depth study",
+              "text": "A self-directed music investigation in an area of personal interest. You choose the area, you choose the product, and you drive the work. This is the most independent unit of Year 10."
+            },
+            {
+              "type": "ideabank",
+              "title": "What you could do",
+              "lead": "Three focus areas, and a fourth option that combines two of them. Each row is the same project at three sizes, so find the one that matches where you actually are. You can also propose your own idea, as long as it fits a focus area.",
+              "focuses": [
+                {
+                  "name": "Performing",
+                  "product": "a live or recorded performance, plus program notes or a rehearsal log.",
+                  "tiers": [
+                    ["Entry", "Prepare and perform one piece on your instrument, with short program notes."],
+                    ["Core", "Perform a set of two or three linked pieces, or record a multitrack cover of a song you love."],
+                    ["Extension", "Lead a small ensemble, or perform a demanding programme you have chosen and rehearsed yourself."]
+                  ]
+                },
+                {
+                  "name": "Composing",
+                  "product": "a recording or demo, plus a score or lead sheet if your piece has one, and a short rationale.",
+                  "tiers": [
+                    ["Entry", "Write a short original piece or song section and explain the choices you made."],
+                    ["Core", "Write an original song and record a demo, or arrange an existing song in a new style."],
+                    ["Extension", "Compose to a brief: music for a film scene, a game, an artwork, or a produced track."]
+                  ]
+                },
+                {
+                  "name": "Listening and Investigation",
+                  "product": "a multimodal presentation or a viva voce, with musical examples you play.",
+                  "tiers": [
+                    ["Entry", "A short presentation analysing how the elements are used in a track you already love."],
+                    ["Core", "A multimodal investigation of an artist, a genre or a soundtrack, with examples."],
+                    ["Extension", "A viva voce where you argue a case about a style and answer questions on it."]
+                  ]
+                },
+                {
+                  "name": "Combination",
+                  "product": "a product from each area you choose, plus a short piece of writing linking them.",
+                  "tiers": [
+                    ["Entry", "Compose a short piece and then perform it yourself."],
+                    ["Core", "Investigate a style, then perform or compose something in it."],
+                    ["Extension", "Research, compose and perform, and explain how each part fed the next."]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "steps",
+              "title": "How to choose well",
+              "items": [
+                "Interest. Pick something you actually care about. You are going to live with this for a term, and it shows in the final product when you do not.",
+                "Skill. Pick something you can already do most of, and stretch the last part. A project that needs a skill you have not started learning is a project you will not finish.",
+                "Time. You have eight to ten hours of class time and the weeks between. Halve your first idea if it does not fit that, and do the smaller thing properly."
+              ]
+            },
+            {
+              "type": "activity",
+              "text": "Write down two projects you would genuinely like to do, one from each of two different focus areas. For each one, note what you would hand in and the single hardest part. Bring both to your proposal conference: choosing between two real options is much easier than inventing one on the spot."
+            },
+            {
+              "type": "exit",
+              "text": "In one sentence: what do you want to make, and why that one?"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "week": 1,
+          "where": "worked on in Term 3, Week 10 and Term 4, Week 1",
+          "title": "Write your proposal",
+          "intention": "I can write a proposal that sets out my goal, my product, my plan and how I will know it worked.",
+          "criteria": [
+            "My goal or focus question says what I am trying to do, make or find out",
+            "My product is something specific I can hand in",
+            "My plan has a milestone for each week up to the due date",
+            "My success criteria describe what a good version of my project looks like"
+          ],
+          "blocks": [
+            {
+              "type": "steps",
+              "title": "What a proposal has to do",
+              "items": [
+                "Make the project real. A goal like \"do something with jazz\" cannot be started on Monday. \"Learn and record two Miles Davis heads with a backing track\" can.",
+                "Make it checkable. If nobody can tell whether you have finished, you cannot tell either.",
+                "Make it small enough. Your plan has to fit the weeks that actually exist, including the ones where you are away or something breaks."
+              ]
+            },
+            {
+              "type": "formfill",
+              "title": "Your proposal",
+              "prompt": "Fill this in on screen, then talk it through with Mr Edwards to get it approved. What you type stays on this device, so finish it in one sitting or write it up somewhere safe.",
+              "rows": [
+                {
+                  "label": "Focus area",
+                  "prompt": "Performing, Composing, Listening and Investigation, or a combination?",
+                  "lines": 1
+                },
+                {
+                  "label": "My goal",
+                  "prompt": "What are you trying to do, make or find out? Write it so someone else could tell when you had done it.",
+                  "lines": 3
+                },
+                {
+                  "label": "My product",
+                  "prompt": "What exactly will you hand in or present? Name the thing: a recording, a demo and lead sheet, a viva voce, a multimodal presentation.",
+                  "lines": 2
+                },
+                {
+                  "label": "My outcomes",
+                  "prompt": "Which outcomes will your project give evidence for? They come from the focus area you chose, and they are listed on the unit page.",
+                  "lines": 2
+                },
+                {
+                  "label": "My plan",
+                  "prompt": "What will you have done by the end of each week, up to the due date in Week 4? Give each week one milestone you could tick off.",
+                  "lines": 5
+                },
+                {
+                  "label": "What I need",
+                  "prompt": "Instruments, software, recording gear, a practice room, and the parts where you will need help.",
+                  "lines": 3
+                },
+                {
+                  "label": "Success criteria",
+                  "prompt": "How will you know your project worked? Write three things a good version of it would have. We build these together from the marking guide.",
+                  "lines": 4
+                }
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Success criteria",
+              "text": "The agreed signs that show your project has met the standard. They are not the same as finishing it. A project can be handed in complete and still miss what it was aiming at, which is exactly what these are for."
+            },
+            {
+              "type": "activity",
+              "text": "Swap proposals with someone doing a different focus area. Read theirs and ask one question about the part you could not picture. The parts nobody can picture are the parts that go wrong in Week 3."
+            },
+            {
+              "type": "exit",
+              "text": "Which week of your plan is the one most likely to slip, and what will you do about it?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,14 +4,18 @@
   "subtitle": "Aural skills and the elements of music",
   "term": "Term 3, 2026",
   "blurb": "Ten weeks of listening. You build a toolkit for describing what you hear, use it on jazz, film music and Australian music, and learn to write about music with evidence.",
+  "cover": {
+    "image": "crow-detective.webp",
+    "alt": "A scruffy sketched crow in a detective hat, inspecting a music note through a magnifying glass"
+  },
   "outcomes": [
     [
       "MU5-LIS-01",
-      "uses listening skills to analyse music in relation to style and context"
+      "uses listening skills to analyse music in relation to stylistic, cultural, historical and social contexts"
     ],
     [
       "MU5-LIS-02",
-      "analyses how the musical concepts are manipulated and combined in a range of repertoire"
+      "uses listening skills to evaluate how the elements of music are manipulated and combined"
     ]
   ],
   "assessment": {

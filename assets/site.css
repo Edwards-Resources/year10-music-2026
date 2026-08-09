@@ -385,6 +385,9 @@ a:hover { text-decoration-thickness: 3px; }
 
 .cover { padding: 2.6rem 0 1rem; }
 .cover-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 1.5rem; align-items: center; }
+/* A unit with no crow pose of its own gets the full measure rather than a
+   column of empty paper where the mascot would sit. */
+.cover-grid-solo { grid-template-columns: minmax(0, 1fr); }
 .cover h1 {
   font-family: var(--marker);
   font-size: clamp(2.7rem, 7.5vw, 5.5rem);
@@ -410,6 +413,36 @@ a:hover { text-decoration-thickness: 3px; }
 .jump-note { display: block; margin-top: 0.3rem; }
 
 .topic-cols { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 2rem; margin-top: 2.2rem; }
+
+/* Milestones: the shared spine of a unit where every student's project is
+   different. The dates are the only thing the whole class holds in common, so
+   they carry the position grammar the lesson rows carry elsewhere. */
+.miles { position: relative; padding: 1.7rem 1.5rem 1.3rem; margin-bottom: 2.2rem; }
+.miles-head h2 { position: absolute; top: -1.05rem; left: 1.1rem; }
+.miles-head .note { padding-top: 0.35rem; }
+.mile-list { list-style: none; margin-top: 0.9rem; }
+.mile {
+  display: grid;
+  grid-template-columns: minmax(0, 9rem) minmax(0, 1fr) minmax(0, 7rem);
+  gap: 0.4rem 1rem;
+  align-items: baseline;
+  padding: 0.7rem 0.2rem;
+  border-top: 2px dashed rgba(17, 17, 17, 0.25);
+}
+.mile:first-child { border-top: 0; }
+.mile-when { font-family: var(--marker); font-size: 1rem; letter-spacing: 0.02em; }
+.mile-body { min-width: 0; }
+.mile-what { display: block; font-weight: 700; font-size: 1.15rem; }
+.mile-what .hl, .mile-what .hl-pink { padding: 0 0.2em; }
+.mile-detail { display: block; color: var(--soft); margin-top: 0.2rem; max-width: 62ch; }
+.mile-state { display: flex; align-items: center; gap: 0.4rem; justify-self: end; }
+.mile-mark { font-family: var(--hand); font-size: 1.25rem; color: var(--soft); white-space: nowrap; }
+.mile-state .doodle { width: 20px; height: 20px; flex: none; }
+/* Past milestones step back without disappearing: a student who was away
+   still needs to read what they missed. */
+.mile-done .mile-when, .mile-done .mile-what { color: var(--soft); }
+.mile-done .mile-what { text-decoration: line-through; text-decoration-thickness: 2px; }
+.mile-next .mile-mark { color: var(--ink); }
 
 .week { position: relative; padding: 1.6rem 1.5rem 1.2rem; margin-bottom: 2rem; }
 .week-head { display: flex; align-items: baseline; gap: 0.7rem; flex-wrap: wrap; }
@@ -525,6 +558,27 @@ a:hover { text-decoration-thickness: 3px; }
 .wordbank { display: flex; flex-wrap: wrap; gap: 0.5rem 0.7rem; list-style: none; margin: 0; padding: 0; }
 .wordbank .hl-teal { padding: 0.05em 0.35em; font-family: var(--marker); font-size: 0.95rem; }
 
+/* Idea bank: the menu of what a depth study can be. One panel per focus area,
+   each holding the same project at three sizes. Neighbours take different
+   wobble sets from build.py so no two outlines match. */
+.ideabank { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.9rem 1.6rem; margin-top: 1.4rem; }
+.idea-lead { color: var(--soft); max-width: 68ch; }
+.idea { position: relative; padding: 1.7rem 1.4rem 1.3rem; min-width: 0; }
+.idea > .tab { position: absolute; top: -1.05rem; left: 1rem; }
+.idea-tiers { list-style: none; display: grid; gap: 0.6rem; }
+.idea-tiers li { display: grid; grid-template-columns: 5.6rem minmax(0, 1fr); gap: 0.7rem; align-items: baseline; }
+.tier { font-family: var(--marker); font-size: 0.85rem; letter-spacing: 0.02em; }
+.idea-product { margin-top: 0.9rem; padding-top: 0.7rem; border-top: 2px dashed rgba(17, 17, 17, 0.25); color: var(--soft); }
+.idea-lab { font-family: var(--marker); font-size: 0.85rem; letter-spacing: 0.02em; color: var(--ink); }
+
+/* Proposal form: gapfill's storage and Clear behaviour, but the prompts are
+   whole questions, so the marker only wears the short part label and the
+   question itself is set in the reading face. */
+.formlist { list-style: none; display: grid; gap: 1.5rem; margin-top: 0.4rem; }
+.form-lab { margin-bottom: 0.15rem; }
+.form-lab .hl-teal { font-family: var(--marker); font-size: 1.05rem; padding: 0.05em 0.35em; }
+.form-q { color: var(--soft); max-width: 62ch; margin-bottom: 0.45rem; }
+
 /* Fill-in tables: a term on the left, a ruled line to write on at the right.
    The line is the input's own bottom border, so it looks like paper but takes
    typing on a phone or off the projector. */
@@ -564,6 +618,17 @@ a:hover { text-decoration-thickness: 3px; }
 }
 .gap-in:focus { outline: 0; border-bottom-style: solid; background: var(--teal-dim); }
 .gap-in:focus-visible { outline: 0; }
+/* An answer worth several lines gets a box to write in rather than one ruled
+   line. Must stay after .gap-in: it overrides that rule's border reset, and
+   both are single-class weight, so source order is what decides it. */
+.gap-in-multi {
+  display: block;
+  border: 2.5px dashed var(--ink);
+  border-radius: var(--wob-c);
+  padding: 0.55rem 0.8rem;
+  resize: vertical;
+}
+.gap-in-multi:focus { border-style: solid; }
 .gap-tools { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-top: 1rem; }
 .gap-clear {
   font: inherit;
@@ -651,9 +716,19 @@ a:hover { text-decoration-thickness: 3px; }
   .cover-grid { grid-template-columns: 1fr; }
   .cover-crow { justify-self: start; }
   .rail { grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+  .ideabank { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 44rem) {
+  /* A milestone stacks rather than crushing its detail into a 6rem column:
+     the date and its state mark share the top line, and the milestone itself
+     runs full width underneath. Placed explicitly, because auto-placement
+     drops the mark to a lonely third row below the detail. */
+  .mile { grid-template-columns: minmax(0, 1fr) auto; gap: 0.25rem 0.8rem; }
+  .mile-when { grid-column: 1; grid-row: 1; }
+  .mile-state { grid-column: 2; grid-row: 1; justify-self: end; }
+  .mile-body { grid-column: 1 / -1; grid-row: 2; }
+  .idea-tiers li { grid-template-columns: 1fr; gap: 0.1rem; }
   .today-body { grid-template-columns: 1fr; }
   .today-crow-spot { justify-self: end; margin-top: -1.6rem; }
   .today-crow { width: 140px; }

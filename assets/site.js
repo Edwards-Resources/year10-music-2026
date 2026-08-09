@@ -19,6 +19,55 @@
     el.textContent = out;
   });
 
+  /* Milestones: the baked-in states come from the build date, and this page can
+     sit for weeks between rebuilds. Recompute from [data-mile-date] at view
+     time so "next up" is never pointing at a date that has already gone. */
+  var miles = document.querySelectorAll(".mile[data-mile-date]");
+  if (miles.length) {
+    var noon = new Date();
+    noon.setHours(0, 0, 0, 0);
+    var foundNext = false;
+    miles.forEach(function (li) {
+      var due = new Date(li.getAttribute("data-mile-date") + "T00:00:00");
+      var done = due < noon;
+      var isNext = !done && !foundNext;
+      if (isNext) foundNext = true;
+
+      li.classList.toggle("mile-done", done);
+      li.classList.toggle("mile-next", isNext);
+
+      var what = li.querySelector(".mile-what");
+      var state = li.querySelector(".mile-state");
+      if (!what || !state) return;
+
+      /* Yellow means where we are, so it belongs to the next milestone and
+         nowhere else. Pink stays on the assessed one whatever the date. */
+      var swipe = what.querySelector(".hl");
+      if (isNext && !swipe && !what.querySelector(".hl-pink")) {
+        what.innerHTML = '<span class="hl">' + what.innerHTML + "</span>";
+      } else if (!isNext && swipe) {
+        what.innerHTML = swipe.innerHTML;
+      }
+
+      /* A milestone that has passed since the last build has no mark baked in
+         at all, so set the text on the span or create one. The hand-drawn X
+         only exists in the built markup; a date that rolls over between builds
+         gets the words without it rather than a half-drawn doodle. */
+      var mark = state.querySelector(".mile-mark");
+      var want = done ? "done ✓" : isNext ? "← next up" : "";
+      if (!want) {
+        if (mark) mark.remove();
+      } else if (mark) {
+        mark.textContent = want;
+      } else {
+        mark = document.createElement("span");
+        mark.className = "mile-mark";
+        mark.textContent = want;
+        state.appendChild(mark);
+      }
+    });
+  }
+
   /* Success criteria ticks persist per lesson on this device only. */
   var lessonKey = document.body.getAttribute("data-lesson-key");
   if (lessonKey) {
