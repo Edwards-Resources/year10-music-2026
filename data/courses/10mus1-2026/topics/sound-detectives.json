@@ -17,7 +17,7 @@
   "assessment": {
     "name": "AT3 Listening Examination",
     "when": "Wednesday 19 August 2026, Week 5, Period 5",
-    "detail": "Four short-answer excerpts and one extended response. 20 marks, worth 25%.",
+    "detail": "Four excerpts and one extended response. 20 marks, worth 25%. Each excerpt mixes multiple choice and short answer parts with parts you write. The paper runs 40 minutes.",
     "link": null,
     "examDate": "2026-08-19",
     "examLesson": 11
@@ -760,7 +760,8 @@
               "title": "What we are doing",
               "items": [
                 "Quick-fire listening: three short excerpts, style plus two elements for each.",
-                "Learn the strategies: annotate while listening, use the replays, manage your time, use your terminology bank.",
+                "Meet the exam format: multiple choice and short answer parts as well as parts you write, 40 minutes for the whole paper.",
+                "Learn the strategies: answer the multiple choice and short answer parts on the first playing, then use the second and third playings for the parts you write. Annotate while you listen and use your terminology bank.",
                 "Annotate the final excerpt in real time as it plays, three times, exactly as the exam runs.",
                 "Plan, then write a full timed response to it.",
                 "Read the feedback and the common misconceptions before Wednesday."
@@ -801,7 +802,8 @@
           ],
           "teacher": [
             "Bring your listening glossary and terminology bank. You get the strategy checklist at the start of the lesson.",
-            "The timed response runs under exam conditions, with the excerpt played three times and reading and writing time between playings, so Wednesday holds no surprises."
+            "The timed response runs under exam conditions, with the excerpt played three times and reading and writing time between playings, so Wednesday holds no surprises.",
+            "Performing media and timbre are still worth 2 marks together in the exam, but Canvas shows them as two separate questions. Nothing about that changes how you answer."
           ]
         }
       ]
