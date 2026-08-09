@@ -20,12 +20,12 @@
     "detail": "Four short-answer excerpts and one extended response. 20 marks, worth 25%.",
     "link": null,
     "examDate": "2026-08-19",
-    "examLesson": 13
+    "examLesson": 11
   },
   "position": {
     "lesson": 7,
-    "asAt": "2026-08-07",
-    "note": "Lesson 7 ran Friday 7 August, Period 4. Next is Lesson 8: Structure."
+    "asAt": "2026-08-09",
+    "note": "Lesson 7 ran Friday 7 August, Period 4. Next is Lesson 8: Structure, on Monday 10 August. Three lessons remain before the AT3 examination on Wednesday 19 August."
   },
   "weeks": [
     {
@@ -693,176 +693,106 @@
         {
           "number": 9,
           "week": 3,
-          "title": "Writing about music 3: the exam question",
-          "intention": "I can write an extended response on how elements create interest.",
+          "title": "Writing about music: the response frame and the exam question",
+          "intention": "I can write a full response on how the elements of music are used.",
           "criteria": [
-            "My response covers several elements.",
-            "Each point has evidence and an effect."
+            "I can write a sentence that names an element, says how it is used, explains its effect and gives evidence.",
+            "I can write a full response covering three elements."
           ],
           "blocks": [
+            {
+              "type": "definition",
+              "term": "The response sentence",
+              "text": "Every point you write about music has four parts: name the element, say how it is used, explain its effect, and give the musical evidence you actually heard. Miss the effect and you are describing, not analysing."
+            },
+            {
+              "type": "media",
+              "n": 1,
+              "brief": "A work we have already analysed, so that the writing is the new part, not the listening: Louis Armstrong, 'What a Wonderful World'.",
+              "embed": "rBrd_3VMC3c"
+            },
             {
               "type": "steps",
               "title": "What we are doing",
               "items": [
-                "Meet the exam-style question.",
-                "Watch the teacher model a full response across several elements.",
-                "Plan your response using a paragraph planner.",
-                "Write a full timed response and self-assess against the criteria."
+                "Learn the response sentence: element, how it is used, effect, musical evidence.",
+                "Build one sentence together as a class about the excerpt.",
+                "Meet the exam question: how are the elements of music used to create interest?",
+                "Watch the response modelled in full across three elements, thinking aloud.",
+                "Plan your own response: three elements, one paragraph each.",
+                "Write a full response and check it against the four parts of the sentence."
               ]
             },
             {
               "type": "activity",
-              "text": "Write a full response to a short excerpt answering: how are the elements of music used to create interest?"
+              "text": "Write a full response to the excerpt answering: how are the elements of music used to create interest? Cover three elements, one paragraph each. This is exactly the shape of Part B of the exam, which is worth 6 of the 20 marks."
             },
             {
               "type": "exit",
-              "text": "Which element gave you the strongest point to write about?"
+              "text": "Underline the 'effect' part of each of your three paragraphs."
             }
           ],
           "teacher": [
-            "Introduce the AT3 exam question: ‘How are the elements of music used to create interest?’ Model a full response, thinking aloud."
+            "The response sentence is taught from the start in this lesson, so nothing is assumed. It is the shape every answer in the exam wants.",
+            "A full response is modelled on the board before you write your own."
           ]
         }
       ]
     },
     {
       "number": 4,
-      "title": "Wide Listening and Exam Preparation",
-      "intro": "This week we listen widely across genres and rehearse the exam: full responses, feedback and strategies, ready for AT3 next week.",
+      "title": "Exam Preparation",
+      "intro": "One lesson this week, because the trial examinations compress the class to two periods and the AT3 examination follows on Wednesday of Week 5. We rehearse the whole exam in a single period: listening widely, annotating as we listen, and writing a full response under time.",
       "lessons": [
         {
           "number": 10,
           "week": 4,
-          "title": "Wide listening carousel",
-          "intention": "I can quickly identify style and elements across genres.",
+          "title": "Exam preparation: wide listening, strategies and a timed response",
+          "intention": "I can use exam strategies and write to the standard of the AT3 task.",
           "criteria": [
-            "I can identify the style of each excerpt.",
-            "I can name two key elements for each."
+            "I can identify the style and two elements of an excerpt quickly.",
+            "I can annotate an excerpt as I listen.",
+            "I can plan and write a full response under time pressure."
           ],
           "blocks": [
             {
+              "type": "steps",
+              "title": "What we are doing",
+              "items": [
+                "Quick-fire listening: three short excerpts, style plus two elements for each.",
+                "Learn the strategies: annotate while listening, use the replays, manage your time, use your terminology bank.",
+                "Annotate the final excerpt in real time as it plays, three times, exactly as the exam runs.",
+                "Plan, then write a full timed response to it.",
+                "Read the feedback and the common misconceptions before Wednesday."
+              ]
+            },
+            {
               "type": "media",
               "n": 1,
-              "brief": "World: Gamelan gong kebyar, 'Kapi Raja' — a distinctive percussive, metallic ensemble.",
+              "brief": "Quick-fire, world: Gamelan gong kebyar, 'Kapi Raja'. A distinctive percussive, metallic ensemble.",
               "embed": "68b2u8EXXOo"
             },
             {
               "type": "media",
               "n": 2,
-              "brief": "Classical: Vivaldi, Spring (The Four Seasons) — energetic Baroque strings.",
+              "brief": "Quick-fire, classical: Vivaldi, Spring (The Four Seasons). Energetic Baroque strings.",
               "embed": "3LiztfE1X7E"
             },
             {
               "type": "media",
               "n": 3,
-              "brief": "Film: Hedwig's Theme — John Williams, instantly recognisable orchestral timbre.",
-              "embed": "hJ8QksvUs98"
-            },
-            {
-              "type": "media",
-              "n": 4,
-              "brief": "Jazz: Take Five — the Dave Brubeck Quartet, an odd 5/4 metre.",
+              "brief": "Quick-fire, jazz: Take Five, the Dave Brubeck Quartet. An odd 5/4 metre.",
               "embed": "-DHuW1h1wHw"
             },
             {
               "type": "media",
-              "n": 5,
-              "brief": "Contemporary: As It Was — Harry Styles.",
-              "embed": "V1Z586zoeeE"
-            },
-            {
-              "type": "steps",
-              "title": "What we are doing",
-              "items": [
-                "Rotate through the five listening stations.",
-                "At each station, identify the style and two key elements.",
-                "Log your answers as you go.",
-                "Compare answers as a class at the end."
-              ]
-            },
-            {
-              "type": "activity",
-              "text": "Complete your listening log: style + two elements + one effect for each of the five excerpts."
-            },
-            {
-              "type": "exit",
-              "text": "Which style was easiest to identify, and what gave it away?"
-            }
-          ],
-          "teacher": []
-        },
-        {
-          "number": 11,
-          "week": 4,
-          "title": "Extended response practice and feedback",
-          "intention": "I can write to the standard of the AT3 task.",
-          "criteria": [
-            "I can apply feedback to improve a response.",
-            "My response uses evidence and correct terminology."
-          ],
-          "blocks": [
-            {
-              "type": "media",
-              "n": 1,
-              "brief": "Studied-style: What a Wonderful World — Louis Armstrong, already analysed for timbre.",
-              "embed": "rBrd_3VMC3c"
-            },
-            {
-              "type": "media",
-              "n": 2,
-              "brief": "Unseen: Bohemian Rhapsody — Queen, for timed extended-response practice.",
-              "embed": "fJ9rUzIMcZQ"
-            },
-            {
-              "type": "steps",
-              "title": "What we are doing",
-              "items": [
-                "Write a full timed response to the studied excerpt.",
-                "Swap with a partner and give feedback against the criteria.",
-                "Read the teacher feedback and the common misconceptions.",
-                "Write a second response to the unseen excerpt."
-              ]
-            },
-            {
-              "type": "activity",
-              "text": "Improve your first response using the feedback, then attempt the unseen excerpt under time."
-            },
-            {
-              "type": "exit",
-              "text": "Name one thing you will do differently in the exam."
-            }
-          ],
-          "teacher": []
-        },
-        {
-          "number": 12,
-          "week": 4,
-          "title": "Exam strategies and review",
-          "intention": "I can use effective strategies in a listening exam.",
-          "criteria": [
-            "I can annotate an excerpt as I listen.",
-            "I can plan a response under time pressure."
-          ],
-          "blocks": [
-            {
-              "type": "steps",
-              "title": "What we are doing",
-              "items": [
-                "Learn the strategies: annotate while listening, use the replays, manage your time, use your terminology bank.",
-                "Quick-fire revision of the six elements.",
-                "Practise annotating a short excerpt in real time.",
-                "Ask any final questions before the exam."
-              ]
-            },
-            {
-              "type": "media",
-              "n": 1,
-              "brief": "Grieg, 'In the Hall of the Mountain King' (Sydney Symphony Orchestra / Ashkenazy) — unseen, and short enough to annotate start to finish. Tempo, dynamics and texture all build together, so it gives real-time practice catching several elements changing at once.",
+              "n": 4,
+              "brief": "Timed response: Grieg, 'In the Hall of the Mountain King' (Sydney Symphony Orchestra / Ashkenazy). Unseen, and short enough to annotate start to finish. Tempo, dynamics and texture all build together, so it gives real practice at catching several elements changing at once.",
               "embed": "BLZl-hhbXDI"
             },
             {
               "type": "activity",
-              "text": "Annotate a short excerpt as it plays, then plan (not write) a full response in two minutes."
+              "text": "Annotate the final excerpt as it plays, then write a full timed response to it: three elements, one paragraph each, under exam conditions."
             },
             {
               "type": "exit",
@@ -870,7 +800,8 @@
             }
           ],
           "teacher": [
-            "Hand out the strategy checklist and terminology bank. Do a final quick-fire revision of all six elements."
+            "Bring your listening glossary and terminology bank. You get the strategy checklist at the start of the lesson.",
+            "The timed response runs under exam conditions, with the excerpt played three times and reading and writing time between playings, so Wednesday holds no surprises."
           ]
         }
       ]
@@ -881,7 +812,7 @@
       "intro": "This week you sit the AT3 Listening Examination, then return to practical playing and review your responses to set goals.",
       "lessons": [
         {
-          "number": 13,
+          "number": 11,
           "week": 5,
           "title": "AT3 Listening Examination",
           "intention": "I can analyse how the elements of music are manipulated and combined.",
@@ -900,7 +831,7 @@
           ]
         },
         {
-          "number": 14,
+          "number": 12,
           "week": 5,
           "title": "Practical recovery lesson",
           "intention": "I can contribute to a group performance with awareness.",
@@ -930,7 +861,7 @@
           "teacher": []
         },
         {
-          "number": 15,
+          "number": 13,
           "week": 5,
           "title": "Exam feedback and reflection",
           "intention": "I can evaluate my own listening response and set a goal.",
@@ -970,7 +901,7 @@
       "intro": "This week we listen to jazz, play a 12-bar blues and improvise, then analyse how jazz uses the elements of music to create interest.",
       "lessons": [
         {
-          "number": 16,
+          "number": 14,
           "week": 6,
           "title": "Jazz listening",
           "intention": "I can identify the features and context of jazz.",
@@ -1021,7 +952,7 @@
           ]
         },
         {
-          "number": 17,
+          "number": 15,
           "week": 6,
           "title": "Jazz practical: 12-bar blues",
           "intention": "I can perform and improvise within a 12-bar blues.",
@@ -1058,7 +989,7 @@
           "teacher": []
         },
         {
-          "number": 18,
+          "number": 16,
           "week": 6,
           "title": "Analysing a jazz recording",
           "intention": "I can analyse a jazz work using the elements of music.",
@@ -1102,7 +1033,7 @@
       "intro": "This week we explore how film music creates mood and tells stories, create a short cue, and analyse a film composer’s choices.",
       "lessons": [
         {
-          "number": 19,
+          "number": 17,
           "week": 7,
           "title": "Film music listening",
           "intention": "I can identify how film music supports narrative.",
@@ -1153,7 +1084,7 @@
           ]
         },
         {
-          "number": 20,
+          "number": 18,
           "week": 7,
           "title": "Film music practical / compose",
           "intention": "I can use an element of music to create a mood for a scene.",
@@ -1190,7 +1121,7 @@
           "teacher": []
         },
         {
-          "number": 21,
+          "number": 19,
           "week": 7,
           "title": "Analysing a film cue",
           "intention": "I can analyse film music using the elements of music.",
@@ -1234,7 +1165,7 @@
       "intro": "This week we listen to and analyse music of Australia, including music of Aboriginal and Torres Strait Islander Peoples, with respect for context and protocols.",
       "lessons": [
         {
-          "number": 22,
+          "number": 20,
           "week": 8,
           "title": "Music of Australia and First Nations music",
           "intention": "I can describe Australian music and its context respectfully.",
@@ -1286,7 +1217,7 @@
           ]
         },
         {
-          "number": 23,
+          "number": 21,
           "week": 8,
           "title": "Australian music analysis",
           "intention": "I can analyse an Australian work using elements and context.",
@@ -1323,7 +1254,7 @@
           "teacher": []
         },
         {
-          "number": 24,
+          "number": 22,
           "week": 8,
           "title": "Practical and response: Australian styles",
           "intention": "I can perform a feature of an Australian style and describe it.",
@@ -1367,7 +1298,7 @@
       "intro": "This week we compare how styles use the elements differently, evaluate interpretive choices, and start thinking about the Term 4 Depth Study.",
       "lessons": [
         {
-          "number": 25,
+          "number": 23,
           "week": 9,
           "title": "Comparative listening across styles",
           "intention": "I can compare how an element is used across styles.",
@@ -1416,7 +1347,7 @@
           "teacher": []
         },
         {
-          "number": 26,
+          "number": 24,
           "week": 9,
           "title": "Critical listening: evaluating choices",
           "intention": "I can evaluate interpretive choices in performance.",
@@ -1459,7 +1390,7 @@
           "teacher": []
         },
         {
-          "number": 27,
+          "number": 25,
           "week": 9,
           "title": "Student-choice listening and Depth Study spark",
           "intention": "I can analyse music I choose and identify a personal area of interest.",
@@ -1506,7 +1437,7 @@
       "intro": "This week we present our analyses, launch the Term 4 Depth Study, and finish with an approved proposal ready to develop.",
       "lessons": [
         {
-          "number": 28,
+          "number": 26,
           "week": 10,
           "title": "Synthesis presentation",
           "intention": "I can present a clear analysis of a work.",
@@ -1539,7 +1470,7 @@
           ]
         },
         {
-          "number": 29,
+          "number": 27,
           "week": 10,
           "title": "Depth Study launch and idea generation",
           "intention": "I can generate realistic Depth Study ideas that match my interests and skills.",
@@ -1573,7 +1504,7 @@
           ]
         },
         {
-          "number": 30,
+          "number": 28,
           "week": 10,
           "title": "Depth Study proposal (milestone) and term celebration",
           "intention": "I can write a clear, realistic plan for my Depth Study.",
