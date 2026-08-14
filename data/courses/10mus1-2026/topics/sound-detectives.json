@@ -1742,6 +1742,41 @@
           ],
           "blocks": [
             {
+              "type": "explain",
+              "label": "Read this first",
+              "call": "There is no single Aboriginal sound. This music belongs to particular people, in a particular place.",
+              "body": [
+                {
+                  "p": "**Before you start: this page carries the names, voices and images of Aboriginal people who have died.** Under Yolŋu protocol the name of someone who has died is usually not used at all. Gurrumul's family gave permission for his name and image to be used publicly again after his final funeral ceremony, so that his music could keep reaching people. That decision was theirs to make and nobody else's, and it is the clearest example you will get of what a protocol actually is: a rule that belongs to a Community, about their own Cultural material."
+                },
+                {
+                  "h": "Music of Australia is a category, not a style"
+                },
+                {
+                  "p": "Music of Australia is one of the required areas of study in this course, and it covers everything made here: First Nations music, and the music of everyone who came afterwards. There are hundreds of First Nations across this continent, each with their own Country, Languages and Cultural practices, so there is no one “Aboriginal sound” any more than there is one “European sound”. **Every artist on this page is Yolŋu, from north-east Arnhem Land.** That makes them a good set to compare with each other, and a bad set to generalise from."
+                },
+                {
+                  "h": "The yidaki is not a national instrument"
+                },
+                {
+                  "p": "The instrument usually called a didgeridoo has its own name, the **yidaki**, in the Yolŋu languages of north-east Arnhem Land. “Didgeridoo” is an introduced English word, not the instrument's own. It comes from the north of the continent rather than all of it, so it does not belong in a description of music from everywhere in Australia, and you will not hear it in every work on this page. Who may play it is decided by the Traditional Owners of the place it comes from, and those protocols differ between Communities. There is no single national rule, and the answer for any particular Community belongs to that Community."
+                },
+                {
+                  "h": "What is yours to say, and what is not"
+                },
+                {
+                  "ul": [
+                    "**Describe the music.** Language, instruments, texture, rhythm, structure, the way a traditional element sits inside a contemporary one. This is what you are assessed on and it is yours to describe, exactly as in any other work.",
+                    "**Use context the artists have made public themselves.** Baker Boy raps in Yolŋu Matha and in English, and “Marryuna” means dance. King Stingray call their own sound Yolŋu surf rock. That is context straight from the artist, and it is safe ground.",
+                    "**Do not invent the meaning.** If nobody has said what a song is about, writing that is a better answer than guessing at it. “The artists have not made that public” is a real sentence and a respectable one."
+                  ]
+                },
+                {
+                  "p": "**Working rule: describe what you hear, and attribute what you know.** The question is still how the elements of music are used. Context earns marks when it is accurate and sourced. Decoration earns nothing, and guessing at Cultural meaning is worse than nothing."
+                }
+              ]
+            },
+            {
               "type": "media",
               "n": 1,
               "brief": "Gurrumul, 'Wiyathul'. Yolŋu language, official video, gentle traditional-influenced example.",
@@ -1779,7 +1814,7 @@
             }
           ],
           "teacher": [
-            "Use the ‘Music of Australia & First Nations Music’ deck (includes protocols).",
+            "The protocols are now on the student page: the deceased-names note, the yidaki, and what students may and may not claim about meaning. Use the 'Music of Australia & First Nations Music' deck for the rest.",
             "Follow respectful protocols and ICIP awareness. Where possible, seek local community consultation and use artist-approved recordings. Avoid sacred or restricted material. Centre First Nations voices and artists."
           ]
         },
