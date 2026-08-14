@@ -769,9 +769,9 @@ a:hover { text-decoration-thickness: 3px; }
 .model {
   margin: 1rem 0;
   padding: 0.9rem 1.1rem;
-  border-left: 8px solid var(--teal);
+  border: var(--line);
+  border-radius: var(--wob-b);
   background: rgba(185, 236, 231, 0.28);
-  border-radius: 6px 14px 8px 12px / 12px 8px 14px 6px;
 }
 .model p { max-width: 62ch; }
 .rungs { list-style: none; margin: 1rem 0 0; padding: 0; max-width: 68ch; }
