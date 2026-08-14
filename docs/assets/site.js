@@ -136,6 +136,23 @@
     arrows.forEach(function (svg) { io.observe(svg); });
   }
 
+  /* Cue times seek the player on the page instead of navigating to YouTube.
+     The href is a real watch?t= link so it still works with JavaScript off;
+     this only intercepts when there is an embed in the same block to seek. */
+  document.querySelectorAll(".cues .cue-t").forEach(function (a) {
+    a.addEventListener("click", function (ev) {
+      var block = a.closest(".blk-guide");
+      var frame = block && block.querySelector(".video iframe");
+      if (!frame) return;                       // no player here, let the link go
+      var at = parseInt(a.getAttribute("data-at"), 10);
+      if (isNaN(at)) return;
+      var src = frame.getAttribute("src").split("?")[0];
+      ev.preventDefault();
+      frame.setAttribute("src", src + "?start=" + at + "&autoplay=1");
+      frame.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  });
+
   /* Keep the current lesson visible when the filmstrip overflows. */
   var now = document.querySelector(".strip .frame-now");
   if (now) {

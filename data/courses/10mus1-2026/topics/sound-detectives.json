@@ -616,11 +616,99 @@
               "text": "How the piece is put together — the order of its sections, like the shape of a story."
             },
             {
-              "type": "media",
-              "n": 1,
-              "brief": "A pop song with a clear verse-chorus structure.",
-              "work": "OneRepublic, “Counting Stars” · 4:43 · OneRepublicVEVO",
-              "embed": "hT_nvWreIhg"
+              "type": "explain",
+              "call": "Structure is the only element you cannot hear in a single moment.",
+              "body": [
+                {
+                  "p": "Every other element is there in one second of sound. You can hear that a note is high, that a chord is loud, that a tone is brassy, without waiting for anything. Structure is different. It only exists across time: it is the pattern you notice when you compare what you are hearing now with what you heard a minute ago."
+                },
+                {
+                  "h": "What a boundary sounds like"
+                },
+                {
+                  "p": "A new section almost never announces itself with one change. It arrives with two or three at once. The usual ones:"
+                },
+                {
+                  "ul": [
+                    "instruments come in, or drop out (texture)",
+                    "the music gets louder or softer (dynamics)",
+                    "the drum pattern changes, or the beat drops out altogether",
+                    "the melody changes, or an earlier melody comes back",
+                    "the words change, or earlier words come back",
+                    "the harmony moves somewhere it has not been"
+                  ]
+                },
+                {
+                  "p": "**Working rule: if two or more of those change at the same moment, that moment is a boundary.** If only one changes, it is usually decoration inside a section rather than the start of a new one."
+                },
+                {
+                  "p": "You cannot be certain a section was a chorus until it comes back, which is exactly why you get three playings in a listening examination. Use the first playing to notice, and the later ones to label."
+                },
+                {
+                  "h": "Writing it down"
+                },
+                {
+                  "p": "Use letters (A, B, A) when the sections have no names, and names (intro, verse, chorus, bridge, outro) when they do. Either way you are drawing a map: the sections in order, left to right."
+                }
+              ]
+            },
+            {
+              "type": "guide",
+              "label": "Excerpt 1",
+              "work": "OneRepublic, “Counting Stars”",
+              "meta": "2013 · 4:43 · OneRepublicVEVO",
+              "brief": "A pop song with a clear verse-chorus structure. Follow one thing all the way through: the words “Lately I’ve been”. Count how many times they come back.",
+              "embed": "hT_nvWreIhg",
+              "cues": [
+                {
+                  "at": 0,
+                  "text": "The song opens with its chorus, over an acoustic guitar and almost nothing else. Remember this tune. You will hear it four more times."
+                },
+                {
+                  "at": 21,
+                  "text": "The band arrives: bass, kit, handclaps. The tune has not changed, the texture has. A boundary can be carried by texture on its own."
+                },
+                {
+                  "at": 37,
+                  "text": "Verse 1. New words, new melody, and the drums settle into a pattern they keep. Two changes at once, so this boundary is unmistakable."
+                },
+                {
+                  "at": 54,
+                  "text": "Pre-chorus. The words slow down and the harmony stops moving forward. This section’s whole job is to make you wait for the chorus."
+                },
+                {
+                  "at": 78,
+                  "text": "Chorus 1. The tune from 0:00, now with the full band behind it. Same tune, different dress, which is how you know 0:00 was the chorus."
+                },
+                {
+                  "at": 116,
+                  "text": "Verse 2. The texture thins again: fewer instruments, quieter. The song is pulling the same lever it pulled at 0:21, in reverse."
+                },
+                {
+                  "at": 133,
+                  "text": "Pre-chorus, shorter this time. A section is allowed to be trimmed when it comes round again."
+                },
+                {
+                  "at": 149,
+                  "text": "Chorus 2."
+                },
+                {
+                  "at": 180,
+                  "text": "Bridge. Everything drops away except the voice and a few chords, and one short phrase repeats four times. This is the biggest change in the song, and the only section that happens once."
+                },
+                {
+                  "at": 206,
+                  "text": "Final chorus, straight back to the full band with no build. The contrast with the bridge does all the work."
+                },
+                {
+                  "at": 238,
+                  "text": "Outro. The bridge words come back over the chorus groove, so the last section is built out of two earlier ones."
+                },
+                {
+                  "at": 253,
+                  "text": "The song has finished. What you hear after this belongs to the video, not to the music."
+                }
+              ]
             },
             {
               "type": "definition",
@@ -628,11 +716,89 @@
               "text": "The pop-song structure: verses tell the story, the chorus is the hook that repeats."
             },
             {
-              "type": "media",
-              "n": 2,
-              "brief": "A 12-bar blues.",
-              "work": "Stevie Ray Vaughan & Double Trouble, “Pride and Joy” · 3:43 · stevierayvaughnVEVO",
-              "embed": "I3MTGhRC82s"
+              "type": "guide",
+              "label": "Excerpt 2",
+              "work": "Stevie Ray Vaughan & Double Trouble, “Pride and Joy”",
+              "meta": "1983 · 3:43 · stevierayvaughnVEVO",
+              "brief": "A 12-bar blues. Nothing here is a verse or a chorus in the pop sense. The whole track is one 12-bar pattern, played through nine times without changing shape once.",
+              "embed": "I3MTGhRC82s",
+              "cues": [
+                {
+                  "at": 0,
+                  "text": "The riff, on guitar alone. It is the engine of the whole song and it barely stops for three and a half minutes."
+                },
+                {
+                  "at": 8,
+                  "text": "Bass and drums join. From here you can count: four beats to a bar, at about 127 beats a minute."
+                },
+                {
+                  "at": 11,
+                  "text": "The first 12 bars begin. In blues, one trip through the 12 bars is called a _chorus_, whether anyone sings on it or not. It is a unit of form, not a hook."
+                },
+                {
+                  "at": 34,
+                  "text": "Chorus 2. The same 12 bars again. Nothing about the shape has moved."
+                },
+                {
+                  "at": 56,
+                  "text": "Chorus 3. Follow the chords all the way through this one.",
+                  "sub": [
+                    {
+                      "at": 56,
+                      "text": "Bars 1 to 4, all on the home chord (I)."
+                    },
+                    {
+                      "at": 64,
+                      "text": "Bar 5. The chord steps up to IV. This is the moment that proves it is a 12-bar blues and not just a repeat."
+                    },
+                    {
+                      "at": 68,
+                      "text": "Bar 7. Back down to I."
+                    },
+                    {
+                      "at": 71,
+                      "text": "Bar 9. Up to V, the furthest from home the pattern ever goes."
+                    },
+                    {
+                      "at": 73,
+                      "text": "Bar 10. Down to IV."
+                    },
+                    {
+                      "at": 75,
+                      "text": "Bars 11 and 12. Home to I, and a turnaround that hands you back to bar 1."
+                    }
+                  ]
+                },
+                {
+                  "at": 79,
+                  "text": "Chorus 4. Now that you know the pattern you can call every chord change before it arrives. That is the test of whether you have the form."
+                },
+                {
+                  "at": 102,
+                  "text": "Chorus 5, and the guitar takes a solo. The form does not bend for it: the solo fits inside the same 12 bars as everything else."
+                },
+                {
+                  "at": 124,
+                  "text": "Chorus 6, the solo carries on, still inside the 12 bars."
+                },
+                {
+                  "at": 147,
+                  "text": "Chorus 7."
+                },
+                {
+                  "at": 170,
+                  "text": "Chorus 8."
+                },
+                {
+                  "at": 192,
+                  "text": "Chorus 9, the last full time through."
+                },
+                {
+                  "at": 215,
+                  "text": "The ending. The band steps outside the pattern for the first time in the whole song, and stops on the home chord."
+                }
+              ],
+              "note": "Each chorus runs about 22 and a half seconds. Time the gap between any two of the boundaries above and you get the same number, which is what “the form repeats unchanged” actually means when you measure it."
             },
             {
               "type": "definition",
@@ -640,11 +806,65 @@
               "text": "A repeating 12-bar chord pattern, often with an AAB lyric pattern — the backbone of blues and early rock 'n' roll."
             },
             {
-              "type": "media",
-              "n": 3,
-              "brief": "A classical work in ternary form or theme and variation.",
-              "work": "Mozart, 12 Variations on “Ah, vous dirai-je Maman”, K. 265 · 14:04 · András Schiff",
-              "embed": "7FU189_fW7Q"
+              "type": "guide",
+              "label": "Excerpt 3",
+              "work": "Mozart, 12 Variations on “Ah, vous dirai-je, maman”, K. 265",
+              "meta": "1781 · 14:04 · András Schiff, piano",
+              "brief": "Two forms on one track. The theme has a ternary (ABA) shape of its own, and the set then rebuilds that theme twelve times in different clothes. You already know the tune.",
+              "embed": "7FU189_fW7Q",
+              "cues": [
+                {
+                  "at": 2,
+                  "text": "The theme. Listen to its own shape first, before any variation starts.",
+                  "sub": [
+                    {
+                      "at": 3,
+                      "text": "**A.** The tune, straight through."
+                    },
+                    {
+                      "at": 10,
+                      "text": "**A again**, note for note. Composers repeat before they contrast."
+                    },
+                    {
+                      "at": 19,
+                      "text": "**B.** A new middle idea, higher, stepping downwards."
+                    },
+                    {
+                      "at": 28,
+                      "text": "**A returns**, unchanged. A, then B, then A: that is ternary form, sitting inside the theme."
+                    },
+                    {
+                      "at": 36,
+                      "text": "B and A again, because this half of the theme is repeated too."
+                    }
+                  ]
+                },
+                {
+                  "at": 54,
+                  "text": "**Variation 1.** The tune is still there, but the right hand covers it in fast running notes. Sing the tune over the top and you will find it."
+                },
+                {
+                  "at": 107,
+                  "text": "**Variation 2.** The same trick moved to the left hand, so the tune sits on top, plain, with the fast notes underneath it."
+                },
+                {
+                  "at": 412,
+                  "text": "**Variation 8.** The one everybody notices. Same tune, same shape, same number of bars, in a _minor_ key. Nothing structural changed. Only the colour did."
+                },
+                {
+                  "at": 466,
+                  "text": "**Variation 9.** Major again. The relief you feel here is the reason a composer puts a minor variation in the middle of a set."
+                },
+                {
+                  "at": 557,
+                  "text": "**Variation 11**, marked Adagio. Slow, and heavily decorated, so the tune is hardest to find here. Keep its shape in your head and follow it through the ornaments."
+                },
+                {
+                  "at": 754,
+                  "text": "**Variation 12**, the last. The beat now falls in threes instead of fours, the tempo lifts, and the set finishes."
+                }
+              ],
+              "note": "Every variation has the same number of bars and the same chords underneath as the theme. What changes is speed, register, which hand has the fast notes, how much decoration, major or minor, and finally the metre. In other words, every element _except_ structure. That is what a variation is."
             },
             {
               "type": "definition",
@@ -674,6 +894,23 @@
               ]
             },
             {
+              "type": "check",
+              "summary": "If you were away: the structure words",
+              "items": [
+                "**Intro** - the opening section that sets the song up before the singing starts.",
+                "**Verse** - carries the story. Same tune each time, new words each time.",
+                "**Pre-chorus** - a short section between verse and chorus that builds tension and hands over.",
+                "**Chorus** - repeats with the same words and the same tune. Usually the loudest, and the one you remember.",
+                "**Bridge** - appears once, usually late, and contrasts with everything around it.",
+                "**Instrumental (solo)** - no singing, an instrument takes the lead line.",
+                "**Outro (coda)** - the ending section, after the last chorus.",
+                "**Riff** - a short pattern, usually on guitar, bass or keys, repeated as the backbone of a section.",
+                "**Hook** - the part you cannot stop singing. Often the chorus line, but it can be a riff.",
+                "**Repetition** - using the same material again. It is what makes a section recognisable when it returns.",
+                "**Contrast** - putting something different beside it. It is what makes a boundary audible in the first place."
+              ]
+            },
+            {
               "type": "steps",
               "title": "What we are doing",
               "items": [
@@ -689,8 +926,44 @@
               "text": "Map the structure of one excerpt by labelling its sections and noting what changes between them."
             },
             {
+              "type": "worked",
+              "question": "Describe one thing that changes when a new section begins.",
+              "marks": "1 mark",
+              "lead": "This is the question type your listening examination asks about structure, and it is this lesson’s exit question in the same words. Here is one full mark, on “Counting Stars”.",
+              "model": "At 3:26 the full band returns after the bridge, so the texture thickens from one voice and a few chords to drums, bass and guitars all at once, and that thickening is what marks the start of the final chorus.",
+              "rungs": [
+                {
+                  "move": "Identify",
+                  "text": "Name the change and say where it is. _The texture thickens at 3:26._ “The texture changes” on its own names an element but not a change, and earns nothing."
+                },
+                {
+                  "move": "Describe",
+                  "text": "Add the sound and the location. _From one voice and a few chords to drums, bass and guitars._ The marker should be able to hear it from your words without playing the track."
+                },
+                {
+                  "move": "Explain",
+                  "text": "Say what it does. _That thickening marks the start of the final chorus._ This is the half the question is really paying for, and the half most people leave off."
+                }
+              ],
+              "zero": {
+                "answer": "“A section changes at 3:26.”",
+                "why": "True, and worth zero: it says a section changed without saying what changed. The mark is for the hearing, not for the word count, so a short answer is fine. An empty one is not."
+              }
+            },
+            {
               "type": "exit",
               "text": "What element signalled a new section most clearly?"
+            },
+            {
+              "type": "check",
+              "ordered": true,
+              "summary": "Check yourself: four questions on today",
+              "items": [
+                "In “Counting Stars”, which section appears only once? **The bridge, at 3:00.** Everything else comes round at least twice.",
+                "How long is one chorus of “Pride and Joy”, in seconds? **About 22 and a half.** Anything from 21 to 24 means you counted rather than guessed.",
+                "In Mozart’s Variation 8, what changed and what stayed the same? **The mode changed to minor. The tune, its length and its ABA shape stayed the same.**",
+                "Name two things that usually change together at a section boundary. **Any two of: texture, dynamics, drum pattern, melody, words, harmony.** One change on its own is usually decoration; two together is a boundary."
+              ]
             }
           ],
           "teacher": [

@@ -37,6 +37,27 @@ def slug(s):
     return out.strip("-")
 
 
+def rich(s):
+    """Escape first, then allow a two-mark inline vocabulary: **bold** and _italic_.
+
+    The depth blocks carry a lot of prose and some of it has to emphasise a term
+    mid-sentence. Escaping before converting means the data can never inject
+    markup, which matters because these files are hand-edited.
+    """
+    out = e(s)
+    for mark, tag in (("**", "strong"), ("_", "em")):
+        parts = out.split(mark)
+        if len(parts) % 2 == 1:  # balanced pairs only, otherwise leave it alone
+            out = "".join(
+                p if i % 2 == 0 else f"<{tag}>{p}</{tag}>" for i, p in enumerate(parts)
+            )
+    return out
+
+
+def mmss(seconds):
+    return f"{int(seconds) // 60}:{int(seconds) % 60:02d}"
+
+
 def write(path_parts, markup):
     path = os.path.join(OUT, *path_parts)
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -375,6 +396,99 @@ def block_html(block):
             '<p class="gap-tools"><button type="button" class="gap-clear">Clear this form</button>'
             '<span class="gap-saved">Your answers stay on this device.</span></p>'
             "</section>"
+        )
+
+    if t == "explain":
+        # Exposition: what Mr Edwards would say out loud. Deliberately NOT a
+        # panel - the panels in this world are things you do, and this is
+        # something you read. The call is set in marker over the prose, which is
+        # this world's version of a chord symbol over a lyric: the back row
+        # reads the call, the student at home reads everything under it.
+        parts = []
+        for item in block.get("body", []):
+            if "h" in item:
+                parts.append(f'<h3 class="explain-sub">{rich(item["h"])}</h3>')
+            elif "ul" in item:
+                lis = "".join(f"<li>{rich(x)}</li>" for x in item["ul"])
+                parts.append(f'<ul class="explain-list">{lis}</ul>')
+            elif "p" in item:
+                parts.append(f"<p>{rich(item['p'])}</p>")
+        return (
+            '<section class="blk blk-explain">'
+            f'<h2>{e(block.get("label", "Read this"))}</h2>'
+            f'<p class="call">{rich(block["call"])}</p>'
+            f'{"".join(parts)}</section>'
+        )
+
+    if t == "guide":
+        # A named work with timestamped listening. The time column is set in the
+        # hand face because that is what it is: what you would scribble in a
+        # margin beside a track. Times link out to YouTube at that second, so
+        # they still work with JavaScript off; site.js catches the click and
+        # seeks the embedded player instead when there is one on the page.
+        def cue_list(cues, vid, extra=""):
+            rows = []
+            for c in cues:
+                at = int(c["at"])
+                sub = cue_list(c["sub"], vid, " cues-sub") if c.get("sub") else ""
+                href = f"https://www.youtube.com/watch?v={vid}&amp;t={at}s"
+                rows.append(
+                    f'<li><a class="cue-t" data-at="{at}" href="{href}">{mmss(at)}</a>'
+                    f'<span class="cue-w">{rich(c["text"])}</span>{sub}</li>'
+                )
+            return f'<ol class="cues{extra}">{"".join(rows)}</ol>'
+
+        vid = e(block["embed"])
+        meta = f'<span class="guide-meta">{e(block["meta"])}</span>' if block.get("meta") else ""
+        brief = f'<p>{rich(block["brief"])}</p>' if block.get("brief") else ""
+        note = f'<p class="cue-note">{rich(block["note"])}</p>' if block.get("note") else ""
+        return f"""<section class="blk blk-guide">
+<h2 class="tab">{e(block.get("label", "Listen"))}</h2>
+<p class="guide-work"><span class="track-title">{e(block["work"])}</span>{meta}</p>
+{brief}
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{vid}"
+title="{e(block['work'])}" loading="lazy" allowfullscreen
+allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></iframe></div>
+{cue_list(block["cues"], vid)}
+{note}</section>"""
+
+    if t == "worked":
+        # The answer written out, with the thinking shown as ALARM dot points.
+        # Pink tab because pink is this site's assessment colour (success
+        # criteria, exit ticket) and a worked answer is assessment-facing.
+        marks = f'<span class="marks">({e(block["marks"])})</span>' if block.get("marks") else ""
+        lead = f'<p>{rich(block["lead"])}</p>' if block.get("lead") else ""
+        rungs = "".join(
+            f'<li><span class="rung">{e(r["move"])}</span>{rich(r["text"])}</li>'
+            for r in block.get("rungs", [])
+        )
+        zero = ""
+        if block.get("zero"):
+            zero = (
+                '<h3 class="explain-sub">What scores nothing</h3>'
+                f'<p class="zero-answer">{rich(block["zero"]["answer"])}</p>'
+                f'<p>{rich(block["zero"]["why"])}</p>'
+            )
+        return (
+            '<section class="blk blk-panel blk-worked inked-c">'
+            '<h2 class="tab tab-pink">Worked answer</h2>'
+            f'<p class="q">{rich(block["question"])} {marks}</p>'
+            f"{lead}"
+            f'<div class="model"><p>{rich(block["model"])}</p></div>'
+            f'{f"<ul class=\"rungs\">{rungs}</ul>" if rungs else ""}'
+            f"{zero}</section>"
+        )
+
+    if t == "check":
+        # Closed by default so a projected page never leaks the answers to the
+        # room while the class works. Teal because teal is this site's knowledge
+        # colour, and this is the knowledge handed back.
+        tag = "ol" if block.get("ordered") else "ul"
+        items = "".join(f"<li>{rich(x)}</li>" for x in block["items"])
+        return (
+            '<details class="blk check inked">'
+            f'<summary><span class="hl-teal">{e(block["summary"])}</span></summary>'
+            f'<{tag} class="answers">{items}</{tag}></details>'
         )
 
     if t == "activity":

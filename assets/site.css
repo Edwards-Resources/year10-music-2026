@@ -688,6 +688,129 @@ a:hover { text-decoration-thickness: 3px; }
 .blk-empty { border-style: dashed; }
 .empty-mark { font-family: var(--hand); font-size: 1.35rem; color: var(--soft); }
 
+/* ------------------------------------------------------- depth: explain
+   Exposition, unboxed on purpose: the panels in this world are things you do.
+   The call is marker over body text, which is this world's chord-symbol-over-
+   lyric - the back row reads the call, the reader at home reads under it. */
+.blk-explain { margin-top: 2.6rem; max-width: 68ch; }
+.call {
+  font-family: var(--marker);
+  font-size: 1.65rem;
+  line-height: 1.25;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.18em;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 10" preserveAspectRatio="none"><path d="M2 6 C30 2 70 8 118 3 L119 6 C80 11 35 5 3 10 Z" fill="%23FFE34D"/></svg>') no-repeat bottom left / 100% 0.3em;
+}
+.blk-explain > p { margin-bottom: 0.75rem; }
+.explain-sub {
+  font-family: var(--hand);
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin: 1.4rem 0 0.4rem;
+  color: var(--soft);
+}
+.explain-list { margin: 0.5rem 0 0.9rem 1.4rem; }
+.explain-list li { margin-bottom: 0.3rem; }
+
+/* ------------------------------------------------------- depth: guide
+   A named work with timestamped listening. Times sit in the hand face because
+   that is what they are: what you scribble in a margin beside a track. */
+.blk-guide { margin-top: 2.6rem; }
+.guide-work { margin: 0.7rem 0 0.5rem; max-width: 68ch; }
+.track-title { font-family: var(--marker); font-size: 1.35rem; line-height: 1.3; }
+.guide-meta {
+  display: block;
+  font-family: var(--hand);
+  font-size: 1.25rem;
+  color: var(--soft);
+}
+.blk-guide > p { max-width: 68ch; margin-bottom: 0.8rem; }
+.cues { list-style: none; margin: 1rem 0 0; padding: 0; max-width: 68ch; }
+.cues > li {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: 0 0.9rem;
+  padding: 0.5rem 0;
+  border-top: 2px dashed rgba(17, 17, 17, 0.25);
+}
+.cues > li:first-child { border-top: 0; }
+.cue-t {
+  font-family: var(--hand);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: right;
+  text-decoration: none;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  align-self: start;
+}
+.cue-t:hover { background: var(--teal-dim); border-radius: 4px; }
+.cue-w { align-self: start; }
+/* A sub-cue list spans both columns and indents under its parent. */
+.cues-sub { grid-column: 1 / -1; margin: 0.45rem 0 0.1rem 1.1rem; }
+.cues-sub > li { padding: 0.35rem 0; grid-template-columns: 3.4rem minmax(0, 1fr); }
+.cues-sub > li:first-child { border-top: 2px dashed rgba(17, 17, 17, 0.25); }
+.cues-sub .cue-t { font-size: 1.25rem; }
+.cue-note {
+  margin-top: 0.9rem;
+  max-width: 68ch;
+  font-family: var(--hand);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  color: var(--soft);
+}
+
+/* ------------------------------------------------------- depth: worked */
+.blk-worked { padding: 1.7rem 1.5rem 1.3rem; }
+.blk-worked .q { font-family: var(--marker); font-size: 1.35rem; line-height: 1.3; }
+.marks { font-family: var(--hand); font-size: 1.25rem; color: var(--soft); }
+.blk-worked > p { max-width: 68ch; margin-top: 0.7rem; }
+.model {
+  margin: 1rem 0;
+  padding: 0.9rem 1.1rem;
+  border-left: 8px solid var(--teal);
+  background: rgba(185, 236, 231, 0.28);
+  border-radius: 6px 14px 8px 12px / 12px 8px 14px 6px;
+}
+.model p { max-width: 62ch; }
+.rungs { list-style: none; margin: 1rem 0 0; padding: 0; max-width: 68ch; }
+.rungs li { padding: 0.55rem 0; border-top: 2px dashed rgba(17, 17, 17, 0.25); }
+.rung {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.05em 0.55em 0.1em;
+  font-family: var(--marker);
+  font-size: 1rem;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28" preserveAspectRatio="none"><path d="M4 7 C1 4 4 1 9 2 L60 1 94 0 C99 0 101 4 98 8 L99 20 C101 25 97 28 91 27 L38 28 8 27 C2 27 0 24 2 20 Z" fill="%23FFE34D"/></svg>') no-repeat center / 100% 100%;
+}
+.zero-answer { font-family: var(--hand); font-size: 1.35rem; color: var(--soft); }
+
+/* ------------------------------------------------------- depth: check
+   Closed by default so a projected page never leaks answers to the room. */
+.check { padding: 0.2rem 1.3rem 0.2rem; margin-top: 2.3rem; }
+/* A teal highlighter swipe rather than a tab: the tab SVG stretches to fit its
+   text and these summaries are a whole sentence long, which squashes the marker
+   face. The swipe is built to run under a text of any length. */
+.check > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.9rem 0;
+  font-family: var(--marker);
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+.check > summary::-webkit-details-marker { display: none; }
+.check > summary::after {
+  content: " ▸";
+  font-family: var(--body);
+  color: var(--soft);
+}
+.check[open] > summary::after { content: " ▾"; }
+.check > summary:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; }
+.check .answers { margin: 0 0 1.1rem 1.3rem; max-width: 68ch; }
+.check .answers li { margin-bottom: 0.55rem; }
+
 .teach { margin-top: 2.6rem; position: relative; padding: 1.7rem 1.5rem 1.2rem; }
 .teach h2 { position: absolute; top: -1.05rem; left: 1.1rem; }
 .teach ul { list-style: none; }
