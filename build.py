@@ -12,6 +12,7 @@ Every page is generated. Never edit anything in docs/ by hand; it gets overwritt
 import html
 import json
 import os
+import re
 import shutil
 from datetime import date, datetime
 
@@ -19,6 +20,16 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
 OUT = os.path.join(ROOT, "docs")
 ASSETS = os.path.join(ROOT, "assets")
+
+# Set once in main() from site.json. Internal links in block text are written
+# site-relative ("/10mus1-2026/depth-study/step-1/") and get this prepended, so
+# the data never has to know the repo name the site is served under.
+BASE = ""
+
+# [label](/site/relative/path/). The href group admits nothing but a slash-led
+# path of letters, digits and hyphens, so no external destination and no
+# javascript: URL can come out of the data files.
+LINK_RE = re.compile(r"\[([^\[\]]+)\]\((/[A-Za-z0-9/-]*)\)")
 
 
 def load(*parts):
@@ -38,11 +49,15 @@ def slug(s):
 
 
 def rich(s):
-    """Escape first, then allow a two-mark inline vocabulary: **bold** and _italic_.
+    """Escape first, then allow a small inline vocabulary: **bold**, _italic_ and
+    [label](/internal/link/).
 
     The depth blocks carry a lot of prose and some of it has to emphasise a term
     mid-sentence. Escaping before converting means the data can never inject
     markup, which matters because these files are hand-edited.
+
+    Links run last so that a hyphen or underscore inside a path cannot be eaten
+    by the italic pass on its way through.
     """
     out = e(s)
     for mark, tag in (("**", "strong"), ("_", "em")):
@@ -51,7 +66,7 @@ def rich(s):
             out = "".join(
                 p if i % 2 == 0 else f"<{tag}>{p}</{tag}>" for i, p in enumerate(parts)
             )
-    return out
+    return LINK_RE.sub(lambda m: f'<a href="{BASE}{m.group(2)}">{m.group(1)}</a>', out)
 
 
 def mmss(seconds):
@@ -295,7 +310,7 @@ def block_html(block):
     t = block["type"]
 
     if t == "steps":
-        items = "".join(f"<li><span>{e(i)}</span></li>" for i in block["items"])
+        items = "".join(f"<li><span>{rich(i)}</span></li>" for i in block["items"])
         return f'<section class="blk"><h2>{e(block["title"])}</h2><ol class="steps">{items}</ol></section>'
 
     if t == "definition":
@@ -950,7 +965,9 @@ def build_home(site, courses):
 
 
 def main():
+    global BASE
     site = load("site.json")
+    BASE = site["base"]
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT)
