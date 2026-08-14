@@ -424,7 +424,8 @@ def block_html(block):
     if t == "media":
         if block["embed"]:
             brief = f'<p class="media-brief">{e(block["brief"])}</p>' if block.get("brief") else ""
-            return f"""<section class="blk"><h2>Listen</h2>
+            work = f'<p class="media-work">{e(block["work"])}</p>' if block.get("work") else ""
+            return f"""<section class="blk"><h2>Listen</h2>{work}
 <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{e(block['embed'])}"
 title="Listening example" loading="lazy" allowfullscreen
 allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></iframe></div>

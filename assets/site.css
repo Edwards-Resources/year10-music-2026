@@ -684,6 +684,7 @@ a:hover { text-decoration-thickness: 3px; }
 }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .media-brief { margin-top: 0.6rem; max-width: 68ch; }
+.media-work { margin: 0 0 0.5rem; max-width: 68ch; font-weight: 600; }
 .blk-empty { border-style: dashed; }
 .empty-mark { font-family: var(--hand); font-size: 1.35rem; color: var(--soft); }
 
