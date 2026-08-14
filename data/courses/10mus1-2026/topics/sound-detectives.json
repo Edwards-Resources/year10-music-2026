@@ -393,7 +393,7 @@
             {
               "type": "media",
               "n": 2,
-              "brief": "Jazz: Louis Armstrong's trumpet and gravelly vocal timbre, instantly recognisable.",
+              "brief": "Jazz: Louis Armstrong's gravelly vocal timbre, instantly recognisable — this famous recording has no trumpet on it, just his voice against strings.",
               "embed": "rBrd_3VMC3c"
             },
             {
@@ -673,40 +673,12 @@
                   "text": "Verse 1. New words, new melody, and the drums settle into a pattern they keep. Two changes at once, so this boundary is unmistakable."
                 },
                 {
-                  "at": 54,
-                  "text": "Pre-chorus. The words slow down and the harmony stops moving forward. This section’s whole job is to make you wait for the chorus."
-                },
-                {
                   "at": 78,
                   "text": "Chorus 1. The tune from 0:00, now with the full band behind it. Same tune, different dress, which is how you know 0:00 was the chorus."
                 },
                 {
-                  "at": 116,
-                  "text": "Verse 2. The texture thins again: fewer instruments, quieter. The song is pulling the same lever it pulled at 0:21, in reverse."
-                },
-                {
-                  "at": 133,
-                  "text": "Pre-chorus, shorter this time. A section is allowed to be trimmed when it comes round again."
-                },
-                {
-                  "at": 149,
-                  "text": "Chorus 2."
-                },
-                {
                   "at": 180,
                   "text": "Bridge. Everything drops away except the voice and a few chords, and one short phrase repeats four times. This is the biggest change in the song, and the only section that happens once."
-                },
-                {
-                  "at": 206,
-                  "text": "Final chorus, straight back to the full band with no build. The contrast with the bridge does all the work."
-                },
-                {
-                  "at": 238,
-                  "text": "Outro. The bridge words come back over the chorus groove, so the last section is built out of two earlier ones."
-                },
-                {
-                  "at": 253,
-                  "text": "The song has finished. What you hear after this belongs to the video, not to the music."
                 }
               ]
             },
@@ -734,10 +706,6 @@
                 {
                   "at": 11,
                   "text": "The first 12 bars begin. In blues, one trip through the 12 bars is called a _chorus_, whether anyone sings on it or not. It is a unit of form, not a hook."
-                },
-                {
-                  "at": 34,
-                  "text": "Chorus 2. The same 12 bars again. Nothing about the shape has moved."
                 },
                 {
                   "at": 56,
@@ -770,28 +738,8 @@
                   ]
                 },
                 {
-                  "at": 79,
-                  "text": "Chorus 4. Now that you know the pattern you can call every chord change before it arrives. That is the test of whether you have the form."
-                },
-                {
                   "at": 102,
                   "text": "Chorus 5, and the guitar takes a solo. The form does not bend for it: the solo fits inside the same 12 bars as everything else."
-                },
-                {
-                  "at": 124,
-                  "text": "Chorus 6, the solo carries on, still inside the 12 bars."
-                },
-                {
-                  "at": 147,
-                  "text": "Chorus 7."
-                },
-                {
-                  "at": 170,
-                  "text": "Chorus 8."
-                },
-                {
-                  "at": 192,
-                  "text": "Chorus 9, the last full time through."
                 },
                 {
                   "at": 215,
@@ -840,28 +788,8 @@
                   ]
                 },
                 {
-                  "at": 54,
-                  "text": "**Variation 1.** The tune is still there, but the right hand covers it in fast running notes. Sing the tune over the top and you will find it."
-                },
-                {
-                  "at": 107,
-                  "text": "**Variation 2.** The same trick moved to the left hand, so the tune sits on top, plain, with the fast notes underneath it."
-                },
-                {
                   "at": 412,
                   "text": "**Variation 8.** The one everybody notices. Same tune, same shape, same number of bars, in a _minor_ key. Nothing structural changed. Only the colour did."
-                },
-                {
-                  "at": 466,
-                  "text": "**Variation 9.** Major again. The relief you feel here is the reason a composer puts a minor variation in the middle of a set."
-                },
-                {
-                  "at": 557,
-                  "text": "**Variation 11**, marked Adagio. Slow, and heavily decorated, so the tune is hardest to find here. Keep its shape in your head and follow it through the ornaments."
-                },
-                {
-                  "at": 754,
-                  "text": "**Variation 12**, the last. The beat now falls in threes instead of fours, the tempo lifts, and the set finishes."
                 }
               ],
               "note": "Every variation has the same number of bars and the same chords underneath as the theme. What changes is speed, register, which hand has the fast notes, how much decoration, major or minor, and finally the metre. In other words, every element _except_ structure. That is what a variation is."
@@ -986,21 +914,96 @@
               "text": "Every point you write about music has four parts: name the element, say how it is used, explain its effect, and give the musical evidence you actually heard. Miss the effect and you are describing, not analysing."
             },
             {
+              "type": "explain",
+              "call": "Every mark in this exam is earned by the word after “because”.",
+              "body": [
+                {
+                  "p": "A response sentence has four parts: name the element, say how it is used, say what effect that has, and give the musical evidence you actually heard. Miss the effect and you have described the music, not analysed it — and description on its own earns nothing in this exam."
+                },
+                {
+                  "h": "The four parts"
+                },
+                {
+                  "ul": [
+                    "**Name** — which element you are writing about (dynamics, structure, timbre, and so on).",
+                    "**How it is used** — what you actually hear, in enough detail that the marker can hear it too.",
+                    "**Effect** — what that does: to the mood, to the listener, to the piece. This is the “because”.",
+                    "**Evidence** — where in the music it happens. A timestamp is evidence. So is “throughout”, if it is true."
+                  ]
+                },
+                {
+                  "p": "**Working rule: if your sentence would still be true with the effect deleted, you have not written the effect.** “The dynamics get louder” survives without a because. “The dynamics get louder, which builds tension toward the chorus” does not — delete the second half and the sentence falls over. That is the test."
+                },
+                {
+                  "h": "Describing vs analysing"
+                },
+                {
+                  "ul": [
+                    "**Describing (no marks):** “The orchestra plays softly under the voice.” True, and it stops at naming what happens.",
+                    "**Analysing (full marks):** “The orchestra plays softly under the voice, which lets the rough, worn quality of the voice come through instead of being covered by the sound around it.” Same observation, with the because attached."
+                  ]
+                },
+                {
+                  "p": "The exam question is always some version of _how are the elements of music used to create interest?_ Part B is worth 6 of the 20 marks, so a full response covers three elements, one sentence like the ones above for each."
+                }
+              ]
+            },
+            {
               "type": "media",
               "n": 1,
               "brief": "A work we have already analysed, so that the writing is the new part, not the listening: Louis Armstrong, 'What a Wonderful World'.",
               "embed": "rBrd_3VMC3c"
             },
             {
+              "type": "worked",
+              "question": "How are the elements of music used to create interest?",
+              "marks": "2 of 6 marks — one paragraph of three",
+              "lead": "This models one of your three paragraphs — timbre, on “What a Wonderful World”. The other two are yours to write, the same four-part shape, applied to whatever you actually hear.",
+              "model": "Armstrong sings the whole track in his rough, gravelly voice, set against a smooth orchestra of strings, and that contrast in tone colour is what gives the song its warmth: a worn, human voice sitting over something polished and safe makes the song feel spoken to you rather than performed at you.",
+              "rungs": [
+                {
+                  "move": "Name",
+                  "text": "Say which element. _Timbre._ Naming it and stopping is where the zero answer below goes wrong."
+                },
+                {
+                  "move": "How it is used",
+                  "text": "Say what you actually hear, in contrast. _Armstrong’s rough, gravelly voice against a smooth string orchestra._ Two tone colours named against each other, not one word like “orchestra” on its own."
+                },
+                {
+                  "move": "Effect",
+                  "text": "Say what that contrast does. _It makes the song feel warm and personal, like it is being spoken rather than performed._ This is the half of the sentence most people leave off, and the half that earns the mark."
+                },
+                {
+                  "move": "Evidence",
+                  "text": "Ground it in the music. _Throughout the track — the voice never changes character against the strings._ Evidence does not have to be a timestamp. Something being true for the whole piece is evidence too."
+                }
+              ],
+              "zero": {
+                "answer": "“The song uses timbre.”",
+                "why": "True, and worth nothing: it names the element and stops. No sound has been described, no effect has been claimed, nothing has been heard. It is the same shape as the zero-mark answer to structure in Lesson 8 — naming an element is not analysing it."
+              }
+            },
+            {
+              "type": "check",
+              "ordered": true,
+              "summary": "Check yourself: the response sentence",
+              "items": [
+                "Which part of the response sentence is most often left out? **The effect.** A sentence that only says what happens is describing, not analysing.",
+                "Is “the song uses dynamics” worth any marks on its own? **No.** It names the element and stops — no description, no effect, no evidence.",
+                "What is the working rule for spotting a missing effect? **Delete the second half of the sentence. If it still stands up on its own, the effect was never there.**",
+                "How many elements does a full response need, going by this lesson’s exam question? **Three — one paragraph each, one sentence shape repeated three times.**"
+              ]
+            },
+            {
               "type": "steps",
               "title": "What we are doing",
               "items": [
-                "Learn the response sentence: element, how it is used, effect, musical evidence.",
-                "Build one sentence together as a class about the excerpt.",
+                "Learn the response sentence: name, how it is used, effect, evidence.",
+                "Read the worked timbre paragraph and see the four parts at work.",
                 "Meet the exam question: how are the elements of music used to create interest?",
-                "Watch the response modelled in full across three elements, thinking aloud.",
                 "Plan your own response: three elements, one paragraph each.",
-                "Write a full response and check it against the four parts of the sentence."
+                "Write a full response and check each paragraph against the four parts.",
+                "Swap with a partner and underline the effect in each other's paragraphs."
               ]
             },
             {
