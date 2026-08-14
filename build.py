@@ -561,7 +561,7 @@ allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></if
 {brief}</section>"""
         brief = block.get("brief") or "A listening example for this lesson."
         if block.get("studentSupplied"):
-            mark = "Bring your own track for this one — nothing to add in advance."
+            mark = "Bring your own track for this one. Nothing to add in advance."
         else:
             mark = "Not added yet. Mr Edwards is still picking this one."
         return f"""<section class="blk blk-panel blk-empty inked"><h2 class="tab">Listen</h2>
