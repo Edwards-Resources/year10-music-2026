@@ -1014,21 +1014,21 @@
               "call": "Every mark in this exam is earned by the word after “because”.",
               "body": [
                 {
-                  "p": "A response sentence has four parts: name the element, say how it is used, say what effect that has, and give the musical evidence you actually heard. Miss the effect and you have described the music, not analysed it — and description on its own earns nothing in this exam."
+                  "p": "A response sentence has four parts: name the element, say how it is used, say what effect that has, and give the musical evidence you actually heard. Miss the effect and you have described the music, not analysed it. Description on its own earns nothing in this exam."
                 },
                 {
                   "h": "The four parts"
                 },
                 {
                   "ul": [
-                    "**Name** — which element you are writing about (dynamics, structure, timbre, and so on).",
-                    "**How it is used** — what you actually hear, in enough detail that the marker can hear it too.",
-                    "**Effect** — what that does: to the mood, to the listener, to the piece. This is the “because”.",
-                    "**Evidence** — where in the music it happens. A timestamp is evidence. So is “throughout”, if it is true."
+                    "**Name** - which element you are writing about (dynamics, structure, timbre, and so on).",
+                    "**How it is used** - what you actually hear, in enough detail that the marker can hear it too.",
+                    "**Effect** - what that does: to the mood, to the listener, to the piece. This is the “because”.",
+                    "**Evidence** - where in the music it happens. A timestamp is evidence. So is “throughout”, if it is true."
                   ]
                 },
                 {
-                  "p": "**Working rule: if your sentence would still be true with the effect deleted, you have not written the effect.** “The dynamics get louder” survives without a because. “The dynamics get louder, which builds tension toward the chorus” does not — delete the second half and the sentence falls over. That is the test."
+                  "p": "**Working rule: if your sentence would still be true with the effect deleted, you have not written the effect.** “The dynamics get louder” survives without a because. “The dynamics get louder, which builds tension toward the chorus” does not. Delete the second half and the sentence falls over. That is the test."
                 },
                 {
                   "h": "Describing vs analysing"
@@ -1053,8 +1053,8 @@
             {
               "type": "worked",
               "question": "How are the elements of music used to create interest?",
-              "marks": "2 of 6 marks — one paragraph of three",
-              "lead": "This models one of your three paragraphs — timbre, on “What a Wonderful World”. The other two are yours to write, the same four-part shape, applied to whatever you actually hear.",
+              "marks": "2 of 6 marks - one paragraph of three",
+              "lead": "This models one of your three paragraphs: timbre, on “What a Wonderful World”. The other two are yours to write, the same four-part shape, applied to whatever you actually hear.",
               "model": "Armstrong sings the whole track in his rough, gravelly voice, set against a smooth orchestra of strings, and that contrast in tone colour is what gives the song its warmth: a worn, human voice sitting over something polished and safe makes the song feel spoken to you rather than performed at you.",
               "rungs": [
                 {
@@ -1071,12 +1071,12 @@
                 },
                 {
                   "move": "Evidence",
-                  "text": "Ground it in the music. _Throughout the track — the voice never changes character against the strings._ Evidence does not have to be a timestamp. Something being true for the whole piece is evidence too."
+                  "text": "Ground it in the music. _Throughout the track, and the voice never changes character against the strings._ Evidence does not have to be a timestamp. Something being true for the whole piece is evidence too."
                 }
               ],
               "zero": {
                 "answer": "“The song uses timbre.”",
-                "why": "True, and worth nothing: it names the element and stops. No sound has been described, no effect has been claimed, nothing has been heard. It is the same shape as the zero-mark answer to structure in Lesson 8 — naming an element is not analysing it."
+                "why": "True, and worth nothing: it names the element and stops. No sound has been described, no effect has been claimed, nothing has been heard. It is the same shape as the zero-mark answer to structure in Lesson 8: naming an element is not analysing it."
               }
             },
             {
@@ -1085,9 +1085,9 @@
               "summary": "Check yourself: the response sentence",
               "items": [
                 "Which part of the response sentence is most often left out? **The effect.** A sentence that only says what happens is describing, not analysing.",
-                "Is “the song uses dynamics” worth any marks on its own? **No.** It names the element and stops — no description, no effect, no evidence.",
+                "Is “the song uses dynamics” worth any marks on its own? **No.** It names the element and stops, with no description, no effect, no evidence.",
                 "What is the working rule for spotting a missing effect? **Delete the second half of the sentence. If it still stands up on its own, the effect was never there.**",
-                "How many elements does a full response need, going by this lesson’s exam question? **Three — one paragraph each, one sentence shape repeated three times.**"
+                "How many elements does a full response need, going by this lesson’s exam question? **Three - one paragraph each, one sentence shape repeated three times.**"
               ]
             },
             {
