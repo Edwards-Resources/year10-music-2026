@@ -1388,6 +1388,30 @@
           ],
           "blocks": [
             {
+              "type": "explain",
+              "label": "Read this",
+              "call": "Nobody wrote the solo down. That is the whole point, and you can hear it once you know what to listen for.",
+              "body": [
+                {
+                  "p": "Jazz grew out of African American communities in the southern United States around the turn of the twentieth century, with New Orleans as its best-known starting point and the blues and ragtime as its roots. From there it spread through the dance bands of the 1930s and 40s and then into the small, fast, virtuosic groups of bebop. What holds all of that together is one habit: part of the music is invented while it is being played."
+                },
+                {
+                  "h": "Four things that make it sound like jazz"
+                },
+                {
+                  "ul": [
+                    "**Swing.** The beat is divided unevenly, long then short, instead of into equal halves. It is the difference between music you march to and music you nod to, and it is felt rather than notated.",
+                    "**Improvisation.** Parts are made up in performance over an agreed chord pattern. Not random: the form and the chords are fixed and everyone is counting. Only the notes on top are free.",
+                    "**Blue notes.** Certain notes are flattened or bent slightly below where a major scale would put them. That deliberate sourness against the chord underneath is where a lot of the ache in the sound comes from.",
+                    "**The instrumentation.** A rhythm section (piano or guitar, bass, drums) holds the form steady, while a front line (trumpet, saxophone, trombone, or a voice) takes turns on top. Listen for that split and the rest gets easier to follow."
+                  ]
+                },
+                {
+                  "p": "**How to tell an improvised section from a written one, which is your exit question:** written ensemble passages have everyone locked together, arriving and stopping at the same instant, as in the Glenn Miller. When a solo starts, the texture thins to one voice on top while the rhythm section keeps doing exactly what it was already doing. Solo phrases start and end in awkward places, breathe unevenly, and would come out different if the band played the tune again tomorrow."
+                }
+              ]
+            },
+            {
               "type": "media",
               "n": 1,
               "brief": "Vocal/standard: Ella Fitzgerald & Louis Armstrong, 'Summertime' — the classic jazz-standard vocal duo sound.",
@@ -1438,6 +1462,46 @@
             "I can play a short improvised idea."
           ],
           "blocks": [
+            {
+              "type": "explain",
+              "label": "Read this",
+              "call": "Twelve bars, three chords, and everybody arrives back at the top together.",
+              "body": [
+                {
+                  "p": "The 12-bar blues is a fixed pattern of twelve bars that repeats for the length of the song. It is the reason musicians who have never met can play together for ten minutes without discussing anything first: once everyone knows where they are in the twelve, the rest looks after itself. You heard this pattern run nine times without changing in Lesson 8."
+                },
+                {
+                  "h": "The pattern"
+                },
+                {
+                  "ul": [
+                    "**Bars 1 to 4** - I, the home chord.",
+                    "**Bars 5 and 6** - IV.",
+                    "**Bars 7 and 8** - back to I.",
+                    "**Bar 9** - V, the furthest the pattern ever gets from home.",
+                    "**Bar 10** - IV.",
+                    "**Bars 11 and 12** - home to I, then a turnaround that hands you back to bar 1."
+                  ]
+                },
+                {
+                  "p": "The numbers work in any key. In A, the most common classroom blues key, I is A7, IV is D7 and V is E7. Learn the pattern by its numbers rather than its chord names and you can move it to any key you are asked for."
+                },
+                {
+                  "h": "Whatever role you take"
+                },
+                {
+                  "ul": [
+                    "**Chords** - change on the right bar, not when it sounds like time. Count in fours the whole way through.",
+                    "**Bass** - the root note of whichever chord is current, steady, no decoration needed.",
+                    "**Rhythm and drums** - do not change with the chords. Your job is that the groove never wavers.",
+                    "**Melody and solos** - use the blues scale, and aim to land somewhere sensible by bar 12."
+                  ]
+                },
+                {
+                  "p": "**Working rule: the form does not stop for your solo.** The twelve bars keep turning underneath whether you play a note or not, so keep counting while you improvise. Coming back in at the wrong bar is the only real way to get lost in a blues."
+                }
+              ]
+            },
             {
               "type": "media",
               "n": 1,
@@ -1519,6 +1583,32 @@
             "I can use the term leitmotif correctly."
           ],
           "blocks": [
+            {
+              "type": "explain",
+              "label": "Read this",
+              "call": "Film music is not there to be noticed. It is there to tell you how to feel about what you are looking at.",
+              "body": [
+                {
+                  "p": "Cut the same shot of someone walking down a corridor to three different pieces of music and you get three different scenes: a thriller, a comedy, a farewell. Nothing on screen changed. That is the whole job, and it means every choice in a film score is answerable to something happening in the story."
+                },
+                {
+                  "h": "Three techniques with names"
+                },
+                {
+                  "ul": [
+                    "**Leitmotif.** A short musical idea attached to a character, a place or an idea, brought back whenever they are relevant, and often altered to show what has happened to them since. Borrowed from opera and standard in film ever since.",
+                    "**Underscore.** Music running under dialogue or action, deliberately kept out of the way. If you consciously noticed it during the film, it was probably doing its job badly.",
+                    "**Mickey-mousing.** Music matching the action moment for moment, a musical gesture per footstep or per pratfall. Named after the cartoons that made it famous. Obvious, and usually comic when used in live action."
+                  ]
+                },
+                {
+                  "p": "**Working rule: name the feature and the moment it serves.** “The music is tense” is not analysis, because it describes your reaction rather than the music. “The strings move to a fast tremolo as the door opens, which turns an ordinary action into a threat” names what the composer did, when, and what it bought them. That is the same four-part sentence from Lesson 3, pointed at a screen."
+                },
+                {
+                  "p": "Be careful with rules like “minor key means sad”. They hold often enough to be worth knowing and are broken constantly by good composers. Describe what you actually hear in this cue, not what the textbook says the key should mean."
+                }
+              ]
+            },
             {
               "type": "media",
               "n": 1,
