@@ -1044,10 +1044,39 @@
               "items": [
                 "Quick-fire listening: three short excerpts, style plus two elements for each.",
                 "Meet the exam format: multiple choice and short answer parts as well as parts you write, 40 minutes for the whole paper.",
-                "Learn the strategies: answer the multiple choice and short answer parts on the first playing, then use the second and third playings for the parts you write. Annotate while you listen and use your terminology bank.",
+                "Learn the three-playing strategy for the unseen excerpt.",
                 "Annotate the final excerpt in real time as it plays, three times, exactly as the exam runs.",
-                "Plan, then write a full timed response to it.",
+                "Read the worked response, then plan and write your own.",
                 "Read the feedback and the common misconceptions before Wednesday."
+              ]
+            },
+            {
+              "type": "explain",
+              "label": "Exam strategy",
+              "call": "You get the unseen excerpt three times. Each playing has one job.",
+              "body": [
+                {
+                  "p": "The paper gives you three playings of the unseen excerpt and forty minutes for the whole thing, so the playings are not three chances to catch what you missed - they are three different jobs, and doing the wrong job on the wrong playing is where marks go missing."
+                },
+                {
+                  "h": "The three jobs"
+                },
+                {
+                  "ul": [
+                    "**Playing 1** - answer the multiple choice and short answer questions. These ask for a fact (an element, a term, a feature) and reward speed, so get them down while the excerpt is fresh and leave the writing alone.",
+                    "**Playing 2** - annotate. Jot the elements as you hear them, in your own shorthand, against roughly where they happen. This is raw material, not sentences.",
+                    "**Playing 3** - check what you missed, and start turning your strongest annotations into the four-part response sentence from Lesson 9: name, how it is used, effect, evidence."
+                  ]
+                },
+                {
+                  "p": "**Working rule: write nothing in full sentences until playing 3.** A response written during playing 1 or 2 is usually a description with the effect missing, because you were still listening for the next thing rather than thinking about what the last thing did."
+                },
+                {
+                  "h": "Annotating while you listen"
+                },
+                {
+                  "p": "You cannot write full sentences while the excerpt is running, so annotation is shorthand: an element's initial, an arrow for a change, a rough time. “D getting louder ~1:40” is a complete annotation. It is not a response sentence yet, but it has everything a response sentence needs, and that is the point of doing it in two steps rather than one."
+                }
               ]
             },
             {
@@ -1069,10 +1098,77 @@
               "embed": "-DHuW1h1wHw"
             },
             {
-              "type": "media",
-              "n": 4,
-              "brief": "Timed response: Grieg, 'In the Hall of the Mountain King' (Sydney Symphony Orchestra / Ashkenazy). Unseen, and short enough to annotate start to finish. Tempo, dynamics and texture all build together, so it gives real practice at catching several elements changing at once.",
-              "embed": "BLZl-hhbXDI"
+              "type": "guide",
+              "label": "Timed response excerpt",
+              "work": "Grieg, “In the Hall of the Mountain King” (Peer Gynt)",
+              "meta": "1875 · 3:02 · Sydney Symphony Orchestra / Ashkenazy",
+              "brief": "Unseen, and short enough to annotate start to finish. Tempo, dynamics and texture all build together here, which is exactly the kind of change the exam rewards you for catching. Play it three times, exactly as the exam runs: facts first, annotate second, write third.",
+              "embed": "BLZl-hhbXDI",
+              "cues": [
+                {
+                  "at": 0,
+                  "text": "The ostinato theme begins low in the strings, pizzicato, very quiet and slow. Everything that happens for the next minute and a half is this same idea, gradually speeding up and growing louder."
+                },
+                {
+                  "at": 60,
+                  "text": "No new instrument has entered and no section has changed, but the theme is already audibly faster and louder than at 0:00. This is the trap: there is no boundary to catch here, because the composer is building continuously rather than stepping between sections. Annotate it as a gradual change, not an event."
+                },
+                {
+                  "at": 102,
+                  "text": "The one genuinely sudden moment in the piece: the full orchestra enters fortissimo, brass and all, at the fastest tempo yet. After ninety seconds of gradual build, this is the payoff, and it is unmistakable even on a first playing."
+                },
+                {
+                  "at": 141,
+                  "text": "A grand pause. The orchestra drops to complete silence for a beat, the only silence in the whole excerpt.",
+                  "sub": [
+                    {
+                      "at": 142,
+                      "text": "The silence is answered immediately by the loudest, fastest chords in the piece, driving straight to the end. Silence followed by the loudest possible re-entry is itself a dynamics device, worth naming on its own."
+                    }
+                  ]
+                }
+              ],
+              "note": "Measured off this exact recording, not recalled: the build from 0:00 to 1:42 is a continuous rise with no internal step, which is why it is described here as gradual rather than given a false halfway boundary. The piece runs out shortly after 2:51, the last thirty seconds of the three-minute file being trailing silence."
+            },
+            {
+              "type": "worked",
+              "question": "How are the elements of music used to create interest?",
+              "marks": "2 of 6 marks - one paragraph of three",
+              "lead": "This models one paragraph on the Grieg, using dynamics rather than Lesson 9's timbre. The shape is identical: name, how it is used, effect, evidence.",
+              "model": "Grieg builds the dynamics from a very quiet opening to a sudden fortissimo climax at 1:42, without ever stepping the volume up in stages, and that unbroken, gradual crescendo is what makes the eventual fortissimo feel inevitable rather than sudden: by the time the full orchestra enters, the listener has been pulled toward it for ninety seconds without a single break to relax into.",
+              "rungs": [
+                {
+                  "move": "Name",
+                  "text": "Say which element. _Dynamics._"
+                },
+                {
+                  "move": "How it is used",
+                  "text": "Say what you actually hear. _A continuous, unbroken crescendo from very quiet to fortissimo, with no stepped stages._ “It gets louder” is not enough detail on its own; continuous versus stepped is the detail that earns the mark."
+                },
+                {
+                  "move": "Effect",
+                  "text": "Say what that does. _It makes the climax feel inevitable and pulls the listener toward it, rather than surprising them with a sudden change._"
+                },
+                {
+                  "move": "Evidence",
+                  "text": "Ground it in the music. _The build runs from 0:00 to the fortissimo entry at 1:42, with the grand pause at 2:21 used as a second, sharper example of the same device._"
+                }
+              ],
+              "zero": {
+                "answer": "“The music gets louder and louder.”",
+                "why": "True, and it is describing, not analysing: it names the element and reports what happens, with no effect and no timed evidence attached. It is the same shape as the zero-mark timbre answer in Lesson 9."
+              }
+            },
+            {
+              "type": "check",
+              "ordered": true,
+              "summary": "Check yourself: the exam strategy",
+              "items": [
+                "What should you write during playing 1? **Nothing but the multiple choice and short answer questions.** Full sentences come later.",
+                "What is an annotation, and how is it different from a response sentence? **Shorthand jotted while listening** - an element, a change, a rough time. A response sentence is the four-part version you write afterwards from that shorthand.",
+                "Why does the Grieg excerpt's build from 0:00 to 1:42 resist being annotated as a single boundary? **Because it is continuous, not stepped** - nothing new enters, the change is gradual, so marking one moment as “the change” misrepresents what is actually happening.",
+                "What two things happen back to back at 2:21? **A grand pause (total silence), immediately answered by the loudest, fastest chords in the piece.**"
+              ]
             },
             {
               "type": "activity",
