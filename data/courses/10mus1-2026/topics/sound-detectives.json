@@ -65,6 +65,22 @@
               ]
             },
             {
+              "type": "explain",
+              "label": "Read this",
+              "call": "Everyone can hear music. Listening means hearing it in categories.",
+              "body": [
+                {
+                  "p": "You can love a song for years and still not be able to say one useful thing about how it works. That is not a failure of taste, it is just that hearing and listening are different jobs. Hearing happens on its own. Listening is deliberate, and it is a skill you can get better at quickly."
+                },
+                {
+                  "p": "The six elements are not a list to memorise. They are six questions you can ask of any piece of music ever written, and the trick is to ask **one at a time**. Trying to notice everything at once is how you end up noticing nothing. Play a track and listen only for texture, and you will hear things you have missed on fifty previous plays."
+                },
+                {
+                  "p": "For the rest of this term, every excerpt gets the same six questions. The music changes every lesson. The questions never do."
+                }
+              ]
+            },
+            {
               "type": "gapfill",
               "title": "The six elements",
               "prompt": "We fill this in together as we meet each one. Write what you listen for.",
@@ -113,6 +129,36 @@
               "type": "definition",
               "term": "Pitch",
               "text": "How high or low the notes are, and what the melody does: does it climb, fall, stay put?"
+            },
+            {
+              "type": "explain",
+              "label": "Read this",
+              "call": "Beat, tempo, metre and rhythm are four different things, and only one of them is your foot.",
+              "body": [
+                {
+                  "p": "These four get mixed up more than any other words in music, and it costs marks, because writing “the rhythm speeds up” when you mean the tempo speeds up tells the marker you cannot hear the difference. You do not separate them by memorising four definitions. You separate them by testing them against each other on a real track."
+                },
+                {
+                  "h": "Four tests, on any track you like"
+                },
+                {
+                  "ul": [
+                    "**Tap your foot.** What you are tapping is the beat. It keeps going underneath whether anyone plays a note on it or not.",
+                    "**Count how quickly you are tapping.** That is the tempo.",
+                    "**Notice that some taps feel stronger than others.** Strong, weak, weak. Strong, weak, weak. That grouping is the metre, and it is why some music feels like it is in threes and some in fours.",
+                    "**Now follow the tune instead of your foot.** The pattern of long and short notes in the tune is the rhythm, and it almost never lines up exactly with your tapping. That mismatch is the point of it."
+                  ]
+                },
+                {
+                  "p": "**Working rule: tempo and rhythm are independent.** Play the same rhythm twice as fast and it is still the same rhythm, just quicker. If you can change one without touching the other, they are not the same thing, and these are the two students collapse into one most often."
+                },
+                {
+                  "h": "Pitch: describe the motion, not the notes"
+                },
+                {
+                  "p": "Nobody is asking you to name notes by ear. You are being asked to describe movement. A melody's **contour** is its shape over time, whether it climbs, falls, arches or waves. Its **range** is how far it reaches from its lowest note to its highest, which is a separate question: a melody can have a dramatic shape inside a narrow range, or barely move across a wide one. When it moves a small distance to the next note it has stepped, and when it jumps a long way it has leapt. Shape, distance, and how far the whole thing spans. That is the level of detail a listening answer wants."
+                }
+              ]
             },
             {
               "type": "gapfill",
@@ -208,6 +254,27 @@
             "It says how the element is used and its effect, with evidence."
           ],
           "blocks": [
+            {
+              "type": "explain",
+              "label": "Read this",
+              "call": "Name it, say how it is used, say what it does, say where you heard it.",
+              "body": [
+                {
+                  "p": "Writing about music is not writing about how the music made you feel. It is evidence. Every point you make has four parts, and a sentence missing one of them is usually the reason an answer scores lower than the student expected."
+                },
+                {
+                  "ul": [
+                    "**Name** the element you are writing about.",
+                    "**How it is used** - what you actually hear, in enough detail that the marker can hear it too.",
+                    "**Effect** - what that does to the music or to the listener. This is the part people leave out.",
+                    "**Evidence** - where in the music it happens."
+                  ]
+                },
+                {
+                  "p": "You will meet this again in Lesson 9 with a fully worked example and a marked-out zero-mark answer. For now, get all four parts into every sentence you write, and check your partner's for the one they dropped."
+                }
+              ]
+            },
             {
               "type": "steps",
               "title": "What we are doing",
@@ -527,6 +594,35 @@
               "type": "definition",
               "term": "Dynamics & expressive techniques",
               "text": "How loud or soft the music is, and the little performance tricks (sliding, plucking, shaking a note) that add feeling."
+            },
+            {
+              "type": "explain",
+              "label": "Read this",
+              "call": "A dynamic level is a fact. A dynamic change is an answer.",
+              "body": [
+                {
+                  "p": "Most students write “the music is loud” and stop, which describes one second of a piece and earns nothing. Dynamics is not really about volume. It is about the shape volume makes across time, and what that shape does to you."
+                },
+                {
+                  "h": "Three things to listen for, in order of what they are worth"
+                },
+                {
+                  "ul": [
+                    "**The level.** Loud or soft, right now. Worth naming, worth nothing on its own.",
+                    "**The change.** Does it grow or fall away, and does it do it suddenly or gradually? This is where the marks start, because you can only hear it by listening across time rather than at one moment.",
+                    "**The effect.** What that change does to the music and to the listener. This is where the marks actually are."
+                  ]
+                },
+                {
+                  "p": "**Working rule: if you could answer it by reading one word off the score, it is not analysis yet.** Anyone can see _forte_ written on a page. Only someone listening can tell you whether the music arrived there in one step or crept up on you over ninety seconds, and those two do completely different things to a listener."
+                },
+                {
+                  "h": "Expression is how a note is played, not how loud it is"
+                },
+                {
+                  "p": "Two players can play the same note, at the same volume, at the same moment, and sound nothing alike. One plays it smooth and joined to the next note, the other cuts it short. One leans on it, the other slides into it from underneath. One shakes the note, the other holds it dead still. That is expression, and it is usually what makes a style instantly recognisable: the same melody played with the articulation of one style and then another stops sounding like the same music at all."
+                }
+              ]
             },
             {
               "type": "gapfill",
@@ -1016,7 +1112,7 @@
             }
           ],
           "teacher": [
-            "The response sentence is taught from the start in this lesson, so nothing is assumed. It is the shape every answer in the exam wants.",
+            "The response sentence was introduced on the page in Lesson 3. This lesson is the full version: the four parts, a worked paragraph and a zero-mark answer. It is the shape every answer in the exam wants.",
             "A full response is modelled on the board before you write your own."
           ]
         }
@@ -1737,6 +1833,29 @@
             "I can justify a preference with musical evidence."
           ],
           "blocks": [
+            {
+              "type": "explain",
+              "label": "Read this",
+              "call": "Evaluate means make a judgement and defend it. Liking one better is not a judgement.",
+              "body": [
+                {
+                  "p": "Every listening task so far has asked you to **analyse**: how is this music put together, and what does that do. This one asks you to **evaluate**, which is a step up. You have to commit to a verdict about which interpretation works better, and then make someone else agree with you using nothing but the music."
+                },
+                {
+                  "h": "What an evaluation has that an analysis does not"
+                },
+                {
+                  "ul": [
+                    "**A judgement you commit to.** Not “both are good in their own way”. Pick one. Sitting on the fence reads as not having heard a difference.",
+                    "**A stated criterion.** More effective _at what_? Building tension, carrying the words, suiting the venue, serving the composer's marking. You have to say, because that is the standard you are judging against.",
+                    "**Evidence, same as always.** The tempo, dynamics, expression or timbre choice that actually made the difference."
+                  ]
+                },
+                {
+                  "p": "**Working rule: name your criterion or the judgement is just taste.** Two performances of the same work are not better or worse in the abstract, and a marker cannot give credit for a preference. One is more effective _at_ something, and the moment you name that something, the evidence you need becomes obvious."
+                }
+              ]
+            },
             {
               "type": "media",
               "n": 1,
