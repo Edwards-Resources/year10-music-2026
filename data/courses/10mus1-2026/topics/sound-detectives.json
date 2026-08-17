@@ -27,9 +27,9 @@
     "examLesson": 11
   },
   "position": {
-    "lesson": 8,
-    "asAt": "2026-08-10",
-    "note": "Lesson 8 ran Monday 10 August, Period 2. Next is Lesson 9: Writing about music, on Friday 14 August. Two lessons remain before the AT3 examination on Wednesday 19 August."
+    "lesson": 10,
+    "asAt": "2026-08-18",
+    "note": "Lesson 10 runs Tuesday 18 August, Period 3. It is the last lesson before the AT3 examination, which is Wednesday 19 August, Period 5."
   },
   "weeks": [
     {
@@ -1194,6 +1194,39 @@
               "embed": "-DHuW1h1wHw"
             },
             {
+              "type": "formfill",
+              "title": "Quick-fire: three excerpts",
+              "prompt": "One of these for each excerpt above, and quickly: name the style, then name two elements you can hear and say how each one is used. Two minutes per excerpt, so write in shorthand, not sentences. Naming an element without saying how it is used is the half-answer that costs marks in the exam.",
+              "rows": [
+                {
+                  "label": "Excerpt 1",
+                  "prompt": "Gamelan gong kebyar, \"Kapi Raja\". What style is this, and which two elements can you hear most clearly? Say what each one is doing.",
+                  "lines": 3
+                },
+                {
+                  "label": "Excerpt 2",
+                  "prompt": "Vivaldi, Spring, from The Four Seasons. What style is this, and which two elements can you hear most clearly? Say what each one is doing.",
+                  "lines": 3
+                },
+                {
+                  "label": "Excerpt 3",
+                  "prompt": "Take Five, the Dave Brubeck Quartet. What style is this, and which two elements can you hear most clearly? Say what each one is doing.",
+                  "lines": 3
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "ordered": true,
+              "summary": "Check yourself: the three quick-fire excerpts",
+              "items": [
+                "**Excerpt 1, gamelan gong kebyar.** The style is Balinese gamelan, from Indonesia. The two safest elements are **tone colour** - a struck, metallic, bronze sound, with nothing bowed or blown in the whole ensemble - and **texture**, which is layered and interlocking, fast parts riding over slower ones rather than one tune with accompaniment underneath. **Dynamics** and **tempo** also earn the mark, because both change suddenly and the whole ensemble changes together.",
+                "**Excerpt 2, Vivaldi's Spring.** The style is Baroque. **Tone colour** is a string orchestra with harpsichord underneath. The strongest second choice is **structure**: the opening tune keeps returning between contrasting episodes. **Dynamics** work too, and they are worth noticing because they are the opposite of the Grieg below - stepped between loud and soft in blocks, rather than one continuous build.",
+                "**Excerpt 3, Take Five.** The style is jazz, and cool jazz specifically. **Duration** is the giveaway: five beats in the bar rather than four, which is why it feels like it is leaning or limping next to everything else you have heard this term. **Tone colour** is alto saxophone, piano, double bass and drum kit. **Structure** also works - the piano pattern starts alone, the tune arrives over it, then solos run over the same repeating pattern.",
+                "**If you named an element but not what it was doing, that is a half-answer.** \"Texture\" scores nothing on its own. \"Layered texture, fast metal parts over slow gongs\" is the answer."
+              ]
+            },
+            {
               "type": "guide",
               "label": "Timed response excerpt",
               "work": "Grieg, “In the Hall of the Mountain King” (Peer Gynt)",
@@ -1268,7 +1301,46 @@
             },
             {
               "type": "activity",
-              "text": "Annotate the final excerpt as it plays, then write a full timed response to it: three elements, one paragraph each, under exam conditions."
+              "text": "Annotate the Grieg as it plays, three times, then answer this under exam conditions: How are the elements of music used to create interest? Six marks, three elements, one paragraph each. Use the form below or your book, whichever you will have in front of you on Wednesday."
+            },
+            {
+              "type": "formfill",
+              "title": "Your timed response",
+              "prompt": "How are the elements of music used to create interest? (6 marks) Three paragraphs on the Grieg, one for each of three different elements, 2 marks each. Every paragraph makes the same four moves as the worked answer above: name the element, say how it is used, say what that does, ground it in a moment of the music. Plan first, in shorthand, straight off your annotations - the plan is where you choose your three elements, so it is the part worth two minutes.",
+              "rows": [
+                {
+                  "label": "Plan",
+                  "prompt": "Which three elements, and one piece of timed evidence for each? Shorthand only. Pick the three you have the strongest evidence for, not the three you know the most words about.",
+                  "lines": 4
+                },
+                {
+                  "label": "Paragraph 1",
+                  "prompt": "First element. Name it, say how it is used, say what it does to the listener, and point to where in the excerpt it happens.",
+                  "lines": 5
+                },
+                {
+                  "label": "Paragraph 2",
+                  "prompt": "Second element, a different one. The same four moves.",
+                  "lines": 5
+                },
+                {
+                  "label": "Paragraph 3",
+                  "prompt": "Third element, different again. The same four moves.",
+                  "lines": 5
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "ordered": false,
+              "summary": "Check yourself: is my response finished?",
+              "items": [
+                "**Three different elements**, not the same one described three ways. Dynamics and tempo both building is two elements; \"it gets louder and faster\" written twice is one.",
+                "**Every paragraph names an effect.** If a paragraph only says what happens, it is describing, and describing is what the zero-mark answer above does.",
+                "**Every paragraph has evidence tied to a moment** - a time, or a clearly identified point like the entry of the full orchestra or the grand pause.",
+                "**No paragraph relies on a boundary that is not there.** The build from 0:00 to 1:42 is continuous. If you have written \"the music changes at 1:00\", check whether anything actually changed there.",
+                "**You have written in sentences, not in your annotations.** The shorthand was raw material; the marks are for what you did with it."
+              ]
             },
             {
               "type": "exit",
