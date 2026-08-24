@@ -435,45 +435,139 @@
       {
        "type": "explain",
        "label": "Read this",
-       "call": "Name it, say how it is used, say what it does, say where you heard it.",
+       "call": "Writing about music is not saying what you liked. It is reporting what you heard.",
        "body": [
         {
-         "p": "Writing about music is not writing about how the music made you feel. It is evidence. Every point you make has four parts, and a sentence missing one of them is usually the reason an answer scores lower than the student expected."
+         "p": "A listening answer is not an essay. It is one short sentence, built on purpose, and the same four moves build every one."
+        },
+        {
+         "h": "The four moves, as four questions"
         },
         {
          "ul": [
-          "**Name** the element you are writing about.",
-          "**How it is used** - what you actually hear, in enough detail that the marker can hear it too.",
-          "**Effect** - what that does to the music or to the listener. This is the part people leave out.",
-          "**Evidence** - where in the music it happens."
+          "**Which element?** Name it: the word for the element, out of the six from Lesson 1, not “it” and not “the music”.",
+          "**What does it do that I can hear?** The sound itself, close enough for a reader who has never played the track to picture it.",
+          "**What does that do to the music?** Not what it made you feel: what it does to the sound around it, or to where the song is heading.",
+          "**Where did I hear it?** A time, a section, or “the whole way through” when that is true."
          ]
         },
         {
-         "p": "You will meet this again in Lesson 9 with a fully worked example and a marked-out zero-mark answer. For now, get all four parts into every sentence you write, and check your partner's for the one they dropped."
+         "p": "**Working rule: one sentence, one element.** A sentence carrying two elements short-changes one of them, and the marker cannot tell which one you were answering. That is why listening answers are dot points and not a paragraph."
+        },
+        {
+         "p": "Your Lesson 1 notes are most of a sentence already: swap your word for the element word, keep the time you wrote down, and hedge honestly, because “about 95 beats a minute” is trusted and a decimal you never measured is not."
         }
+       ]
+      },
+      {
+       "type": "explain",
+       "label": "Read this too",
+       "call": "Name it, say what it does, say what that does, say where. Four moves, in that order.",
+       "body": [
+        {
+         "h": "Finding the effect, when nothing comes to mind"
+        },
+        {
+         "p": "This is the move people stall on. Substitute instead: imagine the same track with that element used the other way, a tempo drifting about instead of holding steady, and ask what has gone missing. What you just named is the effect. Keep it about this track: anything true of every song ever recorded is not an effect at all."
+        },
+        {
+         "p": "The frame comes back in Lesson 9, where three of these sentences make a full response. For now, one sentence."
+        }
+       ]
+      },
+      {
+       "type": "media",
+       "n": 1,
+       "work": "Harry Styles, “Watermelon Sugar”",
+       "brief": "The track from Lesson 1, on purpose. You know it and you have notes on it, so the writing is the new part today.",
+       "embed": "7-x3uD5z1bQ"
+      },
+      {
+       "type": "worked",
+       "question": "Describe how one element of music is used in this excerpt.",
+       "marks": "2 marks",
+       "lead": "Watch this get built rather than reading it finished. It is assembled a move at a time, on duration. The rungs carry the ALARM names your other subjects use, and they are the same four moves as above in the same order: Identify is _name it_, Describe is _how it is used_, Explain is _effect_, and Evidence is _evidence_.",
+       "model": "The tempo stays at about 95 beats a minute and never moves, so the speed does nothing to mark one part of the track off from another and the moments that feel bigger are getting their weight from something other than hurry: count the beat at 0:20 and again at 2:20 and it comes out the same.",
+       "rungs": [
+        {
+         "move": "Identify",
+         "text": "Name the element and nothing else yet. _The tempo stays at about 95 beats a minute._ Worth no marks alone, and that is the point: you have started the sentence, not finished it."
+        },
+        {
+         "move": "Describe",
+         "text": "Say what it does across the excerpt. _... and never moves._ Three words, and they turn a number into something you followed for the whole track."
+        },
+        {
+         "move": "Explain",
+         "text": "Say what that does to the music. _... so the speed does nothing to mark one part of the track off from another._ Nothing new was heard here: the hearing happened in the move before. This move is where the second mark lives."
+        },
+        {
+         "move": "Evidence",
+         "text": "Point at the music so somebody else could check you. _Count the beat at 0:20 and again at 2:20._ Evidence need not be a timestamp, but it must be something a marker could test."
+        }
+       ],
+       "zero": {
+        "answer": "“The song has a really good beat and the tempo is perfect for it.”",
+        "why": "It names an element and then compliments it. No number, no place in the track, and “perfect” is a verdict rather than a description. The student heard something, then wrote down how they felt."
+       }
+      },
+      {
+       "type": "gapfill",
+       "title": "The response sentence",
+       "prompt": "Copy this into your book. It is the frame behind every listening answer you write from here on.",
+       "columns": [
+        "Move",
+        "What it puts in the sentence"
+       ],
+       "rows": [
+        "Name",
+        "How it is used",
+        "Effect",
+        "Evidence"
+       ]
+      },
+      {
+       "type": "check",
+       "summary": "If you were away: the four moves",
+       "items": [
+        "Name - **which of the six elements the sentence is about.**",
+        "How it is used - **what the element does, closely enough to be heard from your words.**",
+        "Effect - **what the music gains or loses from being that way.** The move most often left out.",
+        "Evidence - **the place in the music you are pointing at, so the claim can be checked.**"
        ]
       },
       {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "Learn the response sentence: element + how it is used + effect + evidence.",
-        "Build a class response to a short excerpt together.",
-        "Write one dot point on your own.",
-        "Swap with a partner and check against the sentence frame."
+        "Learn the four moves: name, how it is used, effect, evidence.",
+        "Watch one sentence get built, a move at a time.",
+        "Copy the frame table into your book.",
+        "Write two dot points, on two different elements.",
+        "Swap with a partner and find the move they left out."
        ]
       },
       {
        "type": "activity",
-       "text": "Write one dot point about a short excerpt using the sentence frame, for at least two elements."
+       "text": "Write two dot points on “Watermelon Sugar”, on two different elements. Four moves in each, one element to a sentence. If the second stalls, build it from a line in your Lesson 1 notes."
       },
       {
        "type": "exit",
        "text": "Underline the ‘effect’ part of your best sentence."
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: two sentences to fix",
+       "items": [
+        "Your note reads “2:12 the bottom comes back and it jumps louder”. Which two moves is it doing already? **How it is used, and evidence.** Missing are the element word and the effect.",
+        "Which move is missing here? “At 0:52 the track gets about half again as loud, which is a big change.” **The effect.** It says how large the change is, not what the change does."
+       ]
       }
      ],
      "teacher": [
-      "Model the sentence on the board: element + how it is used + effect + musical evidence. Build one together before students write."
+      "This is the first teaching of the response sentence. Model it on the board a move at a time, the way the worked answer on the page does, and hold the class to one sentence: the full three-dot-point response is Lesson 9's job.",
+      "Students have notes on this track from Lesson 1. Have those out before anyone starts writing, or the lesson turns back into a listening lesson."
      ]
     }
    ]
