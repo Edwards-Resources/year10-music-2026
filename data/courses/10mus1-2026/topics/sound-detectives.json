@@ -2033,47 +2033,182 @@
           "number": 23,
           "week": 9,
           "title": "Comparative listening across styles",
-          "intention": "I can compare how an element is used across styles.",
+          "intention": "I can compare how texture is used across three styles, using evidence from the recordings.",
           "criteria": [
-            "I can explain similarities and differences.",
-            "I support each point with evidence."
+            "I can name a similarity and two differences, each with a timestamp.",
+            "I can say what each difference does to the listener, not just that it is there."
           ],
           "blocks": [
             {
-              "type": "media",
-              "n": 1,
-              "brief": "Orchestra: Holst, 'Jupiter' (The Planets). Full, densely layered orchestral texture.",
-              "embed": "wvfz23jZz6c"
+              "type": "guide",
+              "label": "Excerpt 1: orchestra",
+              "work": "Gustav Holst, “Jupiter, the Bringer of Jollity”, from The Planets, Op. 32",
+              "meta": "Recorded 1981 · 7:36 · Berliner Philharmoniker, Herbert von Karajan",
+              "brief": "An orchestra has dozens of players and can use any number of them at once. Follow one question the whole way through: how much of the orchestra is playing, and which part of its range?",
+              "embed": "wvfz23jZz6c",
+              "cues": [
+                {
+                  "at": 4,
+                  "text": "Busy at the top, empty underneath. Something new starts about two and a half times a second, and yet the bottom of the orchestra is silent: the two lowest bands carry under one hundredth of the sound. A texture can be crowded and thin at the same time, which is the first thing this excerpt has to teach you.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/wvfz23jZz6c.json. At 0:04 the sub and bass bands together carry 0.009 of the total energy; the onset detector counts 2.38 events a second over the first eight seconds."
+                },
+                {
+                  "at": 14,
+                  "text": "The bottom arrives. Nothing above it changed: no new tune, no faster notes. The low register alone goes from under a fiftieth of the sound to nearly a fifth of it, and the whole thing sounds twice as heavy. **Texture can thicken downwards, without a single extra note at the top.**",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/wvfz23jZz6c.json. The bass band rises from 0.013 at 0:10 to 0.177 at 0:16, and overall level roughly triples across the same four seconds (0.090 to 0.341 of peak)."
+                },
+                {
+                  "at": 156,
+                  "text": "The orchestra shrinks to its floor. In four seconds the level falls to about a sixtieth of what it just was, and what is left is almost all low: the top two bands hold under a tenth of the sound between them, against nearly a third a moment before. Very few players, all of them at the bottom.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/wvfz23jZz6c.json. Level falls from 0.516 of peak at 2:35 to 0.008 at 2:40. The high-mid and high bands together fall from 0.316 of total energy at 2:34 to between 0.036 and 0.093 across 2:37 to 2:44, while the bass band holds 0.18 to 0.45."
+                },
+                {
+                  "at": 179,
+                  "text": "The broad tune, and the most useful thirty seconds in this lesson. The orchestra is nearly as full as it gets, but the notes have almost stopped moving: through here the music starts something new well under once a second, against two to three times a second in the fast music either side. **Full and busy are different things, and only one of them is texture.**",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/wvfz23jZz6c.json. Onset rate falls to 0.38 to 1.25 events a second across 2:56 to 4:08, against 1.5 to 2.5 in the surrounding music, while the six-band spread stays high at 0.78 to 0.84 and the level rises from 0.20 to 0.30 of peak."
+                },
+                {
+                  "at": 277,
+                  "text": "One of the loudest moments in the movement is one second behind you, and two seconds ahead the level has fallen to under a fiftieth of it. Hold this drop in mind: neither of the other two tracks goes anywhere near this quiet, and that turns out to be the biggest difference between the three.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/wvfz23jZz6c.json. Level 0.508 of peak at 4:36, 0.244 at 4:37, 0.009 at 4:39, and it stays between 0.006 and 0.03 until about 4:57."
+                },
+                {
+                  "at": 301,
+                  "text": "The fast music returns and the texture rebuilds. Over the whole movement the quiet moments sit about twenty-six times below the loud ones. That number is the one to bring to the comparison.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/wvfz23jZz6c.json. Across the movement the 5th percentile of level is 0.017 of peak and the 95th is 0.446, a ratio of 26.2 to 1."
+                }
+              ],
+              "note": "Nothing above names an instrument, because the measurement cannot name one: it reads register, level and how often something new starts. That is enough to describe a texture, and it is the honest limit of what was checked."
             },
             {
-              "type": "media",
-              "n": 2,
-              "brief": "EDM: Avicii, 'Levels'. Texture built and dropped through electronic layering.",
-              "embed": "BqrAsI1eDxk"
+              "type": "guide",
+              "label": "Excerpt 2: EDM",
+              "work": "Avicii, “Levels”",
+              "meta": "2011 · 3:18 · AviciiOfficialVEVO",
+              "brief": "Nothing here is played by a room full of people. Every layer is switched on or off by one person at a desk, and you can hear the switch. Follow the bottom of the mix, the way you just did with the orchestra.",
+              "embed": "_ovdm2yX4MA",
+              "cues": [
+                {
+                  "at": 2,
+                  "text": "The opening runs for over twenty seconds with no bass at all: the lowest band carries under a hundredth of the sound the whole way. It does not feel empty, because the top is full. Same trick as the orchestra's opening, reached a completely different way.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/_ovdm2yX4MA.json. From 0:04 to 0:22 the sub band holds 0.002 to 0.008 of total energy while the overall level sits steady at 0.25 to 0.32 of peak."
+                },
+                {
+                  "at": 23,
+                  "text": "The drop. In two seconds the lowest band goes from under a hundredth of the sound to nearly a fifth, and over four seconds the level nearly triples. **This is the same event as 0:14 in the Holst: the floor arriving.** One took an orchestra and one took a fader.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/_ovdm2yX4MA.json. The sub band rises from 0.004 at 0:22 to 0.178 at 0:24 and 0.254 at 0:26; overall level rises from 0.254 to 0.686 of peak across the same four seconds."
+                },
+                {
+                  "at": 40,
+                  "text": "And off again. In four seconds the bass is removed, and the top carries on untouched. An orchestra cannot do this: its low players cannot stop between one bar and the next and leave everything else exactly as it was.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/_ovdm2yX4MA.json. The sub band falls from 0.139 at 0:38 to 0.004 at 0:42 while overall level only falls from 0.658 to 0.307 of peak, and the high-mid band actually rises."
+                },
+                {
+                  "at": 79,
+                  "text": "The biggest single moment in the track, and it is an absence. Almost everything stops. The analysis picks this out as the strongest boundary anywhere in the three and a bit minutes, and it is made of nothing being there.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/_ovdm2yX4MA.json. The chroma-novelty peak at 1:20.7 scores 1.00, the highest on the track; level falls to 0.098 of peak, against a track median around 0.35."
+                },
+                {
+                  "at": 132,
+                  "text": "Listen to the top disappear rather than the bottom. Over four seconds the highest band falls to almost nothing while the low-middle nearly triples: a filter closing over the whole mix. **The layers are all still playing. Only their top halves have been taken away.**",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/_ovdm2yX4MA.json. Between 2:12 and 2:18 the high band falls from 0.153 to 0.004 of total energy while the low-mid band rises from 0.261 to 0.520. Overall level falls by only a third across the same span."
+                },
+                {
+                  "at": 161,
+                  "text": "The last and loudest drop. Across the whole track the quiet parts sit only about four times below the loud ones, where the orchestra managed twenty-six. Everything here lives in a narrow band of loudness, on purpose.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/_ovdm2yX4MA.json. Across 0:02 to 3:16 the 5th percentile of level is 0.150 of peak and the 95th is 0.652, a ratio of 4.3 to 1."
+                }
+              ]
             },
             {
-              "type": "media",
-              "n": 3,
-              "brief": "A cappella: Pentatonix, 'Hallelujah'. Texture created entirely from layered voices.",
-              "embed": "LRP8d7hhpoQ"
+              "type": "guide",
+              "label": "Excerpt 3: a cappella",
+              "work": "Pentatonix, “Hallelujah”",
+              "meta": "2016 · 5:05 · PentatonixVEVO",
+              "brief": "Five singers, no instruments, no samples. Every layer in this texture is a human being who has to breathe. Follow the same question a third time: what is at the bottom, and how many parts are sounding?",
+              "embed": "LRP8d7hhpoQ",
+              "cues": [
+                {
+                  "at": 6,
+                  "text": "One voice, and the video's opening silence before it. This is the thinnest any of the three excerpts starts, and it is the only one where you can count the layers by ear from the beginning.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/LRP8d7hhpoQ.json. The track is silent to 0:05; the first sound at 0:06 measures 0.084 of peak, the quietest opening of the three."
+                },
+                {
+                  "at": 39,
+                  "text": "The bass voice arrives with real bottom on it: the lowest band goes from a two-hundredth of the sound to about a sixth in one second, and the level doubles. Compare that number with 0:23 in the Avicii. It is nearly the same event, and one of them is a person.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/LRP8d7hhpoQ.json. The sub band rises from 0.005 at 0:38 to 0.160 at 0:39 while overall level rises from 0.287 to 0.604 of peak."
+                },
+                {
+                  "at": 168,
+                  "text": "The bottom vanishes completely and the upper voices are left exposed. This is the strongest boundary in the track, and like the Avicii's it is made of something leaving rather than arriving.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/LRP8d7hhpoQ.json. Chroma-novelty peak at 2:48.1 scores 1.00, the highest on the track. At 2:49 the sub band reads 0.000 and the bass band 0.003, against 0.078 and 0.045 three seconds earlier."
+                },
+                {
+                  "at": 214,
+                  "text": "The fullest texture of the three excerpts, and the fullest thirty seconds any of them manage. Every voice is in, high in its range, and it stays there.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/LRP8d7hhpoQ.json. Level sits between 0.53 and 0.66 of peak continuously from 3:34 to 4:06, the longest sustained loud stretch measured on any of the three tracks."
+                },
+                {
+                  "at": 250,
+                  "text": "Now the voices leave from the top down. The middle band falls from a quarter of the sound to under a twentieth of it while the low band takes nearly three-fifths. The opposite of the Holst at 2:36, which shrank to its floor by losing its ceiling all at once.",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/LRP8d7hhpoQ.json. Between 4:08 and 4:12 the bass band rises from 0.108 to 0.589 of total energy while the mid band falls from 0.249 to 0.045."
+                },
+                {
+                  "at": 264,
+                  "text": "One voice, at the very bottom. Nearly four-fifths of the sound is now below 250 Hz and almost a third of it is below 80 Hz. **A texture of one, at the end of a song that spent four minutes adding parts.**",
+                  "provenance": "measured",
+                  "receipt": "Measured from the audio of this exact video with tools/audio_measure.py (numpy/scipy STFT at 22.05 kHz mono; RMS envelope, six-band relative energy, chroma-novelty boundaries, onset rate). Full run: Sites/measurements/LRP8d7hhpoQ.json. At 4:24 the sub band carries 0.283 of the total and the bass band 0.511, together 0.794, while the mid, high-mid and high bands together carry 0.078."
+                }
+              ],
+              "note": "The song itself finishes at about 4:29 and the level goes to zero. The video keeps running to 5:05 with different material after it, so stop the comparison at 4:29."
             },
             {
               "type": "steps",
               "title": "What we are doing",
               "items": [
-                "Choose one element to focus on (e.g. texture).",
-                "Listen to the three excerpts.",
-                "Build a class comparison, then write your own.",
-                "Use comparison language and evidence."
+                "Texture is the element for this lesson: how many layers are sounding, and where they sit from low to high.",
+                "Work through the three excerpts in order using the timestamps. The times are clickable and jump the player.",
+                "For each excerpt, write down the two moments where the texture changed most, and say what changed.",
+                "Then write your comparison: one similarity and two differences, each with a time and a reason.",
+                "Doing this alone? Everything you need is on this page, and the answers are at the bottom."
               ]
             },
             {
               "type": "activity",
-              "text": "Compare how your chosen element is used across the three excerpts, with one similarity and two differences."
+              "text": "Compare how texture is used across the three excerpts: one similarity and two differences. Give a timestamp for every point, and say what the difference does to the listener rather than just naming it."
+            },
+            {
+              "type": "check",
+              "ordered": true,
+              "summary": "Check yourself: the comparison, worked",
+              "items": [
+                "**One similarity.** All three build the same way: they add the bottom last. Holst holds the low register out until 0:14, Avicii until 0:23, Pentatonix until 0:39, and in all three the arrival of the bottom is the moment the texture stops sounding light. **Why it works as a similarity:** it is the same musical decision reached by an orchestrator, a producer and five singers, so it says something about texture rather than about style.",
+                "**Difference 1: how far the texture can fall.** Across the whole movement, Holst's quiet moments sit about twenty-six times below his loud ones, and you can hear the extreme of it between 4:36 and 4:39. Across whole tracks Avicii's sit about four times below and Pentatonix's about four times below. **What it does:** the orchestra can make you lean in, and the other two never ask you to. Loudness in a modern production is held in a narrow band on purpose, so texture has to do the work that dynamics does in Holst.",
+                "**Difference 2: how a layer leaves.** Avicii takes the bass out in four seconds at 0:40 and leaves everything above it untouched, and at 2:12 closes a filter over the whole mix so every layer loses its top half at once. Holst cannot do either: at 2:36 he also takes four seconds, but what is left is a different set of players, not the same players filtered. **What it does:** in the Avicii the change feels done to the music, and in the Holst it feels done by the musicians.",
+                "**Another difference, if you want a third.** How busy the surface is. Across whole tracks, something new starts about 3.5 times a second in the Avicii, 2.8 in the Pentatonix and 1.6 in the Holst. **The trap:** that does not make the Holst the thinnest. At 2:59 it is running the fullest orchestra of the movement at well under one event a second. **Full is about how many layers, busy is about how often they move, and they are not the same measurement.**",
+                "**The exit question: which style used texture most surprisingly?** Any of the three, if you can point at a time. The strongest answer is Pentatonix at 4:24: a song that spent four minutes stacking five voices ends on one voice, alone, with nearly four-fifths of the sound below 250 Hz. **Surprising because it reverses its own method in the last ten seconds.** An answer with no timestamp is not an answer."
+              ]
             },
             {
               "type": "exit",
-              "text": "Which style used the element most surprisingly?"
+              "text": "Which style used texture most surprisingly, and at what time?"
             }
           ],
           "teacher": []
