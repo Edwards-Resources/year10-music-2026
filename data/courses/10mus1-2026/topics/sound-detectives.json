@@ -686,6 +686,190 @@
        "text": "What's making the sound, and what it actually sounds like: an instrument's ‘personality’."
       },
       {
+       "type": "explain",
+       "label": "Naming what you hear",
+       "call": "Sort by family first. The name comes after, not before.",
+       "body": [
+        {
+         "p": "You already know more instrument families than you think you do, and you use them without noticing every time you separate one sound from another inside a wall of noise. The problem is never that you cannot hear a separate sound. It is that you reach straight for a name - guitar, drums, whatever the style usually has - before you have actually listened to how the sound is being made. Sort first, name second, and most of the guessing disappears."
+        },
+        {
+         "h": "The sorting questions"
+        },
+        {
+         "ul": [
+          "Voice or instrument? A voice has words, or at least a vowel shape, even when it is wordless.",
+          "If it is an instrument, how is the sound started? Plucked or struck (a sharp attack, then the note decays away on its own), bowed or blown (the player can hold the note as long as they like, or make it swell), or electronic (a sound with no obvious physical cause at all - no breath, no string, no skin).",
+          "Does the note ring on after it starts, or stop the instant the player stops? A struck bell rings on its own; a drum does not.",
+          "Is there one source, or several doing the same job at once? A section of violins moving together sounds different from one violin alone, even before you know the word ‘section’."
+         ]
+        },
+        {
+         "p": "**Working rule: answer those four questions before you reach for a name.** ‘Plucked, decays fast, one source’ gets you to guitar or harp long before ‘sounds like a guitar’ does, and it also gets you somewhere useful when the actual instrument is one you have never heard of. You do not need the exact name to earn the mark. You need a description precise enough that somebody else could not mistake it for a different family."
+        },
+        {
+         "h": "When you genuinely cannot name it"
+        },
+        {
+         "p": "That happens, and it does not have to cost you anything. ‘A struck metal instrument, not a drum’ is a real, defensible answer even if you never learn the exact word for it. What earns nothing is skipping the sorting altogether and writing down whatever instrument the style usually has."
+        }
+       ]
+      },
+      {
+       "type": "explain",
+       "label": "Describing tone colour",
+       "call": "A timbre word has to survive being written down without the music playing.",
+       "body": [
+        {
+         "p": "‘It sounds nice’ and ‘it sounds warm’ are both one word longer than nothing, but only one of them is a timbre answer. The difference is what the word is describing. ‘Nice’ describes how the sound makes you feel. ‘Warm’ describes a property of the sound itself, and it would still be true of that recording next week, played to somebody in a completely different mood."
+        },
+        {
+         "h": "The test"
+        },
+        {
+         "p": "Ask whether the word could just as easily describe a surface, a light or a temperature as it describes a sound: bright, dark, warm, cold, thin, rich, harsh, smooth, rough, hollow, buzzy, breathy, reedy, metallic, nasal. All of those pass, because they are borrowed from touch and light on purpose - tone colour is a metaphor, and English's whole timbre vocabulary leans on it. ‘Nice’, ‘cool’, ‘sick’, ‘good’ all fail, because none of them describe anything about the sound. They describe you."
+        },
+        {
+         "p": "**Working rule: if the word could just as easily describe a jumper or a photograph, it is a timbre word. If it only says how you rate the sound, it is not.**"
+        },
+        {
+         "h": "Where the words come from"
+        },
+        {
+         "p": "You do not need to invent a word on the spot. Register gives you a head start: a sound sitting high in the range, with most of its energy well above the middle, tends to earn ‘bright’ or ‘thin’; one sitting low and full tends to earn ‘warm’ or ‘rich’. That is a starting point, not a rule you can apply blind - the same register can sound harsh or smooth depending on how the note is started - but it is a faster way in than guessing from nothing."
+        }
+       ]
+      },
+      {
+       "type": "guide",
+       "label": "Listen: solo sitar",
+       "work": "Sahana Banerjee, “Endearing Raag Piloo”",
+       "meta": "6:33 · darbarfestival",
+       "brief": "One performer, one instrument, six and a half minutes, recorded at the Darbar festival. Nothing to hide behind and nowhere for a second sound to come from: the hardest possible test of naming and describing, because there is only ever one thing to listen to.",
+       "embed": "tw13VQXXPkQ",
+       "cues": [
+        {
+         "at": 0,
+         "text": "A brief low thump right at the start. That is the recording beginning, not the performance: it is gone within five seconds and never returns. Do not count it as an instrument entering.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘The first second is not part of the performance’: at 0:00 the run reads bass 0.360 and sub 0.274 at rms 0.049, and it is gone by 0:05 (audio_probe window 0-40 at 5 s)."
+        },
+        {
+         "at": 5,
+         "text": "From here to the very end, listen for what never arrives: almost nothing sounds below 250 Hz on this recording, about one part in a hundred of everything you hear. The middle of the range carries about four fifths of everything you hear, packed into two adjacent bands. A range that narrow is what one sustained source sounds like on its own; more sources than that usually reach wider than this.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, headline table row A (sub+bass 0.012, low_mid+mid 0.802) and ‘From 0:05 to the end, sub reads 0.000 to 0.005 and bass 0.010 to 0.031... low_mid and mid together hold 0.78 to 0.83 throughout the same span’ (audio_probe window 0-40 at 5 s; audio_measure profile). Softened 25 August 2026: the sheet's prose said 'nothing under 250 Hz' but its own figures are sub 0.000 to 0.005 and bass 0.010 to 0.031, so about a hundredth rather than none. The sheet has been corrected to match."
+        },
+        {
+         "at": 385,
+         "text": "Six and a half minutes in, and the bottom of the range is exactly as empty as it was at 0:05: still down around one part in a hundred. Nothing new has ever stepped in underneath this performance. On a page about naming what is making a sound, the honest answer for the register under 250 Hz here is: almost nothing, the whole way through.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘From 0:05 to the end, sub reads 0.000 to 0.005 and bass 0.010 to 0.031, every frame’ - the span this cue sits inside, corrected 25 August 2026 to match the sheet's own figures rather than its earlier prose (audio_probe window 0-40 at 5 s)."
+        }
+       ]
+      },
+      {
+       "type": "guide",
+       "label": "Listen: voice and strings",
+       "work": "Louis Armstrong, “What A Wonderful World”",
+       "meta": "2:19 · Louis Armstrong",
+       "brief": "A solo voice against a string section, with no trumpet or rhythm section audible anywhere on this recording. You meet this same track again as the worked example further down this page, so listen for the media and timbre now and there is less to do later.",
+       "embed": "rBrd_3VMC3c",
+       "cues": [
+        {
+         "at": 2,
+         "text": "The first step: loudness jumps by about three fifths in a single second, as the first sound source arrives.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘Only 8 chroma boundaries and 3 sustained level events in 2:18, all three of them in the first fifteen seconds (x1.61 at 0:02...)’ (audio_measure level events)."
+        },
+        {
+         "at": 6,
+         "text": "A second step, about half again as loud as the moment before. Something else has just joined what was already sounding.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘...x1.53 at 0:06...’ (audio_measure level events)."
+        },
+        {
+         "at": 14,
+         "text": "A third step, and after this one nothing else arrives or drops out for the rest of the track. Whatever is sounding by here is the whole performing ensemble, for the next two minutes.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘...x1.60 at 0:14.2... rms then holds 0.37 to 0.45 for the body of the track... Nothing steps in or out after 0:15’ (audio_measure level events and profile)."
+        },
+        {
+         "at": 60,
+         "text": "Across the body of the track, the middle of the range carries about three fifths of the sound's energy between two adjacent bands, with about a quarter reaching above 2500 Hz. A texture that sits in the middle rather than reaching for brightness: match that to what is carrying the tune and what is sitting underneath it.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘Band spread across the body: low_mid 0.305 and mid 0.305 with high_mid 0.131 and high 0.109’ (audio_measure profile). Corrected 25 August 2026: the sheet's figure is 0.240, which is about a quarter rather than around a fifth."
+        },
+        {
+         "at": 123,
+         "text": "The single biggest harmonic change on the whole track happens here, and it is quieter than the body around it, not louder: a change carried by less of the sound than usual. With the ensemble pulled back like this, one of the two sources you have been listening for should be more exposed than the other. Listen for which one is carrying that change alone.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘The highest chroma novelty on the track is at 2:03.1 (novelty 1.00), at rms 0.206, which is lower than the body of the track’ (audio_measure boundary list)."
+        }
+       ]
+      },
+      {
+       "type": "guide",
+       "label": "Listen: full orchestra",
+       "work": "John Williams, “Main Title”",
+       "meta": "5:24 · John Williams",
+       "brief": "The recording's own title is only “Main Title”, with no film name or year on record; the channel credited is John Williams. Nearly five and a half minutes, built around two huge arrivals rather than one - the opposite shape to the voice and the sitar you have just heard.",
+       "embed": "e9lapdvLSGw",
+       "cues": [
+        {
+         "at": 88,
+         "text": "Before the first big arrival, this track is nearly silent: barely above a whisper, and almost all of what little is sounding sits in the middle of the range.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘At 1:28 and 1:30 rms reads 0.044, against 0.35 for the body of the piece, with mid alone carrying 0.48 of what little there is’ (audio_probe window 88-100 at 2 s).",
+         "sub": [
+          {
+           "at": 92,
+           "text": "The arrival begins: loudness starts climbing out of that near-silence.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L5, ‘rms goes 0.044 at 1:30 to 0.150 at 1:32’ (audio_probe window 88-100 at 2 s)."
+          },
+          {
+           "at": 96,
+           "text": "The bottom of the range arrives with it: a band that was barely present a moment ago now carries about eight times what it did, in the same stretch the loudness keeps climbing.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L5, ‘bass comes up with it from 0.021 at 1:30 to 0.173 at 1:36’ and ‘rms... 0.498 at 1:36’ (audio_probe window 88-100 at 2 s; audio_measure level events)."
+          },
+          {
+           "at": 100,
+           "text": "By here the arrival is complete: loudness has multiplied more than eleven times over these ten seconds, the biggest single arrival anywhere in this recording. A change this large, spread across this much of the range, is the shape a full ensemble makes when it comes in together, not one instrument.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L5, ‘rms goes 0.044 at 1:30 to... 0.518 at 1:40, which is more than eleven times over ten seconds... A sustained level event marks it at 1:34.3, up x2.01’ (audio_probe window 88-100 at 2 s; audio_measure level events)."
+          }
+         ]
+        },
+        {
+         "at": 192,
+         "text": "A second arrival, up by about the same factor as the first: x2.06 here against x2.01 at 1:34. The same kind of jump as before, not just a louder moment - when a change this size repeats, it usually means the same trick is being played again, more of the ensemble joining at once rather than one instrument getting louder. Name what you think has entered before you read on.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘A second one of the same size at 3:11.6, up x2.06’, read against the first arrival's own ‘1:34.3, up x2.01’ (audio_measure level events)."
+        },
+        {
+         "at": 277,
+         "text": "A third arrival, but a smaller one this time: up by about two fifths, against the doubling of the first two. A jump this size is consistent with fewer performing forces returning, or the same ones re-entering more quietly, rather than an arrival on the scale of 1:40 or 3:12. Listen for whether this sounds like the same forces as before or something smaller.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘a smaller one at 4:36.8, up x1.41’, read against the two earlier arrivals at x2.01 and x2.06 (audio_measure level events)."
+        },
+        {
+         "at": 295,
+         "text": "Now the bottom disappears again while the top does not: almost nothing below 250 Hz, while the middle and upper-middle of the range are still sounding clearly. Whatever is carrying the tune up there has been left on its own.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘At 4:55 the bottom is gone and the top is not: bass 0.005 and sub 0.002 while mid reads 0.421 and high_mid 0.302, at rms 0.214’ (audio_measure profile)."
+        },
+        {
+         "at": 313,
+         "text": "The ending is a fall in two steps, not a fade: down to about a third of what it was, then down again to a little over a third of that, in the space of four seconds. That is a texture cut in blocks, the kind of ending you get from an ensemble stopping together, not one instrument trailing off on its own.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L5, ‘sustained events at 5:13.4 down x0.35, 5:17.4 down x0.37’ (audio_measure level events)."
+        }
+       ],
+       "note": "Set the three side by side, because this is the one thing on this page you can count rather than guess. The sitar puts about four fifths of its energy into two neighbouring middle bands, with about one part in a hundred below 250 Hz. Armstrong spreads wider: about three fifths through the middle, about a seventh below 250 Hz and about a quarter above 2500 Hz. The orchestra spreads widest of the three, a little over half through the middle and the largest share above 2500 Hz of any of them. That spread is not a coincidence of the recording. It is what more sound sources playing at once does to the range, and it is why the three sound as far apart as they do before you have named a single instrument."
+      },
+      {
        "type": "gapfill",
        "title": "Performing media words",
        "prompt": "We fill these in together. Write what each one means.",
@@ -724,41 +908,93 @@
        ]
       },
       {
-       "type": "media",
-       "n": 1,
-       "brief": "World: a raga on solo sitar. A distinctive, sustained plucked-string timbre.",
-       "embed": "tw13VQXXPkQ"
+       "type": "check",
+       "summary": "If you were away: performing media words",
+       "items": [
+        "**Solo** - one performer, alone.",
+        "**Duet** - two performers.",
+        "**Trio** - three performers.",
+        "**Quartet** - four performers.",
+        "**Ensemble** - any group playing or singing together; the general word when nothing more specific fits.",
+        "**Orchestra** - a large mixed ensemble built from string, woodwind, brass and percussion sections together.",
+        "**Choir** - a group of singers, usually more than one voice on each part.",
+        "**A cappella** - voices alone, with no instruments at all.",
+        "**Rhythm section** - the instruments holding the beat and the harmony underneath everything else: usually some mix of drums, bass, guitar and keyboard."
+       ]
       },
       {
-       "type": "media",
-       "n": 2,
-       "brief": "Jazz: Louis Armstrong's gravelly vocal timbre, instantly recognisable. This famous recording has no trumpet on it, just his voice against strings.",
-       "embed": "rBrd_3VMC3c"
-      },
-      {
-       "type": "media",
-       "n": 3,
-       "brief": "Film: the Star Wars Main Title, full orchestral timbre.",
-       "embed": "e9lapdvLSGw"
+       "type": "check",
+       "summary": "If you were away: instrument families",
+       "items": [
+        "**Strings** - any instrument that makes its sound from a vibrating string, plucked, bowed or struck: violin, cello, guitar, sitar, harp.",
+        "**Woodwind** - a column of air set vibrating by breath across or through a reed or an edge: flute, clarinet, oboe, saxophone.",
+        "**Brass** - a column of air set vibrating by the player's own lips against a mouthpiece: trumpet, trombone, French horn, tuba.",
+        "**Percussion** - struck, shaken or scraped: drum kit, timpani, tambourine, cymbals.",
+        "**Keyboard** - played with keys, however the sound is actually produced underneath them: piano, organ, synthesiser.",
+        "**Electronic** - a sound with no obvious physical cause: synthesiser, drum machine, an electric instrument run through an effect.",
+        "**Voice** - the human voice itself, described by range or style rather than an instrument name: soprano, tenor, gravelly, spoken.",
+        "None of today's three recordings has a keyboard or an electronic instrument in it: the sitar excerpt is one string instrument alone, the Armstrong excerpt is voice and strings only, and the orchestra draws on strings, woodwind, brass and percussion, which is what ‘full orchestra’ means. Those two rows are legitimately blank today, not something you missed.",
+        "This table has no single fixed answer, because it asks what you heard, not what is always true. The right answer is the real instrument you can point to in one of today's three recordings and defend if somebody disagrees with you."
+       ]
       },
       {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "Recap: performing media = the sound sources; timbre = their tone colour.",
-        "Listen and build a class ‘timbre word bank’ (bright, warm, harsh, mellow, etc.).",
+        "Read the two explain sections: how to sort a sound before you name it, and what makes a timbre word a real one.",
+        "Work through the three guided listens, one per excerpt, using the register cues to help place what you hear.",
         "Fill in the performing media and instrument family tables on this page as we go.",
-        "Play an instrument ID quiz with short clips.",
-        "Match a timbre word to each instrument you hear."
+        "Build a class timbre word bank from what you hear, checked against the test above.",
+        "Read the worked example, then write your own on one of the other two excerpts."
        ]
       },
       {
        "type": "activity",
-       "text": "For each clip, name the instruments or voices and give one word for their tone colour."
+       "text": "For each of the three excerpts, name the performing media you hear and give one real timbre word for it, using the test from the explain section above."
+      },
+      {
+       "type": "worked",
+       "question": "Identify the performing media in this excerpt and describe its timbre.",
+       "marks": "2 marks - one for performing media, one for timbre",
+       "lead": "This is the shape of the actual exam question: performing media and timbre are worth two marks together, one for naming what you hear and one for describing it. Here is one full answer, on the Armstrong recording above.",
+       "model": "This is a solo voice set against a string section, with no other instrument audible anywhere in the recording: a warm, breathy vocal tone over a smooth, sustained string tone underneath it.",
+       "rungs": [
+        {
+         "move": "Identify",
+         "text": "Name what is making the sound, precisely enough that somebody else could recognise the same recording from your words. _A solo voice, with a string section behind it and nothing else audible._ Getting the family right earns the mark, even without naming every player in the section."
+        },
+        {
+         "move": "Describe",
+         "text": "Give a real timbre word for what you named, not a vague one. _Warm and breathy for the voice, smooth and sustained for the strings._ Both words would survive being written down without the recording playing, which is the test from earlier on this page."
+        }
+       ],
+       "zero": {
+        "answer": "“It sounds beautiful and really sets the mood.”",
+        "why": "A taste judgement, not a listening answer. It never says what is making the sound, so the first mark is not there, and ‘beautiful’ is not a tone colour word: it says how the answer-writer feels, not what the recording sounds like, so the second mark is not there either."
+       }
+      },
+      {
+       "type": "check",
+       "summary": "If you were away: the other two excerpts",
+       "items": [
+        "**Sitar excerpt** - performing media: a solo sitar, one instrument playing alone with nothing else audible. Timbre: a buzzy, resonant plucked-string tone with a steady drone underneath it - a sound that almost never reaches down into the bottom of the range, about one part in a hundred of what you hear, which is part of what makes it feel so exposed.",
+        "**Orchestra excerpt** - performing media: a full orchestra, strings, woodwind, brass and percussion all contributing rather than one instrument on its own. Timbre: rich and full when the whole ensemble is playing together, thinning to a brighter, less full sound at the moments when only the middle and upper parts of the range are left sounding."
+       ]
       },
       {
        "type": "exit",
        "text": "Pick one instrument and describe its timbre in a full sentence."
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: four questions on today",
+       "items": [
+        "What is the difference between performing media and timbre? **Performing media is what is making the sound - the voices and instruments. Timbre is what that sound is actually like.**",
+        "How much of the sitar recording's sound sits below 250 Hz, from 0:05 to the very end? **Almost nothing - about one part in a hundred of everything you hear, the whole six and a half minutes.**",
+        "On the Armstrong recording, when does the ensemble finish arriving? **By about 0:15. Nothing steps in or drops out again for the rest of the track.**",
+        "What is the test for whether a timbre word is actually doing its job? **It has to describe the sound the way you would describe a surface or a light: warm, bright, harsh, thin. If it only says how the sound made you feel, it fails the test.**"
+       ]
       }
      ],
      "teacher": [
@@ -768,7 +1004,7 @@
     {
      "number": 6,
      "week": 2,
-     "title": "Comparing 'Valerie'",
+     "title": "Comparing “Valerie”",
      "intention": "I can compare two versions of the same song using performing media and timbre.",
      "criteria": [
       "I can name the voices and instruments I hear in each version.",
@@ -785,6 +1021,223 @@
        "type": "definition",
        "term": "Timbre (tone colour)",
        "text": "The quality of a sound that makes one voice or instrument sound different from another, even when they play exactly the same note. A trumpet and a flute playing the same pitch do not sound the same, and timbre is the word for that difference."
+      },
+      {
+       "type": "explain",
+       "label": "Read this",
+       "call": "Performing media is a list. Timbre is a description. The question always wants both.",
+       "body": [
+        {
+         "p": "These two elements arrive together in every listening paper you will ever sit, and they ask two different things of you. Performing media is a list of what is making the sound: the voices, the instruments, how many of them. Timbre is what those sounds are actually like. You can get the list completely right and still write nothing worth a mark, because a list is not a description."
+        },
+        {
+         "h": "Naming what you can hear, one layer at a time"
+        },
+        {
+         "p": "Nobody names six things at once on a first play. Take one pass per layer, in this order, and write one line after each pass:"
+        },
+        {
+         "ul": [
+          "**The lead voice.** One singer, or more than one? Sitting comfortably, or reaching?",
+          "**Whatever carries the tune when nobody is singing.** In the gaps, and in any introduction or ending.",
+          "**Whatever holds the pulse.** The layer you would tap along with. It is usually low, and usually the last thing people notice, because it is the thing you feel rather than the thing you listen to.",
+          "**Whatever fills the middle.** Chords, riffs, sustained sounds: anything sitting between the pulse and the voice.",
+          "**Anything that happens once.** A single hit, a stab, a sound that never comes back. These are what separate a good answer from a full one."
+         ]
+        },
+        {
+         "p": "**Working rule: name only what you actually heard.** A guess that is wrong costs you more than a gap does, because the marker now knows you were not listening. _A low sustained instrument holding the bottom_ is an honest answer and it earns something. An instrument that is not in the recording earns less than nothing."
+        },
+        {
+         "h": "Describing the colour, so somebody could hear it from your words"
+        },
+        {
+         "p": "A timbre word is only worth writing if you can say what made you choose it. Run three tests on the sound in front of you, in any order:"
+        },
+        {
+         "ul": [
+          "**High or low, and how much of the range does it fill?** This is the test that separates rich from thin, and full from hollow.",
+          "**Smooth or rough?** Is there grit, buzz or rasp on the surface of the sound, or is it clean? This separates mellow from harsh, and polished from raw.",
+          "**How does a note start?** Struck and gone, or eased in and held? A sound with a hard edge on the front of every note reads as bright even when it is not especially high, which is the single most common reason people put the wrong word down."
+         ]
+        },
+        {
+         "p": "Then attach the word to its source. **Every timbre word needs a sound source in the same sentence.** _The tone colour is warm_ is worth nothing, because it does not say what is warm. _The lead voice is husky, with a rough edge on the held notes_ is a description a marker can hear without playing the track, and that is the whole job."
+        },
+        {
+         "p": "Words that describe your reaction rather than the sound cannot be marked: nice, good, cool, catchy, sick, vibey. If a word would fit a sandwich as easily as a saxophone, leave it out."
+        }
+       ]
+      },
+      {
+       "type": "explain",
+       "label": "Comparing two versions",
+       "call": "When the tune, the words and the chords are held still, everything you can still hear is a difference in the performing.",
+       "body": [
+        {
+         "p": "A cover keeps the song and replaces the performance. The melody is the same, the words are the same, the chords are the same. So every difference you can hear between these two recordings is a difference in how they were performed: who is playing, what they are playing, how fast they take it, how it was recorded. That makes a pair of versions the cleanest listening test there is, because the thing you are comparing is the only thing that changed."
+        },
+        {
+         "h": "Writing the comparison"
+        },
+        {
+         "p": "One similarity and one difference, and each one in three parts:"
+        },
+        {
+         "ul": [
+          "**Name it.** Which element, and which version. _The 2007 version's low register_ is a name. _It sounds different_ is not.",
+          "**Give the evidence.** What you heard, and when. A time makes the claim checkable, and a claim nobody can check is worth about half of one that can be.",
+          "**Say what it does.** The effect on the person listening. This is the part most people leave off, and it is usually the part carrying the second mark."
+         ]
+        },
+        {
+         "h": "Three traps on this pair, and all three catch people"
+        },
+        {
+         "ul": [
+          "**The second video does not start with the song.** It opens with about fifty seconds of a film scene. The song itself begins at about 0:51, so every time you write for that version is counted from there. Go looking for the first verse at 0:05 and you will find dialogue.",
+          "**The two clocks do not match.** These versions run at different speeds, so the same moment of the song lands at different times on the two videos, and the gap widens as they go. Never compare 1:30 in one with 1:30 in the other. Compare events with events: the first entry of the voice against the first entry of the voice.",
+          "**Speed is not tone colour.** The difference in speed is the largest measurable difference between these two recordings and it is well worth writing about, but it belongs to duration. Label it correctly. An answer that offers a tempo difference as a difference in timbre has named the wrong element, and loses the mark it had already earned."
+         ]
+        },
+        {
+         "p": "One last thing, and it is the honest limit of this page. Every timestamp in the two guides below was measured off these exact recordings, and a measurement can say how loud a moment is and which part of the range is carrying the sound. It cannot say what is making the sound. So the cues will put you in the right ten seconds and tell you where in the range to listen, and the naming is yours. That is the one job on this page that nothing can do for you."
+        }
+       ]
+      },
+      {
+       "type": "guide",
+       "label": "Version A: the original",
+       "work": "The Zutons, “Valerie”",
+       "meta": "2006 · 3:52 · The Zutons Official",
+       "brief": "Play it once with nothing to do but notice. Then come back to the top and work the cues, clicking a time to jump the player to it. Your job on this version is the list first, then the colours: the lead voice, whatever holds the pulse, whatever fills the middle, and three tone-colour words you could defend to somebody who disagreed with you.",
+       "embed": "L3xpmfJp0Xc",
+       "cues": [
+        {
+         "at": 2,
+         "text": "No introduction to speak of. The level steps up here, and by 0:06 the track is at the weight it holds for the next three and a half minutes, so the whole line-up is in front of you inside six seconds. Use them: name the lead voice, then one layer underneath it, before the song has a chance to distract you.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “The Zutons video has no such intro”: a level event at 0:02.00, up x1.42, and by 0:06 the track is at full weight, rms 0.503 (audio_measure level events; audio_probe window 0-30 at 3 s)."
+        },
+        {
+         "at": 10,
+         "text": "Now ask where this version puts its weight. Almost all of it is in the upper middle of the range: for practically the whole track the very bottom of the sound carries somewhere between a hundredth and a twentieth of it, while the upper middle carries between a quarter and a third. Register is not the same thing as tone colour, but it tells you where to point your ears, and up there is where this version lives. Name two things you can hear in that upper middle, and give each one a word.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “The other measured contrast: how much bottom each version has”: on the Zutons, sub sits at 0.01 to 0.05 and bass at 0.10 to 0.16 for almost the whole track while high_mid holds 0.26 to 0.35, so “the weight of the sound is in the upper middle” (audio_measure five-second profiles; audio_probe windows 0-30 and 150-190 on A)."
+        },
+        {
+         "at": 60,
+         "text": "Count the beat. Tap along, count your taps for fifteen seconds, multiply by four, and write the number in your book. Speed is duration, not timbre, so it is not the element of today's lesson, and it is still worth thirty seconds of your time: the comparison you have to write wants a difference you can back up, and this is the one difference between these two recordings you can measure yourself with a foot and a clock. Do the same on the other version and keep both numbers.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Zutons: 83.4 beats a minute (beat period 0.720 s, autocorrelation peak 0.496 of lag zero), measured over 0:05 to 3:40” (audio_probe, whole-song window). The figure is kept out of the cue on purpose, so that the counting is real; the check at the foot of the page hands it back."
+        },
+        {
+         "at": 100,
+         "text": "Pick any moment between here and the end, and it is at much the same weight as 0:06 was. Across three and a half minutes the level never leaves a narrow band, the harmony turns a corner only six times in the whole song, and frame to frame the sound changes about half as much as the other version's does. So the line-up you wrote down at the start is very likely still the line-up you are hearing now. Check that by ear, because the measurement cannot check it for you: all it can say is that if anything left, it left quietly.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Zutons: how little else happens”: only six chroma-novelty boundaries in 3:52, none above novelty 0.42 until the ending, and rms sits between 0.46 and 0.60 from 0:06 to 3:45 apart from the 2:34 dip; and “Ronson: how much more happens”, spectral flux 0.18 to 0.26 on the Zutons against 0.45 to 0.53 on the Ronson (audio_measure boundary lists and profiles on both)."
+        },
+        {
+         "at": 152,
+         "text": "The one place in this track where the band gets out of the way, and the best fifteen seconds on the page for hearing a tone colour on its own. Over the next ten seconds the level falls to under a third of what it is right now, the bottom of the sound very nearly disappears, and the top of it climbs. Fewer things sounding means each one is easier to name and easier to describe, so this is where you collect your colour words for this version.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Zutons: the one place the band gets out of the way”: rms 0.508 at 2:32 to 0.154 at 2:42, under a third, and bass 0.143 at 2:32 to 0.022 at 2:36, while high climbs the other way, 0.097 at 2:32 to 0.291 at 2:42 (audio_measure level events; audio_probe window 150-190 at 2 s).",
+         "sub": [
+          {
+           "at": 154,
+           "text": "The first step down, and it is a step rather than a fade: about three quarters of what it was, arriving all at once.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L6, same entry: a sustained level event at 2:34.83, down x0.72 (audio_measure level events)."
+          },
+          {
+           "at": 156,
+           "text": "Four seconds in and the floor has gone: the low band is down to about a sixth of what it held at 2:32. Whatever was holding the bottom of this track has stopped, which means you can now hear what had been sitting on top of it.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L6, same entry: bass 0.143 at 2:32 to 0.022 at 2:36 (audio_probe window 150-190 at 2 s)."
+          },
+          {
+           "at": 161,
+           "text": "The quietest the track gets between its start and its ending: under a third of the level it ran at ten seconds ago. The energy has moved to the top of the range as well, where the highest band has roughly tripled since 2:32. Low sounds gone, high ones left. Two colour words minimum before you move on.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L6, same entry: a sustained level event at 2:41.08 down x0.72, rms 0.154 at 2:42 against 0.508 at 2:32, and high 0.097 at 2:32 to 0.291 at 2:42 and 0.320 at 2:44, with rms otherwise between 0.46 and 0.60 from 0:06 to 3:45 (audio_measure level events; audio_probe window 150-190 at 2 s)."
+          }
+         ]
+        },
+        {
+         "at": 165,
+         "text": "And back, about half again as loud in a single step. Now listen to what does not come back with it: the bottom of the sound is still nearly as empty here as it was in the dip, and it does not return to the weight it had before until about 2:54, eight or nine seconds later. The level and the low end come back separately, and hearing that gap is what separates a real answer from a guess. So the shape to remember on this version is out of the way, then back in stages, about twenty seconds from 2:34 to 2:54. The other version does nothing like it.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Then it comes back: 2:45.09 up x1.46, rms 0.317 at 2:46 to 0.572 at 2:58, bass back to 0.128 to 0.149”, read at the resolution of the claim: in the same run the bass band is still 0.051 at 2:46, 0.020 at 2:50 and 0.080 at 2:52, and only reaches 0.124 at 2:54 and 0.149 at 2:56, against 0.143 at 2:32. So the level returns about eight seconds before the weight underneath does, and the sheet's “bass back to 0.128 to 0.149” describes 2:54 onwards, not 2:46 (audio_measure level events; audio_probe window 150-190 at 2 s)."
+        }
+       ],
+       "note": "Not one cue above names an instrument, and that is deliberate. What was measured is level and register, and neither of those can say what is making a sound. Every name in your book is one you put there yourself."
+      },
+      {
+       "type": "guide",
+       "label": "Version B: the cover",
+       "work": "Mark Ronson featuring Amy Winehouse, “Valerie”",
+       "meta": "2007 · 4:40 · Mark Ronson",
+       "brief": "Do not press play and start writing. This video opens with about fifty seconds of a film scene, and **the song does not begin until about 0:51.** Every time you write for this version counts from there. Work the cues in order, then do the same two jobs you did on the original: the list, then the colours.",
+       "embed": "bixuI_GV5I0",
+       "cues": [
+        {
+         "at": 24,
+         "text": "Still not the song. Listen to what this sound is made of: there is effectively nothing in the bottom of the range, somewhere between a five-hundredth and a hundredth of it, and everything is stacked in the middle and upper middle. That is what talking measures like, and it is worth hearing, because it is the exact opposite of what arrives at 0:51. Write nothing down yet.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “The Ronson video does not start with the song. It starts with about fifty seconds of film scene”: 0:00 to about 0:41 has almost no bottom at all, sub 0.002 to 0.009 and bass 0.006 to 0.013 across 0:24 to 0:30, with energy piled in mid and high_mid, “which is what speech reads as” (audio_probe window 0-60 at 3 s)."
+        },
+        {
+         "at": 42,
+         "text": "The scene runs out. Across these few seconds what is left falls to under a third of itself and then holds at almost nothing. If you ever lose your place on this video, find this gap: the song is on the other side of it.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “0:42 to 0:50 falls away to near silence: rms 0.237 at 0:42, 0.066 at 0:45 and 0:48” (audio_probe window 0-60 at 3 s)."
+        },
+        {
+         "at": 51,
+         "text": "The song. This is the largest single step anywhere in the file, the level up by more than two and a half times in one moment, and the harmony turns over completely at the same instant. Listen to where the new sound sits: about a fifth of everything you can now hear is in the very bottom of the range, where a second ago there was nothing at all. Something low has arrived. Name it if you can hear what it is, describe where it sits if you cannot, and from here on treat 0:51 as this version's zero.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6: “A sustained level event at 0:50.81, up x2.61 - the largest step on the track by a distance - and a chroma boundary at 0:51.59, novelty 0.98”, and “From 0:51 the bottom is suddenly there: sub 0.177 at 0:51 and 0.234 at 0:54, bass 0.19 to 0.25” (audio_measure level events and boundary list; audio_probe window 0-60 at 3 s).",
+         "sub": [
+          {
+           "at": 54,
+           "text": "Three seconds later there is more down there, not less: nearly a quarter of the whole sound is in the bottom band. This opening stretch has more weight underneath it than anywhere else on either version, so it is the easiest place on the page to hear what separates the two recordings.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L6, “sub 0.234 at 0:54” and “in the first verse after 0:51 sub reaches 0.18 to 0.23”, against the Zutons' sub of 0.01 to 0.05 for almost its whole track (audio_probe windows 0-60 and 110-135 on B, 0-30 and 150-190 on A; audio_measure five-second profiles on both)."
+          }
+         ]
+        },
+        {
+         "at": 60,
+         "text": "Count the beat here, exactly as you did on the original. Do it before you look at the number you wrote over there, so that you are not talking yourself into an answer. The two numbers sit further apart than almost anybody guesses, and that gap is the one difference between these recordings you can prove without naming a single instrument.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Ronson: 107.7 beats a minute (beat period 0.557 s, autocorrelation peak 0.622 of lag zero), measured over 1:00 to 4:00”, against the Zutons' 83.4, which is “the Ronson version running about 29 per cent faster” (audio_probe, whole-song windows on both tracks)."
+        },
+        {
+         "at": 96,
+         "text": "Stop naming things for a moment and listen to how fast the surface of this music moves. Frame to frame it changes about twice as much as the original does, and across its length it turns three times as many harmonic corners. That is a measurement of activity, not of how many instruments are playing, so do not write it up as a texture answer. What it means for you is practical: colours arrive and leave faster here, so you need shorter listening windows to catch them than you needed on the original.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Ronson: how much more happens”: twenty-one chroma-novelty boundaries against the Zutons' six, and spectral flux 0.45 to 0.53 across the whole track against the Zutons' 0.18 to 0.26; “Flux counts how much the sound changes frame to frame, so this is a claim about surface activity, not about how many instruments there are” (audio_measure boundary lists and profiles on both)."
+        },
+        {
+         "at": 121,
+         "text": "A step down, to about three quarters, and it holds rather than bouncing straight back. This is the one sustained drop inside the song, and a drop is your best chance at an individual colour, because there is less piled on top of it. Listen twice: once to decide whether anything actually left, and once to decide whether everything simply got quieter. Those are different events, and only your ears can tell them apart.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Ronson: how much more happens”: a sustained level drop at 2:01.00 down x0.72 inside the song (audio_measure level events)."
+        },
+        {
+         "at": 182,
+         "text": "And a step back up, about a quarter louder, held. Those are this version's two big level moves, and they sit a full minute apart. The original does something that looks similar on paper and is not: its drop and its recovery are ten seconds apart. Same pair of moves, entirely different shape. Writing that the two versions handle their quiet moment the same way is the easiest wrong answer available today.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “Ronson: how much more happens”: a rise at 3:02.07 up x1.28 inside the song, set against the Zutons' drops at 2:34.83 and 2:41.08 and its recovery at 2:45.09 (audio_measure level events on both)."
+        },
+        {
+         "at": 250,
+         "text": "Full weight here, and about fourteen seconds of song left. Stop your comparison at 4:24: from there the bottom of the sound goes to nothing and the level falls away, and what runs on to the end of the file is not the track. Anything you write about how this version ends has to be about what happens before 4:24.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L6, “It ends early too”: rms holds 0.52 to 0.56 through 4:10 to 4:20, then bass falls to 0.023 at 4:24 and 0.004 at 4:28 and rms to 0.220, with the last twelve seconds at rms 0.066 and below, so “the song is over by about 4:24” and the file runs to 4:40.8 (audio_probe window 250-278 at 2 s)."
+        }
+       ],
+       "note": "Every time above is this video's own clock. This version runs faster than the original, so nothing here has a matching timestamp over there, and a comparison written by lining the two clocks up will be wrong on every line. Compare events with events."
       },
       {
        "type": "wordbank",
@@ -813,25 +1266,57 @@
        ]
       },
       {
-       "type": "media",
-       "n": 1,
-       "brief": "Version A: The Zutons, 2006. The original.",
-       "embed": "L3xpmfJp0Xc"
+       "type": "gapfill",
+       "title": "Timbre words worth defending",
+       "prompt": "Twelve words from the bank above. Write what each one means, and one sound you would use it about. We fill this in as we go.",
+       "columns": [
+        "Word",
+        "What it means, and a sound it fits"
+       ],
+       "rows": [
+        "Bright",
+        "Dark",
+        "Warm",
+        "Mellow",
+        "Harsh",
+        "Rich",
+        "Thin",
+        "Hollow",
+        "Husky",
+        "Breathy",
+        "Nasal",
+        "Raw"
+       ]
       },
       {
-       "type": "media",
-       "n": 2,
-       "brief": "Version B: Mark Ronson featuring Amy Winehouse, 2007. Same melody, words and chords, completely different performing media and timbre.",
-       "embed": "bixuI_GV5I0"
+       "type": "check",
+       "summary": "If you were away: the twelve timbre words",
+       "items": [
+        "**Bright** - plenty of energy at the top of the sound, with a hard edge on the front of each note. It cuts through whatever else is playing. A trumpet high in its range, or a cymbal struck hard.",
+        "**Dark** - the opposite: the top is missing or covered over, so the sound feels closed in. Not the same as quiet, and not the same as low. A clarinet at the bottom of its range, or a piano played with the soft pedal down.",
+        "**Warm** - full in the lower middle, smooth on the surface, no hard edges anywhere. The word most people reach for when a sound is comfortable to sit inside. A cello in its middle register, or an electric piano played gently.",
+        "**Mellow** - soft-edged and even, with nothing sticking out of it. A warm sound played gently: a flugelhorn, or a nylon-string guitar picked with the fingers.",
+        "**Harsh** - rough and hard at once, with an edge that grates rather than excites. Worth saying when it is deliberate, and it often is. An electric guitar with the distortion up, or a saxophone pushed hard at the top of its range.",
+        "**Rich** - a lot going on inside the one note, high and low together, so a single sound seems to fill the range on its own. A pipe organ with several stops pulled out, or a grand piano with the sustain pedal down.",
+        "**Thin** - the opposite of rich. A narrow sound with nothing underneath it and not much around it. A recorder, or one voice singing alone.",
+        "**Hollow** - the middle of the sound is missing while the outsides are still there. It sounds like something with a hole in it, because usually it is. Blowing across the top of a bottle, or a marimba bar struck softly.",
+        "**Husky** - a voice with air and grain in it, slightly rough, a little worn. A word for voices far more often than for instruments, and it fits a singer working near the bottom of their range.",
+        "**Breathy** - you can hear the air moving as well as the note. Common in a quiet voice, or a flute low in its range.",
+        "**Nasal** - pinched and narrow, as though the sound is coming out through a small opening. It describes a shape, not a fault. An oboe, or a harmonica.",
+        "**Raw** - unpolished on purpose: rough edges left in and nothing smoothed off. The word for a recording that sounds like a room rather than a studio, or a voice recorded with nothing done to it afterwards."
+       ]
       },
       {
        "type": "steps",
        "title": "What we are doing",
        "items": [
         "Copy both definitions into your book, and the timbre word bank.",
-        "Listen once through to each version without writing anything: who is singing, what carries the hook, what holds the rhythm, what sits on top.",
-        "Listen again and rule up a table in your book: the voice, the instrument that leads, the rhythm section, anything else you can hear, and three tone-colour words for each version.",
-        "Every comparison point needs three parts: name it, give the evidence you heard, and explain the effect."
+        "Play each version once with nothing to do but notice. Then work the cues underneath it, clicking a time to jump the player.",
+        "The second video opens with a film scene: the song itself starts at about 0:51, and your times for that version count from there.",
+        "Rule up a table in your book with a column for each version: the lead voice, whatever holds the pulse, whatever fills the middle, anything that happens once, and three tone-colour words.",
+        "Fill in the timbre words table on this page as we go.",
+        "Write your comparison: one similarity and one difference, each in three parts. Name it, give the evidence with a time, say what it does.",
+        "Working alone? Everything you need is on this page, and the answers are at the foot of it."
        ]
       },
       {
@@ -839,8 +1324,45 @@
        "text": "Write one similarity and one difference between the two versions, each backed with musical evidence and its effect. Performing media and timbre are marked together as one 2-mark question in the listening exam: naming the instruments alone only gets you one mark, you need the tone-colour description too."
       },
       {
+       "type": "worked",
+       "question": "Describe one difference between these two versions of “Valerie”, using musical evidence.",
+       "marks": "2 marks",
+       "lead": "This is the shape of the comparison you are writing today, and the shape of the comparison question in a listening paper. Here is one full answer, built on something you can hear rather than something you assumed.",
+       "model": "The 2007 version carries far more of its sound low in the range than the 2006 one does: from the moment the song starts at 0:51, about a fifth of everything you can hear is in the very bottom of the sound, where the original keeps its weight up in the upper middle for the whole three and a half minutes, so the newer version feels heavy and pushed along from underneath while the original sounds lighter and thinner under the voice.",
+       "rungs": [
+        {
+         "move": "Identify",
+         "text": "Name the difference and say which version it belongs to. _The 2007 version has much more low sound in it._ If you can hear what is making that low sound, name the instrument instead, because naming is what performing media is for. Name only what you actually heard: a wrong name costs you more than a gap does. _They sound different_ names nothing and earns nothing."
+        },
+        {
+         "move": "Describe",
+         "text": "Give the evidence, and put a time on it. _From 0:51, about a fifth of the sound is right at the bottom of the range, and the original keeps almost nothing down there at any point._ A time makes the claim checkable, and a marker should be able to hear your answer without playing either track."
+        },
+        {
+         "move": "Explain",
+         "text": "Say what the difference does to the music. _The newer version feels heavy and pushed from underneath, and the original sounds lighter._ This is what the second mark is for, and it is the half most people leave off."
+        }
+       ],
+       "zero": {
+        "answer": "“The Amy Winehouse version is heaps better, it has way more soul and the instruments sound amazing.”",
+        "why": "Three claims and not one of them is about a sound. _Better_ is a preference, _soul_ is a genre word standing in for a description, and _the instruments sound amazing_ names no instrument, offers no colour word and points at no moment in either recording. There is no time anywhere in it, so there is nothing a marker could check. A short answer would be fine here. An empty one is not."
+       }
+      },
+      {
        "type": "exit",
        "text": "Which version's tone colour suits the song better, and why? Name at least one voice or instrument in your answer."
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: five questions on today",
+       "items": [
+        "You counted the beat on both versions. What should the two numbers be, and which element is that? **About 83 beats a minute on the 2006 version and about 108 on the 2007 one, which puts the newer version roughly 29 per cent ahead.** Anything within about five either way means you counted rather than guessed. The element is duration, so it goes into your comparison as a difference in speed and nothing else.",
+        "Which version puts more of its sound at the bottom of the range, and where is that easiest to hear? **The 2007 one, and the clearest case is the stretch straight after 0:51, where roughly a fifth to a quarter of everything sounding is in the lowest band.** On the 2006 version that band holds between a hundredth and a twentieth for practically the whole track, which is why it reads as lighter even when it is just as loud.",
+        "Where does each version get out of the way, and why does that matter today? **The 2006 version at 2:34, where the level drops to under a third and the floor of the sound nearly vanishes for about ten seconds. The 2007 version never thins out that far: its one sustained drop, at 2:01, only takes it to about three quarters.** It matters because a thinner moment is where a single colour can be heard on its own, so those are the seconds where the naming actually gets done.",
+        "One similarity worth writing, and the evidence for it. **Both are the same song underneath: same melody, same words, same chords, carried in each case by a lead voice with a group behind it.** The melody, words and chords you can take as given, because that is what makes the 2007 recording a cover. The lead-voice-and-group half is an ear judgement, so back it with a moment where you can hear the voice on its own.",
+        "The exit question: which version's tone colour suits the song better? **Either answer is right, and neither is right on its own. The mark is in naming a voice or an instrument, giving it a colour word, and saying what that colour does to the song.** _The 2007 one, because it sounds better_ has answered nothing at all. _The 2007 one, because the low sound that arrives at 0:51 gives the voice something heavy to sit on, so the song feels weighted from underneath rather than carried from above_ has answered it, whether the marker agrees with you or not."
+       ]
       }
      ],
      "teacher": []
@@ -1750,18 +2272,205 @@
      ],
      "blocks": [
       {
+       "type": "explain",
+       "call": "The gap between your band and the next one is written on the rubric, not guessed.",
+       "body": [
+        {
+         "p": "Every band above yours describes the same thing you did, taken one step further. Reading only your own band and the top band hides that step, so start by reading the whole ladder, not just the two ends of it."
+        },
+        {
+         "h": "How to read the gap"
+        },
+        {
+         "ul": [
+          "Find the rubric below and locate the criterion your teacher marked you against.",
+          "Read all five bands for that criterion, top to bottom, not just yours.",
+          "Find your band, then read the band directly above it.",
+          "Underline the one thing that band adds that your band's wording does not.",
+          "Check that against your own paper, honestly: did you actually do that, or use different words to sound like you did?"
+         ]
+        },
+        {
+         "p": "**Working rule: the gap is almost never ‘write more’. It is one missing move that the band above adds and yours does not - naming something specific, connecting two things, or explaining an effect.**"
+        },
+        {
+         "h": "A worked example"
+        },
+        {
+         "p": "Take the Analysis criterion in the rubric below. A C answer ‘describes how some elements are used, with limited analysis of how they combine’: each element gets its own sentence, reported on its own. A B answer ‘analyses how several elements are used and combined, mostly accurately’: the elements are linked to each other inside the one sentence, not just listed side by side. ‘The dynamics get louder. The texture thickens.’ is two C-band observations sitting next to each other. ‘The dynamics get louder as the texture thickens, and together that drives the music into the final chorus’ is the same two facts, joined the way B asks for."
+        },
+        {
+         "p": "That joining move is the same one [Lesson 9](/10mus1-2026/sound-detectives/lesson-9/) calls the effect. You met the response sentence first in [Lesson 3](/10mus1-2026/sound-detectives/lesson-3/) and in full in Lesson 9: name, how it is used, effect, evidence. The same four-part shape closes the gap on any of the four criteria below, not only Analysis."
+        }
+       ]
+      },
+      {
+       "type": "rubric",
+       "title": "AT3 Aural Skills: marking criteria",
+       "lead": "20 marks, 25% of the course. You sat this on Wednesday 19 August 2026 under exam conditions: Part A was short answer on several short excerpts, Part B was one extended response to a final excerpt. The marks: identification 5, analysis 5, terminology 4, extended response 6.",
+       "bandRanges": [
+        [
+         "A",
+         "17-20"
+        ],
+        [
+         "B",
+         "13-16"
+        ],
+        [
+         "C",
+         "9-12"
+        ],
+        [
+         "D",
+         "5-8"
+        ],
+        [
+         "E",
+         "0-4"
+        ]
+       ],
+       "criteria": [
+        {
+         "name": "Accurately identify the elements of music and the style/context of each excerpt (Part A)",
+         "bands": [
+          [
+           "A",
+           "Identifies elements and style/context accurately and comprehensively across all excerpts."
+          ],
+          [
+           "B",
+           "Identifies most elements and style/context accurately with minor gaps."
+          ],
+          [
+           "C",
+           "Identifies the main elements and style with some accuracy; some gaps or errors."
+          ],
+          [
+           "D",
+           "Identifies a few elements with limited accuracy."
+          ],
+          [
+           "E",
+           "Identifies elements with significant errors or omissions."
+          ]
+         ]
+        },
+        {
+         "name": "Analyse how the elements of music are manipulated and combined (Parts A and B)",
+         "bands": [
+          [
+           "A",
+           "Analyses precisely how elements are manipulated and combined to create effect."
+          ],
+          [
+           "B",
+           "Analyses how several elements are used and combined, mostly accurately."
+          ],
+          [
+           "C",
+           "Describes how some elements are used, with limited analysis of how they combine."
+          ],
+          [
+           "D",
+           "Makes simple statements about elements with little analysis."
+          ],
+          [
+           "E",
+           "Lists elements with little or no analysis."
+          ]
+         ]
+        },
+        {
+         "name": "Use correct musical terminology and specific musical evidence",
+         "bands": [
+          [
+           "A",
+           "Uses correct terminology fluently and supports points with specific musical evidence."
+          ],
+          [
+           "B",
+           "Uses correct terminology and relevant evidence with minor lapses."
+          ],
+          [
+           "C",
+           "Uses some terminology and evidence; not always accurate or specific."
+          ],
+          [
+           "D",
+           "Uses limited terminology; evidence is vague or general."
+          ],
+          [
+           "E",
+           "Uses little or no accurate musical terminology."
+          ]
+         ]
+        },
+        {
+         "name": "Sustain a clear, well-structured extended response on how the elements create interest (Part B)",
+         "bands": [
+          [
+           "A",
+           "Sustains a clear, well-structured response linking several elements to interest, with strong evidence."
+          ],
+          [
+           "B",
+           "Develops a clear response linking several elements to interest, with relevant evidence."
+          ],
+          [
+           "C",
+           "Provides a response covering some elements; structure or links to interest are uneven."
+          ],
+          [
+           "D",
+           "Provides a brief or partly relevant response with limited links to interest."
+          ],
+          [
+           "E",
+           "Provides a minimal or unclear response."
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: reading the gap",
+       "items": [
+        "When you compare your answer to a criterion, which bands should you read first? **All five, top to bottom, not just your own band and the top one.** The step you need is almost always the one directly above your own band, not the one at the very top.",
+        "In the worked example above, what was the actual difference between a C and a B on the Analysis criterion? **A C reports each element in its own sentence. A B links two elements together inside one sentence.** Same underlying facts, joined rather than left side by side.",
+        "Can this page tell you which band your own exam answer landed in? **No - that only exists on your marked paper and your teacher's feedback.** This page can hand back the process and the fixed facts about the task. The band you actually got, and the gap you actually need to close, is yours to bring from your own paper, not something a page can know in advance.",
+        "If you do not have your marked paper, what can you redraft instead? **Your Lesson 10 timed response, or a fresh dot point marked against the criteria above.** Either way you run the same process: find the band, read the one above it, close the gap.",
+        "Which of the four criteria in the rubric above is worth the most marks, and which part of the exam is it in? **The extended response criterion, worth 6, in Part B.** The other three criteria (identification, analysis, terminology) make up the remaining 14, mostly earned in Part A."
+       ]
+      },
+      {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "Read your marked response and the feedback.",
-        "Compare your answer to the exemplar answers.",
-        "Identify one strength and one next step.",
+        "Read your marked response next to your teacher's feedback.",
+        "Find your band on the rubric above, for each of the four criteria.",
+        "Pick one criterion and read the band directly above yours (see the box above for how to find the gap).",
+        "Re-draft one weak dot point from your exam to close that gap. Use [Lesson 9’s worked example](/10mus1-2026/sound-detectives/lesson-9/) - the modelled dot point on “What a Wonderful World” - as your exemplar for the standard.",
         "Set a personal listening goal for the rest of the term."
        ]
       },
       {
+       "type": "explain",
+       "call": "You close the gap by rewriting one dot point, not by writing more of them.",
+       "body": [
+        {
+         "p": "Closing the gap is not a length problem. A longer version of the same C-band sentence is still a C-band sentence: more words, still describing elements one at a time instead of connecting them. The fix is the one move you underlined above, made inside the sentence you already have."
+        },
+        {
+         "p": "**Working rule: rewrite the sentence, do not add a second one next to it.** If your redraft needs a new sentence to carry the missing move, the move still is not inside your analysis - it is sitting beside it."
+        }
+       ]
+      },
+      {
        "type": "activity",
-       "text": "Re-draft one weak dot point from your exam to a higher standard using the exemplar."
+       "text": "Re-draft one weak dot point from your exam to a higher standard. Find your band on the rubric above, read the band above it, and close the one gap between them by rewriting the sentence, not by adding to it. If you do not have your marked paper, use your Lesson 10 timed response instead, or write a fresh dot point answering ‘How are the elements of music used to create interest in this excerpt?’, mark it yourself against the Analysis criterion above, then re-draft that."
       },
       {
        "type": "exit",
@@ -1769,7 +2478,8 @@
       }
      ],
      "teacher": [
-      "Return marked responses. Model exemplar answers band by band so students see the standard."
+      "Return marked responses. Model exemplar answers band by band so students see the standard.",
+      "The marking criteria and band descriptors are on the student page now (verbatim from the AT3 task notification), so a student who was away or has lost their paper can still see exactly what each band asks for and work the lesson alone."
      ]
     }
    ]
@@ -1935,35 +2645,229 @@
      "number": 16,
      "week": 6,
      "title": "Analysing a jazz recording",
-     "intention": "I can analyse a jazz work using the elements of music.",
+     "intention": "I can analyse how a jazz recording's register and dynamics change across a listening, using measured evidence.",
      "criteria": [
-      "I can explain how improvisation and structure create interest.",
-      "I use evidence and terminology."
+      "I can describe how the balance of the register shifts across an excerpt.",
+      "I can support a claim about the recording with a timestamp and a proportion from the guide."
      ],
      "blocks": [
       {
-       "type": "media",
-       "n": 1,
-       "brief": "Miles Davis, 'So What'. Modal jazz with clear structure (intro/head/solos/head) and distinct instrumental timbres, ideal for written analysis.",
-       "embed": "ylXk1LBvIqU"
+       "type": "definition",
+       "term": "Register",
+       "text": "Which part of the pitch range - low, middle or high - carries most of the weight of the sound at a given moment. A recording's register can shift across a piece even when nothing else about it changes."
+      },
+      {
+       "type": "explain",
+       "call": "This recording barely changes from one second to the next - so stop listening for a sudden moment, and start listening for a slow drift.",
+       "body": [
+        {
+         "p": "Every element you have studied so far mostly announces itself moment to moment: a chord changes, a section drops out, a beat lands. This recording still has moments like that, but its biggest change is not one of them. It is a slow drift in register - which part of the pitch range carries the weight of the sound - that takes minutes to complete rather than seconds. The test below is how you catch a drift like that."
+        },
+        {
+         "h": "The register test"
+        },
+        {
+         "p": "Two moves, and both work on any recording, not just this one. First, try to sing or hum along and notice where that takes your voice: are you straining upward, or growling down low? That tells you roughly where the tune itself sits. Second, and this is the more useful test for a recording like this one: imagine cutting everything below your own lowest comfortable note. If that loses nearly the whole sound, the recording is bottom-heavy. If you would barely notice, the weight has moved up and out of the bottom."
+        },
+        {
+         "p": "**Working rule: do not wait for a loud or sudden moment. Run the cut-the-bottom test every minute or so, and compare the answer now with the answer a minute or two ago, not a second ago.**"
+        },
+        {
+         "h": "How this page measures it"
+        },
+        {
+         "p": "Every proportion in this guide comes from the same starting point: split the recording, instant by instant, into bands from the very bottom of the pitch range to the very top, and ask what share of the whole - out of 1 - each band is carrying. A recording that is 'four fifths bottom-heavy' at a given second is one where four out of every five parts of that whole sit in the bottom two bands. That is the only measurement behind this page, and every figure below is translated into a proportion you can picture rather than left as a raw number."
+        },
+        {
+         "p": "There is a second measurement behind this page, and it is a different one: how much the recording's texture changes from one instant to the next, on a scale where a track that changes a great deal scores high and one that barely changes scores low. Measured this way, this recording is far calmer than the pop tracks already studied in this course: even at its most turbulent moment, its frame-to-frame change stays under half of the calmest moment either “Valerie” (Lesson 6) or “Watermelon Sugar” (Lesson 1) ever reaches. That does not mean nothing happens here. It means the changes are not on the surface: they happen underneath, over minutes, in which part of the range is doing the work."
+        },
+        {
+         "h": "The pulse, briefly"
+        },
+        {
+         "p": "There is a pulse under all of this, at about 136 beats a minute, but it is a soft one: a measurement that finds a pop track's beat easily only just clears its usability threshold here. If you try to count along and lose the thread, that is not a failure of your ear. This recording's pulse is felt rather than stamped out."
+        }
+       ]
+      },
+      {
+       "type": "guide",
+       "label": "Excerpt",
+       "work": "Miles Davis, “So What”",
+       "meta": "1959 · 9:24 · Miles Davis",
+       "brief": "The full recording runs 9:24, longer than any excerpt in the listening examination and longer than a class will sit through end to end. This guide works through the opening two minutes ten seconds, where the register moves from the bottom of the range to the middle, then picks the recording back up for its last ninety seconds, where that move runs in reverse. The five and a half minutes in between, where most of the recording's improvising happens, is skipped: nothing measured here pins down what happens through it, so nothing is written about it.",
+       "embed": "ylXk1LBvIqU",
+       "cues": [
+        {
+         "at": 0,
+         "text": "The recording opens almost entirely in the bottom of the range: quiet, and heavy, with next to nothing above it. Run the cut-the-bottom test here and you would lose nearly the whole sound.",
+         "provenance": "measured",
+         "receipt": "audio_probe.py window 0-60 at 5 s (Sites/measurements/ylXk1LBvIqU.probe.txt); facts/L16.md §1: 'From 0:00 to about 0:45 the sound is concentrated below 250 Hz and there is very little above 2500 Hz', 0:00 row of the table (rms 0.046, sub+bass 0.372, mid 0.085, high_mid+high 0.117)."
+        },
+        {
+         "at": 2,
+         "text": "The level does not sit still through this opening: it lurches up and down in sudden steps, while the register stays anchored down in the bottom of the range.",
+         "provenance": "measured",
+         "receipt": "audio_measure.py level events (Sites/measurements/ylXk1LBvIqU.json/.txt); facts/L16.md §1: 'The level swings hard across the same span: sustained steps at 0:02.0 x2.10, 0:10.0 x2.53, 0:14.1 x3.71 and 0:18.1 x1.41, then down at 0:25.7 x0.72 and 0:33.8 x0.61'.",
+         "sub": [
+          {
+           "at": 2,
+           "text": "First lurch, doubling the level in an instant.",
+           "provenance": "measured",
+           "receipt": "audio_measure.py sustained level step 0:02.0 x2.10 (facts/L16.md §1)."
+          },
+          {
+           "at": 14,
+           "text": "The biggest lurch in the whole opening: nearly four times as loud as a moment before.",
+           "provenance": "measured",
+           "receipt": "audio_measure.py sustained level step 0:14.1 x3.71 (facts/L16.md §1)."
+          },
+          {
+           "at": 19,
+           "text": "The sharpest change in harmony on the entire recording happens right here, while the sound is still quiet and in the bottom of the range. A big change is not always a loud one.",
+           "provenance": "measured",
+           "receipt": "audio_measure.py chroma boundary at 0:18.9, novelty 1.00, 'the highest on the track' (facts/L16.md §1)."
+          },
+          {
+           "at": 30,
+           "text": "This is the most bottom-heavy the recording ever gets: about four out of every five parts of what's sounding sit down in the bottom of the range. Run the cut-the-bottom test and you would lose nearly everything.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 0-60 at 5 s: 'At 0:30 four fifths of everything sounding is under 250 Hz' (facts/L16.md §1); table row sub+bass 0.808, mid 0.036."
+          },
+          {
+           "at": 34,
+           "text": "The level drops back to a little over half what it just was, and the opening keeps living in the bottom of the range.",
+           "provenance": "measured",
+           "receipt": "audio_measure.py sustained level step 0:33.8 x0.61 (facts/L16.md §1)."
+          }
+         ]
+        },
+        {
+         "at": 50,
+         "text": "Something starts to enter higher up. The share of the sound sitting above the middle of the range has been climbing steadily since 0:20, and from here it keeps climbing.",
+         "provenance": "measured",
+         "receipt": "audio_probe.py windows 0-60 and 60-95 at 5 s: 'high_mid rises from 0.024 at 0:20 to 0.127 at 0:50, 0.134 at 0:55 and 0.147 at 1:00, and stays above 0.11 for the rest of the track' (facts/L16.md §2).",
+         "sub": [
+          {
+           "at": 50,
+           "text": "More than five times what it was thirty seconds ago.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 0-60, high_mid at 0:50 = 0.127 against 0.024 at 0:20 (facts/L16.md §2)."
+          },
+          {
+           "at": 55,
+           "text": "Barely moves - it is holding the ground it just gained.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 60-95, high_mid at 0:55 = 0.134 (facts/L16.md §2)."
+          },
+          {
+           "at": 60,
+           "text": "Keeps climbing, and from here it stays higher than anywhere earlier in the recording. Meanwhile the bottom eases off: the share sitting in the bass and sub-bass falls to around half, or a little under, of what it read at its most bottom-heavy, thirty seconds into the track.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 60-95, high_mid at 1:00 = 0.147; sub+bass 0.32 to 0.43 across 1:00 to 1:30 against 0.808 at 0:30 (facts/L16.md §2)."
+          }
+         ]
+        },
+        {
+         "at": 91,
+         "text": "The single biggest jump in level in the whole first four minutes: the loudness very nearly triples in about five seconds, and the middle of the range climbs by more than half in the same moment, so this arrival is felt in the body of the sound, not just on the level meter.",
+         "provenance": "measured",
+         "receipt": "audio_measure.py sustained level step x2.95 at 1:31.2, the larger of the two biggest arrivals in the first four minutes; audio_probe.py window 60-95 at 5 s: mid 0.136 to 0.215 across 1:25 to 1:30 (facts/L16.md §3)."
+        },
+        {
+         "at": 130,
+         "text": "By now the balance has flipped completely: the middle of the range carries most of the weight, and the bottom, which held about four fifths of everything a hundred seconds earlier, has emptied out to almost nothing. Run the cut-the-bottom test now and you would barely notice; a hundred seconds earlier you would have lost nearly the whole sound. That is the biggest change in this recording that can actually be measured, and it takes two minutes to happen, not one moment.",
+         "provenance": "measured",
+         "receipt": "audio_probe.py windows 90-130 and 0-60 at 5 s: 'At 2:10: mid 0.505, against bass 0.083 and sub 0.030, at rms 0.328. Compare 0:30, where mid read 0.036 and sub+bass read 0.808' (facts/L16.md §4)."
+        },
+        {
+         "at": 460,
+         "text": "Picking the recording back up for its last ninety seconds: from here it winds down rather than stopping. The level here is already down to a bit over half of what it read at 2:10, the last point earlier in this guide.",
+         "provenance": "measured",
+         "receipt": "audio_probe.py window 440-560 at 10 s: rms 0.190 at 7:40, against 0.328 at 2:10 (facts/L16.md §4, §5 table).",
+         "sub": [
+          {
+           "at": 480,
+           "text": "Down again, to about three quarters of what it was twenty seconds before.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 440-560 at 10 s: rms 0.139 at 8:00, against 0.190 at 7:40 (facts/L16.md §5 table)."
+          },
+          {
+           "at": 500,
+           "text": "The sound has dropped to under half what it was at 7:40, and what is left is increasingly bottom-heavy - about a quarter of it now sits in the bass.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 440-560 at 10 s: rms 0.085, bass 0.261 at 8:20, against rms 0.190 at 7:40 (facts/L16.md §5 table)."
+          },
+          {
+           "at": 530,
+           "text": "The level steadies rather than falling further, but the bottom keeps its grip: getting on for a quarter of the sound is still sitting in the bass.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 440-560 at 10 s: rms 0.100, bass 0.235 at 8:50 (facts/L16.md §5 table)."
+          },
+          {
+           "at": 550,
+           "text": "Down again, to about two thirds of what it just was, and the bass share keeps climbing - now close to double what it was at the start of this run of cues. As everything else drops away, the bottom of the range is what's left standing, which is also where the whole recording began.",
+           "provenance": "measured",
+           "receipt": "audio_probe.py window 440-560 at 10 s: rms 0.067, bass 0.336 at 9:10, against bass 0.177 at 7:40 (facts/L16.md §5 table)."
+          }
+         ]
+        }
+       ],
+       "note": "Notice what these cues never do: not one of them names an instrument. A measurement can say how loud a moment is and which part of the range is sounding, but it cannot say what is making that sound, so this page leaves that job to your ears. It never says who is soloing either, for the same reason. This guide stops at 9:10; past that point the recording keeps thinning, and by the very end there is next to nothing left."
       },
       {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "Listen to the recording twice.",
-        "Plan your response using element prompts.",
-        "Write about how improvisation, structure and timbre create interest.",
-        "Swap for peer feedback against the criteria."
+        "Listen to the opening two minutes ten seconds of “So What”, and run the cut-the-bottom test as you follow the guide.",
+        "Read how the recording's register drifts across that span, and why the moment-to-moment surface stays so calm.",
+        "Pick the recording back up for its last ninety seconds and run the same test in reverse.",
+        "Work through the model answer, then write your own register-shift claim with evidence.",
+        "Check your answers against the self-check."
        ]
       },
       {
        "type": "activity",
-       "text": "Write a response: how does this jazz recording use the elements of music to create interest?"
+       "text": "In two or three sentences, describe how the register of “So What” changes across the span you listened to today. Use at least one timestamp and one proportion from the guide as evidence (for example, 'about half', 'nearly all', 'a quarter')."
+      },
+      {
+       "type": "worked",
+       "question": "Describe how the register of this recording changes between the opening and 2:10.",
+       "marks": "1 mark",
+       "lead": "This is the kind of claim a listening question rewards: a change, a location, and what it does. Here is one full mark, using the register test on the guide above.",
+       "model": "At 0:30 the recording is at its most bottom-heavy: about four out of every five parts of what's sounding sit down in the bottom of the range, so cutting the low end here would lose almost the whole sound. By 2:10 that has reversed: the middle of the range now carries most of the weight and the bottom has emptied out to almost nothing, so the same recording that opened dark and heavy now sits open and central.",
+       "rungs": [
+        {
+         "move": "Identify",
+         "text": "Name the change and say where it happens. _The balance of the register flips from the bottom to the middle between 0:30 and 2:10._ “The sound changes around the middle” names nothing and earns nothing."
+        },
+        {
+         "move": "Describe",
+         "text": "Add what the cut-the-bottom test would tell you at each point. _At 0:30, cutting the low end loses nearly the whole sound. By 2:10, cutting the low end would barely be noticed, because the middle now carries the weight._"
+        },
+        {
+         "move": "Explain",
+         "text": "Say what it does to the recording. _The track opens dark and bottom-heavy and gradually opens out as the middle takes over, which is the biggest single change in how the recording sits across its length._"
+        }
+       ],
+       "zero": {
+        "answer": "“The sound changes a bit around the middle.”",
+        "why": "True and worth nothing: it does not say what changed, where it happens, or what effect it has. No timestamp, no direction, no proportion - there is nothing here to mark."
+       }
       },
       {
        "type": "exit",
-       "text": "Which element was most important in this recording?"
+       "text": "Describe one way the register of this recording changes between its opening and its ending."
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: four questions on today",
+       "items": [
+        "How does the register of the recording change between 0:30 and 2:10? **It flips: the sound goes from almost entirely in the bottom of the range to having the middle carry most of the weight, while the bottom empties out to almost nothing.**",
+        "What happens to the register over the recording's last ninety seconds? **It moves back towards the bottom: as the overall level falls, the proportion of sound sitting in the bass keeps growing, so the low end is the last thing still sounding, the same part of the range the recording opened in.**",
+        "About how fast is the pulse in this recording, and is it easy to lock onto? **About 136 beats a minute, and no, it is a soft pulse that takes real effort to count, unlike a pop track's pulse.**",
+        "Frame to frame, does this recording change more or less than the pop tracks studied earlier in the course? **Far less: even at its most turbulent moment, its frame-to-frame change stays under half of the calmest moment either pop track reaches.**"
+       ]
       }
      ],
      "teacher": []
@@ -2063,28 +2967,110 @@
      ],
      "blocks": [
       {
+       "type": "explain",
+       "label": "Read this",
+       "call": "Choose one element, decide what you want the audience to feel, then prove your cue actually does it.",
+       "body": [
+        {
+         "p": "[Lesson 17](/10mus1-2026/sound-detectives/lesson-17/) gave you the vocabulary a film composer works with: leitmotif, underscore, mickey-mousing. Today you are not identifying which trick someone else used. You are the composer, on a scene that currently has no music at all, and you have to make one small decision and defend it."
+        },
+        {
+         "h": "Pick one element, not five"
+        },
+        {
+         "p": "A cue that tries to do everything at once - faster, louder, brighter, busier - usually ends up doing nothing clearly, because a listener cannot tell which change is carrying the meaning. Pick a single element and let it do the whole job."
+        },
+        {
+         "ul": [
+          "**Tempo** - a speed you can hold steady is worth more than a speed you cannot. If you are not sure where to start, work at 80 to 100 beats a minute: slow enough to play accurately, fast enough to sound like a decision rather than a drift.",
+          "**Dynamics** - decide whether the scene needs a build, a drop, or one sudden change, and place it at a single moment rather than smearing it across the whole span.",
+          "**Timbre** - pick one sound and commit to it for the whole span. Swapping instruments halfway through is a different exercise from choosing a colour and sticking with it."
+         ]
+        },
+        {
+         "p": "**Working rule: name the effect you want in one sentence before you play a single note.** “Something tense” is not a plan. “The tempo speeds up steadily across the span so the walk starts to feel like it cannot be stopped” is a plan, because it tells you exactly what a finished cue has to do to count as working."
+        }
+       ]
+      },
+      {
+       "type": "explain",
+       "call": "A cue you have not tested against the picture is a guess wearing a finished cue's clothes.",
+       "body": [
+        {
+         "h": "Test it before you call it done"
+        },
+        {
+         "p": "Finishing a cue and testing a cue are two different jobs, and it is easy to stop after the first one. Play your cue back against the muted clip, at the same time, and ask three questions:"
+        },
+        {
+         "ul": [
+          "Does the element you chose actually change the way you planned, the whole way through the span, or does it drift?",
+          "If someone who had not heard your one-sentence plan watched the clip with your cue under it, could they guess the mood without being told?",
+          "Is the effect landing at roughly the right moment in the span, or does it arrive too early or too late to match anything on screen?"
+         ]
+        },
+        {
+         "p": "**Working rule: if the test fails, change the element you chose more, not a different element instead.** A crescendo that does not read as tension usually needs to be slower and bigger, not swapped for a tempo change halfway through. One decisive change is easier for a listener to follow than several timid ones."
+        },
+        {
+         "p": "This is the same reasoning [Lesson 19](/10mus1-2026/sound-detectives/lesson-19/) uses on a professional cue, at a much bigger scale: name what changes, when, and what it buys the moment on screen. You are doing that job as the composer today. Next lesson you do it as the analyst, on someone else's finished decision."
+        }
+       ]
+      },
+      {
        "type": "media",
        "n": 1,
-       "brief": "'Sintel' (Blender Foundation, Creative Commons). Mute the sound and cue a 20-30 second scene for students to score.",
-       "embed": "eRsGyueVLvQ"
+       "brief": "The film runs 14 minutes 48. **Watch it with the sound off**, and do not try to watch all of it: you are looking for one span of 20 to 30 seconds to score, and the next section tells you how to choose one. Nothing you write today has to fit anything but the span you pick.",
+       "embed": "eRsGyueVLvQ",
+       "work": "“Sintel”, Blender Foundation (Creative Commons)"
+      },
+      {
+       "type": "steps",
+       "title": "Choose your span, before you touch an instrument",
+       "items": [
+        "Play the clip above with the sound off, and skim it, rather than sitting through all 14 minutes, before you decide anything.",
+        "Choose one continuous span inside it, 20 to 30 seconds long, with a clear visual moment in it: a change of pace, a look, an object, a point where something on screen shifts.",
+        "Write down the exact start and end time of your span before you touch an instrument. If you cannot say where it starts and ends, you cannot score it accurately, and no one checking your work can tell what you were scoring either.",
+        "Write your one-sentence plan next to it: the element you are using and the effect you want."
+       ]
+      },
+      {
+       "type": "steps",
+       "title": "Build it, in whichever tool you have",
+       "items": [
+        "flat.io: start a new score and set the tempo in the toolbar first, before you add a single note. Add one instrument track and sketch four to eight bars. Change your chosen element by editing that tempo number, the dynamic markings, or the instrument in the track settings, not all three.",
+        "A DAW such as GarageBand: one software instrument track, a loop of four to eight bars. Use volume or velocity automation for a dynamics change, or swap the instrument patch for a timbre change. Keep the loop short - you are testing one idea, not producing a finished soundtrack.",
+        "Instruments, live: agree the element and the effect as a group before anyone plays. Count yourselves in so the tempo is shared from the first beat, and run it through twice before you call it finished."
+       ]
       },
       {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "Choose a clip or mood to score.",
-        "Pick one element to focus on (e.g. tempo, timbre or dynamics).",
-        "Create a short cue using flat.io, a DAW or instruments.",
-        "Share and explain the effect you aimed for."
+        "Watch the muted clip and choose your span; write down its start and end time.",
+        "Pick one element and write your one-sentence plan for the effect you want.",
+        "Build a short cue in flat.io, a DAW or with instruments.",
+        "Test the cue against the muted clip and adjust it if it does not land.",
+        "Share your span, your element and your plan, and say whether the test confirmed it."
        ]
       },
       {
        "type": "activity",
-       "text": "Create a 20-30 second cue that uses one element to set a clear mood for the scene."
+       "text": "Create a cue for the exact span you chose and wrote down, 20 to 30 seconds long, using the one element from your plan. Be ready to state your span's start and end time, the element you used, and the effect you were testing for."
       },
       {
        "type": "exit",
-       "text": "Which element did you use, and what mood did it create?"
+       "text": "State your span, the element you used, and whether your test confirmed the effect you planned."
+      },
+      {
+       "type": "check",
+       "summary": "If you were away: the process, worked once",
+       "items": [
+        "**The order is fixed: choose your span and write it down, pick one element, write a one-sentence plan for the effect, build, then test.** The tempo, the notes, the instrument and the mood you go for are yours; that order is not.",
+        "**If you are stuck on a starting tempo, 80 to 100 beats a minute is a safe default.** Slow enough to play accurately, fast enough to sound like a decision rather than a drift.",
+        "**A test has to compare something, not just confirm the cue exists.** Play it back against the muted clip and ask whether someone who has not heard your plan could guess the mood from it. If you cannot answer that, you have finished a cue, not tested one.",
+        "**Worked example of the process, not an answer key, because there is no single right cue for a span only you chose:** element = dynamics, plan = “a calm shot that quietly turns uneasy”, build = a slow crescendo from almost silent to just loud enough to notice, timed to peak about two thirds of the way through the span, test = played back muted, does the rising loudness read as tension building or as a mistake getting louder. If it reads as a mistake, the crescendo is too sudden for the span: stretch it across more of the time you have and test again."
+       ]
       }
      ],
      "teacher": []
@@ -2093,38 +3079,196 @@
      "number": 19,
      "week": 7,
      "title": "Analysing a film cue",
-     "intention": "I can analyse film music using the elements of music.",
+     "intention": "I can analyse how a composer builds a film cue using the elements of music.",
      "criteria": [
-      "I can explain how two elements support the narrative.",
+      "I can explain how two elements change across the cue, using evidence.",
       "I use evidence and terminology."
      ],
      "blocks": [
       {
-       "type": "media",
-       "n": 1,
-       "brief": "Hans Zimmer, 'Cornfield Chase' (Interstellar). Building dynamics and layered texture, rich material for a two-element analysis.",
-       "embed": "JuSsvM8B4Jc"
+       "type": "definition",
+       "term": "Cue",
+       "text": "A continuous stretch of film music, timed and shaped as a single unit. This lesson analyses one cue as a whole, not as a set of contrasting sections."
+      },
+      {
+       "type": "explain",
+       "label": "Read this",
+       "call": "A cue does not need separate sections to have a shape. It can build in a single continuous rise instead.",
+       "body": [
+        {
+         "p": "Every excerpt so far this term has moved in sections you could label: a verse handing over to a chorus, a 12-bar cycle repeating, a theme returning after its variations. A film cue does not have to work that way. It can be built as one continuous move in a single direction, with nothing holding it together except the level rising."
+        },
+        {
+         "h": "Testing for a single build"
+        },
+        {
+         "p": "You do not have to trust your ear alone for this. Use the volume knob in your head, the one lesson 1 gave you, and take a reading off it every fifteen to twenty seconds from somewhere near the start to somewhere near the end, and write down whether each one is louder than the last, softer, or about the same."
+        },
+        {
+         "p": "**Working rule: if every reading breaks the highest one so far, and nothing sustained ever brings the level back down, the whole cue is one build, not a set of sections.** One step down inside a build does not undo it, as long as the very next reading clears the record again."
+        }
+       ]
+      },
+      {
+       "type": "explain",
+       "call": "The loudest moment and the biggest single move are not the same thing, and an ending can be a cut rather than a fade.",
+       "body": [
+        {
+         "h": "Reading where an arrival lands"
+        },
+        {
+         "p": "A big move inside a build is a jump you can time to under a second, and where it lands in the range matters as much as how big it is. An arrival that lands in the bottom of the range reads as large and heavy. One that lands in the top reads as bright and thin. You can hear and describe that difference without naming a single instrument: it is a question of register, not of what is making the sound."
+        },
+        {
+         "h": "Stopping is not the same as fading"
+        },
+        {
+         "p": "A cue can end two ways. A fade is even: everything falls away together, at the same rate. A cut is not. The playing simply stops, and what is left afterwards is only whatever the room does to the sound before it dies out."
+        },
+        {
+         "p": "**Working rule: check the top of the range and the bottom of the range separately in the seconds after the loudest moment.** If the top empties out fast while the bottom holds on and keeps climbing a little longer, that gap is the room ringing on a low sound after the top has already gone quiet. It is one ending, not two."
+        }
+       ]
+      },
+      {
+       "type": "guide",
+       "label": "Listen",
+       "work": "Hans Zimmer, “Cornfield Chase” (Interstellar)",
+       "meta": "2014 · 2:07 · WaterTower Music",
+       "brief": "Play it once, start to finish, before you open a single cue below. This cue has no separate sections to label: it is one continuous rise from a quiet, narrow opening to a loud, wide peak, then a sudden stop. The two elements you are analysing today are how loud it gets and how wide the sound becomes. Then come back to the top and work through the cues below in order.",
+       "embed": "JuSsvM8B4Jc",
+       "cues": [
+        {
+         "at": 5,
+         "text": "The cue opens quiet, and it stays quiet for a while: it drifts a little lower over the next twenty seconds before it starts to climb. This is your starting point for the build test set out above, so fix it in your ear now.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L19 point 1, the loudness table: rms 0.036 at 0:05 and 0.025 at 0:25, so the opening is not the floor. Corrected 25 August 2026: the first draft said the level should not drop below 0:05 again, which its own next cue contradicts."
+        },
+        {
+         "at": 25,
+         "text": "This is the quietest point in the whole cue, quieter even than the opening. From here the level goes up more than twenty times to the peak at 1:58, and the only sustained step down on the way is the one at 0:44, which you will hear in a moment and which is not what it sounds like.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L19 point 1: rms 0.025 at 0:25 to 0.535 at 1:58, and 'the only sustained downward step in the whole cue before the ending is at 0:44.1, x0.60'. Corrected 25 August 2026: the first draft said 'without a single sustained fall', which the sheet contradicts and which the page's own 0:44 cue contradicts."
+        },
+        {
+         "at": 35,
+         "text": "For several seconds here the sound narrows into one region of the range: two neighbouring parts of it carry nearly nine tenths of everything sounding, and all the rest of the range together is under a tenth. Nothing underneath, almost nothing on top. Hold that thinness in your ear, because of what happens next.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L19 point 2: across 0:33 to 0:40, low_mid holds 0.57 to 0.65 and mid 0.21 to 0.26, so the two together run about 0.88, while sub, bass, high_mid and high 'together account for under a tenth' at rms 0.06 to 0.08 (audio_probe window 33-46 at 1 s). Corrected 25 August 2026: the first draft said a single part of the range did nearly all the work, which would need one band near 0.9 and the strongest reads 0.65.",
+         "sub": [
+          {
+           "at": 42,
+           "text": "The single biggest event in the whole cue. In one second the level roughly triples, and the bottom of the range more than triples with it: something large arrives, and it arrives low, under that thin, narrow sound.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L19, 'Across one second, 0:41 to 0:42: rms 0.104 to 0.376, about three and a half times, and sub 0.090 to 0.301, more than three times' (audio_probe window 33-46 at 1 s)."
+          },
+          {
+           "at": 44,
+           "text": "The one real dip in the whole build, and it is not a fall so much as a settle: the level eases back to about three fifths of what it just reached, then the climb picks up again. A dip straight after the biggest arrival in the piece does not break the build.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L19, 'The only sustained downward step in the whole cue before the ending is at 0:44.1, x0.60, and it follows the largest upward step, so it is the settling after an arrival rather than a fall' (audio_measure profile and level events)."
+          }
+         ]
+        },
+        {
+         "at": 60,
+         "text": "Check the top of the range right now, at any point you like: there is almost nothing there, and there has not been since the start. Whatever fills this cue out, none of it lives at the top, and none of it will for another minute, right up to the peak.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L19 point 3: the high band 'reads 0.004 to 0.017 of total energy in every frame from 0:00 to 1:59'. Corrected 25 August 2026: from 1:00 that is another minute, not almost another minute and a half."
+        },
+        {
+         "at": 83,
+         "text": "About half again as loud across two seconds, and the bottom of the range arrives with it for the second time: it goes up around eight times over, just as it did at 0:42. The same move, made again, on top of everything already there. That is the last gear before the peak.",
+         "provenance": "measured",
+         "receipt": "audio_probe window 76-92 at 2 s, run 25 August 2026 to settle this cue after a judge found the first draft said only 'another step up'. rms 0.273 at 1:22 to 0.415 at 1:24; sub 0.014 to 0.107; bass 0.085 to 0.191. The sustained level event at 1:22.9, x1.28, is in the audio_measure run and is the same event."
+        },
+        {
+         "at": 118,
+         "text": "1:58 is the loudest the cue gets, and it is also the moment the sound is changing fastest anywhere in it. It is also the widest the range has been: compared with 0:35, the sound has spread out of that one narrow strip into the bottom, the middle and the upper part of the range together. Loud, busy and wide, all at once, which is where this build finally lands.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L19: rms 0.535 at 1:58 (loudness profile); 'reaches its maximum of 0.679 at 1:58, the same second as the loudest frame' (audio_probe window 108-126 / audio_measure profile); 'low_mid falls from 0.64 at 0:35 to 0.33 at 1:58 while mid rises from 0.25 to 0.34 and high_mid from 0.01 to 0.13' (audio_measure profile).",
+         "sub": [
+          {
+           "at": 119,
+           "text": "One second on, the overall level has already dropped by about a fifth, but the bottom of the range is doing the opposite: it has gone up, not down. The top and bottom have stopped moving together.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L19, ending table: rms 0.423, sub 0.108 at 1:59, against rms 0.535, sub 0.041 at 1:58 (audio_probe window 108-126 at 1 s)."
+          },
+          {
+           "at": 120,
+           "text": "By 2:00 the overall level has fallen to about a quarter of the peak, but the bottom is still climbing, and by now it is several times what it read at the peak second. The top of the sound is going. The bottom is not.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L19, ending table: rms 0.132, sub 0.219 at 2:00, against rms 0.535, sub 0.041 at 1:58 (audio_probe window 108-126 at 1 s)."
+          },
+          {
+           "at": 121,
+           "text": "The last second this page can show you. The top of the range has all but gone, and the bottom is carrying more of the sound than at any point since the arrival at 0:42. That is what a cut sounds like rather than a fade: the playing stops, and what is left is the room ringing on the lowest part of the sound after everything above it has already died away.",
+           "provenance": "measured",
+           "receipt": "Facts sheet L19 point 4: at 2:01 sub reads 0.258 while high_mid reads 0.016. Corrected 25 August 2026: the first draft called 0.258 the highest reading yet, and it is not - the audio_measure profile peaks at 0.298 at 0:10 and the audio_probe window 33-46 reads 0.301 at 0:42 and 0.320 at 0:43. Between 0:45 and 1:58 the highest sub reading is 0.105, so 'more than at any point since 0:42' is what the runs support."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "worked",
+       "question": "Explain how the composer builds intensity across this cue, using two elements of music.",
+       "marks": "3 marks",
+       "lead": "This is the shape of the response task on this page, asking about two elements rather than one. Here is one full answer, built from the arrival at 0:42 and the loudness build either side of it.",
+       "model": "At 0:42 the level jumps by about three and a half times in a single second and the bottom of the range more than triples with it, so the arrival lands as something large and low rather than as more of the same sound getting bigger. That arrival sits inside a longer climb: from 0:25 the level rises more than twenty times to 1:58, and the one step down on the way, at 0:44, is the settling after that arrival rather than the start of a new section, so the whole cue reads as one continuous build rather than a set of contrasting sections. Dynamics and texture are doing this together, not one after the other.",
+       "rungs": [
+        {
+         "move": "Identify",
+         "text": "Name both elements and where the key moment is. _Dynamics and texture, at 0:42._ Naming only one of the two loses a mark on a two-element question."
+        },
+        {
+         "move": "Describe",
+         "text": "Say what changes and how far, for both elements. _The level roughly triples, and the bottom of the range more than triples with it._ A marker should be able to hear it from your words."
+        },
+        {
+         "move": "Explain",
+         "text": "Say what the two elements do together, not separately. _The arrival lands as something large and low, inside a build that never lets up for ninety seconds._ This is the mark almost everyone leaves off, because it means connecting the two elements rather than describing them side by side."
+        }
+       ],
+       "zero": {
+        "answer": "“The dynamics and texture in this cue are very dramatic and build up the tension really well.”",
+        "why": "Names both elements and says they are good, which is true of almost any effective cue and proves nothing about this one. No time, no direction, no evidence. A short answer earns marks. An empty one does not."
+       }
       },
       {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "Listen to the cue twice.",
-        "Plan using element prompts.",
-        "Write about how the composer manipulates two elements to support the scene.",
-        "Check your evidence and terminology."
+        "Read the explain blocks: how to test for a single build, how to read an arrival, and how a cut differs from a fade.",
+        "Listen to the cue once straight through, no cues open.",
+        "Work through the cues in order, tracking the build and the arrival at 0:42.",
+        "Write a response using two elements: dynamics and texture.",
+        "Check your answer against the worked example and the self-check."
        ]
       },
       {
        "type": "activity",
-       "text": "Write a response on how this film cue uses the elements of music to support the story."
+       "text": "Write a response: explain how the composer builds intensity across this cue, using dynamics and texture as your two elements. Use at least two moments from the cues above as evidence."
       },
       {
        "type": "exit",
-       "text": "Name the two elements you wrote about."
+       "text": "Name one moment from today's cue, and the two elements it shows changing together."
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: four questions on today",
+       "items": [
+        "Between 0:25 and the peak at 1:58, does the loudness ever take a sustained step backward? **Only once, at 0:44, and that follows the cue's biggest arrival rather than breaking the build.**",
+        "What part of the range does the arrival at 0:42 land in? **The bottom of the range, not the top.**",
+        "For most of the two minutes before the ending, what is happening at the top of the range? **Next to nothing. It stays close to empty the whole way through, only moving once the cue is ending.**",
+        "At the very end, do the top and bottom of the range fall away at the same rate? **No. The top empties out fast while the bottom keeps climbing for a second or two longer, which is what a cut sounds like rather than a fade.**"
+       ]
       }
      ],
-     "teacher": []
+     "teacher": [
+      "A subwoofer or decent headphones helps for the ending: the bottom ringing on at 2:00 to 2:01 is easy to miss on laptop speakers."
+     ]
     }
    ]
   },
@@ -2492,61 +3636,206 @@
      "intention": "I can evaluate interpretive choices in performance.",
      "criteria": [
       "I can compare two versions of a work.",
-      "I can justify a preference with musical evidence."
+      "I can justify a judgement with musical evidence, against a stated criterion."
      ],
      "blocks": [
       {
        "type": "explain",
        "label": "Read this",
-       "call": "Evaluate means make a judgement and defend it. Liking one better is not a judgement.",
+       "call": "Liking a version is not evaluating it - naming the change, and judging it against a stated standard, is.",
        "body": [
         {
-         "p": "Every listening task so far has asked you to **analyse**: how is this music put together, and what does that do. This one asks you to **evaluate**, which is a step up. You have to commit to a verdict about which interpretation works better, and then make someone else agree with you using nothing but the music."
+         "p": "Every listening task so far has asked you to analyse: how is this music put together, and what does that do. This one asks you to evaluate, which is harder. You have to commit to a judgement about which of two performances works better, and defend it with nothing but the music."
         },
         {
-         "h": "What an evaluation has that an analysis does not"
+         "h": "The move, and it is only three steps"
         },
         {
          "ul": [
-          "**A judgement you commit to.** Not “both are good in their own way”. Pick one. Sitting on the fence reads as not having heard a difference.",
-          "**A stated criterion.** More effective _at what_? Building tension, carrying the words, suiting the venue, serving the composer's marking. You have to say, because that is the standard you are judging against.",
-          "**Evidence, same as always.** The tempo, dynamics, expression or timbre choice that actually made the difference."
+          "**Name what changed.** Not “they sound different” - say which measurable thing moved: how often the level steps, how low it sits, how thick the bottom of the sound is, how fast the surface changes.",
+          "**Say what that change does.** Not the number again in different words - the effect it has on a listener: it holds tension longer, it sits you somewhere lower, it never lets the level settle.",
+          "**Only then, judge it against a stated standard.** More effective _at what_? Building tension, holding contrast, keeping a listener inside one steady mood. Name the standard, then say which recording meets it better, and why."
          ]
         },
         {
-         "p": "**Working rule: name your criterion or the judgement is just taste.** Two performances of the same work are not better or worse in the abstract, and a marker cannot give credit for a preference. One is more effective _at_ something, and the moment you name that something, the evidence you need becomes obvious."
+         "p": "**Working rule: name your criterion before you name your verdict, or the verdict is only a preference wearing an argument's clothes.** “I like the Richter better” names nothing that changed, does nothing with it, and answers a question nobody asked. Run all three moves and a marker who disagrees with your verdict still has to give you credit, because the moves are what earn it, not the conclusion."
         }
        ]
       },
       {
-       "type": "media",
-       "n": 1,
-       "brief": "Vivaldi, 'Spring' (traditional recording, already analysed in Lesson 10).",
-       "embed": "3LiztfE1X7E"
+       "type": "explain",
+       "label": "The evidence",
+       "call": "Four measured differences between these two recordings, one measured sameness, and not one of them says which is better.",
+       "body": [
+        {
+         "p": "Two recordings of the same material, both measured the same way. Four differences came back, plus one surprising sameness, and each one is something you can point at and time, which is what a judgement built on evidence actually needs."
+        },
+        {
+         "ul": [
+          "**How often the level moves.** The Vivaldi performance changes its sustained level about eleven times a minute; the Richter, about five and a half. That holds whether you measure the whole Vivaldi recording or only the first three and a half minutes Richter recomposes, so it is a feature of the performance, not of the length.",
+          "**How low it sits while it moves.** Across that same span, the Vivaldi's level sits below a fixed quiet threshold for close to half the time measured; the Richter's sits there for under a third. The older performance is quieter for longer and reaches lower; the newer one sits higher and louder throughout.",
+          "**Where the sound sits in the range.** Once you leave out the quiet spots, about forty per cent more of the Richter's remaining sound sits below 250 Hz than the Vivaldi's does. More of the Richter's energy is low; more of the Vivaldi's is spread across the middle and top.",
+          "**How fast the surface changes, instant to instant.** The Richter's sound changes more between one analysis frame and the next than the Vivaldi's does, on average. More is happening moment to moment in the Richter, even though its level itself moves less often.",
+          "**The sameness: tempo.** Vivaldi: about 112 beats a minute. Richter: about 108. Within five beats a minute of each other. Whatever makes these two sound different, it is not speed - so tempo is not a difference to reach for."
+         ]
+        },
+        {
+         "p": "**Working rule: pick one of the four differences above as your evidence, not all four - and pick one the cues below give you a time for.** The first two are cued on both recordings, so they are the ones you can point at. Where the sound sits in the range, and how fast its surface changes, are true of the whole recording rather than of any one second, so use them as context around your evidence rather than as the evidence itself. The fifth item, tempo, is not a difference at all - it is a measured sameness, and knowing that rules out one option rather than handing you one to use. A strong evaluation runs the three-move procedure once, on one measured difference, all the way to a verdict. A weak one lists every number on this page and judges none of them."
+        }
+       ]
       },
       {
-       "type": "media",
-       "n": 2,
-       "brief": "'Recomposed by Max Richter: Vivaldi, The Four Seasons: Spring 1'. A radically different interpretive take on the same material.",
-       "embed": "41IOkVjy3MM"
+       "type": "guide",
+       "label": "Excerpt 1: Vivaldi's Spring, the first movement",
+       "work": "Antonio Vivaldi, The Four Seasons: “Spring” (La Primavera), RV 269, movement 1",
+       "meta": "11:09 · Voices of Music",
+       "brief": "This video is the whole three-movement concerto, but Richter's recomposition only rebuilds the first movement, so that is the only span worth comparing. Listen to the first three and a half minutes and stop there; the two movements that follow are not part of this comparison.",
+       "embed": "3LiztfE1X7E",
+       "cues": [
+        {
+         "at": 0,
+         "text": "Tap the beat as it starts. Counted properly, this recording sits at about 112 beats a minute, and when you get to the Richter you will find it within about five beats of that. Hold that number: whatever makes these two performances sound different, it is not going to be speed.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 5, ‘Vivaldi: 112.3 bpm’ and ‘the two performances are within about five beats a minute of each other’ (audio_probe whole-track windows, re-run 25 August 2026)."
+        },
+        {
+         "at": 39,
+         "text": "The first big swing. In under a second the level drops to under half of what it just was - a listener who has only just settled into the sound is pulled out from under it without warning.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 7, ‘Sustained steps of x0.42 at 0:39.7’ (audio_measure level events)."
+        },
+        {
+         "at": 48,
+         "text": "And climbs back to nearly double, in well under ten seconds. That is the shape of this whole opening: not a fade, a series of steps.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 7, ‘x1.78 at 0:48.1’ (audio_measure level events)."
+        },
+        {
+         "at": 63,
+         "text": "Down again, and further this time: to under a third of what it had been a moment before - the second time in under a minute the floor has dropped out from under a listener with no warning at all.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 7, ‘x0.30 at 1:03.7’ (audio_measure level events)."
+        },
+        {
+         "at": 67,
+         "text": "And straight back up past double, only four seconds later. That is the fastest reversal in this span, and it is the single moment to point at if you want to argue from one event rather than from the rate: a listener who has just been dropped is hauled back up before they have settled into either.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 7, ‘x2.27 at 1:07.7’ (audio_measure level events)."
+        },
+        {
+         "at": 86,
+         "text": "One more step up, one and a half times over - the fifth swing in under fifty seconds, and it is that running unpredictability, not any single swing, that you would argue from.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 7, ‘x1.56 at 1:26.7’ (audio_measure level events)."
+        },
+        {
+         "at": 123,
+         "text": "The last, and largest, of the swings picked out for this span: more than double in one step. These six are only the largest named ones, over two minutes; counted properly across the whole first three and a half minutes, this recording steps its level up or down about eleven times a minute, more than twice as often as the Richter does across its own opening. What you have just heard is the shape behind that number, not the whole of it.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 7, ‘x2.14 at 2:03.4’, and point 1, ‘A. Vivaldi, first 3:30 … 11.1’ per minute against ‘B. Richter, whole … 5.5’ per minute (audio_measure level events and level-event count)."
+        }
+       ],
+       "note": "Stop the comparison at 3:30. Everything after this point in the video is the concerto's second and third movements, which Richter's recomposition never touches."
+      },
+      {
+       "type": "guide",
+       "label": "Excerpt 2: Richter's ‘Spring 1’",
+       "work": "Max Richter, “Spring 1”, from Recomposed: Vivaldi's Four Seasons (2012)",
+       "meta": "2012 · 2:32 · Max Richter",
+       "brief": "This recomposes the first movement you just listened to. It runs two and a half minutes against the excerpt's three and a half, so do not listen for the two to line up bar for bar. Listen for how differently each one moves through its own opening.",
+       "embed": "41IOkVjy3MM",
+       "cues": [
+        {
+         "at": 0,
+         "text": "The opening, and this is your zero. Quiet, and it barely moves for the first eight seconds: down slightly, if anything, not up. Hold this level in your ear, because every reading that follows is measured against it. And notice what has already happened by refusing to move: a recording that sits still for eight seconds is declining, from the first bar, to do the thing the Vivaldi does five times in fifty.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 6, rms ‘0.048 at 0:00, 0.047 at 0:04, 0.040 at 0:08’ (audio_probe window 0-40 at 4 s)."
+        },
+        {
+         "at": 12,
+         "text": "By here the level has already stepped up by two-thirds in one move, and by a separate measure - how sharply the sound's colour changes from one instant to the next - this exact moment is the sharpest turn anywhere in the whole track.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 6, ‘A sustained step at 0:12.1, x1.67, and the track's highest chroma novelty of 1.00 at 0:11.8’ (audio_probe window 0-40 at 4 s; audio_measure level events and boundary list)."
+        },
+        {
+         "at": 20,
+         "text": "Climbing on: roughly twice the level it opened at, and the climb is not done yet, so a listener still gets no moment that feels like arrival.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 6, rms ‘0.106 at 0:20’ against 0.048 at 0:00 (audio_probe window 0-40 at 4 s)."
+        },
+        {
+         "at": 28,
+         "text": "Higher again: more than three times the opening level now, and still no arrival - that only comes at the plateau eight seconds later.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 6, rms ‘0.156 at 0:28’ against 0.048 at 0:00 (audio_probe window 0-40 at 4 s)."
+        },
+        {
+         "at": 36,
+         "text": "And here the climb stops. The level has barely moved in the last eight seconds: this recording reaches its level in one steady climb over about half a minute, then holds it, rather than stepping up and down the way the Vivaldi does.",
+         "provenance": "measured",
+         "receipt": "Facts sheet L24 point 6, rms ‘0.150 at 0:36’ against 0.156 at 0:28 (audio_probe window 0-40 at 4 s)."
+        }
+       ],
+       "note": "Across its whole length this recording changes its sustained level about five and a half times a minute, against the Vivaldi's eleven. That difference is exactly what a steady climb like this one sounds like next to a run of sudden steps like the excerpt above."
       },
       {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "Listen to both versions of the work.",
-        "Note the differences in tempo, dynamics, expression and timbre.",
-        "Decide which you find more effective and why.",
-        "Justify your judgement with musical evidence."
+        "Read the three-move procedure for evaluating without just preferring.",
+        "Listen to Vivaldi's Spring, first movement, using the cues, and stop at 3:30.",
+        "Listen to Richter's ‘Spring 1’ using its cues.",
+        "Pick one measured difference from The evidence to use as your own evidence.",
+        "Write your evaluation using the three moves, then check it against the worked example."
        ]
       },
       {
        "type": "activity",
-       "text": "Write a short evaluation: which version is more effective, and what musical evidence supports your view?"
+       "text": "Evaluate which recording is more effective, using the three-move procedure: name the measured difference you are using as evidence, with a time; say what it does to a listener; then judge it against a criterion you state yourself. Do not write “I like it better” anywhere in your answer."
+      },
+      {
+       "type": "worked",
+       "question": "Evaluate which recording is more effective at creating dramatic contrast.",
+       "marks": "4 marks",
+       "lead": "This is what an evaluate question is asking for, and this lesson's activity asks the same thing in your own words. Here is one full-mark answer, built from the evidence above and one stated criterion. A different criterion, argued with the same three moves, would earn the same marks.",
+       "model": "The Vivaldi recording is more effective at creating dramatic contrast across its opening two minutes. At 1:03 the level drops to under a third of what it had been a moment before, then climbs back past double it four seconds later at 1:07, a swing the Richter never attempts: its own opening does the opposite, climbing in one steady rise over about half a minute and then holding there. Measured across the whole of each recording, the Vivaldi changes its sustained level about eleven times a minute against the Richter's five and a half, so what happens at 1:03 to 1:07 is not an isolated moment but a running feature of the performance. That running unpredictability is what makes it more effective at holding a listener through sudden shifts in level, which is the standard this answer is judging against - a different standard, such as which recording sustains one steady mood for longer, would favour the Richter instead.",
+       "rungs": [
+        {
+         "move": "Identify",
+         "text": "Name the recording and the criterion you are judging it against. _The Vivaldi performance, for dramatic contrast._ A verdict with no stated criterion is not yet a judgement, whichever way it goes."
+        },
+        {
+         "move": "Describe",
+         "text": "Give the evidence, with a time. _At 1:03 the level falls to under a third, then climbs past double it by 1:07; the Richter's opening manages one gradual climb over about half a minute instead._ A marker should be able to hear it from your words without playing either track."
+        },
+        {
+         "move": "Explain",
+         "text": "Say what the evidence does across the whole recording, not just the one moment. _The Vivaldi changes its level about eleven times a minute against the Richter's five and a half, so this swing is a running feature, not a single lucky moment._"
+        },
+        {
+         "move": "Evaluate",
+         "text": "State the verdict against the named criterion, and be honest that a different criterion could flip it. _That makes the Vivaldi more effective at holding a listener through sudden shifts in level, though not necessarily at anything else._"
+        }
+       ],
+       "zero": {
+        "answer": "“I think the Richter version is better because it feels more emotional and modern.”",
+        "why": "A preference, not a judgement. It names no measured moment on either recording, states no criterion beyond a feeling, and gives a marker nothing to check against the music. An evaluate question pays for the defence, not for which way the verdict falls, so this earns nothing at all."
+       }
       },
       {
        "type": "exit",
-       "text": "Name one interpretive choice that changed the feel of the work."
+       "text": "What criterion did you judge by, and what timed evidence did you use to defend it?"
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: four questions on today",
+       "items": [
+        "What are the three moves for evaluating a performance, in order? **Name what changed, then say what that change does, then judge it against a stated standard.** A verdict with no stated standard is a preference, not an evaluation.",
+        "Vivaldi's Spring and Richter's ‘Spring 1’ sit within about five beats a minute of each other. So if the two sound different, what can you rule out as the cause? **The tempo.** Whatever the difference is, it is not speed.",
+        "How often does each recording change its sustained level? **About eleven times a minute for the Vivaldi against about five and a half for the Richter, so the Vivaldi moves roughly twice as often.**",
+        "Why does “I like the Richter better” earn no marks on an evaluate question? **Because it names no measured evidence and no criterion: it states a preference, not a judgement.**"
+       ]
       }
      ],
      "teacher": []
@@ -2609,22 +3898,209 @@
      ],
      "blocks": [
       {
+       "type": "explain",
+       "label": "Read this",
+       "call": "A spoken analysis is not a written one read aloud: the excerpt carries the evidence, so your voice only has to carry the effect.",
+       "body": [
+        {
+         "p": "You have about two or three minutes as a group, and a work has six elements and hundreds of moments where any one of them could be doing something interesting. You cannot say everything, so the actual skill in this lesson is choosing what to leave out, not finding something to say."
+        },
+        {
+         "h": "Choosing what to say"
+        },
+        {
+         "ul": [
+          "Listen through the whole work once as a group and log every moment where an element is clearly doing something, the way you have in every listening lesson this term.",
+          "From that list, keep the two or three moments where the element is most audible and most decisive for the piece, not the two or three you personally find easiest to talk about. A subtle change you can defend beats an obvious one you can only describe.",
+          "For each moment you keep, decide the shortest excerpt that lets the class hear the change for themselves: a few seconds either side of the boundary, not the whole section leading up to it."
+         ]
+        },
+        {
+         "p": "**Working rule: if you cannot say in one sentence why a moment made your shortlist, it should not be on it.** A moment earns its place because it does something decisive to the piece, not because it is easy to point at."
+        },
+        {
+         "h": "What changes when you speak it instead of writing it"
+        },
+        {
+         "p": "[Lesson 3](/10mus1-2026/sound-detectives/lesson-3/) and [Lesson 9](/10mus1-2026/sound-detectives/lesson-9/) built the four-part response sentence: name the element, say how it is used, say what effect that has, then give your evidence. All four parts still apply here, but the last one changes shape. In writing, your evidence is a timestamp someone else has to go and check. Live, you do not cite the moment, you play it: the excerpt is the evidence, sitting right there in front of the class, which means every word you say afterwards can go straight to the effect instead of describing what people just heard for themselves."
+        },
+        {
+         "p": "That is also why a viva voce is harder than it sounds. Nobody hands you a script to read from, and the questions that follow a presentation are usually about the moment you chose, not the ones you left out. You need to know why you kept it well enough to defend that choice on the spot, not because you memorised an answer, but because you actually ran the shortlisting steps above."
+        }
+       ]
+      },
+      {
+       "type": "explain",
+       "call": "The rubric marking your Depth Study in November is marking you today, while nothing is riding on it yet.",
+       "body": [
+        {
+         "p": "The criteria below are not written for this lesson. They are [Step 4, Refine and finalise](/10mus1-2026/depth-study/step-4/) of the Term 4 Depth Study: the same Listening and Investigation rubric that will mark your finished project's presentation in AT4, worth 20 marks and 25% of the course, in Term 4, Week 4. In [Lesson 27](/10mus1-2026/sound-detectives/lesson-27/) you launch that project, and in [Lesson 28](/10mus1-2026/sound-detectives/lesson-28/) you commit to a proposal. You are seeing the rubric before either of those happens."
+        },
+        {
+         "p": "So today is a rehearsal, not the task. What today marks against this rubric does not go on your report and does not count toward AT4. What it buys you is a look at what a live presentation actually needs to do, against the real band descriptors, while there is still a full term left to fix whatever it reveals."
+        }
+       ]
+      },
+      {
+       "type": "rubric",
+       "title": "Listening and Investigation rubric",
+       "lead": "Four criteria, 5 marks each, 20 marks total. Use this if your focus area is Listening and Investigation.",
+       "bandRanges": [
+        [
+         "A",
+         "17-20"
+        ],
+        [
+         "B",
+         "13-16"
+        ],
+        [
+         "C",
+         "9-12"
+        ],
+        [
+         "D",
+         "5-8"
+        ],
+        [
+         "E",
+         "0-4"
+        ]
+       ],
+       "criteria": [
+        {
+         "name": "Analysis of how the elements of music are used",
+         "bands": [
+          [
+           "A",
+           "Precise, insightful analysis of how elements are manipulated and combined."
+          ],
+          [
+           "B",
+           "Clear analysis of several elements and how they combine."
+          ],
+          [
+           "C",
+           "Some analysis; mostly description."
+          ],
+          [
+           "D",
+           "Limited analysis; mainly lists elements."
+          ],
+          [
+           "E",
+           "Minimal analysis."
+          ]
+         ]
+        },
+        {
+         "name": "Understanding of style and context",
+         "bands": [
+          [
+           "A",
+           "Thorough understanding of stylistic, cultural, historical or social context."
+          ],
+          [
+           "B",
+           "Good understanding of context with relevant links."
+          ],
+          [
+           "C",
+           "Some understanding of context."
+          ],
+          [
+           "D",
+           "Limited understanding of context."
+          ],
+          [
+           "E",
+           "Little or no context."
+          ]
+         ]
+        },
+        {
+         "name": "Musical evidence and terminology",
+         "bands": [
+          [
+           "A",
+           "Uses precise terminology and well-chosen musical examples throughout."
+          ],
+          [
+           "B",
+           "Uses correct terminology and relevant examples."
+          ],
+          [
+           "C",
+           "Some terminology and examples; not always accurate."
+          ],
+          [
+           "D",
+           "Limited terminology or examples."
+          ],
+          [
+           "E",
+           "Little accurate terminology."
+          ]
+         ]
+        },
+        {
+         "name": "Presentation and communication (multimodal or viva voce)",
+         "bands": [
+          [
+           "A",
+           "Clear, well-structured, engaging presentation with confident delivery."
+          ],
+          [
+           "B",
+           "Clear, structured presentation."
+          ],
+          [
+           "C",
+           "Adequate presentation; structure uneven."
+          ],
+          [
+           "D",
+           "Basic presentation; unclear in places."
+          ],
+          [
+           "E",
+           "Minimal or unclear presentation."
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "type": "steps",
        "title": "What we are doing",
        "items": [
-        "In a small group, choose a work to analyse.",
-        "Plan a short multimodal presentation (audio + key points).",
+        "In your group, choose one work you can find a clean audio source for and that has clear, audible moments in at least two elements.",
+        "Listen through once as a group and shortlist the two or three most decisive moments, using the procedure above.",
+        "For each moment, cut the shortest excerpt that proves it and write a four-part response sentence (name, how used, effect, evidence).",
+        "Plan who cues the audio and who speaks, and rehearse the handover so there is no dead air between the excerpt and the spoken effect.",
         "Present to the class.",
-        "Give one strength and one question to each group."
+        "After each other group presents, give them one specific strength and one question, naming a moment rather than a general impression."
        ]
       },
       {
        "type": "activity",
-       "text": "Present your group analysis of how several elements create interest in your chosen work."
+       "text": "Present your group's analysis of how two or three elements create interest in your chosen work, using a short audio excerpt as evidence for each one and speaking the effect rather than reading it. If you were away, run the shortlisting procedure alone on a work of your own choice: cut two or three excerpts, then record yourself playing each one and speaking its effect straight after it."
+      },
+      {
+       "type": "check",
+       "ordered": true,
+       "summary": "Check yourself: presenting live",
+       "items": [
+        "Which one of the four Listening and Investigation criteria is this lesson mainly rehearsing, and how many of the 20 marks is it worth? **Presentation and communication (multimodal or viva voce), worth 5 marks.** The other three criteria are rehearsed elsewhere in this course, not by a live audience today.",
+        "What is the difference between playing an excerpt as evidence and playing it as decoration? **Evidence is cued to the exact moment the effect happens and is followed by the spoken effect; decoration is played for atmosphere with nothing specific said about it afterwards.**",
+        "What does turning a written response sentence into something you say live actually look like? **Written: 'the texture thins to solo voice at the bridge, which pulls focus onto the words, evidenced by the drop from full band to one voice.' Spoken: play four or five seconds around that drop, then say only the effect out loud, because the audio has already given your evidence.** The four-part shape does not change. Which part carries the evidence does.",
+        "Can this page tell you which moments your group should present, or what you should say about them? **No - that depends entirely on the work your group chose, which nobody can know in advance.** This page can hand back the fixed facts: the rubric, the procedure, and the mark allocation. The moments themselves, and what you say about them, are your group's own.",
+        "If you were not in the room to hear another group present, how do you run today's real test on yourself? **Play back your own recording, choose one excerpt, and check whether it was cued to the exact moment the effect happens and whether you spoke the effect straight after it or left dead air first.** The test is the same one the lesson teaches; you are just running it on your own work instead of someone else's."
+       ]
       },
       {
        "type": "exit",
-       "text": "One thing another group did well in their analysis."
+       "text": "Name one specific moment another group used well, and say why it worked as evidence rather than decoration. If you were not there to hear another group, run the same test on your own recording from today's activity instead."
       }
      ],
      "teacher": [
