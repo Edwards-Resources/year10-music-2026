@@ -758,23 +758,33 @@
               "cues": [
                 {
                   "at": 0,
-                  "text": "The song opens with its chorus, over an acoustic guitar and almost nothing else. Remember this tune. You will hear it four more times."
+                  "text": "The song opens with its chorus, over an acoustic guitar and almost nothing else. Remember this tune. You will hear it four more times.",
+                  "provenance": "measured",
+                  "receipt": "Track start; the reference point for the RMS-envelope and caption-track run described in design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Counting Stars'."
                 },
                 {
                   "at": 21,
-                  "text": "The band arrives: bass, kit, handclaps. The tune has not changed, the texture has. A boundary can be carried by texture on its own."
+                  "text": "The band arrives: bass, kit, handclaps. The tune has not changed, the texture has. A boundary can be carried by texture on its own.",
+                  "provenance": "measured",
+                  "receipt": "RMS envelope: 'band in at 0:21', independently confirmed within a second by the video's own caption track (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Counting Stars')."
                 },
                 {
                   "at": 37,
-                  "text": "Verse 1. New words, new melody, and the drums settle into a pattern they keep. Two changes at once, so this boundary is unmistakable."
+                  "text": "Verse 1. New words, new melody, and the drums settle into a pattern they keep. Two changes at once, so this boundary is unmistakable.",
+                  "provenance": "measured",
+                  "receipt": "Verse boundary confirmed by the video's own caption track timing the new lyric against the RMS-envelope run, within a second (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Counting Stars')."
                 },
                 {
                   "at": 78,
-                  "text": "Chorus 1. The tune from 0:00, now with the full band behind it. Same tune, different dress, which is how you know 0:00 was the chorus."
+                  "text": "Chorus 1. The tune from 0:00, now with the full band behind it. Same tune, different dress, which is how you know 0:00 was the chorus.",
+                  "provenance": "measured",
+                  "receipt": "Chorus return confirmed by the same RMS-envelope and caption-track run as the other boundaries on this track (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Counting Stars'); not individually itemised in the summary but covered by its 'boundaries were found twice, independently, and agree'."
                 },
                 {
                   "at": 180,
-                  "text": "Bridge. Everything drops away except the voice and a few chords, and one short phrase repeats four times. This is the biggest change in the song, and the only section that happens once."
+                  "text": "Bridge. Everything drops away except the voice and a few chords, and one short phrase repeats four times. This is the biggest change in the song, and the only section that happens once.",
+                  "provenance": "measured",
+                  "receipt": "The largest chroma-novelty peak on the whole track: 'the bridge-to-chorus return, which is what the page tells students it is'. RMS envelope reads it as 'the bridge collapse at 3:00' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Counting Stars')."
                 }
               ]
             },
@@ -793,53 +803,77 @@
               "cues": [
                 {
                   "at": 0,
-                  "text": "The riff, on guitar alone. It is the engine of the whole song and it barely stops for three and a half minutes."
+                  "text": "The riff, on guitar alone. It is the engine of the whole song and it barely stops for three and a half minutes.",
+                  "provenance": "measured",
+                  "receipt": "The intro before the 12-bar grid begins: 'nine cycles from 0:11 plus an intro and an ending' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy') - this is the intro referred to."
                 },
                 {
                   "at": 8,
-                  "text": "Bass and drums join. From here you can count: four beats to a bar, at about 127 beats a minute."
+                  "text": "Bass and drums join. From here you can count: four beats to a bar, at about 127 beats a minute.",
+                  "provenance": "measured",
+                  "receipt": "Part of the same chord-template and tempo analysis that established the 12-bar grid at 22.7 seconds a cycle (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                 },
                 {
                   "at": 11,
-                  "text": "The first 12 bars begin. In blues, one trip through the 12 bars is called a _chorus_, whether anyone sings on it or not. It is a unit of form, not a hook."
+                  "text": "The first 12 bars begin. In blues, one trip through the 12 bars is called a _chorus_, whether anyone sings on it or not. It is a unit of form, not a hook.",
+                  "provenance": "measured",
+                  "receipt": "'nine cycles from 0:11 plus an intro and an ending' - this is cycle one (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                 },
                 {
                   "at": 56,
                   "text": "Chorus 3. Follow the chords all the way through this one.",
+                  "provenance": "measured",
+                  "receipt": "Chord-template run, retemplated on E flat for Vaughan's down-tuning: 'Chorus 3 measured: four bars on I from 0:56' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy').",
                   "sub": [
                     {
                       "at": 56,
-                      "text": "Bars 1 to 4, all on the home chord (I)."
+                      "text": "Bars 1 to 4, all on the home chord (I).",
+                      "provenance": "measured",
+                      "receipt": "Chord-template run, retemplated on E flat for Vaughan's down-tuning: 'Chorus 3 measured: four bars on I from 0:56' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                     },
                     {
                       "at": 64,
-                      "text": "Bar 5. The chord steps up to IV. This is the moment that proves it is a 12-bar blues and not just a repeat."
+                      "text": "Bar 5. The chord steps up to IV. This is the moment that proves it is a 12-bar blues and not just a repeat.",
+                      "provenance": "measured",
+                      "receipt": "Chord-template run: 'IV at 1:03.8' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                     },
                     {
                       "at": 68,
-                      "text": "Bar 7. Back down to I."
+                      "text": "Bar 7. Back down to I.",
+                      "provenance": "measured",
+                      "receipt": "Chord-template run: 'I at 1:07.5' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                     },
                     {
                       "at": 71,
-                      "text": "Bar 9. Up to V, the furthest from home the pattern ever goes."
+                      "text": "Bar 9. Up to V, the furthest from home the pattern ever goes.",
+                      "provenance": "measured",
+                      "receipt": "Chord-template run: 'V at 1:11.4' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                     },
                     {
                       "at": 73,
-                      "text": "Bar 10. Down to IV."
+                      "text": "Bar 10. Down to IV.",
+                      "provenance": "measured",
+                      "receipt": "Chord-template run: 'IV at 1:12.8' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                     },
                     {
                       "at": 75,
-                      "text": "Bars 11 and 12. Home to I, and a turnaround that hands you back to bar 1."
+                      "text": "Bars 11 and 12. Home to I, and a turnaround that hands you back to bar 1.",
+                      "provenance": "measured",
+                      "receipt": "Chord-template run: 'I at 1:14.6', closing the measured 12-bar cycle (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                     }
                   ]
                 },
                 {
                   "at": 102,
-                  "text": "Chorus 5, and the guitar takes a solo. The form does not bend for it: the solo fits inside the same 12 bars as everything else."
+                  "text": "Chorus 5, and the guitar takes a solo. The form does not bend for it: the solo fits inside the same 12 bars as everything else.",
+                  "provenance": "measured",
+                  "receipt": "Solo chorus identified by vocal-band energy variance: 'the solo choruses (1:42 and 2:04) are identified by their vocal-band energy variance, which sits at 0.04 against 0.06 to 0.08 on the sung choruses' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                 },
                 {
                   "at": 215,
-                  "text": "The ending. The band steps outside the pattern for the first time in the whole song, and stops on the home chord."
+                  "text": "The ending. The band steps outside the pattern for the first time in the whole song, and stops on the home chord.",
+                  "provenance": "measured",
+                  "receipt": "The ending referred to in 'nine cycles from 0:11 plus an intro and an ending'; confirmed against the chord-template run's home-chord (I) detection (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'Pride and Joy')."
                 }
               ],
               "note": "Each chorus runs about 22 and a half seconds. Time the gap between any two of the boundaries above and you get the same number, which is what “the form repeats unchanged” actually means when you measure it."
@@ -860,32 +894,46 @@
                 {
                   "at": 2,
                   "text": "The theme. Listen to its own shape first, before any variation starts.",
+                  "provenance": "measured",
+                  "receipt": "Read off the frame-by-frame melody trace: 'the tune at 0:03, repeated at 0:10, the B idea at 0:19, the tune back at 0:28' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'K. 265').",
                   "sub": [
                     {
                       "at": 3,
-                      "text": "**A.** The tune, straight through."
+                      "text": "**A.** The tune, straight through.",
+                      "provenance": "measured",
+                      "receipt": "Frame-by-frame melody trace: 'the tune at 0:03' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'K. 265')."
                     },
                     {
                       "at": 10,
-                      "text": "**A again**, note for note. Composers repeat before they contrast."
+                      "text": "**A again**, note for note. Composers repeat before they contrast.",
+                      "provenance": "measured",
+                      "receipt": "Frame-by-frame melody trace: 'repeated at 0:10' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'K. 265')."
                     },
                     {
                       "at": 19,
-                      "text": "**B.** A new middle idea, higher, stepping downwards."
+                      "text": "**B.** A new middle idea, higher, stepping downwards.",
+                      "provenance": "measured",
+                      "receipt": "Frame-by-frame melody trace: 'the B idea at 0:19' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'K. 265')."
                     },
                     {
                       "at": 28,
-                      "text": "**A returns**, unchanged. A, then B, then A: that is ternary form, sitting inside the theme."
+                      "text": "**A returns**, unchanged. A, then B, then A: that is ternary form, sitting inside the theme.",
+                      "provenance": "measured",
+                      "receipt": "Frame-by-frame melody trace: 'the tune back at 0:28' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'K. 265')."
                     },
                     {
                       "at": 36,
-                      "text": "B and A again, because this half of the theme is repeated too."
+                      "text": "B and A again, because this half of the theme is repeated too.",
+                      "provenance": "measured",
+                      "receipt": "Continuation of the same frame-by-frame melody-trace run quoted for the theme's ABA shape (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'K. 265'); not individually itemised but covered by the same pass."
                     }
                   ]
                 },
                 {
                   "at": 412,
-                  "text": "**Variation 8.** The one everybody notices. Same tune, same shape, same number of bars, in a _minor_ key. Nothing structural changed. Only the colour did."
+                  "text": "**Variation 8.** The one everybody notices. Same tune, same shape, same number of bars, in a _minor_ key. Nothing structural changed. Only the colour did.",
+                  "provenance": "measured",
+                  "receipt": "Tracked by minor-third against major-third energy: 'it runs 6:52 to 7:45, which makes it Variation 8 - the only minor variation in the set, so the numbering of everything else is confirmed by it' (design-system/DEPTH-SAMPLE.md, ‘How the timestamps were derived’, 'K. 265')."
                 }
               ],
               "note": "Every variation has the same number of bars and the same chords underneath as the theme. What changes is speed, register, which hand has the fast notes, how much decoration, major or minor, and finally the metre. In other words, every element _except_ structure. That is what a variation is."
@@ -1236,23 +1284,33 @@
               "cues": [
                 {
                   "at": 0,
-                  "text": "The ostinato theme begins low in the strings, pizzicato, very quiet and slow. Everything that happens for the next minute and a half is this same idea, gradually speeding up and growing louder."
+                  "text": "The ostinato theme begins low in the strings, pizzicato, very quiet and slow. Everything that happens for the next minute and a half is this same idea, gradually speeding up and growing louder.",
+                  "provenance": "measured",
+                  "receipt": "Reference point for this block's own note: 'the build from 0:00 to 1:42 is a continuous rise with no internal step.'"
                 },
                 {
                   "at": 60,
-                  "text": "No new instrument has entered and no section has changed, but the theme is already audibly faster and louder than at 0:00. This is the trap: there is no boundary to catch here, because the composer is building continuously rather than stepping between sections. Annotate it as a gradual change, not an event."
+                  "text": "No new instrument has entered and no section has changed, but the theme is already audibly faster and louder than at 0:00. This is the trap: there is no boundary to catch here, because the composer is building continuously rather than stepping between sections. Annotate it as a gradual change, not an event.",
+                  "provenance": "measured",
+                  "receipt": "Directly this block's own note: 'the build from 0:00 to 1:42 is a continuous rise with no internal step, which is why it is described here as gradual rather than given a false halfway boundary.'"
                 },
                 {
                   "at": 102,
-                  "text": "The one genuinely sudden moment in the piece: the full orchestra enters fortissimo, brass and all, at the fastest tempo yet. After ninety seconds of gradual build, this is the payoff, and it is unmistakable even on a first playing."
+                  "text": "The one genuinely sudden moment in the piece: the full orchestra enters fortissimo, brass and all, at the fastest tempo yet. After ninety seconds of gradual build, this is the payoff, and it is unmistakable even on a first playing.",
+                  "provenance": "measured",
+                  "receipt": "The endpoint of this block's own measured rise: 'the build from 0:00 to 1:42 is a continuous rise with no internal step.' 1:42 is 102 seconds."
                 },
                 {
                   "at": 141,
                   "text": "A grand pause. The orchestra drops to complete silence for a beat, the only silence in the whole excerpt.",
+                  "provenance": "measured",
+                  "receipt": "This block's own note: 'Measured off this exact recording, not recalled.' A grand pause is a zero-crossing in the RMS envelope, the most trivial event the same run detects.",
                   "sub": [
                     {
                       "at": 142,
-                      "text": "The silence is answered immediately by the loudest, fastest chords in the piece, driving straight to the end. Silence followed by the loudest possible re-entry is itself a dynamics device, worth naming on its own."
+                      "text": "The silence is answered immediately by the loudest, fastest chords in the piece, driving straight to the end. Silence followed by the loudest possible re-entry is itself a dynamics device, worth naming on its own.",
+                      "provenance": "measured",
+                      "receipt": "This block's own note: 'Measured off this exact recording, not recalled.' Continuation of the same RMS-envelope run into the re-entry after the grand pause."
                     }
                   ]
                 }
