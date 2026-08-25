@@ -836,7 +836,7 @@
           },
           {
            "at": 100,
-           "text": "By here the arrival is complete: loudness has multiplied more than eleven times over these ten seconds, the biggest single arrival anywhere in this recording. A change this large, spread across this much of the range, is the shape a full ensemble makes when it comes in together, not one instrument.",
+           "text": "By here the arrival is complete: loudness has multiplied more than eleven times across the whole ten seconds from 1:28, which is the biggest arrival anywhere in this recording. Two different things are being measured when you compare arrivals: how far the level travels across the whole arrival, and how big its single largest step is. This one doubles in its largest step, like the two that follow, and the eleven times is the whole journey out of near-silence. A change this large, spread across this much of the range, is the shape a full ensemble makes when it comes in together, not one instrument.",
            "provenance": "measured",
            "receipt": "Facts sheet L5, ‘rms goes 0.044 at 1:30 to... 0.518 at 1:40, which is more than eleven times over ten seconds... A sustained level event marks it at 1:34.3, up x2.01’ (audio_probe window 88-100 at 2 s; audio_measure level events)."
           }
@@ -844,9 +844,9 @@
         },
         {
          "at": 192,
-         "text": "A second arrival, up by about the same factor as the first: x2.06 here against x2.01 at 1:34. The same kind of jump as before, not just a louder moment - when a change this size repeats, it usually means the same trick is being played again, more of the ensemble joining at once rather than one instrument getting louder. Name what you think has entered before you read on.",
+         "text": "A second arrival, and it is about the same size as the first: the level roughly doubles again in one step, just as it did at 1:34. The same kind of jump as before, not just a louder moment - when a change this size repeats, it usually means the same forces coming back rather than new ones arriving.",
          "provenance": "measured",
-         "receipt": "Facts sheet L5, ‘A second one of the same size at 3:11.6, up x2.06’, read against the first arrival's own ‘1:34.3, up x2.01’ (audio_measure level events)."
+         "receipt": "Facts sheet L5, ‘A second one of the same size at 3:11.6, up x2.06’, read against the first arrival's own ‘1:34.3, up x2.01’ (audio_measure level events). Rewritten 25 August 2026: the first version printed the raw multipliers 'x2.06' and 'x2.01', which are the only raw figures anywhere on this site's student pages and have no key, and it cross-referenced 1:34, which carries no cue."
         },
         {
          "at": 277,
@@ -867,7 +867,7 @@
          "receipt": "Facts sheet L5, ‘sustained events at 5:13.4 down x0.35, 5:17.4 down x0.37’ (audio_measure level events)."
         }
        ],
-       "note": "Set the three side by side, because this is the one thing on this page you can count rather than guess. The sitar puts about four fifths of its energy into two neighbouring middle bands, with about one part in a hundred below 250 Hz. Armstrong spreads wider: about three fifths through the middle, about a seventh below 250 Hz and about a quarter above 2500 Hz. The orchestra spreads widest of the three, a little over half through the middle and the largest share above 2500 Hz of any of them. That spread is not a coincidence of the recording. It is what more sound sources playing at once does to the range, and it is why the three sound as far apart as they do before you have named a single instrument."
+       "note": "Set the three side by side, because this is the one thing on this page you can count rather than guess. The sitar puts about four fifths of its energy into two neighbouring middle bands, with about one part in a hundred below 250 Hz. Armstrong spreads wider: about three fifths through the middle, about a seventh below 250 Hz and about a quarter above 2500 Hz. The orchestra spreads widest of the three, a little over half through the middle. That spread is not a coincidence of the recording. It is what more sound sources playing at once does to the range, and it is why the three sound as far apart as they do before you have named a single instrument."
       },
       {
        "type": "gapfill",
@@ -1101,7 +1101,7 @@
          ]
         },
         {
-         "p": "One last thing, and it is the honest limit of this page. Every timestamp in the two guides below was measured off these exact recordings, and a measurement can say how loud a moment is and which part of the range is carrying the sound. It cannot say what is making the sound. So the cues will put you in the right ten seconds and tell you where in the range to listen, and the naming is yours. That is the one job on this page that nothing can do for you."
+         "p": "One last thing, and it is the honest limit of this page. Every timestamp in the two guides below was measured off these exact recordings, and a measurement can say how loud a moment is and which part of the range is carrying the sound. It cannot say what is making the sound, so this page never prints the list of instruments for either version. The naming is yours. What you have instead of a printed list is better than one: both of these are official videos of the performers playing, so once you have written your list from sound alone, you can play the video again, watch it, and check your list against what you can see. Listen first, then look. Look first and you will hear what you expected to see, which is not listening at all."
         }
        ]
       },
@@ -1170,7 +1170,7 @@
          "receipt": "Facts sheet L6, “Then it comes back: 2:45.09 up x1.46, rms 0.317 at 2:46 to 0.572 at 2:58, bass back to 0.128 to 0.149”, read at the resolution of the claim: in the same run the bass band is still 0.051 at 2:46, 0.020 at 2:50 and 0.080 at 2:52, and only reaches 0.124 at 2:54 and 0.149 at 2:56, against 0.143 at 2:32. So the level returns about eight seconds before the weight underneath does, and the sheet's “bass back to 0.128 to 0.149” describes 2:54 onwards, not 2:46 (audio_measure level events; audio_probe window 150-190 at 2 s)."
         }
        ],
-       "note": "Not one cue above names an instrument, and that is deliberate. What was measured is level and register, and neither of those can say what is making a sound. Every name in your book is one you put there yourself."
+       "note": "Not one cue above names an instrument, and that is deliberate. What was measured is level and register, and neither of those can say what is making a sound. Every name in your book is one you put there yourself, and the video above is how you check it: write your list from sound alone, then play it again and watch."
       },
       {
        "type": "guide",
@@ -1237,7 +1237,7 @@
          "receipt": "Facts sheet L6, “It ends early too”: rms holds 0.52 to 0.56 through 4:10 to 4:20, then bass falls to 0.023 at 4:24 and 0.004 at 4:28 and rms to 0.220, with the last twelve seconds at rms 0.066 and below, so “the song is over by about 4:24” and the file runs to 4:40.8 (audio_probe window 250-278 at 2 s)."
         }
        ],
-       "note": "Every time above is this video's own clock. This version runs faster than the original, so nothing here has a matching timestamp over there, and a comparison written by lining the two clocks up will be wrong on every line. Compare events with events."
+       "note": "Every time above is this video's own clock. This version runs faster than the original, so nothing here has a matching timestamp over there, and a comparison written by lining the two clocks up will be wrong on every line. Compare events with events. Same rule as the original for the naming, too: write your list from sound alone first, then watch."
       },
       {
        "type": "wordbank",
@@ -1314,9 +1314,20 @@
         "Play each version once with nothing to do but notice. Then work the cues underneath it, clicking a time to jump the player.",
         "The second video opens with a film scene: the song itself starts at about 0:51, and your times for that version count from there.",
         "Rule up a table in your book with a column for each version: the lead voice, whatever holds the pulse, whatever fills the middle, anything that happens once, and three tone-colour words.",
+        "Name what you can hear with your eyes off the screen, and write it in the table. Then play each video again and watch it, and check your list against what you can see being played. Listen first, look second.",
         "Fill in the timbre words table on this page as we go.",
         "Write your comparison: one similarity and one difference, each in three parts. Name it, give the evidence with a time, say what it does.",
-        "Working alone? Everything you need is on this page, and the answers are at the foot of it."
+        "Working alone? Everything you need is here: the cues, the two videos to check your naming against, and the answer sections you can open on this page."
+       ]
+      },
+      {
+       "type": "check",
+       "summary": "If you were away: how to check your own naming",
+       "items": [
+        "Nobody is here to tell me whether my list is right, so how do I check it? **Listen first and write the list from sound alone. Then play each video again and watch it: both are official videos of the performers playing, so the picture is your marking key. Confirm what you had, correct what you got wrong, and add what you missed.** Do it in that order and no other. Watch first and you will hear what you expect to see, which teaches you nothing.",
+        "Why does this page not simply print the list? **Because naming by ear is the skill being learned, and a printed list lets you skip it. Nothing on this page measured what is making the sound, so the only honest marking key for the naming is the recording itself.** The times, the levels and the registers were measured, and they are all handed back to you somewhere on this page. The names were not measured, so they are not.",
+        "What the picture will not tell me. **A video shows what is in shot, and that is not always everything you can hear: something can be playing without being on camera, and a studio recording can carry layers nobody filmed.** So if you can hear a layer you cannot see, keep it. Write what you heard, say where it sits in the range and what it sounds like, and note that you could not confirm it. An honest unconfirmed line is worth more than a confident wrong name.",
+        "My book table, row by row: what does a full entry look like? **The lead voice: how many singers, and whether they sound like they are reaching or sitting comfortably. Whatever holds the pulse: the layer you would tap along with, and whether it sits low or high. Whatever fills the middle: what is between the pulse and the voice, and whether it is sustained or moving. Anything that happens once: the time it happens and what it sounds like. Three tone-colour words: one each for the voice, the pulse layer and the middle, taken from the bank and written beside the sound it belongs to.** The first four rows are the ones the video can confirm for you. The last row it cannot, because a colour word is a judgement rather than a fact: yours is right if you can say what made you choose it."
        ]
       },
       {
@@ -1360,8 +1371,8 @@
         "You counted the beat on both versions. What should the two numbers be, and which element is that? **About 83 beats a minute on the 2006 version and about 108 on the 2007 one, which puts the newer version roughly 29 per cent ahead.** Anything within about five either way means you counted rather than guessed. The element is duration, so it goes into your comparison as a difference in speed and nothing else.",
         "Which version puts more of its sound at the bottom of the range, and where is that easiest to hear? **The 2007 one, and the clearest case is the stretch straight after 0:51, where roughly a fifth to a quarter of everything sounding is in the lowest band.** On the 2006 version that band holds between a hundredth and a twentieth for practically the whole track, which is why it reads as lighter even when it is just as loud.",
         "Where does each version get out of the way, and why does that matter today? **The 2006 version at 2:34, where the level drops to under a third and the floor of the sound nearly vanishes for about ten seconds. The 2007 version never thins out that far: its one sustained drop, at 2:01, only takes it to about three quarters.** It matters because a thinner moment is where a single colour can be heard on its own, so those are the seconds where the naming actually gets done.",
-        "One similarity worth writing, and the evidence for it. **Both are the same song underneath: same melody, same words, same chords, carried in each case by a lead voice with a group behind it.** The melody, words and chords you can take as given, because that is what makes the 2007 recording a cover. The lead-voice-and-group half is an ear judgement, so back it with a moment where you can hear the voice on its own.",
-        "The exit question: which version's tone colour suits the song better? **Either answer is right, and neither is right on its own. The mark is in naming a voice or an instrument, giving it a colour word, and saying what that colour does to the song.** _The 2007 one, because it sounds better_ has answered nothing at all. _The 2007 one, because the low sound that arrives at 0:51 gives the voice something heavy to sit on, so the song feels weighted from underneath rather than carried from above_ has answered it, whether the marker agrees with you or not."
+        "One similarity worth writing, in all three parts. **Name it: both versions are the same song underneath, the same melody, the same words and the same chords, each carried by one lead voice with a group behind it. Evidence: the tune you can sing over one is the tune you can sing over the other, and in both of them that tune sits in a single voice rather than being shared around. Effect: because the song itself is held still, everything you can hear that differs is down to the performing, which is how two recordings of one song end up feeling like two different pieces of music to whoever is listening.** The melody, words and chords you can take as given, because that is what makes the 2007 recording a cover. The one-voice-and-a-group half you check the way you check every other name on this page: watch the videos.",
+        "The exit question: which version's tone colour suits the song better? **Either version can be defended, and the mark is in three moves rather than in the choice: name a source you actually heard, give it a word from the bank, and say what that word does to the song.** Written out it is one sentence, with the brackets filled from your own listening: _The 2007 version suits it better, because the (source you named) sounds (your word from the bank), and that (what the word does) suits a song that (what the song is doing there)._ Filled in, it looks like this. Say the word you would defend for the lead voice on the 2007 version is _husky_: then your sentence runs _The 2007 version suits it better, because the lead voice is husky, with a grain on it that a smoother voice would not have, and that roughness makes the song sound like somebody telling you something rather than performing it._ That is a full answer if husky is genuinely your word and you can point at the moment that made you choose it. It is worth nothing if you copied it off this page, and a marker can tell, because the next question will ask you where you heard it. Two answers that do not get there at all: _The 2007 one, because it sounds better_, which makes none of the three moves, and _The 2007 one, because it has more low sound in it_, which says where the sound sits rather than what it is like. Register points your ears at the right place. It is not a tone colour, and it will not do the job of one."
        ]
       }
      ],
@@ -2441,8 +2452,9 @@
         "When you compare your answer to a criterion, which bands should you read first? **All five, top to bottom, not just your own band and the top one.** The step you need is almost always the one directly above your own band, not the one at the very top.",
         "In the worked example above, what was the actual difference between a C and a B on the Analysis criterion? **A C reports each element in its own sentence. A B links two elements together inside one sentence.** Same underlying facts, joined rather than left side by side.",
         "Can this page tell you which band your own exam answer landed in? **No - that only exists on your marked paper and your teacher's feedback.** This page can hand back the process and the fixed facts about the task. The band you actually got, and the gap you actually need to close, is yours to bring from your own paper, not something a page can know in advance.",
-        "If you do not have your marked paper, what can you redraft instead? **Your Lesson 10 timed response, or a fresh dot point marked against the criteria above.** Either way you run the same process: find the band, read the one above it, close the gap.",
-        "Which of the four criteria in the rubric above is worth the most marks, and which part of the exam is it in? **The extended response criterion, worth 6, in Part B.** The other three criteria (identification, analysis, terminology) make up the remaining 14, mostly earned in Part A."
+        "If you do not have your marked paper, what can you redraft instead? **Your [Lesson 10](/10mus1-2026/sound-detectives/lesson-10/) timed response, or a fresh one written against any excerpt cued on that page, or a fresh dot point marked against the criteria above.** Either way you run the same process: find the band, read the one above it, close the gap.",
+        "Which of the four criteria in the rubric above is worth the most marks, and which part of the exam is it in? **The extended response criterion, worth 6, in Part B.** The other three criteria (identification, analysis, terminology) make up the remaining 14, mostly earned in Part A.",
+        "The exit asks for a listening goal. What makes one worth writing down? **A goal that names the move you are missing, not an amount of work.** “Listen harder” and “write more” cannot be checked and cannot be finished. “In every dot point this term, write the effect as well as the change” names one move, comes straight off the band above yours, and you can tell at a glance whether you did it."
        ]
       },
       {
@@ -2470,7 +2482,7 @@
       },
       {
        "type": "activity",
-       "text": "Re-draft one weak dot point from your exam to a higher standard. Find your band on the rubric above, read the band above it, and close the one gap between them by rewriting the sentence, not by adding to it. If you do not have your marked paper, use your Lesson 10 timed response instead, or write a fresh dot point answering ‘How are the elements of music used to create interest in this excerpt?’, mark it yourself against the Analysis criterion above, then re-draft that."
+       "text": "Re-draft one weak dot point from your exam to a higher standard. Find your band on the rubric above, read the band above it, and close the one gap between them by rewriting the sentence, not by adding to it. If you do not have your marked paper, use your [Lesson 10](/10mus1-2026/sound-detectives/lesson-10/) timed response instead, or work from one of the four excerpts cued on that page, or write a fresh dot point answering ‘How are the elements of music used to create interest in this excerpt?’, mark it yourself against the Analysis criterion above, then re-draft that."
       },
       {
        "type": "exit",
@@ -2478,8 +2490,7 @@
       }
      ],
      "teacher": [
-      "Return marked responses. Model exemplar answers band by band so students see the standard.",
-      "The marking criteria and band descriptors are on the student page now (verbatim from the AT3 task notification), so a student who was away or has lost their paper can still see exactly what each band asks for and work the lesson alone."
+      "Return marked responses. Model exemplar answers band by band so students see the standard."
      ]
     }
    ]
@@ -3178,13 +3189,13 @@
         },
         {
          "at": 83,
-         "text": "About half again as loud across two seconds, and the bottom of the range arrives with it for the second time: it goes up around eight times over, just as it did at 0:42. The same move, made again, on top of everything already there. That is the last gear before the peak.",
+         "text": "About half again as loud across two seconds, and the bottom of the range arrives with it for the second time: it goes up around eight times over, a bigger jump in the bottom than the arrival at 0:42 managed. The same move, made again and harder, on top of everything already there. That is the last gear before the peak.",
          "provenance": "measured",
-         "receipt": "audio_probe window 76-92 at 2 s, run 25 August 2026 to settle this cue after a judge found the first draft said only 'another step up'. rms 0.273 at 1:22 to 0.415 at 1:24; sub 0.014 to 0.107; bass 0.085 to 0.191. The sustained level event at 1:22.9, x1.28, is in the audio_measure run and is the same event."
+         "receipt": "audio_probe window 76-92 at 2 s, run 25 August 2026 to settle this cue after a judge found the first draft said only 'another step up'. rms 0.273 at 1:22 to 0.415 at 1:24; sub 0.014 to 0.107; bass 0.085 to 0.191. The sustained level event at 1:22.9, x1.28, is in the audio_measure run and is the same event. Corrected 25 August 2026: 'just as it did at 0:42' read as claiming the same factor at both, and the runs give sub 0.090 to 0.301 at 0:42, about three times, against 0.014 to 0.107 here, about eight."
         },
         {
          "at": 118,
-         "text": "1:58 is the loudest the cue gets, and it is also the moment the sound is changing fastest anywhere in it. It is also the widest the range has been: compared with 0:35, the sound has spread out of that one narrow strip into the bottom, the middle and the upper part of the range together. Loud, busy and wide, all at once, which is where this build finally lands.",
+         "text": "1:58 is the loudest the cue gets,. It is also the widest the range has been: compared with 0:35, the sound has spread out of that one narrow strip into the bottom, the middle and the upper part of the range together. Loud, busy and wide, all at once, which is where this build finally lands.",
          "provenance": "measured",
          "receipt": "Facts sheet L19: rms 0.535 at 1:58 (loudness profile); 'reaches its maximum of 0.679 at 1:58, the same second as the loudest frame' (audio_probe window 108-126 / audio_measure profile); 'low_mid falls from 0.64 at 0:35 to 0.33 at 1:58 while mid rises from 0.25 to 0.34 and high_mid from 0.01 to 0.13' (audio_measure profile).",
          "sub": [
@@ -3753,7 +3764,7 @@
         },
         {
          "at": 12,
-         "text": "By here the level has already stepped up by two-thirds in one move, and by a separate measure - how sharply the sound's colour changes from one instant to the next - this exact moment is the sharpest turn anywhere in the whole track.",
+         "text": "By here the level has already stepped up by two-thirds in one move, and this exact moment is also the sharpest turn anywhere in the whole track. That is context rather than evidence you can time, so use the level steps when you write.",
          "provenance": "measured",
          "receipt": "Facts sheet L24 point 6, ‘A sustained step at 0:12.1, x1.67, and the track's highest chroma novelty of 1.00 at 0:11.8’ (audio_probe window 0-40 at 4 s; audio_measure level events and boundary list)."
         },
