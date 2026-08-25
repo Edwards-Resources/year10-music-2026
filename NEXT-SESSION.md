@@ -1,6 +1,46 @@
 # Next session
 
-**Where things stand (9 August 2026):** Site live at **https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on `/docs`, `noindex` confirmed). Two units, both complete: Sound Detectives (Term 3, 28 lessons) and Depth Study (Term 4, all 5 steps plus the three marking rubrics).
+**Where things stand (25 August 2026):** site live at
+**https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on
+`/docs`, `noindex` confirmed). Two units: Sound Detectives (Term 3, 28 lessons) and Depth Study
+(Term 4, all 5 steps plus the three marking rubrics).
+
+**Both units are structurally complete, and Sound Detectives is only part-way through a depth pass.**
+That is the important correction to the version of this file dated 9 August, which called the site
+finished. It was finished as a scaffold. Twelve of its 28 lessons now carry real teaching depth,
+which means the other sixteen visibly do not.
+
+## Sound Detectives: the depth pass, in progress
+
+Each lesson is triaged into a kind, and only some kinds are owed the full treatment. As at 25 August:
+
+| | Lessons |
+| --- | --- |
+| **Written to depth** | 1, 3, 8, 9, 10, 13, 16, 18, 19, 23, 24, 26 |
+| **Written but held back for a further round** | 5, 6 |
+| **Correctly thin, by design** | 11, 12, 15, 22, 27, 28 |
+| **Still to do** | 2, 4, 7, 14, 17, 25 |
+| **Held for human review** | 20, 21 |
+
+A depth lesson carries some or all of four block types: `explain` (exposition with a `call` set large
+over it), `guide` (a named work with timestamped listening cues), `worked` (a model answer with the
+ALARM moves beside it and a zero-mark answer), and `check` (answers inside a `<details>` that is
+closed on load, so a projected page never leaks them to the room).
+
+**Three things about that work that matter if you touch these pages.**
+
+1. **Every timestamp on a `guide` cue carries a `provenance` and a `receipt`.** The receipts cite
+   analysis runs held outside this repository. **Do not add, move or reword a cue's time without a
+   run behind it**, and do not delete the receipt fields: they are the reason the timestamps can be
+   trusted, and several claims have already been corrected because a receipt did not support them.
+2. **Nothing on these pages names an instrument from an audio measurement.** The analysis reports
+   loudness and which part of the frequency range is sounding, and it can never say what is making a
+   sound. Cues point at a register and hand the naming to the student, deliberately.
+3. **Answers live only inside `check` blocks.** Restating one anywhere else on the same page defeats
+   the point, and the build's own checks look for it.
+
+Lessons 20 and 21 carry First Nations content and are **not** to be edited without the review noted
+further down this file. Lesson 20 is still awaiting that review.
 
 ## Depth Study: done
 
