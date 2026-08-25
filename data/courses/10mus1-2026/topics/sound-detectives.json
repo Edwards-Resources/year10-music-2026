@@ -396,8 +396,16 @@
       {
        "type": "media",
        "n": 1,
-       "brief": "A short rhythmic example (clear beat and metre) and a short melodic example (clear melody) , one of each.",
-       "embed": "0J2QdDbelmY"
+       "brief": "The official video. Watch it once for the riff, then use the audio below it when you need to find an exact moment.",
+       "embed": "0J2QdDbelmY",
+       "work": "The White Stripes, “Seven Nation Army”"
+      },
+      {
+       "type": "media",
+       "n": 2,
+       "embed": "RDuzszjrdcc",
+       "work": "The White Stripes, “Seven Nation Army” (audio)",
+       "brief": "The same song without the video, so the timings on this page match what you hear. Use this one for anything that asks you for a time."
       },
       {
        "type": "steps",
@@ -595,8 +603,9 @@
       {
        "type": "media",
        "n": 1,
-       "brief": "Suggestions: Gregorian chant (search ‘Gregorian chant Kyrie’), or unaccompanied solo voice/instrument.",
-       "embed": "40SUt-OeF2w"
+       "brief": "Monophony: one melodic line, sung by many voices together, with nothing underneath it and nothing against it. The oldest texture in Western music and the easiest to hear.",
+       "embed": "2_IUdY21fQM",
+       "work": "Schola Gregoriana Mediolanensis, “Missa de angelis: Kyrie”"
       },
       {
        "type": "definition",
@@ -1474,8 +1483,9 @@
       {
        "type": "media",
        "n": 1,
-       "brief": "A film music cue with clear dynamic changes (quiet build to a loud climax).",
-       "embed": "fVCnfQBupts"
+       "brief": "A film cue built as one long dynamic climb, from almost nothing to a full orchestral climax. Follow the level the whole way through.",
+       "embed": "BaHE0UmxSfo",
+       "work": "John Williams, “Welcome To Jurassic Park”"
       },
       {
        "type": "steps",
@@ -2549,8 +2559,9 @@
       {
        "type": "media",
        "n": 3,
-       "brief": "Small-combo bebop: Charlie Parker, 'Ornithology' (1946). Fast bebop with an audible improvised alto solo.",
-       "embed": "BUHwR-khV20"
+       "brief": "Small-combo bebop: fast, with an improvised alto solo you can hear against the rhythm section.",
+       "embed": "UMhrRmyICQo",
+       "work": "Charlie Parker, “Ornithology” (1946)"
       },
       {
        "type": "steps",
@@ -2935,8 +2946,9 @@
       {
        "type": "media",
        "n": 2,
-       "brief": "John Williams, 'Jaws' Theme. Suspense and dread from a simple two-note idea.",
-       "embed": "GfQu5po6USo"
+       "brief": "Suspense and dread built from a simple two-note idea. Listen for how little it takes.",
+       "embed": "BePfzCOMRZQ",
+       "work": "John Williams, “Main Title” from Jaws"
       },
       {
        "type": "media",
