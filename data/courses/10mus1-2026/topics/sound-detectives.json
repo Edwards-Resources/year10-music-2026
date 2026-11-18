@@ -712,12 +712,12 @@
      "intention": "I can identify performing media and describe timbre.",
      "criteria": [
       "I can name the instruments or voices I hear.",
-      "I can describe their tone colour using musical words."
+      "I can describe their timbre using musical words."
      ],
      "blocks": [
       {
        "type": "definition",
-       "term": "Tone colour",
+       "term": "Timbre",
        "text": "What's making the sound, and what it actually sounds like: an instrument's ‘personality’."
       },
       {
@@ -752,7 +752,7 @@
       },
       {
        "type": "explain",
-       "label": "Describing tone colour",
+       "label": "Describing timbre",
        "call": "A timbre word has to survive being written down without the music playing.",
        "body": [
         {
@@ -762,7 +762,7 @@
          "h": "The test"
         },
         {
-         "p": "Ask whether the word could just as easily describe a surface, a light or a temperature as it describes a sound: bright, dark, warm, cold, thin, rich, harsh, smooth, rough, hollow, buzzy, breathy, reedy, metallic, nasal. All of those pass, because they are borrowed from touch and light on purpose - tone colour is a metaphor, and English's whole timbre vocabulary leans on it. ‘Nice’, ‘cool’, ‘sick’, ‘good’ all fail, because none of them describe anything about the sound. They describe you."
+         "p": "Ask whether the word could just as easily describe a surface, a light or a temperature as it describes a sound: bright, dark, warm, cold, thin, rich, harsh, smooth, rough, hollow, buzzy, breathy, reedy, metallic, nasal. All of those pass, because they are borrowed from touch and light on purpose, and English's whole timbre vocabulary leans on that. ‘Nice’, ‘cool’, ‘sick’, ‘good’ all fail, because none of them describe anything about the sound. They describe you."
         },
         {
          "p": "**Working rule: if the word could just as easily describe a jumper or a photograph, it is a timbre word. If it only says how you rate the sound, it is not.**"
@@ -1005,7 +1005,7 @@
        ],
        "zero": {
         "answer": "“It sounds beautiful and really sets the mood.”",
-        "why": "A taste judgement, not a listening answer. It never says what is making the sound, so the first mark is not there, and ‘beautiful’ is not a tone colour word: it says how the answer-writer feels, not what the recording sounds like, so the second mark is not there either."
+        "why": "A taste judgement, not a listening answer. It never says what is making the sound, so the first mark is not there, and ‘beautiful’ is not a timbre word: it says how the answer-writer feels, not what the recording sounds like, so the second mark is not there either."
        }
       },
       {
@@ -1043,7 +1043,7 @@
      "intention": "I can compare two versions of the same song using performing media and timbre.",
      "criteria": [
       "I can name the voices and instruments I hear in each version.",
-      "I can describe the tone colour of each one using musical words.",
+      "I can describe the timbre of each one using musical words.",
       "I can write one similarity and one difference, and back each up with musical evidence."
      ],
      "blocks": [
@@ -1054,7 +1054,7 @@
       },
       {
        "type": "definition",
-       "term": "Timbre (tone colour)",
+       "term": "Timbre",
        "text": "The quality of a sound that makes one voice or instrument sound different from another, even when they play exactly the same note. A trumpet and a flute playing the same pitch do not sound the same, and timbre is the word for that difference."
       },
       {
@@ -1097,7 +1097,7 @@
          ]
         },
         {
-         "p": "Then attach the word to its source. **Every timbre word needs a sound source in the same sentence.** _The tone colour is warm_ is worth nothing, because it does not say what is warm. _The lead voice is husky, with a rough edge on the held notes_ is a description a marker can hear without playing the track, and that is the whole job."
+         "p": "Then attach the word to its source. **Every timbre word needs a sound source in the same sentence.** _The timbre is warm_ is worth nothing, because it does not say what is warm. _The lead voice is husky, with a rough edge on the held notes_ is a description a marker can hear without playing the track, and that is the whole job."
         },
         {
          "p": "Words that describe your reaction rather than the sound cannot be marked: nice, good, cool, catchy, sick, vibey. If a word would fit a sandwich as easily as a saxophone, leave it out."
@@ -1132,7 +1132,7 @@
          "ul": [
           "**The second video does not start with the song.** It opens with about fifty seconds of a film scene. The song itself begins at about 0:51, so every time you write for that version is counted from there. Go looking for the first verse at 0:05 and you will find dialogue.",
           "**The two clocks do not match.** These versions run at different speeds, so the same moment of the song lands at different times on the two videos, and the gap widens as they go. Never compare 1:30 in one with 1:30 in the other. Compare events with events: the first entry of the voice against the first entry of the voice.",
-          "**Speed is not tone colour.** The difference in speed is the largest measurable difference between these two recordings and it is well worth writing about, but it belongs to duration. Label it correctly. An answer that offers a tempo difference as a difference in timbre has named the wrong element, and loses the mark it had already earned."
+          "**Speed is not timbre.** The difference in speed is the largest measurable difference between these two recordings and it is well worth writing about, but it belongs to duration. Label it correctly. An answer that offers a tempo difference as a difference in timbre has named the wrong element, and loses the mark it had already earned."
          ]
         },
         {
@@ -1145,7 +1145,7 @@
        "label": "Version A: the original",
        "work": "The Zutons, “Valerie”",
        "meta": "2006 · 3:52 · The Zutons Official",
-       "brief": "Play it once with nothing to do but notice. Then come back to the top and work the cues, clicking a time to jump the player to it. Your job on this version is the list first, then the colours: the lead voice, whatever holds the pulse, whatever fills the middle, and three tone-colour words you could defend to somebody who disagreed with you.",
+       "brief": "Play it once with nothing to do but notice. Then come back to the top and work the cues, clicking a time to jump the player to it. Your job on this version is the list first, then the colours: the lead voice, whatever holds the pulse, whatever fills the middle, and three timbre words you could defend to somebody who disagreed with you.",
        "embed": "L3xpmfJp0Xc",
        "cues": [
         {
@@ -1156,7 +1156,7 @@
         },
         {
          "at": 10,
-         "text": "Now ask where this version puts its weight. Almost all of it is in the upper middle of the range: for practically the whole track the very bottom of the sound carries somewhere between a hundredth and a twentieth of it, while the upper middle carries between a quarter and a third. Register is not the same thing as tone colour, but it tells you where to point your ears, and up there is where this version lives. Name two things you can hear in that upper middle, and give each one a word.",
+         "text": "Now ask where this version puts its weight. Almost all of it is in the upper middle of the range: for practically the whole track the very bottom of the sound carries somewhere between a hundredth and a twentieth of it, while the upper middle carries between a quarter and a third. Register is not the same thing as timbre, but it tells you where to point your ears, and up there is where this version lives. Name two things you can hear in that upper middle, and give each one a word.",
          "provenance": "measured",
          "receipt": "Facts sheet L6, “The other measured contrast: how much bottom each version has”: on the Zutons, sub sits at 0.01 to 0.05 and bass at 0.10 to 0.16 for almost the whole track while high_mid holds 0.26 to 0.35, so “the weight of the sound is in the upper middle” (audio_measure five-second profiles; audio_probe windows 0-30 and 150-190 on A)."
         },
@@ -1174,7 +1174,7 @@
         },
         {
          "at": 152,
-         "text": "The one place in this track where the band gets out of the way, and the best fifteen seconds on the page for hearing a tone colour on its own. Over the next ten seconds the level falls to under a third of what it is right now, the bottom of the sound very nearly disappears, and the top of it climbs. Fewer things sounding means each one is easier to name and easier to describe, so this is where you collect your colour words for this version.",
+         "text": "The one place in this track where the band gets out of the way, and the best fifteen seconds on the page for hearing a timbre on its own. Over the next ten seconds the level falls to under a third of what it is right now, the bottom of the sound very nearly disappears, and the top of it climbs. Fewer things sounding means each one is easier to name and easier to describe, so this is where you collect your colour words for this version.",
          "provenance": "measured",
          "receipt": "Facts sheet L6, “Zutons: the one place the band gets out of the way”: rms 0.508 at 2:32 to 0.154 at 2:42, under a third, and bass 0.143 at 2:32 to 0.022 at 2:36, while high climbs the other way, 0.097 at 2:32 to 0.291 at 2:42 (audio_measure level events; audio_probe window 150-190 at 2 s).",
          "sub": [
@@ -1348,7 +1348,7 @@
         "Copy both definitions into your book, and the timbre word bank.",
         "Play each version once with nothing to do but notice. Then work the cues underneath it, clicking a time to jump the player.",
         "The second video opens with a film scene: the song itself starts at about 0:51, and your times for that version count from there.",
-        "Rule up a table in your book with a column for each version: the lead voice, whatever holds the pulse, whatever fills the middle, anything that happens once, and three tone-colour words.",
+        "Rule up a table in your book with a column for each version: the lead voice, whatever holds the pulse, whatever fills the middle, anything that happens once, and three timbre words.",
         "Name what you can hear with your eyes off the screen, and write it in the table before you check anything.",
         "Check your list. Read 'how to check your own naming' below for the method, then open the credit key for the 2007 version and the honest note on the 2006 one.",
         "Fill in the timbre words table on this page as we go.",
@@ -1363,7 +1363,7 @@
         "Nobody is here to tell me whether my list is right, so how do I check it? **It depends which version. For the 2007 recording, write your own list first, then open 'The published credits for the 2007 recording' below. For the 2006 original, there is nothing published to open at all: read on.**",
         "Why isn't there a credit list for the 2006 version too? **Because nobody ever published one. Checked against its own release catalogue, the 2006 original names a producer and two engineers, and not one performer.** That is a real gap in what was ever written down about this recording, not a gap in this page. On that half, your own ears are the only marking key that exists, which makes it real work rather than a shortcut.",
         "The 2007 credit list names more players than the video shows. Did I hear something wrong? **Almost certainly not. The published credits for the 2007 recording include a sixteen-piece string section and a three-piece horn section, and not one of the nineteen appears in the official video.** A camera only films whoever it points at; a catalogue lists whoever was actually paid to play. Trust the credit list over the picture where the two disagree, and if you heard a layer the video never shows you, take that as a sign you were listening properly, not a sign you were wrong.",
-        "My book table, row by row: what does a full entry look like? **The lead voice: how many singers, and whether they sound like they are reaching or sitting comfortably. Whatever holds the pulse: the layer you would tap along with, and whether it sits low or high. Whatever fills the middle: what is between the pulse and the voice, and whether it is sustained or moving. Anything that happens once: the time it happens and what it sounds like. Three tone-colour words: one each for the voice, the pulse layer and the middle, taken from the bank and written beside the sound it belongs to.** On the 2007 version, check each row you can against the credit list below. On the 2006 version, and for every colour word on either side, there is nothing published to check against: a colour word is a judgement rather than a fact anyway, and yours is right if you can say what made you choose it."
+        "My book table, row by row: what does a full entry look like? **The lead voice: how many singers, and whether they sound like they are reaching or sitting comfortably. Whatever holds the pulse: the layer you would tap along with, and whether it sits low or high. Whatever fills the middle: what is between the pulse and the voice, and whether it is sustained or moving. Anything that happens once: the time it happens and what it sounds like. Three timbre words: one each for the voice, the pulse layer and the middle, taken from the bank and written beside the sound it belongs to.** On the 2007 version, check each row you can against the credit list below. On the 2006 version, and for every colour word on either side, there is nothing published to check against: a colour word is a judgement rather than a fact anyway, and yours is right if you can say what made you choose it."
        ]
       },
       {
@@ -1382,7 +1382,7 @@
       },
       {
        "type": "activity",
-       "text": "Write one similarity and one difference between the two versions, each backed with musical evidence and its effect. Performing media and timbre are marked together as one 2-mark question in the listening exam: naming the instruments alone only gets you one mark, you need the tone-colour description too."
+       "text": "Write one similarity and one difference between the two versions, each backed with musical evidence and its effect. Performing media and timbre are marked together as one 2-mark question in the listening exam: naming the instruments alone only gets you one mark, you need the timbre description too."
       },
       {
        "type": "worked",
@@ -1411,7 +1411,7 @@
       },
       {
        "type": "exit",
-       "text": "Which version's tone colour suits the song better, and why? Name at least one voice or instrument in your answer."
+       "text": "Which version's timbre suits the song better, and why? Name at least one voice or instrument in your answer."
       },
       {
        "type": "check",
@@ -1422,7 +1422,7 @@
         "Which version puts more of its sound at the bottom of the range, and where is that easiest to hear? **The 2007 one, and the clearest case is the stretch straight after 0:51, where roughly a fifth to a quarter of everything sounding is in the lowest band.** On the 2006 version that band holds between a hundredth and a twentieth for practically the whole track, which is why it reads as lighter even when it is just as loud.",
         "Where does each version get out of the way, and why does that matter today? **The 2006 version at 2:34, where the level drops to under a third and the floor of the sound nearly vanishes for about ten seconds. The 2007 version never thins out that far: its one sustained drop, at 2:01, only takes it to about three quarters.** It matters because a thinner moment is where a single colour can be heard on its own, so those are the seconds where the naming actually gets done.",
         "One similarity worth writing, in all three parts. **Name it: both versions are the same song underneath, the same melody, the same words and the same chords, each carried by one lead voice with a group behind it. Evidence: the tune you can sing over one is the tune you can sing over the other, and in both of them that tune sits in a single voice rather than being shared around. Effect: because the song itself is held still, everything you can hear that differs is down to the performing, which is how two recordings of one song end up feeling like two different pieces of music to whoever is listening.** The melody, words and chords you can take as given, because that is what makes the 2007 recording a cover. The one-voice-and-a-group half you check the way you check every name on this page today: against the 2007 credit list where one exists, and by ear where it does not.",
-        "The exit question: which version's tone colour suits the song better? **Either version can be defended, and the mark is in three moves rather than in the choice: name a source you actually heard, give it a word from the bank, and say what that word does to the song.** Written out it is one sentence, with the brackets filled from your own listening: _The 2007 version suits it better, because the (source you named) sounds (your word from the bank), and that (what the word does) suits a song that (what the song is doing there)._ Filled in, it looks like this. Say the word you would defend for the lead voice on the 2007 version is _husky_: then your sentence runs _The 2007 version suits it better, because the lead voice is husky, with a grain on it that a smoother voice would not have, and that roughness makes the song sound like somebody telling you something rather than performing it._ That is a full answer if husky is genuinely your word and you can point at the moment that made you choose it. It is worth nothing if you copied it off this page, and a marker can tell, because the next question will ask you where you heard it. Two answers that do not get there at all: _The 2007 one, because it sounds better_, which makes none of the three moves, and _The 2007 one, because it has more low sound in it_, which says where the sound sits rather than what it is like. Register points your ears at the right place. It is not a tone colour, and it will not do the job of one."
+        "The exit question: which version's timbre suits the song better? **Either version can be defended, and the mark is in three moves rather than in the choice: name a source you actually heard, give it a word from the bank, and say what that word does to the song.** Written out it is one sentence, with the brackets filled from your own listening: _The 2007 version suits it better, because the (source you named) sounds (your word from the bank), and that (what the word does) suits a song that (what the song is doing there)._ Filled in, it looks like this. Say the word you would defend for the lead voice on the 2007 version is _husky_: then your sentence runs _The 2007 version suits it better, because the lead voice is husky, with a grain on it that a smoother voice would not have, and that roughness makes the song sound like somebody telling you something rather than performing it._ That is a full answer if husky is genuinely your word and you can point at the moment that made you choose it. It is worth nothing if you copied it off this page, and a marker can tell, because the next question will ask you where you heard it. Two answers that do not get there at all: _The 2007 one, because it sounds better_, which makes none of the three moves, and _The 2007 one, because it has more low sound in it_, which says where the sound sits rather than what it is like. Register points your ears at the right place. It is not a timbre, and it will not do the job of one."
        ]
       }
      ],
@@ -1959,7 +1959,7 @@
        "question": "How are the elements of music used to create interest?",
        "marks": "2 of 6 marks - one dot point of three",
        "lead": "This models one of your three dot points: timbre, on “What a Wonderful World”. The other two are yours to write, the same four-part shape, applied to whatever you actually hear.",
-       "model": "Armstrong sings the whole track in his rough, gravelly voice, set against a smooth orchestra of strings, and that contrast in tone colour is what gives the song its warmth: a worn, human voice sitting over something polished and safe makes the song feel spoken to you rather than performed at you.",
+       "model": "Armstrong sings the whole track in his rough, gravelly voice, set against a smooth orchestra of strings, and that contrast in timbre is what gives the song its warmth: a worn, human voice sitting over something polished and safe makes the song feel spoken to you rather than performed at you.",
        "rungs": [
         {
          "move": "Name",
@@ -1967,7 +1967,7 @@
         },
         {
          "move": "How it is used",
-         "text": "Say what you actually hear, in contrast. _Armstrong’s rough, gravelly voice against a smooth string orchestra._ Two tone colours named against each other, not one word like “orchestra” on its own."
+         "text": "Say what you actually hear, in contrast. _Armstrong’s rough, gravelly voice against a smooth string orchestra._ Two timbres named against each other, not one word like “orchestra” on its own."
         },
         {
          "move": "Effect",
@@ -2124,9 +2124,9 @@
        "ordered": true,
        "summary": "Check yourself: the three quick-fire excerpts",
        "items": [
-        "**Excerpt 1, gamelan gong kebyar.** The style is Balinese gamelan, from Indonesia. The two safest elements are **tone colour** - a struck, metallic, bronze sound, with nothing bowed or blown in the whole ensemble - and **texture**, which is layered and interlocking, fast parts riding over slower ones rather than one tune with accompaniment underneath. **Dynamics** and **tempo** also earn the mark, because both change suddenly and the whole ensemble changes together.",
-        "**Excerpt 2, Vivaldi's Spring.** The style is Baroque. **Tone colour** is a string orchestra with harpsichord underneath. The strongest second choice is **structure**: the opening tune keeps returning between contrasting episodes. **Dynamics** work too, and they are worth noticing because they are the opposite of the Grieg below - stepped between loud and soft in blocks, rather than one continuous build.",
-        "**Excerpt 3, Take Five.** The style is jazz, and cool jazz specifically. **Duration** is the giveaway: five beats in the bar rather than four, which is why it feels like it is leaning or limping next to everything else you have heard this term. **Tone colour** is alto saxophone, piano, double bass and drum kit. **Structure** also works - the piano pattern starts alone, the tune arrives over it, then solos run over the same repeating pattern.",
+        "**Excerpt 1, gamelan gong kebyar.** The style is Balinese gamelan, from Indonesia. The two safest elements are **timbre** - a struck, metallic, bronze sound, with nothing bowed or blown in the whole ensemble - and **texture**, which is layered and interlocking, fast parts riding over slower ones rather than one tune with accompaniment underneath. **Dynamics** and **tempo** also earn the mark, because both change suddenly and the whole ensemble changes together.",
+        "**Excerpt 2, Vivaldi's Spring.** The style is Baroque. **Timbre** is a string orchestra with harpsichord underneath. The strongest second choice is **structure**: the opening tune keeps returning between contrasting episodes. **Dynamics** work too, and they are worth noticing because they are the opposite of the Grieg below - stepped between loud and soft in blocks, rather than one continuous build.",
+        "**Excerpt 3, Take Five.** The style is jazz, and cool jazz specifically. **Duration** is the giveaway: five beats in the bar rather than four, which is why it feels like it is leaning or limping next to everything else you have heard this term. **Timbre** is alto saxophone, piano, double bass and drum kit. **Structure** also works - the piano pattern starts alone, the tune arrives over it, then solos run over the same repeating pattern.",
         "**If you named an element but not what it was doing, that is a half-answer.** \"Texture\" scores nothing on its own. \"Layered texture, fast metal parts over slow gongs\" is the answer."
        ]
       },
