@@ -1,5 +1,12 @@
 # Next session
 
+**19 November 2026: the site is on the shared music shell.** Every page was rebuilt on the
+shell's Stage Card look; the data and the page addresses did not change. `DESIGN.md` maps each
+block type to its shell component. There is no "Up to here" marker any more: Sound Detectives
+finished in Term 3 and the depth study has milestones instead. The section below on the depth
+pass still holds, apart from its references to the old look (`.gap-in-multi`, the crow, the
+Clear buttons, which are gone).
+
 **Where things stand (25 August 2026):** site live at
 **https://edwards-resources.github.io/year10-music-2026/** (org `Edwards-Resources`, Pages on
 `/docs`, `noindex` confirmed). Two units: Sound Detectives (Term 3, 28 lessons) and Depth Study

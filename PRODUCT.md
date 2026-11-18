@@ -53,7 +53,7 @@ Canvas pages are fixed to a week: a Week 2 page is always a Week 2 page, even wh
 
 **Scope, decided 5 August 2026: one site per class per year.** A Year 10 Music 2026 site holds all four term topics; each class gets one URL to bookmark for the year, and each new year gets a fresh set of sites (about seven a year). Topics may carry their own accent or sub-theme inside the class site's world. The per-topic alternative (about 28 sites a year) was considered and rejected as unmaintainable.
 
-**School identity:** no school logo, letterhead or brand assets, and (decided 5 August 2026) **no school name anywhere in this repository, even in plain text and even in the internal planning files** - the site is anonymous. A personal public site carrying official school identity reads as an official school publication, which is a separate approval conversation. The site's identity is its own: the crow and the marker voice.
+**School identity:** no school logo, letterhead or brand assets, and (decided 5 August 2026) **no school name anywhere in this repository, even in plain text and even in the internal planning files** - the site is anonymous. A personal public site carrying official school identity reads as an official school publication, which is a separate approval conversation. The site's look is the shared music shell, not the school's brand.
 
 **Not yet resolved:** whether NSW Department of Education policy places conditions on staff publishing teaching material to a personal external host. To be checked before the URL goes to students. Nothing about this has been verified, and it must not be assumed either way.
 
