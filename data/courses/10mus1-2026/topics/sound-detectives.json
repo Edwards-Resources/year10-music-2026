@@ -295,7 +295,8 @@
      "intention": "I can identify duration and pitch features by ear.",
      "criteria": [
       "I can describe the tempo, metre and rhythm of an excerpt.",
-      "I can describe a melody’s shape (contour) and range."
+      "I can describe a melody’s shape (contour) and range.",
+      "I can count the groups in a metre and tell simple from compound."
      ],
      "blocks": [
       {
@@ -339,6 +340,28 @@
        ]
       },
       {
+       "type": "explain",
+       "label": "Read this",
+       "call": "Count the groups and you have found the metre.",
+       "body": [
+        {
+         "p": "Metre is how the beats are grouped, so the quickest way to find it is to count. Pick out the strong pulses and count from one strong pulse to the next. Groups of two feel like a march. Groups of three feel like a waltz."
+        },
+        {
+         "h": "Simple and compound"
+        },
+        {
+         "ul": [
+          "**Simple metre:** each beat splits into two. 2/4, 3/4 and 4/4 are simple.",
+          "**Compound metre:** each beat splits into three. 6/8 is compound: two big beats, each made of three quick ones."
+         ]
+        },
+        {
+         "p": "**Six quick clicks can be either.** Group them 3 + 3 and you feel two big beats that swing, which is 6/8. Group them 2 + 2 + 2 and you feel three beats that march, which is 3/4. Same six clicks, different metre. In class we count both on the click tracks, which all run at the same speed, so the grouping is the only thing that changes."
+        }
+       ]
+      },
+      {
        "type": "gapfill",
        "title": "Duration words",
        "prompt": "We fill these in together. Write what each one means.",
@@ -350,6 +373,8 @@
         "Beat",
         "Tempo",
         "Metre",
+        "Simple metre",
+        "Compound metre",
         "Rhythm",
         "Ostinato",
         "Syncopation"
@@ -414,6 +439,7 @@
         "Recap: duration = beat, tempo, metre, rhythm. Pitch = melody, contour, range.",
         "Write the definitions of duration and pitch in your books.",
         "Fill in the duration, tempo and pitch tables on this page as we work through them.",
+        "Count the groups on the metre click tracks: 2s, 3s, then six clicks grouped two ways.",
         "Clap or play the rhythm patterns as a class.",
         "Play or sing the short melodies and describe their shape.",
         "Listen and identify these features by ear."
@@ -2532,7 +2558,8 @@
      "intention": "I can identify the features and context of jazz.",
      "criteria": [
       "I can name three features of jazz.",
-      "I can hear where improvisation happens."
+      "I can hear where improvisation happens.",
+      "I can count an uneven grouping such as 3 + 2 and describe how it feels."
      ],
      "blocks": [
       {
@@ -2579,13 +2606,55 @@
        "work": "Charlie Parker, “Ornithology” (1946)"
       },
       {
+       "type": "explain",
+       "label": "Read this",
+       "call": "Some jazz counts in five, seven or nine, and you can feel the limp.",
+       "body": [
+        {
+         "p": "In Week 1 we counted groups of two and three. Mix them and the strong beats stop being evenly spaced. Five clicks grouped 3 + 2, seven grouped 2 + 2 + 3, eleven grouped 3 + 3 + 3 + 2: each one limps or tumbles where 4/4 would march. The syllabus calls these **uneven groupings**. When the metre itself changes partway through a piece, that is **mixed metre**."
+        },
+        {
+         "h": "How to count one"
+        },
+        {
+         "ul": [
+          "Count the total first: how many clicks before the pattern starts again?",
+          "Then find the strong pulses and count from one to the next. That gives you the groups.",
+          "In an answer, describe the feel as well as the numbers: where it stretches, where it hurries."
+         ]
+        },
+        {
+         "h": "Brubeck"
+        },
+        {
+         "p": "In 1959 the Dave Brubeck Quartet released _Time Out_, an album built around metres jazz rarely used. **Take Five**, written by the band's saxophonist Paul Desmond, has five beats to a bar, and it became a hit single. **Blue Rondo à la Turk** opens with nine quick beats grouped unevenly, then changes its feel when the solos start. We count both openings together in class."
+        }
+       ]
+      },
+      {
+       "type": "media",
+       "n": 4,
+       "brief": "Count five beats to a bar along with the piano.",
+       "embed": "",
+       "work": "The Dave Brubeck Quartet, “Take Five” (1959)"
+      },
+      {
+       "type": "media",
+       "n": 5,
+       "brief": "Count the opening: nine quick beats. Where do the strong ones fall?",
+       "embed": "",
+       "work": "The Dave Brubeck Quartet, “Blue Rondo à la Turk” (1959)"
+      },
+      {
        "type": "steps",
        "title": "What we are doing",
        "items": [
         "Learn the context: where and when jazz developed.",
         "Meet the key features: swing, improvisation, blue notes, instrumentation.",
         "Listen to the three excerpts and spot these features.",
-        "Identify the instruments and where the improvised solos are."
+        "Identify the instruments and where the improvised solos are.",
+        "Count uneven groups of 5, 7 and 11 on the click tracks, then name four mystery groupings.",
+        "Count along with the openings of Take Five and Blue Rondo à la Turk."
        ]
       },
       {
@@ -2598,7 +2667,8 @@
       }
      ],
      "teacher": [
-      "Use the ‘Jazz’ deck for context and key features."
+      "Use the ‘Jazz’ deck for context and key features.",
+      "Use the ‘Counting in 5, 7 and 11’ section of the Jazz deck for the click tracks and the mystery groupings. Ear-check both Brubeck openings before class."
      ]
     },
     {
